@@ -7,7 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <title>{'!pdoTitle'|snippet}</title>
 
-    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="{$template}img/favicon.png">
 
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
     <link rel="stylesheet" media="all" href="{$template}css/strip.css">
