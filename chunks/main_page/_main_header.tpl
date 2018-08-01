@@ -1,6 +1,5 @@
 <!--BEGIN header-->
 <header class="header">
-    <div class="header__toolbar"><a href="#">Русский<img src="http://via.placeholder.com/20x16"></a><a href="#">Войти<i class="icon icon-person"></i></a></div>
     <div class="header__scroll">
         <div class="row middle-xs">
             <div class="col-md-4 col-xs-5">

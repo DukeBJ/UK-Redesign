@@ -4,22 +4,22 @@
             <div class="col-sm-9 col-xs-12">
                 <div class="row">
                     <div class="col-sm-3 col-xs-6">
-                        <h3><a href="#">Санатории</a></h3>
+                        <h3><a href="{$_modx->makeUrl(50)}">Санатории</a></h3>
                         <ul>
                             <li><a href="#">Имени Ленина</a></li>
-                            <li><a href="#">Дубки</a></li>
-                            <li><a href="#">Прибрежный</a></li>
-                            <li><a href="#">Белый Яр</a></li>
+                            <li><a href="{$_modx->makeUrl(84)}">Дубки</a></li>
+                            <li><a href="{$_modx->makeUrl(127)}">Прибрежный</a></li>
+                            <li><a href="{$_modx->makeUrl(142)}">Белый Яр</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
-                        <h3><a href="#">Базы отдыха</a></h3>
+                        <h3><a href="{$_modx->makeUrl(281)}">Базы отдыха</a></h3>
                         <ul>
-                            <li><a href="#">Кепинг «Чайка»</a></li>
-                            <li><a href="#">Прибрежный</a></li>
-                            <li><a href="#">Белый Яр</a></li>
-                            <li><a href="#">Слава Черноморья</a></li>
-                            <li><a href="#">Лагерь «Сосенка»</a></li>
+                            <li><a href="{$_modx->makeUrl(289)}">Кепинг «Чайка»</a></li>
+                            <li><a href="{$_modx->makeUrl(296)}">Прибрежный</a></li>
+                            <li><a href="{$_modx->makeUrl(303)}">Белый Яр</a></li>
+                            <li><a href="{$_modx->makeUrl(310)}">Слава Черноморья</a></li>
+                            <li><a href="{$_modx->makeUrl(318s)}">Лагерь «Сосенка»</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
@@ -33,28 +33,28 @@
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
-                        <h3><a href="#">Досуг</a></h3>
+                        <h3><a href="{$_modx->makeUrl(915)}">Досуг</a></h3>
                         <ul>
-                            <li><a href="#">Конюшня</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Горные лыжи</a></li>
+                            <li><a href="{$_modx->makeUrl(454)}">Конюшня</a></li>
+                            <li><a href="{$_modx->makeUrl(641)}">Рыбалка</a></li>
+                            <li><a href="{$_modx->makeUrl(455)}">Горные лыжи</a></li>
                             <li><a href="#">Экскурсии</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12">
-                        <h3><a href="#">О курорте</a></h3>
+                        <h3><a href="{$_modx->makeUrl(912)}">О курорте</a></h3>
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <ul>
-                            <li><a href="#">История</a></li>
-                            <li><a href="#">Руководство</a></li>
+                            <li><a href="{$_modx->makeUrl(914)}">История</a></li>
+                            <li><a href="{$_modx->makeUrl(166)}">Руководство</a></li>
                             <li><a href="#">Клиентам</a></li>
-                            <li><a href="#">Агентствам</a></li>
+                            <li><a href="{$_modx->makeUrl(163)}">Агентствам</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <ul>
-                            <li><a href="#">Акции</a></li>
+                            <li><a href="{$_modx->makeUrl(372)}">Акции</a></li>
                             <li><a href="#">Фотогалерея</a></li>
                             <li><a href="#">Награды</a></li>
                             <li><a href="#">Отзывы</a></li>
@@ -64,8 +64,8 @@
                         <ul>
                             <li><a href="#">Цены</a></li>
                             <li><a href="#">Питание</a></li>
-                            <li><a href="#">Молочный Цех</a></li>
-                            <li><a href="#">Участки ИЖС</a></li>
+                            <li><a href="{$_modx->makeUrl(453)}">Молочный Цех</a></li>
+                            <li><a href="{$_modx->makeUrl(618)}">Участки ИЖС</a></li>
                         </ul>
                     </div>
                 </div>
