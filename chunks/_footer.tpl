@@ -6,7 +6,7 @@
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{$_modx->makeUrl(50)}">Санатории</a></h3>
                         <ul>
-                            <li><a href="#">Имени Ленина</a></li>
+                            <li><a href="{$_modx->makeUrl(51)}">Имени Ленина</a></li>
                             <li><a href="{$_modx->makeUrl(84)}">Дубки</a></li>
                             <li><a href="{$_modx->makeUrl(127)}">Прибрежный</a></li>
                             <li><a href="{$_modx->makeUrl(142)}">Белый Яр</a></li>
@@ -19,7 +19,7 @@
                             <li><a href="{$_modx->makeUrl(296)}">Прибрежный</a></li>
                             <li><a href="{$_modx->makeUrl(303)}">Белый Яр</a></li>
                             <li><a href="{$_modx->makeUrl(310)}">Слава Черноморья</a></li>
-                            <li><a href="{$_modx->makeUrl(318s)}">Лагерь «Сосенка»</a></li>
+                            <li><a href="{$_modx->makeUrl(318)}">Лагерь «Сосенка»</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
