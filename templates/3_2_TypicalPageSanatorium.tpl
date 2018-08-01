@@ -8,27 +8,8 @@
 <!--BEGIN out-->
 <div class="out">
 
-    {include 'file:chunks/main_page/_main_header.tpl'}
+    {include 'file:chunks/_header.tpl'}
 
-    <header class="header">
-        <div class="header__toolbar"><a href="#">Русский<img src="http://via.placeholder.com/20x16"></a><a href="#">Войти<i class="icon icon-person"></i></a></div>
-        <div class="header__scroll">
-            <div class="row middle-xs">
-                <div class="col-md-4 col-xs-5">
-                    <div class="header__scroll__block">
-                        <div class="menu-open"><span></span></div><a href="#">Забронировать</a><i class="icon icon-ring"></i>
-                        <p>Санаторий имени В. И. Ленина</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-2 center-xs"><a href="#" class="header__scroll__logo"><img src="{$template}img/logo-smal.svg"></a></div>
-                <div class="col-md-4 col-sm-5 end-xs"><a href="tel:88007074105" class="phone">8 (800) 707-41-05</a></div>
-            </div>
-        </div>
-        <div class="header__top">
-            <div class="menu-open"><span></span></div>
-            <a href="tel:88007074105" class="phone-white">8 (800) 707-41-05</a></div>
-    </header>
-    <!--END header-->
     <section class="sanatorium-Lenin">
         <div class="sanatorium-Lenin__content">
             <div class="container">
@@ -388,74 +369,9 @@
             </div>
         </div>
     </section>
-    <section class="gallery">
-        <div class="swiper-container swiper-gallery">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                    <p>Закат на пляже санатория Дубки</p>
-                </div>
-                <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                    <p>Закат на пляже санатория Дубки</p>
-                </div>
-                <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                    <p>Закат на пляже санатория Дубки</p>
-                </div>
-            </div>
-            <div class="swiper-pagination swiper-gallery-pagination"></div>
-        </div>
-        <div class="swiper-button-next swiper-gallery-next"><i class="icon icon-right-arrow"></i></div>
-        <div class="swiper-button-prev swiper-gallery-prev"><i class="icon icon-left-arrow"></i></div>
-    </section>
-    <section class="reviews">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="heading">
-                        <h2>Довольные клиенты</h2>
-                        <p>Мы очень ценим мнение и отзывы наших посетителей и стараемся сделать наш сервис ещё лучше!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper">
-            <div class="container">
-                <div class="swiper-container swiper-reviews">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                            <div class="slide__text">
-                                <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                                <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                            <div class="slide__text">
-                                <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                                <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                            <div class="slide__text">
-                                <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                                <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                            <div class="slide__text">
-                                <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                                <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next swiper-reviews-next"><i class="icon icon-right-arrow"></i></div>
-                <div class="swiper-button-prev swiper-reviews-prev"><i class="icon icon-left-arrow"></i></div>
-            </div>
-        </div>
-    </section>
+
+    {include 'file:chunks/_gallery_block.tpl'}
+    {include 'file:chunks/_reviews.tpl'}
     <section class="contacts">
         <div class="container">
             <div class="contacts__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296509.2997306756!2d48.480787142831524!3d54.50741503059747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1529504265391" frameborder="0" style="border:0" allowfullscreen></iframe></div>
