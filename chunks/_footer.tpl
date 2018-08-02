@@ -5,22 +5,19 @@
                 <div class="row">
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{$_modx->makeUrl(50)}">Санатории</a></h3>
-                        <ul>
-                            <li><a href="{$_modx->makeUrl(51)}">Имени Ленина</a></li>
-                            <li><a href="{$_modx->makeUrl(84)}">Дубки</a></li>
-                            <li><a href="{$_modx->makeUrl(127)}">Прибрежный</a></li>
-                            <li><a href="{$_modx->makeUrl(142)}">Белый Яр</a></li>
-                        </ul>
+                        {'!pdoMenu'|snippet:[
+                            'parents' => '50',
+                            'level' => 1
+                        ]}
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{$_modx->makeUrl(281)}">Базы отдыха</a></h3>
-                        <ul>
-                            <li><a href="{$_modx->makeUrl(289)}">Кепинг «Чайка»</a></li>
-                            <li><a href="{$_modx->makeUrl(296)}">Прибрежный</a></li>
-                            <li><a href="{$_modx->makeUrl(303)}">Белый Яр</a></li>
-                            <li><a href="{$_modx->makeUrl(310)}">Слава Черноморья</a></li>
-                            <li><a href="{$_modx->makeUrl(318)}">Лагерь «Сосенка»</a></li>
-                        </ul>
+
+                        {'!pdoMenu'|snippet:[
+                            'parents' => '281',
+                            'level' => 1
+                        ]}
+
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="#">Лечение</a></h3>
@@ -34,23 +31,20 @@
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{$_modx->makeUrl(915)}">Досуг</a></h3>
-                        <ul>
-                            <li><a href="{$_modx->makeUrl(454)}">Конюшня</a></li>
-                            <li><a href="{$_modx->makeUrl(641)}">Рыбалка</a></li>
-                            <li><a href="{$_modx->makeUrl(455)}">Горные лыжи</a></li>
-                            <li><a href="#">Экскурсии</a></li>
-                        </ul>
+                        {'!pdoMenu'|snippet:[
+                            'parents' => '915',
+                            'level' => 1
+                        ]}
                     </div>
                     <div class="col-xs-12">
                         <h3><a href="{$_modx->makeUrl(912)}">О курорте</a></h3>
                     </div>
                     <div class="col-sm-3 col-xs-6">
-                        <ul>
-                            <li><a href="{$_modx->makeUrl(914)}">История</a></li>
-                            <li><a href="{$_modx->makeUrl(166)}">Руководство</a></li>
-                            <li><a href="#">Клиентам</a></li>
-                            <li><a href="{$_modx->makeUrl(163)}">Агентствам</a></li>
-                        </ul>
+
+                        {'!pdoMenu'|snippet:[
+                            'parents' => '912',
+                            'level' => 1
+                        ]}
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <ul>
@@ -84,10 +78,26 @@
         </div>
         <div class="row">
             <div class="col-sm-3 col-xs-12 first-sm">
-                <p>2017 © Ульяновскурорт. Уникальный курорт России.</p>
+                <p>2018 © Ульяновскурорт. Уникальный курорт России.</p>
             </div>
             <div class="col-sm-6 col-xs-12 center-xs first-xs">
-                <div class="footer__social"><a href="#"><i class="icon icon-vk"></i></a><a href="#"><i class="icon icon-instagram"></i></a><a href="#"><i class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a><a href="#"><i class="icon icon-yt"></i></a></div>
+                <div class="footer__social">
+                    {if 'vkontakte'|config}
+                        <a href="{'vkontakte'|config}"><i class="icon icon-vk"></i></a>
+                    {/if}
+                    {if 'instagram'|config}
+                        <a href="{'instagram'|config}"><i class="icon icon-instagram"></i></a>
+                    {/if}
+                    {if 'facebook'|config}
+                        <a href="{'facebook'|config}"><i class="icon icon-fb"></i></a>
+                    {/if}
+                    {if 'ok'|config}
+                        <a href="{'ok'|config}"><i class="icon icon-ok"></i></a>
+                    {/if}
+                    {if 'youtube'|config}
+                        <a href="{'youtube'|config}"><i class="icon icon-yt"></i></a>
+                    {/if}
+                </div>
             </div>
             <div class="col-sm-3 col-xs-12">
                 <div class="footer__author"><a href="#"><span>Сайт сделали<br>в Студии Бакина</span><i class="icon icon-logo-author"></i></a></div>
