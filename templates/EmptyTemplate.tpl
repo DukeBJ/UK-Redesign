@@ -386,7 +386,7 @@
         </div>
     </section>
 
-    {include 'file:chunks/_gallery_block.tpl'}
+    {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
 
     <section class="water strip">
         <div class="container">
@@ -540,7 +540,7 @@
     </section>
 
     {include 'file:chunks/main_page/_healthy_children.tpl'}
-    {include 'file:chunks/_reviews.tpl'}
+    {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
