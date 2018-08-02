@@ -2,8 +2,8 @@
     <div class="page-intro__content">
         <div class="container">
             <div class="heading heading-secondary">
-                <h2>Санаторий имени В. И. Ленина в Ульяновской области</h2>
-                <p>Входит в состав курорта Ундоры. Eдинственный курорт в России, где используются минеральные воды с высоким содержанием органических веществ для лечения заболеваний желудочно-кишечного тракта и почек.</p>
+                <h2>{$_modx->resource.pagetitle}</h2>
+                <p>{$_modx->resource.introtext}</p>
             </div>
         </div>
     </div>
