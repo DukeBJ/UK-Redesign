@@ -13,7 +13,3 @@
     <link rel="stylesheet" media="all" href="{$template}css/strip.css">
 
 </head>
-
-
-
-gfsgdf
