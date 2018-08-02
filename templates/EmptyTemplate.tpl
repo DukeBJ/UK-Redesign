@@ -3,7 +3,7 @@
 {include 'file:chunks/_head.tpl'}
 <body>
 
-{set $template = 'assets_url'|config ~ 'templates/uk/'}
+{set $template = 'template_url'|config}
 
 <!--BEGIN out-->
 <div class="out">
@@ -542,6 +542,7 @@
     {include 'file:chunks/main_page/_healthy_children.tpl'}
     {include 'file:chunks/_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
+    {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
     {include 'file:chunks/_scripts.tpl'}

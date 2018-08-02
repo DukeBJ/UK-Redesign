@@ -1,4 +1,4 @@
-{set $template = 'assets_url'|config ~ 'templates/uk/'}
+{set $template = 'template_url'|config}
 <head>
     <base href="{'site_url'|config}">
     <meta charset="utf-8">
