@@ -12,56 +12,9 @@
 
     {include 'file:chunks/intro/_main_intro.tpl'}
     {include 'file:chunks/blocks/block002_UK_advantage.tpl'}
+    {include 'file:chunks/blocks/block003_nature_factor.tpl'}
+    {include 'file:chunks/blocks/block004_video_wide.tpl'}
 
-    <section class="natural-factors">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="heading">
-                        <h2>Природные факторы</h2>
-                        <p>Еще древние племена, населяющие территорию Ундоровского курорта, знали о волшебной силе здешней минеральной воды. Ведь с тюркского Ундоры переводится как «долина десяти лекарств».</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-two">
-            <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/water.svg" alt=""></div>
-                        <p>Минеральные воды</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/solt.svg" alt=""></div>
-                        <p>Соляные рассолы</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/glinko.svg" alt=""></div>
-                        <p>Глинолечение</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/sun.svg" alt=""></div>
-                        <p>Климатолечение</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="video">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="video__block"><img src="{$template}img/video.png" alt=""><a href="#"> <i class="icon icon-play"></i><div class="video__block__text"><span>Посмотрите видео</span><p>Уникальность курортов Ульяновской области</p></div></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
     <section class="working-profiles">
         <div class="container">
             <div class="row middle-xs center-xs">

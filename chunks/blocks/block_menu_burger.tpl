@@ -4,7 +4,7 @@
             <div class="menu-close"><span></span></div>
             <div class="menu__block menu__block__tel"><a href="tel:88007074105">8 (800) 707-41-05</a></div>
             <div class="menu__block">
-                <h4> <a href="#">О курорте</a><i class="icon icon-left-arrow"></i></h4>
+                <h4> <a href="{$_modx->makeUrl(912)}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
                     <li><a href="#">История</a></li>
                     <li><a href="#">Руководство</a></li>
