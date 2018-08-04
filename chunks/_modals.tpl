@@ -291,7 +291,7 @@
                 'emailTo' => 'emailsender'|config,
                 'emailFrom' => 'emailsender'|config,
                 'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE ',
+                'emailTpl' => '@FILE chunks/emails/email.tpl',
                 'validate' => '',
                 'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}

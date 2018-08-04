@@ -1,11 +1,11 @@
 <form action="" class="form ajax_form">
-    Изменения
     <div class="form__block">
-        <div class="form__input"><input type="text" id="text-7"><label for="text-7">Как к Вам
-                обращаться?</label></div>
-        <div class="form__input"><input type="tel" id="tel-4" class="phone"><label for="tel-4">Номер
+        <div class="form__input">
+            <input type="text" id="text-7" name="name" value="[[!+fi.name]]"><label for="text-7">Как к Вам обращаться?</label>
+        </div>
+        <div class="form__input"><input type="tel" name="phone" value="[[!+fi.phone]]" id="tel-4" class="phone"><label for="tel-4">Номер
                 телефона</label></div>
-        <div class="form__input"><input type="email" id="email-3"><label for="email-3">Адрес
+        <div class="form__input"><input type="email" name="email" value="[[!+fi.email]]" id="email-3"><label for="email-3">Адрес
                 e-mail</label></div>
     </div>
     <a href="#" data-pop="data-pop" class="btn btn-sandy">
