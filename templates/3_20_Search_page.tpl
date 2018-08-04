@@ -9,7 +9,7 @@
 <div class="out">
 
     {include 'file:chunks/blocks/block_header.tpl'}
-    {include 'file:chunks/blocks/block_page_404.tpl'}
+    {include 'file:chunks/blocks/block_header.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
     {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
