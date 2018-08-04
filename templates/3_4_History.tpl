@@ -13,7 +13,7 @@
     {include 'file:chunks/blocks/block026_history.tpl'}
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
-
+    {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
     {include 'file:chunks/_scripts.tpl'}

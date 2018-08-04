@@ -374,6 +374,7 @@
     {include 'file:chunks/blocks/block017_reviews.tpl'}
 
     {include 'file:chunks/_reply.tpl'}
+    {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
     {include 'file:chunks/_scripts.tpl'}
