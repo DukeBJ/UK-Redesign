@@ -8,7 +8,7 @@
 <!--BEGIN out-->
 <div class="out">
 
-    {include 'file:chunks/main_page/_main_header.tpl'}
+    {include 'file:chunks/blocks/block_header.tpl'}
 
     {include 'file:chunks/intro/_main_intro.tpl'}
     {include 'file:chunks/blocks/block002_UK_advantage.tpl'}

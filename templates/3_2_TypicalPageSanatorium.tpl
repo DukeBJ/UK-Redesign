@@ -8,7 +8,7 @@
 <!--BEGIN out-->
 <div class="out">
 
-    {include 'file:chunks/_header.tpl'}
+    {include 'file:chunks/blocks/block_header.tpl'}
 
     <section class="sanatorium-Lenin">
         <div class="sanatorium-Lenin__content">
