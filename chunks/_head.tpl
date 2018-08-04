@@ -11,5 +11,6 @@
 
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
     <link rel="stylesheet" media="all" href="{$template}css/strip.css">
+    <link rel="stylesheet" media="all" href="{$template}css/add_styles.css">
 
 </head>
