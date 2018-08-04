@@ -8,6 +8,7 @@
         <div class="form__input"><input type="email" name="email" value="[[!+fi.email]]" id="email-3"><label for="email-3">Адрес
                 e-mail</label></div>
     </div>
+    <button type="submit">Отправить</button>
     <a href="#" data-pop="data-pop" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
