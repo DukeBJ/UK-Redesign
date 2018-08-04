@@ -15,7 +15,7 @@
                     <a class="btn btn-sandy">
                         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                             <defs>
-                                <style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1, .cls-2{ignore}{fill-rule:evenodd;}{/gnore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style>
+                                <style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1, .cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style>
                             </defs>
                             <title>button</title>
                             <g id="Layer_3" data-name="Layer 3">

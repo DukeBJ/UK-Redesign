@@ -1,14 +1,19 @@
-<div class="video">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="video__block">
-                    <img src="{$template}img/video.png" alt="">
-                    <a href="#"> <i class="icon icon-play"></i>
-                        <div class="video__block__text"><span>Посмотрите видео</span><p>Уникальность курортов Ульяновской области</p></div>
-                    </a>
+{if $_modx->resource.video_block_link != ''}
+    <div class="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="video__block">
+                        <img src="{$_modx->resource.video_block_img}" alt="">
+                        <a href="{$_modx->resource.video_block_link}"> <i class="icon icon-play"></i>
+                            <div class="video__block__text"><span>Посмотрите видео</span>
+                                <p>{$_modx->resource.video_block_descr}</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+{/if}
+
