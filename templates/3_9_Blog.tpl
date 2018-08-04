@@ -12,6 +12,7 @@
     {include 'file:chunks/blocks/block_medical.tpl'}
     {include 'file:chunks/blocks/block_page_blogarticlelist.tpl'}
     {include 'file:chunks/blocks/block014_bottom_subscr.tpl'}
+    {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->

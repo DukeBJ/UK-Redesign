@@ -542,6 +542,7 @@
     {include 'file:chunks/main_page/_healthy_children.tpl'}
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
+    {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->

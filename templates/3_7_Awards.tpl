@@ -13,6 +13,7 @@
     {include 'file:chunks/blocks/block020_documents.tpl'}
     {include 'file:chunks/blocks/block_page_diplomgallery.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
+    {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->

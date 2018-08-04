@@ -12,6 +12,7 @@
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     {include 'file:chunks/blocks/block024_personlist.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
+    {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
