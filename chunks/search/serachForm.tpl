@@ -1,9 +1,9 @@
 <form action="[[~[[+pageId]]]]" class="form msearch2" method="get" id="mse2_form">
     <div class="form__input">
-        <input type="text" id="text-2" name="[[+queryVar]]" placeholder="[[%mse2_search]]" value="[[+mse2_query]]">
+        <input type="text" id="text-2" name="[[+queryVar]]" placeholder="" value="[[+mse2_query]]">
         <label for="text-2">Что ищем?</label>
     </div>
-    <button type="submit">
+    <button class="btn btn-sandy" type="submit">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
                 <style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1, .cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style>
