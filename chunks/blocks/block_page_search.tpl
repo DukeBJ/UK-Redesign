@@ -30,7 +30,7 @@
                             'sortby' => 'ids',
                             'ajaxMode' => 'button',
                             'resources' => $ids,
-                            'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>',
+                            'tpl' => '',
                             'ajaxElemMore' => '#pdopage .btn-load',
                             'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn-load" type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
