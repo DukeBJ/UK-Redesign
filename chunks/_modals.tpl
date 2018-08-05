@@ -26,7 +26,8 @@
 
                 <h4><a href="{'281'|url}">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
                 {'!pdoMenu'|snippet:[
-                    'parents' => '281'
+                    'parents' => '281',
+                    'level' => 1
                 ]}
             </div>
             <div class="menu__block">
@@ -39,7 +40,8 @@
                 <h4><a href="{'915'|url}">Досуг</a><i class="icon icon-left-arrow"></i></h4>
 
                 {'!pdoMenu'|snippet:[
-                    'parents' => '915'
+                    'parents' => '915',
+                    'level' => 1
                 ]}
             </div>
             <div class="menu__block">
