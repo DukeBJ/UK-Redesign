@@ -4,17 +4,11 @@
             <div class="menu-close"><span></span></div>
             <div class="menu__block menu__block__tel"><a href="tel:{'phone'|config}">{'phone'|config}</a></div>
             <div class="menu__block">
-                <h4><a href="#">О курорте</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="#">История</a></li>
-                    <li><a href="#">Руководство</a></li>
-                    <li><a href="#">Полезная информация</a></li>
-                    <li><a href="#">Фотогалерея</a></li>
-                    <li><a href="#">Награды</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Молочный Цех</a></li>
-                    <li><a href="#">Участки ИЖС</a></li>
-                </ul>
+                <h4><a href="{'912'|url}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
+                {'!pdoMenu'|snippet:[
+                    'parents' => '912',
+                    'level' => 1
+                ]}
             </div>
             <div class="menu__block">
                 <h4><a href="{'50'|url}">Санатории</a><i class="icon icon-left-arrow"></i></h4>
