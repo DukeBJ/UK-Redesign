@@ -15,6 +15,8 @@
 
             </div>
 
+            [[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]
+
             <div class="col-xs-12">
                 <h4>По вашему запросу показано 1-20 и 231 совпадений:</h4>
                 <div id="pdopage">
@@ -23,7 +25,7 @@
                         'parents' => 0,
                         'sortby' => 'ids',
                         'ajaxMode' => 'button',
-                        'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
+                        'resources' => "[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]",
                         'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
                         ]}
                         [[!+page.nav]]
