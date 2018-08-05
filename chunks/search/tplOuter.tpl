@@ -5,7 +5,9 @@
             [[+results]]
         </ol>
 
-        [[!+page.nav]]
+        <div class="mse2_pagination">
+            [[!+page.nav]]
+        </div>
 
     </div>
 </div>
