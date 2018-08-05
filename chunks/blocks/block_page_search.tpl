@@ -7,6 +7,9 @@
                 </div>
             </div>
             <div class="col-xs-12">
+
+                {'!mSearchForm'|snippet}
+
                 <form action="" class="form">
                     <div class="form__input">
                         <input type="text" id="text-2">
@@ -31,6 +34,11 @@
                         </svg>
                         <b>Найти</b></a></form>
             </div>
+
+            {'!pdoPage'|snippet:[
+
+            ]}
+
             <div class="col-xs-12">
                 <h4>По вашему запросу показано 1-20 и 231 совпадений:</h4>
                 <ol>
