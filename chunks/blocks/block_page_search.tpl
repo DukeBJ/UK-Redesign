@@ -26,11 +26,12 @@
                 <div id="pdopage">
                     <ol class="rows">
                         {'!pdoPage'|snippet:[
-                        'parents' => 0,
-                        'sortby' => 'ids',
-                        'ajaxMode' => 'button',
-                        'resources' => $ids,
-                        'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
+                            'parents' => 0,
+                            'sortby' => 'ids',
+                            'ajaxMode' => 'button',
+                            'resources' => $ids,
+                            'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>',
+                            'ajaxTplMore' => '@INLINE <button class="btn btn-default btn-more">Загружаем еще нах</button>'
                         ]}
                         [[!+page.nav]]
 
