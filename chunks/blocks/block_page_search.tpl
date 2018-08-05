@@ -38,7 +38,9 @@
             {'!pdoPage'|snippet:[
                 'parents' => 0,
                 'sortby' => 'ids',
-                'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]'
+                'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
+                'tpl' => '@INLINE <a href="{$id}">{$pagetitle}</a>'
+
             ]}
 
             <div class="col-xs-12">
