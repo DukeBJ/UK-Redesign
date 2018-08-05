@@ -41,10 +41,11 @@
                     <div class="rows">
                         <ol>
                             {'!pdoPage'|snippet:[
-                            'parents' => 0,
-                            'sortby' => 'ids',
-                            'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
-                            'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
+                                'parents' => 0,
+                                'sortby' => 'ids',
+                                'ajaxMode' => 'button',
+                                'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
+                                'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
                             ]}
                         </ol>
 
