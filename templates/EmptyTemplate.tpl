@@ -7,7 +7,13 @@
 
 <!--BEGIN out-->
 <div class="out">
-    {include 'file:chunks/main_page/_main_header.tpl'}
+
+    {if $_modx->resource.id == '917'}
+        {include 'file:chunks/main_page/_main_header.tpl'}
+    {else}
+        {include 'file:chunks/blocks/block_header.tpl'}
+    {/if}
+
     {block 'main'}
 
     {include 'file:chunks/intro/_main_intro.tpl'}
