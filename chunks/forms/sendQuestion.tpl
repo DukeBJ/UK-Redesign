@@ -8,7 +8,7 @@
     <textarea placeholder="Ваш вопрос" name="message">[[!+fi.message]]</textarea>
     <button type="submit">Отправить</button>
 
-    <a href="#" data-pop="data-pop" class="btn btn-sandy" onclick="document.getElementById('submit-back').submit()">
+    <a href="#" data-pop="data-pop" class="btn btn-sandy" onclick='this.parentNode.submit(); return false;'>
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
                 <style>.cls-1 {
