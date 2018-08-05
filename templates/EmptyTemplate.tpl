@@ -7,8 +7,8 @@
 
 <!--BEGIN out-->
 <div class="out">
-
     {include 'file:chunks/main_page/_main_header.tpl'}
+    {block 'main'}
 
     {include 'file:chunks/intro/_main_intro.tpl'}
 
@@ -543,6 +543,9 @@
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
     {include 'file:chunks/blocks/block_menu_burger.tpl'}
+
+    {/block}
+
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
