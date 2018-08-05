@@ -20,7 +20,8 @@
                 <h4><a href="{'50'|url}">Санатории</a><i class="icon icon-left-arrow"></i></h4>
 
                 {'!pdoMenu'|snippet:[
-                    'parents' => '50'
+                    'parents' => '50',
+                    'level' => 1
                 ]}
 
                 <h4><a href="{'281'|url}">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
