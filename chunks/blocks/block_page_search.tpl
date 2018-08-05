@@ -53,9 +53,9 @@
             ]}
 
 
-            <script>
-                jQuery(document).ready(function(){
-                    jQuery(document).on('mse2_load', function(e, data) {
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(document).on('mse2_load', function(e, data) {
                         console.log(e, data);
                     });
                 });
