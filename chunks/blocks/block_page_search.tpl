@@ -31,11 +31,7 @@
                             'ajaxMode' => 'button',
                             'resources' => $ids,
                             'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>',
-                            'ajaxTplMore' => '@INLINE <button class="btn btn-default btn-more">Загружаем еще нах</button>'
-                        ]}
-                        [[!+page.nav]]
-
-                        <button class="btn btn-sandy" type="submit">
+                            'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn-more" type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                                 <defs>
                                     <style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1, .cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style>
@@ -53,8 +49,9 @@
                                 </g>
                             </svg>
                             <b>Показать еще</b>
-                        </button>
-
+                        </button>'
+                        ]}
+                        [[!+page.nav]]
                     </ol>
 
                 </div>
