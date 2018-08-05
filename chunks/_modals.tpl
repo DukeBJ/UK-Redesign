@@ -52,7 +52,7 @@
 
         {'!mSearchForm'|snippet:[
             'pageId' => '922',
-            'tpl' => '@FILE chunks/forms/formTop.tpl',
+            'tplForm' => '@FILE chunks/forms/formTop.tpl',
             'autocomplete' => 0
         ]}
 
