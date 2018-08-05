@@ -49,6 +49,12 @@
                 </ul>
             </div>
         </div>
+
+        {'!mSearchForm'|snippet:[
+            'tpl' => '@FILE chunks/forms/formTop.tpl',
+            'autocomplete' => 0
+        ]}
+
         <div class="menu__search"><input type="text" placeholder="Поиск по сайту"><i class="icon icon-search"></i>
         </div>
     </div>
