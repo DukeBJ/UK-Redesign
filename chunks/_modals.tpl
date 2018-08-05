@@ -288,7 +288,7 @@
             {'!AjaxForm'|snippet:[
                 'hooks' => 'email,FormItSaveForm',
                 'form' => '@FILE chunks/forms/kurort.tpl',
-                'emailTo' => 'emailsender'|config,
+                'emailTo' => 'email'|config,
                 'emailFrom' => 'emailsender'|config,
                 'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
                 'emailTpl' => '@FILE chunks/emails/email.tpl',
