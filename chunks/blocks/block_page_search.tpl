@@ -29,7 +29,7 @@
                 'tplOuter' => '@FILE chunks/search/tplOuter.tpl',
                 'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>',
                 'filterOptions' => json_encode([
-            "more" => "#pdopage .btn-load",
+            "more" => ".btn-load",
             "more_tpl" => '<button class="btn btn-sandy btn-load" type="submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                                     <defs>
