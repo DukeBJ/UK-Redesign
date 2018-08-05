@@ -292,7 +292,7 @@
                 'emailFrom' => 'emailsender'|config,
                 'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
                 'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => '',
+                'validate' => 'name:required,email:required,phone:required',
                 'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
