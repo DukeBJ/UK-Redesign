@@ -1,4 +1,4 @@
-<form action="" class="form ajax_form" id="submit-back">
+<form action="" class="form ajax_form">
     <div class="form__block">
         <div class="form__input"><input type="text" name="name" value="[[!+fi.name]]" id="text-6"><label for="text-6">Как к Вам
                 обращаться?</label></div>
@@ -8,7 +8,7 @@
     <textarea placeholder="Ваш вопрос" name="message">[[!+fi.message]]</textarea>
     <button type="submit">Отправить</button>
 
-    <a href="#" data-pop="data-pop" class="btn btn-sandy" onclick='this.parentNode.submit(); return false;'>
+    <a href="#" data-pop="data-pop" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
                 <style>.cls-1 {
