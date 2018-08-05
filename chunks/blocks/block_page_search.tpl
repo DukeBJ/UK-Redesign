@@ -53,6 +53,13 @@
             ]}
 
 
+            <script>
+                $(document).on('mse2_load', function(e, data) {
+                    console.log(e, data);
+                });
+            </script>
+
+
 
         </div>
     </div>
