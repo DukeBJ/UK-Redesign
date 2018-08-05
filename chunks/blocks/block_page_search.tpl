@@ -9,7 +9,8 @@
             <div class="col-xs-12">
 
                 {'!mSearchForm'|snippet:[
-                    'tplForm' => '@FILE chunks/search/serachForm.tpl'
+                    'tplForm' => '@FILE chunks/search/serachForm.tpl',
+                    'autocomplete' => 0
                 ]}
 
 
