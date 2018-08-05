@@ -46,8 +46,9 @@
                         'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
                         'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
                         ]}
+                        [[!+page.nav]]
                     </ol>
-                    [[!+page.nav]]
+
                 </div>
             </div>
         </div>
