@@ -38,18 +38,15 @@
             <div class="col-xs-12">
                 <h4>По вашему запросу показано 1-20 и 231 совпадений:</h4>
                 <div id="pdopage">
-                    <div class="rows">
-                        <ol>
-                            {'!pdoPage'|snippet:[
-                                'parents' => 0,
-                                'sortby' => 'ids',
-                                'ajaxMode' => 'button',
-                                'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
-                                'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
-                            ]}
-                        </ol>
-
-                    </div>
+                    <ol class="rows">
+                        {'!pdoPage'|snippet:[
+                        'parents' => 0,
+                        'sortby' => 'ids',
+                        'ajaxMode' => 'button',
+                        'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
+                        'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
+                        ]}
+                    </ol>
                     [[!+page.nav]]
                 </div>
             </div>
