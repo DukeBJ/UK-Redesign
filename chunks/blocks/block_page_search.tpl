@@ -35,23 +35,22 @@
                         <b>Найти</b></a></form>
             </div>
 
-            {'!pdoPage'|snippet:[
-                'parents' => 0,
-                'sortby' => 'ids',
-                'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
-                'tpl' => '@INLINE <a href="{$id}">{$pagetitle}</a>'
-
-            ]}
-
             <div class="col-xs-12">
                 <h4>По вашему запросу показано 1-20 и 231 совпадений:</h4>
-                <ol>
-                    <li><a href="#">Санаторно-курортное лечение в Ундорах</a></li>
-                    <li><a href="#">Преимущества лечения</a></li>
-                    <li><a href="#">Заболевания эндокринной системы</a></li>
-                    <li><a href="#">Санаторное лечение бронхиальной астмы</a></li>
-                    <li><a href="#">Лечение женского и мужского бесплодия</a></li>
-                </ol>
+                <div id="pdopage">
+                    <div class="rows">
+                        <ol>
+                            {'!pdoPage'|snippet:[
+                            'parents' => 0,
+                            'sortby' => 'ids',
+                            'resources' => '[[!mSearch2:default=`999999`?returnIds=`1`&limit=`0`]]',
+                            'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>'
+                            ]}
+                        </ol>
+
+                    </div>
+                    [[!+page.nav]]
+                </div>
             </div>
         </div>
     </div>
