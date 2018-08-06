@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/intro/_main_intro.tpl'}
+    {include 'file:chunks/blocks/block019_intro_mini.tpl'}
 
     <!-- блок 010 -->
     <section class="left-block bg-white">
