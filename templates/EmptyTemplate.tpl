@@ -11,7 +11,7 @@
     {if $_modx->resource.id == '917'}
         {include 'file:chunks/main_page/_main_header.tpl'}
     {else}
-        {include 'file:chunks/blocks/block_header.tpl'}
+        {include 'file:chunks/blocks/block_header_scroll.tpl'}
     {/if}
 
     {block 'main'}
@@ -256,7 +256,7 @@
         </div>
     </section>
 
-    {include 'file:chunks/main_page/_calculator.tpl'}
+    {include 'file:chunks/blocks/block007_calc.tpl'}
 
     <section class="special-offers">
         <div class="container">
@@ -548,10 +548,10 @@
     {include 'file:chunks/main_page/_healthy_children.tpl'}
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
-    {include 'file:chunks/blocks/block_menu_burger.tpl'}
 
     {/block}
 
+    {include 'file:chunks/blocks/block_menu_burger.tpl'}
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
