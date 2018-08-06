@@ -256,8 +256,6 @@
         </div>
     </section>
 
-    <!--  {include 'file:chunks/blocks/block007_calc.tpl'} -->
-
     <section class="special-offers">
         <div class="container">
             <div class="row middle-xs center-xs">
