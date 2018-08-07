@@ -8,8 +8,7 @@
         <div class="form__input"><input type="email" name="email" value="[[!+fi.email]]" id="email-3"><label for="email-3">Адрес
                 e-mail</label></div>
     </div>
-    <button type="submit">Отправить</button>
-    <a href="#" data-pop="data-pop" class="btn btn-sandy">
+    <button type="submit" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
                 <style>.cls-1 {
@@ -40,6 +39,8 @@
             </g>
         </svg>
         <b>Отправить</b></a>
+    </button>
+
     <div
             class="form__checkbox checkbox"><input type="checkbox" id="checkbox-1"><label
                 for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных

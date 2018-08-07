@@ -6,9 +6,7 @@
                 e-mail</label></div>
     </div>
     <textarea placeholder="Ваш вопрос" name="message">[[!+fi.message]]</textarea>
-    <button type="submit">Отправить</button>
-
-    <a href="#" data-pop="data-pop" class="btn btn-sandy">
+    <button type="submit" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>
                 <style>.cls-1 {
@@ -38,7 +36,9 @@
                       d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
             </g>
         </svg>
-        <b>Отправить</b></a>
+        <b>Отправить</b>
+    </button>
+
     <div
             class="form__checkbox checkbox"><input type="checkbox" id="checkbox"><label for="checkbox">Нажимая
             кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных
