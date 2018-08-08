@@ -40,7 +40,9 @@
                         <!-- END Менеджеры -->
                         <!-- Контакты -->
                         <!-- Карта -->
-                        <div class="contacts__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296509.2997306756!2d48.480787142831524!3d54.50741503059747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1529504265391" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <div class="contacts__map">
+                            {$_modx->resource.contact_filial_1_map}
+                        </div>
                         <!-- первый столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
@@ -48,9 +50,16 @@
                                 <div class="contacts__line"><span>Адрес:</span>
                                     <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
                                 </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
+                                <div class="contacts__line">
+                                    <span>Телефон:</span>
+                                    <a href="tel:88425461764">8 (84254) 6-17-64</a>
+                                </div>
+                                <div class="contacts__line">
+                                    <span>Факс:</span>
+                                    <a href="tel:88425461733">8 (84254) 6-17-33</a>
+                                </div>
+                                <div class="contacts__line">
+                                    <span>Автобус:</span>
                                     <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
                                 </div>
                                 <div class="contacts__line"><span>Маршрутка:</span>
@@ -65,9 +74,16 @@
                                 <div class="contacts__line"><span>Адрес:</span>
                                     <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
                                 </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
+                                <div class="contacts__line">
+                                    <span>Телефон:</span>
+                                    <a href="tel:88425461764">8 (84254) 6-17-64</a>
+                                </div>
+                                <div class="contacts__line">
+                                    <span>Факс:</span>
+                                    <a href="tel:88425461733">8 (84254) 6-17-33</a>
+                                </div>
+                                <div class="contacts__line">
+                                    <span>Автобус:</span>
                                     <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
                                 </div>
                                 <div class="contacts__line"><span>Маршрутка:</span>
@@ -102,47 +118,28 @@
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
+                            [[!getImageList?
+                            &tvname=`contact_filial_managers_2`
+                            &tpl=`@CODE:
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Седова Татьяна Валентиновна</h3>
-                                    <p>Главный бухгалтер АО «Ульяновсккурорт»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Безбородова Наталья Алексеевна</h3>
-                                    <p>Главный бухгалтер АО «Симбирские курорты»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Кудашова Елена Петровна</h3>
-                                    <p>Начальник юридического <br>отдела</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Ревчук Лилиана Степановна</h3>
-                                    <p>Заместитель генерального директора по лечебной работе</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Ревчук Лилиана Степановна</h3>
-                                    <p>Заместитель генерального директора по лечебной работе</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Ревчук Лилиана Степановна</h3>
-                                    <p>Заместитель генерального директора по лечебной работе</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
+                                    <div class="directors__block__img">
+                                        <img src="[[+image]]" alt="">
+                                    </div>
+                                    <h3>[[+title]]</h3>
+                                    <p>[[+position]]</p>
+                                    [[+position:isnot=``:then=`<p>[[+position]]</p>`:else=``]]
+                                    <a href="tel:[[+phone]]">[[+phone]]</a>
+                                </div>
+                            </div>`
+                            ]]
                         </div>
                         <!-- END Менеджеры -->
                         <!-- Контакты -->
                         <!-- Карта -->
-                        <div class="contacts__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296509.2997306756!2d48.480787142831524!3d54.50741503059747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1529504265391" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <div class="contacts__map">
+                            {$_modx->resource.contact_filial_2_map}
+                        </div>
                         <!-- первый столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
@@ -204,30 +201,29 @@
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
+                            [[!getImageList?
+                            &tvname=`contact_filial_managers_3`
+                            &tpl=`@CODE:
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Седова Татьяна Валентиновна</h3>
-                                    <p>Главный бухгалтер АО «Ульяновсккурорт»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Безбородова Наталья Алексеевна</h3>
-                                    <p>Главный бухгалтер АО «Симбирские курорты»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Кудашова Елена Петровна</h3>
-                                    <p>Начальник юридического <br>отдела</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
+                                    <div class="directors__block__img">
+                                        <img src="[[+image]]" alt="">
+                                    </div>
+                                    <h3>[[+title]]</h3>
+                                    <p>[[+position]]</p>
+                                    [[+position:isnot=``:then=`<p>[[+position]]</p>`:else=``]]
+                                    <a href="tel:[[+phone]]">[[+phone]]</a>
+                                </div>
+                            </div>`
+                            ]]
                         </div>
                         <!-- END Менеджеры -->
                         <!-- Контакты -->
                         <!-- Карта -->
-                        <div class="contacts__map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d296509.2997306756!2d48.480787142831524!3d54.50741503059747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1529504265391" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-                        <!-- Первый столбик -->
+                        <div class="contacts__map">
+                            {$_modx->resource.contact_filial_3_map}
+                        </div>
+                        <!-- первый столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
