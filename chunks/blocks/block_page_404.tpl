@@ -25,7 +25,7 @@
             <div class="col-xs-12">
 
                 {'!mSearchForm'|snippet:[
-                    'pageId' => '911',
+                    'pageId' => '922',
                     'tplForm' => '@FILE chunks/forms/formSearch404.tpl'
                 ]}
 
