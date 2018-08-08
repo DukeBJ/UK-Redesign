@@ -2,8 +2,8 @@
     <div class="container">
         <div class="heading">
             <h1>404</h1>
-            <h2>Поздравляем! Вы нашли страницу которой нет.</h2>
-            <p>«Ошибка 404» появляется тогда, когда запрашиваемой страницы не существует. Возможно, Ваша ссылка устарела или Вы ошиблись в наборе адреса.</p>
+            <h2>{$_modx->resource.longtitle}</h2>
+            <p>{$_modx->resource.description}</p>
         </div>
         <div class="col-xs-12 center-xs">
             <a class="btn btn-sandy" href="{'site_url'|config}">
