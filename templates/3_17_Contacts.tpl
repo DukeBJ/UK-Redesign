@@ -22,7 +22,6 @@
 
                             [[!getImageList?
                             &tvname=`contact_filial_managers_1`
-                            &where=`{ "active":"1" }`
                             &tpl=`@CODE:
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="directors__block">
@@ -31,7 +30,8 @@
                                     </div>
                                     <h3>[[+image]]</h3>
                                     <p>[[+position]]</p>
-                                    <a href="tel:[+phone]]">[[+phone]]</a>
+                                    [[+position:isnot=``:then=`<p>[[+position]]</p>`:else=``]]
+                                    <a href="tel:[[+phone]]">[[+phone]]</a>
                                 </div>
                             </div>`
                             ]]
