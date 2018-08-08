@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="ru">
-{include 'file:chunks/_head.tpl'}
-<body>
+{extends 'file:templates/EmptyTemplate.tpl'}
 
-{set $template = 'assets_url'|config ~ 'templates/uk/'}
-
-<!--BEGIN out-->
-<div class="out">
-
+{block 'main'}
     {include 'file:chunks/blocks/block_header.tpl'}
     {include 'file:chunks/blocks/block_page_404.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
-    {include 'file:chunks/blocks/block_menu_burger.tpl'}
-    {include 'file:chunks/_modals.tpl'}
-    {include 'file:chunks/_footer.tpl'}
-    <!-- КОНЕЦ -->
-    {include 'file:chunks/_scripts.tpl'}
-
-</body>
-
-</html>
+{/block}
