@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fff">
     <meta name="format-detection" content="telephone=no">
-    <title>{'!pdoTitle'|snippet}</title>
+    <title>{'!pdoTitle'|snippet} | {'site_name'|config}</title>
 
     <link rel="icon" type="image/png" href="{$template}img/favicon.png">
 
