@@ -67,9 +67,9 @@
                 <h2>Оставьте свой отзыв</h2>
                 <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
             </div>
-            <form action="" class="form"><textarea placeholder="Ваш отзыв"></textarea><a href="#step-1"
-                                                                                         data-pop="data-pop"
-                                                                                         class="btn btn-sandy">
+            <form action="" class="form">
+                <textarea placeholder="Ваш отзыв"></textarea>
+                <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                         <defs>
                             <style>.cls-1 {
@@ -99,7 +99,9 @@
                                   d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                         </g>
                     </svg>
-                    <b>Отправить</b></a></form>
+                    <b>Отправить</b>
+                </a>
+            </form>
         </div>
     </div>
 </div>
@@ -160,7 +162,9 @@
                                   d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                         </g>
                     </svg>
-                    <b>Отправить</b></a></form>
+                    <b>Отправить</b>
+                </a>
+            </form>
         </div>
     </div>
 </div>
@@ -174,14 +178,20 @@
             </div>
             <form action="" class="form">
                 <div class="form__block">
-                    <div class="form__input"><input type="text" id="text-5"><label for="text-5">Как к Вам
-                            обращаться?</label></div>
-                    <div class="form__input"><input type="email" id="email"><label for="email">Адрес e-mail</label>
+                    <div class="form__input">
+                        <input type="text" id="text-5">
+                        <label for="text-5">Как к Вам обращаться?</label>
+                    </div>
+                    <div class="form__input">
+                        <input type="email" id="email">
+                        <label for="email">Адрес e-mail</label>
                     </div>
                 </div>
                 <div class="form__social"><span>Поделитесь этим с друзьями:</span>
-                    <div class="form__social__block"><a href="#"><i class="icon icon-vk"></i></a><a href="#"><i
-                                    class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a></div>
+                    <div class="form__social__block">
+                        <a href="#"><i class="icon icon-vk"></i></a>
+                        <a href="#"><i class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a>
+                    </div>
                 </div>
                 <a href="#" data-pop="data-pop" class="btn btn-sandy next">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
@@ -213,7 +223,9 @@
                                   d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                         </g>
                     </svg>
-                    <b>Отправить</b></a></form>
+                    <b>Отправить</b>
+                </a>
+            </form>
         </div>
     </div>
 </div>
@@ -319,12 +331,18 @@
                 <p>Наши менеджеры свяжутся с вами через несколько минут для уточнения даты и условий пребывания
                     в санатории.</p>
                 <form action="" class="form">
-                    <div class="form__input"><input type="text" id="text-8"><label for="text-8">Ваше имя</label>
+                    <div class="form__input">
+                        <input type="text" id="text-8">
+                        <label for="text-8">Ваше имя</label>
                     </div>
-                    <div class="form__input"><input type="tel" id="tel-5" class="phone"><label for="tel-5">Номер
-                            телефона</label></div>
-                    <div class="form__input"><input type="email" id="email-5"><label for="email-5">Адрес
-                            e-mail</label></div>
+                    <div class="form__input">
+                        <input type="tel" id="tel-5" class="phone">
+                        <label for="tel-5">Номер телефона</label>
+                    </div>
+                    <div class="form__input">
+                        <input type="email" id="email-5">
+                        <label for="email-5">Адрес e-mail</label>
+                    </div>
                     <a href="#" data-pop="data-pop" class="btn btn-sandy">
                         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                             <defs>
@@ -355,14 +373,16 @@
                                       d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                             </g>
                         </svg>
-                        <b>Отправить</b></a>
-                    <div
-                            class="form__checkbox checkbox"><input type="checkbox" id="checkbox-1"><label
-                                for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a
-                                    href="#">персональных данных.</a></label></div>
+                        <b>Отправить</b>
+                    </a>
+                    <div class="form__checkbox checkbox">
+                        <input type="checkbox" id="checkbox-1">
+                        <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных данных.</a></label></div>
                 </form>
             </div>
-            <div class="pop-rooms__info"><a href="#">Необходимые документы</a><a href="#">Правила пребывания</a>
+            <div class="pop-rooms__info">
+                <a href="#">Необходимые документы</a>
+                <a href="#">Правила пребывания</a>
             </div>
         </div>
         <div class="col-xs-12">
@@ -403,7 +423,9 @@
                                               d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                                     </g>
                                 </svg>
-                                <b>Цены от 6 250 ₽</b></a></div>
+                                <b>Цены от 6 250 ₽</b>
+                            </a>
+                        </div>
                     </div>
                     <div style="background-image: url('img/jessica-ruscello-120993.png')" class="swiper-slide">
                         <div class="swiper-slide__block">
@@ -440,7 +462,9 @@
                                               d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                                     </g>
                                 </svg>
-                                <b>Цены от 6 250 ₽</b></a></div>
+                                <b>Цены от 6 250 ₽</b>
+                            </a>
+                        </div>
                     </div>
                     <div style="background-image: url('img/jessica-ruscello-120993.png')" class="swiper-slide">
                         <div class="swiper-slide__block">
@@ -477,7 +501,9 @@
                                               d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                                     </g>
                                 </svg>
-                                <b>Цены от 6 250 ₽</b></a></div>
+                                <b>Цены от 6 250 ₽</b>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-pagination swiper-pop-rooms-2-pagination"></div>
