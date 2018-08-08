@@ -28,7 +28,7 @@
                                     <div class="directors__block__img">
                                         <img src="[[+image]]" alt="">
                                     </div>
-                                    <h3>[[+image]]</h3>
+                                    <h3>[[+title]]</h3>
                                     <p>[[+position]]</p>
                                     [[+position:isnot=``:then=`<p>[[+position]]</p>`:else=``]]
                                     <a href="tel:[[+phone]]">[[+phone]]</a>
