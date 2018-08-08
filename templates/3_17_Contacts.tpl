@@ -9,8 +9,8 @@
                 <div class="tabs__nav">
                     <ul class="tabs__caption inside__menu__caption">
                         <li class="active">{$_modx->resource.contact_filial_1_tab_title}</li>
-                        <li>{$_modx->resource.contact_filial_2_tab_title}Симбирские курорты</li>
-                        <li>{$_modx->resource.contact_filial_3_tab_title}Филиал в Москве</li>
+                        <li>{$_modx->resource.contact_filial_2_tab_title}</li>
+                        <li>{$_modx->resource.contact_filial_3_tab_title}</li>
                     </ul>
                     <!-- Блок контактов -->
                     <div class="tabs__content medical-profile__menu__content active">
@@ -94,7 +94,7 @@
                     <!-- Симбирские курорты -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
-                            <h2>{$_modx->resource.contact_filial_2_title}АО «Симбирские курорты»</h2>
+                            <h2>{$_modx->resource.contact_filial_2_title}</h2>
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
@@ -171,7 +171,7 @@
                     <!-- Филиал в москве -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
-                            <h2>{$_modx->resource.contact_filial_3_title}Филиал в Москве</h2>
+                            <h2>{$_modx->resource.contact_filial_3_title}</h2>
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
