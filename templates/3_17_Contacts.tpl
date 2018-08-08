@@ -30,7 +30,7 @@
                                     </div>
                                     <h3>[[+title]]</h3>
                                     <p>[[+position]]</p>
-                                    [[+position:isnot=``:then=`<p>[[+position]]</p>`:else=``]]
+                                    [[+description:isnot=``:then=`<p>[[+description]]</p>`:else=``]]
                                     <a href="tel:[[+phone]]">[[+phone]]</a>
                                 </div>
                             </div>`
@@ -47,65 +47,45 @@
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Телефон:</span>
-                                    <a href="tel:88425461764">8 (84254) 6-17-64</a>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Факс:</span>
-                                    <a href="tel:88425461733">8 (84254) 6-17-33</a>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_address_1`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- второй столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Телефон:</span>
-                                    <a href="tel:88425461764">8 (84254) 6-17-64</a>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Факс:</span>
-                                    <a href="tel:88425461733">8 (84254) 6-17-33</a>
-                                </div>
-                                <div class="contacts__line">
-                                    <span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_phone_1`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- Третий столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_requisites_1`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- END Контакты -->
@@ -144,51 +124,45 @@
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_address_2`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- второй столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_phone_2`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- Третий столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_requisites_2`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- END Контакты -->
@@ -227,34 +201,45 @@
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_address_3`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
-                        <!-- Второй столбик -->
+                        <!-- второй столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                <div class="contacts__line"><span>Адрес:</span>
-                                    <p>Ульяновская обл., Ульяновский р-н, с. Ундоры</p>
-                                </div>
-                                <div class="contacts__line"><span>Телефон:</span><a href="tel:88425461764">8 (84254) 6-17-64</a></div>
-                                <div class="contacts__line"><span>Факс:</span><a href="tel:88425461733">8 (84254) 6-17-33</a></div>
-                                <div class="contacts__line"><span>Автобус:</span>
-                                    <p>От автовокзала г. Ульяновска до сан. им. В.И. Ленина Время: 06-30; 12-12; 15-25.</p>
-                                </div>
-                                <div class="contacts__line"><span>Маршрутка:</span>
-                                    <p>№111 от парка Победы каждые 30 минут.</p>
-                                </div>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_phone_3`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
+                            </div>
+                        </div>
+                        <!-- Третий столбик -->
+                        <div class="contacts__info">
+                            <div class="contacts__content">
+                                <h3>Реквизиты компании</h3>
+
+                                [[!getImageList?
+                                &tvname=`contact_filial_requisites_3`
+                                &tpl=`@CODE:
+                                <div class="contacts__line"><span>[[+title]]:</span>
+                                    <p>[[+description]]</p>
+                                </div>`
+                                ]]
+
                             </div>
                         </div>
                         <!-- END Контакты -->
