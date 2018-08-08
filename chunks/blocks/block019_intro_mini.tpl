@@ -1,4 +1,4 @@
-<section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png);">
+<section class="page-intro" style="background:url({$_modx->resource.video_block_img};">
     <div class="page-intro__content">
         <div class="container">
             <div class="heading heading-secondary">

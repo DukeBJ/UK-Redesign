@@ -8,17 +8,34 @@
             <div class="tabs inside__menu">
                 <div class="tabs__nav">
                     <ul class="tabs__caption inside__menu__caption">
-                        <li class="active">Ульяновсккурорт</li>
-                        <li>Симбирские курорты</li>
-                        <li>Филиал в Москве</li>
+                        <li class="active">{$_modx->resource.contact_filial_1_tab_title}</li>
+                        <li>{$_modx->resource.contact_filial_2_tab_title}Симбирские курорты</li>
+                        <li>{$_modx->resource.contact_filial_3_tab_title}Филиал в Москве</li>
                     </ul>
                     <!-- Блок контактов -->
                     <div class="tabs__content medical-profile__menu__content active">
                         <div class="heading">
-                            <h2>АО «Ульяновсккурорт»</h2>
+                            <h2>{$_modx->resource.contact_filial_1_title}</h2>
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_managers_1`
+                            &where=`{ "active":"1" }`
+                            &tpl=`@CODE:
+                            <<div class="col-md-3 col-sm-6 col-xs-12">
+                                <div class="directors__block">
+                                    <div class="directors__block__img">
+                                        <img src="[[+image]]" alt="">
+                                    </div>
+                                    <h3>[[+image]]Седова Татьяна Валентиновна</h3>
+                                    <p>[[+position]]Главный бухгалтер АО «Ульяновсккурорт»</p>
+                                    <a href="tel:[+phone]]+78425461756">[[+phone]]+7 (84254) 6-17-56</a>
+                                </div>
+                            </div>`
+                            ]]
+
                             <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="directors__block">
                                     <div class="directors__block__img"><img src="img/user.png" alt=""></div>
@@ -105,7 +122,7 @@
                     <!-- Симбирские курорты -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
-                            <h2>АО «Симбирские курорты»</h2>
+                            <h2>{$_modx->resource.contact_filial_2_title}АО «Симбирские курорты»</h2>
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
@@ -207,7 +224,7 @@
                     <!-- Филиал в москве -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
-                            <h2>Филиал в Москве</h2>
+                            <h2>{$_modx->resource.contact_filial_3_title}Филиал в Москве</h2>
                         </div>
                         <!-- Менеджеры -->
                         <div class="row center-xs">
