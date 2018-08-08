@@ -24,42 +24,18 @@
                             &tvname=`contact_filial_managers_1`
                             &where=`{ "active":"1" }`
                             &tpl=`@CODE:
-                            <<div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="col-md-3 col-sm-6 col-xs-12">
                                 <div class="directors__block">
                                     <div class="directors__block__img">
                                         <img src="[[+image]]" alt="">
                                     </div>
-                                    <h3>[[+image]]Седова Татьяна Валентиновна</h3>
-                                    <p>[[+position]]Главный бухгалтер АО «Ульяновсккурорт»</p>
-                                    <a href="tel:[+phone]]+78425461756">[[+phone]]+7 (84254) 6-17-56</a>
+                                    <h3>[[+image]]</h3>
+                                    <p>[[+position]]</p>
+                                    <a href="tel:[+phone]]">[[+phone]]</a>
                                 </div>
                             </div>`
                             ]]
 
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Седова Татьяна Валентиновна</h3>
-                                    <p>Главный бухгалтер АО «Ульяновсккурорт»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Безбородова Наталья Алексеевна</h3>
-                                    <p>Главный бухгалтер АО «Симбирские курорты»</p><a href="tel:+78425461756">+7 (84254) 6-17-56</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Кудашова Елена Петровна</h3>
-                                    <p>Начальник юридического <br>отдела</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs-12">
-                                <div class="directors__block">
-                                    <div class="directors__block__img"><img src="img/user.png" alt=""></div>
-                                    <h3>Ревчук Лилиана Степановна</h3>
-                                    <p>Заместитель генерального директора по лечебной работе</p><a href="tel:+78425461855">+7 (84254) 6-18-55</a></div>
-                            </div>
                         </div>
                         <!-- END Менеджеры -->
                         <!-- Контакты -->
