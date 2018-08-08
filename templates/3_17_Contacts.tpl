@@ -44,7 +44,6 @@
                             {$_modx->resource.contact_filial_1_map}
                         </div>
                         <!-- первый столбик -->
-
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
@@ -112,10 +111,10 @@
                             {$_modx->resource.contact_filial_2_map}
                         </div>
                         <!-- первый столбик -->
+                        <!-- первый столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_address_2`
                                 &tpl=`@CODE:
@@ -123,12 +122,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_phone_2`
                                 &tpl=`@CODE:
@@ -136,12 +133,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_requisites_2`
                                 &tpl=`@CODE:
@@ -149,7 +144,6 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                         </div>
                         <!-- END Контакты -->
@@ -185,10 +179,10 @@
                             {$_modx->resource.contact_filial_3_map}
                         </div>
                         <!-- первый столбик -->
+                        <!-- первый столбик -->
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_address_3`
                                 &tpl=`@CODE:
@@ -196,12 +190,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_phone_3`
                                 &tpl=`@CODE:
@@ -209,12 +201,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_requisites_3`
                                 &tpl=`@CODE:
@@ -222,7 +212,6 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                         </div>
                         <!-- END Контакты -->
