@@ -57,9 +57,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- второй столбик -->
-                        <div class="contacts__info">
+                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
 
@@ -72,9 +70,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- Третий столбик -->
-                        <div class="contacts__info">
+                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
 
@@ -134,9 +130,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- второй столбик -->
-                        <div class="contacts__info">
+                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
 
@@ -149,9 +143,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- Третий столбик -->
-                        <div class="contacts__info">
+                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
 
@@ -211,9 +203,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- второй столбик -->
-                        <div class="contacts__info">
+                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
 
@@ -226,9 +216,7 @@
                                 ]]
 
                             </div>
-                        </div>
-                        <!-- Третий столбик -->
-                        <div class="contacts__info">
+                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
 
