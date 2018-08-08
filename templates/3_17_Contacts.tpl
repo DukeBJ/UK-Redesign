@@ -44,10 +44,10 @@
                             {$_modx->resource.contact_filial_1_map}
                         </div>
                         <!-- первый столбик -->
+
                         <div class="contacts__info">
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_address_1`
                                 &tpl=`@CODE:
@@ -55,12 +55,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_phone_1`
                                 &tpl=`@CODE:
@@ -68,12 +66,10 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-
                                 [[!getImageList?
                                 &tvname=`contact_filial_requisites_1`
                                 &tpl=`@CODE:
@@ -81,7 +77,6 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-
                             </div>
                         </div>
                         <!-- END Контакты -->
