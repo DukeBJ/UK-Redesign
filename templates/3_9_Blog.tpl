@@ -14,11 +14,6 @@
                         'tplOuter' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
                         'tpl' => '@INLINE <li {$classes}><a href="{$link}">{$menutitle}</a></li>'
                     ]}
-                    <ul class="tabs__caption inside__menu__caption">
-                        <li class="active"><a href="#">Акции</a></li>
-                        <li><a href="#">Новости компании</a></li>
-                        <li><a href="#">Статьи</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -31,8 +26,8 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="heading">
-                        <h2>Акции в санаториях</h2>
-                        <p>Регулярно в наших санаториях и домах отдыха проходят интересные акции. Советуем Вам ознакомиться со списком, чтобы не пропустить скидки и бонусы!</p>
+                        <h2>{$_modx->resource.longtitle}</h2>
+                        <p>{$_modx->resource.description}</p>
                     </div>
                 </div>
                 <div class="col-xs-12">
