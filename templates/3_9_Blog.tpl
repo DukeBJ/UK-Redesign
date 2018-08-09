@@ -59,8 +59,8 @@
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl',
 
-        'tplFilter.outer.createdon:year' => '@FILE chunks/blog/filters/tplFilter.outer.tpl',
-        'tplFilter.row.createdon:year' => '@FILE chunks/blog/filters/tplFilter.row.tpl'
+        'tplFilter.outer.createdon|year' => '@FILE chunks/blog/filters/tplFilter.outer.tpl',
+        'tplFilter.row.createdon|year' => '@FILE chunks/blog/filters/tplFilter.row.tpl'
     ]}
 
 
