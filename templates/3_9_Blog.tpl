@@ -22,7 +22,8 @@
 
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
-        'element' => 'pdoResources',
+        'element' => 'ms2GalleryResources',
+        'includeThumbs' => 'blogSmall',
         'where' => [
             "class_key:!=" => "CollectionContainer"
         ],
