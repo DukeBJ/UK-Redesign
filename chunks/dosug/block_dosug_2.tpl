@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="clay__img">
-                    <img src="{$template}img/glass.png" alt="" id="clay">
+                    <img src="{$template}img/rock.png" alt="" id="clay">
                 </div>
             </div>
             <div class="col-sm-8 col-xs-12">
