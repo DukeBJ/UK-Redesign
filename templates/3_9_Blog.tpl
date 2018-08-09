@@ -26,7 +26,8 @@
         'includeThumbs' => 'blogSmall',
         'limit' => 1,
         'ajaxMode' => 'button',
-        'filters' => 'createdon:year,resource|parent',
+        'includeTVs' => 'blogs_tags',
+        'filters' => 'createdon:year,resource|parent,tv:number',
         'suggestionsRadio' => 'createdon:year,resource|parent:parents',
 
         'tplFilter.outer.resource|parent' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
