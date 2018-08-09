@@ -23,9 +23,7 @@
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
         'element' => 'pdoResources',
-        'where' => [
-            "class_key :!=" => "CollectionContainer"
-        ],
+
         'showHidden' => 1,
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl',
