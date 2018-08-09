@@ -20,6 +20,11 @@
     </section>
     <!-- END -->
 
+    {'!mFilter2'|snippet:[
+        'parents' => $_modx->resource.id,
+        'element' => 'pdoResources'
+    ]}
+
     <!-- РУБИКАТОР БЛОГА -->
     <section class="shares">
         <div class="container">
