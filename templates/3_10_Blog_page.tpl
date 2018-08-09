@@ -7,8 +7,8 @@
             <div class="page-intro__content">
                 <div class="container">
                     <div class="heading heading-secondary">
-                        <h2>Супер акция в санатории Ульяновска</h2>
-                        <p>08.08.2018</p>
+                        <h2>{$_modx->resource.pagetitle}</h2>
+                        <p>{$_modx->resource.publishedon|date_format:"%d.%m.%Y"}</p>
                     </div>
                 </div>
             </div>
@@ -21,24 +21,15 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="blog__content">
-                            <div class="heading">
-                                <p>Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ №99/228 от 22.12.1999 г.). </p>
-                            </div>
-                            <div class="blog__content__img"><img src="img/medical-profile.png" alt=""></div>
-                            <p>Медицинский персонал санатория помогает избавиться сотням пациентов не только от различных.</p>
-                            <p>Но и органов дыхания и пищеварения, нервной и сердечно-сосудистой систем, гинекологических заболеваний и болезней органов мочеполовой системы и многих других.</p>
-                            <h3>Cанаторно-курортное лечение имеет ряд медицинских противопоказаний:</h3>
-                            <ul>
-                                <li>Заболевания в острой и подострой стадии, в том числе острые инфекционные заболевания до окончания периода изоляции.</li>
-                                <li>Заболевания, передающиеся половым путем.</li>
-                            </ul>
+                            {$_modx->resource.content}
                             <!-- ТЕГИ СТАТЕЙ -->
+
+
                             <div class="tags">
                                 <ul>
-                                    <li><a href="#">Ski Pass</a></li>
-                                    <li><a href="#">Горнолыжный курорт</a></li>
-                                    <li><a href="#">Мастер-класс</a></li>
-                                    <li><a href="#">Сноуборд</a></li>
+                                    {foreach $_modx->resource.blogs_tags|split as $tag}
+                                        <li><a href="#">{$tag}</a></li>
+                                    {/foreach}
                                 </ul>
                             </div>
                             <!-- ШАРИНГ СТАТЕЙ -->
