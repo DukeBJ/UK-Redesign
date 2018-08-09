@@ -5,12 +5,14 @@
             <img src="{'template_url'|config}img/separation-line.svg" alt="">
             <p>{$description}</p>
         </a>
-        {ignore}
+
             <a class="btn btn-white" href="{$id|url}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
+                    {ignore}
                     <defs>
                         <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
                     </defs>
+                    {/ignore}
                     <title>button</title>
                     <g id="Layer_3" data-name="Layer 3">
                         <path class="cls-1 cls-1-bg"
@@ -25,6 +27,6 @@
                 </svg>
                 <b>Узнать подробности</b>
             </a>
-        {/ignore}
+
     </div>
 </div>
