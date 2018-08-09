@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->resource.dosug_price_title}Цены</h2>
-                    <p>{$_modx->resource.dosug_price_description}Регулярно в наших санаториях и домах отдыха проходят интересные акции. Советуем Вам ознакомиться со списком, чтобы не пропустить скидки и бонусы!</p>
+                    <h2>{$_modx->resource.dosug_price_title}</h2>
+                    <p>{$_modx->resource.dosug_price_description}</p>
                 </div>
             </div>
         </div>
