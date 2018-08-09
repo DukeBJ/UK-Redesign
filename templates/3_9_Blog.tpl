@@ -26,7 +26,7 @@
         'includeThumbs' => 'blogSmall',
         'limit' => 1,
         'ajaxMode' => 'button',
-        'filters' => 'createdon:year',
+        'filters' => 'createdon|year',
         'suggestionsRadio' => 'createdon|year',
 
         'tplFilter.outer.createdon|year' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
