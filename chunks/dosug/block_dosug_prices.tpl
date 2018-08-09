@@ -23,14 +23,16 @@
                     <tr>
                         <td>[[+price_name]]</td>
                         <td class="coins">
-                            <p>[[+price_1_name]]<span>[[+price_1_description]]</span></p>
-                            <p>[[+price_2_name]]<span>[[+price_2_description]]</span></p>
+                            <p>[[+price_1]]<span>[[+price_1_description]]</span></p>
+                            <p>[[+price_2]]<span>[[+price_2_description]]</span></p>
                         </td>
                     </tr>
                     <tr>
-                        <td>[[+price_1_name]]</td>
-                        <td class="coins">[[+price_2_description]]</td>
-                    </tr>`
+                        <td>[[+price_name]]</td>
+                        <td class="coins">[[+price_1]]</td>
+                    </tr>
+
+                    `
                     ]]
 
                 </table>
