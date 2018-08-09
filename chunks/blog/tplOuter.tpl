@@ -38,7 +38,7 @@
                 </form>
 
             </div>
-            <div id="mse2_results" class="row">
+            <div id="mse2_results" class="col-sm-12">
                 [[+results]]
             </div>
 
