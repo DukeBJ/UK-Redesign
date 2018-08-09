@@ -45,6 +45,8 @@
             </div>
 
             <div class="col-xs-12 center-xs mse2_pagination">
+
+                [[!+page.nav]]
                 {ignore}
                     <a class="btn btn-sandy">
                         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">

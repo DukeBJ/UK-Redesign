@@ -24,6 +24,7 @@
         'parents' => $_modx->resource.id,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
+        'limit' => 1,
         'where' => [
             "class_key:!=" => "CollectionContainer"
         ],
