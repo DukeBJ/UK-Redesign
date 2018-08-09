@@ -27,6 +27,7 @@
         'limit' => 1,
         'ajaxMode' => 'button',
         'filters' => 'createdon:year',
+        'suggestionsRadio' => 'createdon:year',
 
     'filterOptions' => json_encode([
     "more" => ".btn-load",
@@ -56,7 +57,10 @@
         ],
         'showHidden' => 1,
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
-        'tpls' => '@FILE chunks/blog/tpls.tpl'
+        'tpls' => '@FILE chunks/blog/tpls.tpl',
+
+        'tplFilter.outer.createdon:year' => '@FILE chunks/blog/filters/tplFilter.outer.tpl',
+        'tplFilter.row.createdon:year' => '@FILE chunks/blog/filters/tplFilter.row.tpl'
     ]}
 
 
