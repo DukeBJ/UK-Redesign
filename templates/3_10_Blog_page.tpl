@@ -6,12 +6,10 @@
 
     {var $image = 'ms2Gallery'|snippet:[
         'resources' => $_modx->resource.id,
-        'tpl' => '@INLINE {if $files}{foreach $files as $file}{print_r($file)}{/foreach}{/if}'
+        'tpl' => '@INLINE {if $files}{foreach $files as $file}{$file.url}{/foreach}{/if}'
     ]}
 
-    {$image}
-
-        <section class="page-intro" style="background:url({'template_url'|config}img/sanatorium-Lenin.png);">
+        <section class="page-intro" style="background:url({$image});">
             <div class="page-intro__content">
                 <div class="container">
                     <div class="heading heading-secondary">
