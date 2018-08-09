@@ -38,8 +38,10 @@
                 </form>
 
             </div>
-            <div id="mse2_results" class="col-sm-12">
-                [[+results]]
+            <div class="col-sm-12">
+                <div class="row" id="mse2_results">
+                    [[+results]]
+                </div>
             </div>
 
             <div class="col-xs-12 center-xs mse2_pagination">
