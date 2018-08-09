@@ -1,12 +1,12 @@
 <div class="col-sm-6 col-xs-12">
     <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
         <a class="img">
-            <h4>Ундоровские выходные!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
-            <p>Только с 23 февраля по 8 марта мы предлагаем Ski-pass на двоих с проживанием по вкусной
-                цене.</p>
+            <h4>{$pagetitle}</h4>
+            <img src="{'template_url'|config}img/separation-line.svg" alt="">
+            <p>{$description}</p>
         </a>
         {ignore}
-            <a class="btn btn-white">
+            <a class="btn btn-white" href="{$id|url}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                     <defs>
                         <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
