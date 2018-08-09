@@ -19,9 +19,7 @@
 
                     [[!getImageList?
                     &tvname=`dosug_table_hources_price`
-                    &toPlaceholder=`price_2_name`
                     &tpl=`@CODE:
-                    [[+price_2_name:empty=`show this:[[+price_2_name]]`]]
                     <tr>
                         <td>[[+price_name]]</td>
                         <td class="coins">
