@@ -60,9 +60,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Ундоровские выходные!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Ундоровские выходные!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Только с 23 февраля по 8 марта мы предлагаем Ski-pass на двоих с проживанием по вкусной
                                 цене.</p>
                         </a>
@@ -90,9 +90,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Этой осенью в нашем санатории снижение цен на все процедуры от 10 до 25%</p>
                         </a>
                         {ignore}
@@ -119,9 +119,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Этой осенью в нашем санатории снижение цен на все процедуры от 10 до 25%</p>
                         </a>
                         {ignore}
@@ -148,9 +148,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Этой осенью в нашем санатории снижение цен на все процедуры от 10 до 25%</p>
                         </a>
                         {ignore}
@@ -177,9 +177,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Этой осенью в нашем санатории снижение цен на все процедуры от 10 до 25%</p>
                         </a>
                         {ignore}
@@ -206,9 +206,9 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-xs-12">
-                    <div class="shares__block"><img src="{'template_url'}img/lenin.png" alt="">
+                    <div class="shares__block"><img src="{'template_url'|config}img/lenin.png" alt="">
                         <a class="img">
-                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'}img/separation-line.svg" alt="">
+                            <h4>Снижение цен на всю осень!</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
                             <p>Этой осенью в нашем санатории снижение цен на все процедуры от 10 до 25%</p>
                         </a>
                         {ignore}
