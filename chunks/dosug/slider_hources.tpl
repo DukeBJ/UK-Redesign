@@ -5,8 +5,8 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="heading">
-                        <h2>Цены</h2>
-                        <p>Регулярно в наших санаториях и домах отдыха проходят интересные акции. Советуем Вам ознакомиться со списком, чтобы не пропустить скидки и бонусы!</p>
+                        <h2>{$_modx->resource.dosug_hources_title}</h2>
+                        <p>{$_modx->resource.dosug_hources_description}</p>
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <div class="swiper-wrapper">
 
                     [[!getImageList?
-                    &tvname=`dosug_table_hources_price`
+                    &tvname=`dosug_hources_slider`
                     &tpl=`@CODE:
                     <div class="swiper-slide">
                         <div class="swiper-slide__img">
