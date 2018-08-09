@@ -26,6 +26,7 @@
         'includeThumbs' => 'blogSmall',
         'limit' => 1,
         'ajaxMode' => 'button',
+        'filters' => 'createdon:year',
 
     'filterOptions' => json_encode([
     "more" => ".btn-load",

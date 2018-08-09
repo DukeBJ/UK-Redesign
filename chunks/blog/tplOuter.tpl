@@ -11,6 +11,7 @@
             <div class="col-xs-12">
                 <!-- !!! Выбор года в Акциях должен быть отключен -->
                 <form action="[[~[[*id]]]]" method="post" id="mse2_filters">
+                    [[+filters]]
                     <select>
                         <option value="1">За всё время</option>
                         <option value="2">2018</option>
