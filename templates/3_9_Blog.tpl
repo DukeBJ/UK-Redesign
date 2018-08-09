@@ -28,10 +28,8 @@
         ],
         'showHidden' => 1,
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
-        'tpls' => '@FILE chunks/blog/tpls.tpl',
-        'showLog' => 1
+        'tpls' => '@FILE chunks/blog/tpls.tpl'
     ]}
-
 
 
     <!-- ПОДПИСКА -->
