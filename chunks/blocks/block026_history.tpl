@@ -13,7 +13,6 @@
             [[!getImageList?
             &tvname=`history_time`
             &tpl=`@CODE:
-            <br>[[+_alt]]<br>
             [[+_alt:isnot=``:then=`
             <!-- текст справа -->
             <div class="row">
