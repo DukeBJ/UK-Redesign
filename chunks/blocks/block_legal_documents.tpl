@@ -13,7 +13,7 @@
     <div class="container-two">
         <div class="row">
 
-            [[FileAttach? &docid=`[[+id]]`]]
+            [[FileAttach? &resource=`[[+id]]`]]
 
             <div class="col-sm-3 col-xs-6">
                 <a href="#" class="contracts__block">
