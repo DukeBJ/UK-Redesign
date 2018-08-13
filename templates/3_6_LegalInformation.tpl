@@ -4,9 +4,10 @@
 
     {'!pdoResources'|snippet:[
         'parents' => 919,
-        'depth' => 1
+        'depth' => 1,
+        'includeContent' => 1,
+        'tpl' => '@FILE chunks/blocks/block_legal_documents.tpl'
     ]}
 
-    {include 'file:chunks/blocks/block_legal_documents.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
 {/block}
