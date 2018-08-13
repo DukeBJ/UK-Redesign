@@ -3,8 +3,8 @@
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
 
     {'!pdoResources'|snippet:[
-        `parents` = 919,
-        `depth` = 1
+        'parents' = 919,
+        'depth' = 1
     ]}
 
     {include 'file:chunks/blocks/block_legal_documents.tpl'}
