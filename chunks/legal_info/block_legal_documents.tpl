@@ -24,6 +24,7 @@
             [[FileAttach?
                 &resource=`[[+id]]`
                 &tpl=`FileAttachTpl_new`
+                &makeURL=`1`
             ]]
 
         </div>
