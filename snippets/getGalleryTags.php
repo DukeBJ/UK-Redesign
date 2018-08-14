@@ -33,6 +33,6 @@ foreach ($tvArr as $item) {
 
 
 
-print_r($output);
+print_r(array_unique($output));
 
 //return array_unique($output);
