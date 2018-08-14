@@ -1,23 +1,57 @@
-<!DOCTYPE html>
-<html lang="ru">
-{include 'file:chunks/_head.tpl'}
-<body>
+{extends 'file:templates/EmptyTemplate.tpl'}
 
-{set $template = 'assets_url'|config ~ 'templates/uk/'}
+{block 'main'}
+    <section class="page-intro" style="background:url({$_modx->resource.intro_block_img}) no-repeat; background-size: cover;">
+        <div class="page-intro__content">
+            <div class="container">
+                <div class="heading heading-secondary">
+                    <h2>{$_modx->resource.longtitle?:$_modx->resource.pagetitle}</h2>
+                    <p>{$_modx->resource.introtext}</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!--BEGIN out-->
-<div class="out">
+    123123
+    {$.get|print_r}
+    <section class="shares">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="tags">
+                        <ul>
 
-    {include 'file:chunks/blocks/block_header.tpl'}
-    {include 'file:chunks/blocks/block019_intro_mini.tpl'}
-    {include 'file:chunks/blocks/block_page_photogallery.tpl'}
+                            {var $tags = '@FILE snippets/getGalleryTags.php'|snippet:[]}
+                            {$tags}
+                        </ul><a href="{'918'|url}" class="all-tags">Все галереи</a></div>
+                </div>
+
+                {if $.get.tag}
+                    {var $where = ['gallery_tag:LIKE' => $.get.tag]}
+                {/if}
+
+                {'!pdoResources'|snippet:[
+                    'parents' => 918,
+                    'includeTVs' => 'gallery_tags',
+                    'where' => $where,
+                    'leftJoin' => [
+                        "image" => [
+                            "class" => "msResourceFile",
+                            "alias" => "image",
+                            "on" => "image.resource_id = modResource.id AND image.path LIKE '%/blogSmall/%'"
+                        ]
+                    ],
+                    'select' => [
+                        "image" => "image.url as image"
+                    ],
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
+                    'showLog' => 1
+                ]}
+
+
+            </div>
+        </div>
+    </section>
+
     {include 'file:chunks/blocks/block014_bottom_subscr.tpl'}
-    {include 'file:chunks/blocks/block_menu_burger.tpl'}
-    {include 'file:chunks/_modals.tpl'}
-    {include 'file:chunks/_footer.tpl'}
-    <!-- КОНЕЦ -->
-    {include 'file:chunks/_scripts.tpl'}
-
-</body>
-
-</html>
+{/block}
