@@ -26,4 +26,10 @@ foreach ($tvs as $tv) {
     $tvArr[] = $tv->get('value');
 }
 
-print_r($tvArr);
+$output = array();
+foreach ($tvArr as $item) {
+    $output = array_merge(explode(',', trim($item)));
+}
+
+
+print_r(array_unique($output));
