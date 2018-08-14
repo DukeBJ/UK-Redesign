@@ -31,8 +31,11 @@ foreach ($tvArr as $item) {
     $output[] = array_merge(explode(',', trim($item)));
 }
 
+$out = array();
+foreach ($output as $o) {
+    $out[] = $o;
+}
 
-
-print_r(array_unique($output));
+print_r(array_unique($out));
 
 //return array_unique($output);
