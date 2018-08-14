@@ -202,18 +202,19 @@
                                 </div>`
                                 ]]
                             </div>
-
-                            [[+contact_filial_requisites_3:is=``:then=`нет`:else=`есть`]]
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
                                 [[!getImageList?
                                 &tvname=`contact_filial_requisites_3`
+                                &toPlaceholder=`migx_output`
                                 &tpl=`@CODE:
                                 <div class="contacts__line"><span>[[+title]]:</span>
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
+
+                                [[+migx_output:empty=`show this:[[+migx_output]]`]]
                             </div>
                         </div>
                         <!-- END Контакты -->
