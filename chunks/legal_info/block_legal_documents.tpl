@@ -25,7 +25,6 @@
                 &resource=`[[+id]]`
                 &showSize=`1`
                 &makeURL=`1`
-                &tpl=`@FILE chunks/legal_info/FileAttach.tpl`
             ]]
 
         </div>
