@@ -1,6 +1,7 @@
 {if $tags}
-    {$tags|print_r}
     {foreach $tags as $tag}
-        <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
+        {foreach $tag as $t}
+            <li><a href="{'918'|url}?tag={$t}">{$t}</a></li>
+        {/foreach}
     {/foreach}
 {/if}
