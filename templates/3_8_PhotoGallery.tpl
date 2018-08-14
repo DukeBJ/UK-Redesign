@@ -24,7 +24,6 @@
                                 'prepareTVs'=> 1,
                                 'groupby' => 'tv.gallery_tags',
                                 'limit' => 0,
-                                'showLog' => 1,
                                 'tpl' => '@INLINE <li><a href="#">{$_pls["tv.gallery_tags"]}</a></li>'
                             ]}
                         </ul><a href="#" class="all-tags">Все галереи</a></div>
