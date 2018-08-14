@@ -21,12 +21,10 @@
     <div class="container-two">
         <div class="row">
 
-            {$_modx->runSnippet('!FileAttach', [
-            'resource' => $id,
-            'tpl' => '@FILE chunks/legal_info/FileAttach.tpl',
-            'makeURL' => true,
-            'showLog' => 1,
-            ])}
+            [[FileAttach?
+            &resource=`[[+id]]
+            &tpl=`@FILE chunks/legal_info/FileAttach.tpl`
+            ]]
 
         </div>
     </div>
