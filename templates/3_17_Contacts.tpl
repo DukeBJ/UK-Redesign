@@ -66,7 +66,6 @@
                                 </div>`
                                 ]]
                             </div>
-                            [[+contact_filial_requisites_1:is=``:then=``:else=`
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
@@ -77,7 +76,7 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-                            </div>`]]
+                            </div>
                         </div>
                         <!-- END Контакты -->
                     </div>
@@ -135,7 +134,6 @@
                                 </div>`
                                 ]]
                             </div>
-                            [[+contact_filial_requisites_2:is=``:then=``:else=`
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
@@ -146,7 +144,7 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-                            </div>`]]
+                            </div>
                         </div>
                         <!-- END Контакты -->
                     </div>
@@ -205,7 +203,7 @@
                                 ]]
                             </div>
 
-                            [[+contact_filial_requisites_3:is=``:then=``:else=`
+                            [[+contact_filial_requisites_3:is=``:then=`нет`:else=`есть`]]
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
@@ -216,8 +214,7 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-                            </div>`]]
-
+                            </div>
                         </div>
                         <!-- END Контакты -->
                     </div>
