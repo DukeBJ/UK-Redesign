@@ -19,7 +19,13 @@
                     <div class="tags">
                         <ul>
 
-                            {'@FILE snippets/getGalleryTags.php'|snippet:[]}
+                            {var $tags = '@FILE snippets/getGalleryTags.php'|snippet:[]}
+
+                            {if $tags}
+                                {foreach $tags as $tag}
+                                    <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
+                                {/foreach}
+                            {/if}
 
                             {'!pdoResources'|snippet:[
                                 'parents' => 918,
