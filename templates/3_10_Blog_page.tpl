@@ -40,7 +40,11 @@
                             </div>
                             <!-- ШАРИНГ СТАТЕЙ -->
                             <div class="blog__content__social"><span>Поделитесь этим с друзьями:</span>
-                                <div class="blog__content__social__block"><a href="#"><i class="icon icon-vk"></i></a><a href="#"><i class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a></div>
+                                <div class="blog__content__social__block">
+                                    <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+                                    <script src="//yastatic.net/share2/share.js"></script>
+                                    <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki" data-counter=""></div>
+                                </div>
                             </div>
                         </div>
                     </div>
