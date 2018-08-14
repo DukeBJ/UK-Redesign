@@ -23,7 +23,7 @@
 
                             {if $tags}
                                 {foreach $tags as $tag}
-                                    {$tag}
+                                    {$tag|print_r}
                                     <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
                                 {/foreach}
                             {/if}
