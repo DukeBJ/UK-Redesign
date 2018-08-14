@@ -1,4 +1,4 @@
-<section class="ulyanovsk stripon">
+<section class="ulyanovsk {$_modx->resource.style_block}">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 center-xs"><img src="{$template}img/logo-white.svg" class="logo"></div>
