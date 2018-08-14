@@ -11,7 +11,7 @@
             &wrapperTpl=`@CODE:
             <!-- Третий столбик -->
             <div class="contacts__content">
-                <h3>Реквизиты компании</h3>
+                <h3>{$_modx->resource.info_disclosure_title_1}</h3>
                 [[+output]]
             </div>
             <div class="clearfix"></div>`
@@ -26,7 +26,7 @@
             &wrapperTpl=`@CODE:
             <!-- Третий столбик -->
             <div class="contacts__content">
-                <h3>Реквизиты компании</h3>
+                <h3>{$_modx->resource.info_disclosure_title_2}</h3>
                 [[+output]]
             </div>`
             &tpl=`@CODE:
