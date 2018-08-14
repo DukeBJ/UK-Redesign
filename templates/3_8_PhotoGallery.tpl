@@ -26,7 +26,7 @@
                                 'includeTVs' => 'gallery_tags',
                                 'prepareTVs'=> 1,
                                 'limit' => 0,
-                                'tpl' => '@INLINE <li><a href="#pop-gallery">{$_pls["tv.gallery_tags"]}</a></li>'
+                                'tpl' => '@INLINE <li><a href="">{$_pls["tv.gallery_tags"]}</a></li>'
                             ]}
                         </ul><a href="#" class="all-tags">Все галереи</a></div>
                 </div>
