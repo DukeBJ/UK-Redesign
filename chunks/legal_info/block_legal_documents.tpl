@@ -22,9 +22,10 @@
         <div class="row">
 
             [[FileAttach?
-            &resource=`[[+id]],
-            &showSize=`true`,
-            &tpl=`@FILE chunks/legal_info/FileAttach.tpl`
+                &resource=`[[+id]]
+                &showSize=`true`
+                &makeURL=`true`
+                &tpl=`@FILE chunks/legal_info/FileAttach.tpl`
             ]]
 
         </div>
