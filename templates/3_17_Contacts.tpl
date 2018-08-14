@@ -202,6 +202,8 @@
                                 </div>`
                                 ]]
                             </div>
+
+                            [[+contact_filial_requisites_3:is=``:then=``:else=`
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
@@ -212,7 +214,8 @@
                                     <p>[[+description]]</p>
                                 </div>`
                                 ]]
-                            </div>
+                            </div>`]]
+
                         </div>
                         <!-- END Контакты -->
                     </div>
