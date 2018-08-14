@@ -21,9 +21,10 @@
 
                             {var $tags = '@FILE snippets/getGalleryTags.php'|snippet:[]}
 
+                            {$tags|print_r}
+
                             {if $tags}
                                 {foreach $tags as $tag}
-                                    {$tag|print_r}
                                     <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
                                 {/foreach}
                             {/if}
