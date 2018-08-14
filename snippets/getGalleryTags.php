@@ -32,8 +32,8 @@ foreach ($tvArr as $item) {
 }
 
 $out = array();
-foreach ($output as $o) {
-    $out[] = $o;
+foreach ($output as $key => $val) {
+    $out[] = $val;
 }
 
 print_r(array_unique($out));
