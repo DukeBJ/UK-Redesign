@@ -24,7 +24,7 @@
                         </ul><a href="{'918'|url}" class="all-tags">Все галереи</a></div>
                 </div>
 
-                {if $get.tag}
+                {if $.get.tag}
                     {var $where = json_encode(["tv.gallery_tag:LIKE" => "%"~$.get.tag~"%"])}
                     {$where}
                 {/if}
