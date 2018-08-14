@@ -18,6 +18,9 @@
                 <div class="col-xs-12">
                     <div class="tags">
                         <ul>
+
+                            {'@FILE snippets/getGalleryTags.php'|snippet:[]}
+
                             {'!pdoResources'|snippet:[
                                 'parents' => 918,
                                 'includeTVs' => 'gallery_tags',
