@@ -7,12 +7,12 @@
                     <h2>{$_modx->runSnippet('!pdoField', [
                         'id' => $id,
                         'field' => 'pagetitle',
-                        'top' => 2,
+                        'top' => 1,
                         ])}</h2>
                     <p>{$_modx->runSnippet('!pdoField', [
                         'id' => $id,
                         'field' => 'introtext',
-                        'top' => 2,
+                        'top' => 1,
                         ])}</p>
                 </div>
             </div>
