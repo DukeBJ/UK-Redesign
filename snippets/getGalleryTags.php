@@ -26,6 +26,9 @@ foreach ($tvs as $tv) {
     $tvArr[] = $tv->get('value');
 }
 
+print_r($tvArr);
+die();
+
 $output = array();
 foreach ($tvArr as $item) {
     $output = array_merge(explode(',', trim($item)));
