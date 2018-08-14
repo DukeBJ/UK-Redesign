@@ -35,7 +35,14 @@ foreach ($output as $key => $val) {
         $out[] = $v;
     }
 }
+
 $unique = array_unique($output);
+
+$tags = array();
+foreach($unique as $u){
+    $tags = $u;
+}
+
 
 /**
  * @var pdoTools $pdoTools
