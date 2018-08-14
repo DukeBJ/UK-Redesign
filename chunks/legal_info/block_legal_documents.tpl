@@ -23,6 +23,7 @@
 
             [[FileAttach?
                 &resource=`[[+id]]`
+                &tpl=`FileAttachTpl_new`
             ]]
 
         </div>
