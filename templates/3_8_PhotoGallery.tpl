@@ -12,6 +12,8 @@
         </div>
     </section>
 
+    123123
+    {$.get|print_r}
     <section class="shares">
         <div class="container">
             <div class="row">
