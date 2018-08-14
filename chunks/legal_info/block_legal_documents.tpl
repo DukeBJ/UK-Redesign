@@ -23,8 +23,6 @@
 
             [[FileAttach?
                 &resource=`[[+id]]`
-                &showSize=`1`
-                &makeURL=`1`
             ]]
 
         </div>
