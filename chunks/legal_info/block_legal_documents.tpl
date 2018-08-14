@@ -22,7 +22,8 @@
         <div class="row">
 
             [[!FileAttach?
-                &resource=`[[+id]]
+                &resource=`[[+id]]`
+                &privateUrl=`1`
                 &showSize=`1`
                 &makeURL=`1`
                 &tpl=`@INLINE
