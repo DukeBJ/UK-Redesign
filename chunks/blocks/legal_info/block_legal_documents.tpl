@@ -4,8 +4,16 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Бронирование и заселение</h2>
-                    <p>Перечень необходимых для изучения документов, правила заявления и условия пребывания в наших санаториях.</p>
+                    <h2>{$_modx->runSnippet('!pdoField', [
+                        'id' => $id,
+                        'field' => 'pagetitle',
+                        'top' => 2,
+                        ])}</h2>
+                    <p>{$_modx->runSnippet('!pdoField', [
+                        'id' => $id,
+                        'field' => 'introtext',
+                        'top' => 2,
+                        ])}</p>
                 </div>
             </div>
         </div>
