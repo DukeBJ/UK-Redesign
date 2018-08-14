@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->resource.pagetitle}</h2>
-                    <p>{$_modx->resource.introtext}</p>
+                    <h2>{$pagetitle}</h2>
+                    <p>{$introtext}</p>
                 </div>
             </div>
         </div>
