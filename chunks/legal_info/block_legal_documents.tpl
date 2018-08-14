@@ -4,16 +4,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->runSnippet('!pdoField', [
-                        'id' => $id,
-                        'field' => 'pagetitle',
-                        'top' => 2,
-                        ])}</h2>
-                    <p>{$_modx->runSnippet('!pdoField', [
-                        'id' => $id,
-                        'field' => 'introtext',
-                        'top' => 2,
-                        ])}</p>
+                    <h2>{$_modx->resource.pagetitle}</h2>
+                    <p>{$_modx->resource.introtext}</p>
                 </div>
             </div>
         </div>
