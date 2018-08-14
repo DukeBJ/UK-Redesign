@@ -25,7 +25,7 @@
                 </div>
 
                 {if $get.tag}
-                    {var $where = json_encode(["gallery_tag:LIKE" => "%"~$.get.tag~"%"])}
+                    {var $where = json_encode(["tv.gallery_tag:LIKE" => "%"~$.get.tag~"%"])}
                     {$where}
                 {/if}
 
