@@ -25,6 +25,7 @@
                 &resource=`[[+id]]`
                 &tpl=`FileAttachTpl_new`
                 &makeURL=`1`
+                &showSize=`1`
             ]]
 
         </div>
