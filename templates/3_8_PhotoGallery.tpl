@@ -26,19 +26,17 @@
                                     <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
                                 {/foreach}
                             {/if}
-
-                            {'!pdoResources'|snippet:[
-                                'parents' => 918,
-                                'includeTVs' => 'gallery_tags',
-                                'prepareTVs'=> 1,
-                                'limit' => 0,
-                                'tpl' => '@INLINE <li><a href="">{$_pls["tv.gallery_tags"]}</a></li>'
-                            ]}
-                        </ul><a href="#" class="all-tags">Все галереи</a></div>
+                        </ul><a href="{'918'|url}" class="all-tags">Все галереи</a></div>
                 </div>
+
+                {if $get.tag}
+                    {var $where = json_encode(["gallery_tag:LIKE" => "%"~$.get.tag~"%"])}
+                {/if}
 
                 {'!ms2GalleryResources'|snippet:[
                     'parents' => 918,
+                    'includeTVs' => 'gallery_tags',
+                    'where' => $where,
                     'includeThumbs' => 'blogSmall',
                     'tpl' => '@FILE chunks/gallery/gallery.tpl'
                 ]}
