@@ -35,5 +35,6 @@ foreach ($output as $key => $val) {
         $out[] = $v;
     }
 }
-
-return array_unique($output);
+$unique = array_unique($output);
+$modx->log(1, print_r($unique));
+return $unique;
