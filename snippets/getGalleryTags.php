@@ -36,5 +36,14 @@ foreach ($output as $key => $val) {
     }
 }
 $unique = array_unique($output);
-$modx->log(1, print_r($unique, 1));
-return $unique;
+
+/**
+ * @var pdoTools $pdoTools
+ */
+$pdoTools = $modx->getService('pdoTools');
+
+$chunk = $pdoTools->getChunk('@FILE chunks/gallery/tag.tpl', array(
+    'tags' => $unique
+));
+
+return $chunk;
