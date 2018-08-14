@@ -22,7 +22,8 @@
         <div class="row">
 
             [[FileAttach?
-            &resource=`[[+id]]
+            &resource=`[[+id]],
+            &showSize=`true`,
             &tpl=`@FILE chunks/legal_info/FileAttach.tpl`
             ]]
 
