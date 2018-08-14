@@ -36,14 +36,12 @@ foreach ($output as $key => $val) {
     }
 }
 
-$unique = array_unique($output);
-
 $tags = array();
-foreach($unique as $u){
-    $tags = $u;
+foreach($out as $u){
+    $tags[] = $u;
 }
 
-
+$unique = array_unique($tags, SORT_REGULAR);
 /**
  * @var pdoTools $pdoTools
  */
