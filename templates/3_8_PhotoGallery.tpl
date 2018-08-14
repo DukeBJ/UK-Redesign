@@ -20,17 +20,13 @@
                         <ul>
 
                             {var $tags = '@FILE snippets/getGalleryTags.php'|snippet:[]}
-                            {if $tags}
-                                {$tags|print_r}
-                                {foreach $tags as $tag}
-                                    <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
-                                {/foreach}
-                            {/if}
+                            {$tags}
                         </ul><a href="{'918'|url}" class="all-tags">Все галереи</a></div>
                 </div>
 
                 {if $get.tag}
                     {var $where = json_encode(["gallery_tag:LIKE" => "%"~$.get.tag~"%"])}
+                    {$where}
                 {/if}
 
                 {'!ms2GalleryResources'|snippet:[
