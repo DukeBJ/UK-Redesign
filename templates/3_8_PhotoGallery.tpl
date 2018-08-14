@@ -35,7 +35,8 @@
                     'includeTVs' => 'gallery_tags',
                     'where' => $where,
                     'includeThumbs' => 'blogSmall',
-                    'tpl' => '@FILE chunks/gallery/gallery.tpl'
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
+                    'showLog' => 1
                 ]}
 
 
