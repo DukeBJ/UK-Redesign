@@ -45,38 +45,48 @@
                         </div>
                         <!-- первый столбик -->
                         <div class="contacts__info">
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_address_1`
+                            &wrapperTpl=`@CODE:
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_address_1`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_phone_1`
+                            &wrapperTpl=`@CODE:
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_phone_1`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_requisites_1`
+                            &wrapperTpl=`@CODE:
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_requisites_1`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
                         </div>
                         <!-- END Контакты -->
                     </div>
@@ -111,40 +121,49 @@
                             {$_modx->resource.contact_filial_2_map}
                         </div>
                         <!-- первый столбик -->
-                        <!-- первый столбик -->
                         <div class="contacts__info">
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_address_2`
+                            &wrapperTpl=`@CODE:
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_address_2`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_phone_2`
+                            &wrapperTpl=`@CODE:
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_phone_2`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_requisites_2`
+                            &wrapperTpl=`@CODE:
                             <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_requisites_2`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
                         </div>
                         <!-- END Контакты -->
                     </div>
@@ -178,48 +197,49 @@
                         <div class="contacts__map">
                             {$_modx->resource.contact_filial_3_map}
                         </div>
-                        <!-- первый столбик -->
-                        <!-- первый столбик -->
-                        <div class="contacts__info">
+                            <!-- первый столбик -->
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_address_3`
+                            &wrapperTpl=`@CODE:
                             <div class="contacts__content">
                                 <h3>Адрес и информация</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_address_3`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+
+                            [[!getImageList?
+                            &tvname=`contact_filial_phone_3`
+                            &wrapperTpl=`@CODE:
                             <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
-                                [[!getImageList?
-                                &tvname=`contact_filial_phone_3`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-                            </div>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
 
-
-                                [[!getImageList?
-                                &tvname=`contact_filial_requisites_3`
-                                &wrapperTpl=`@CODE:
-                                <!-- Третий столбик -->
-                                <div class="contacts__content">
-                                    <h3>Реквизиты компании</h3>
-                                    [[+output]]
-                                    </div>
-                                </div>
-                                <!-- END Контакты -->`
-                                &tpl=`@CODE:
-                                <div class="contacts__line"><span>[[+title]]:</span>
-                                    <p>[[+description]]</p>
-                                </div>`
-                                ]]
-
+                            [[!getImageList?
+                            &tvname=`contact_filial_requisites_3`
+                            &wrapperTpl=`@CODE:
+                            <!-- Третий столбик -->
+                            <div class="contacts__content">
+                                <h3>Реквизиты компании</h3>
+                                [[+output]]
+                            </div>`
+                            &tpl=`@CODE:
+                            <div class="contacts__line"><span>[[+title]]:</span>
+                                <p>[[+description]]</p>
+                            </div>`
+                            ]]
+                            <!-- END Контакты -->
                     </div>
                 </div>
             </div>
