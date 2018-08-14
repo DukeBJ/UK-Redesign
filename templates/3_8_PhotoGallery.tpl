@@ -25,8 +25,7 @@
                 </div>
 
                 {if $.get.tag}
-                    {var $where = ["gallery_tag:LIKE" => "%"~$.get.tag~"%"]}
-                    {$where}
+                    {var $where = ['gallery_tag:LIKE' => $.get.tag]}
                 {/if}
 
                 {'!ms2GalleryResources'|snippet:[
