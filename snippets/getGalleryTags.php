@@ -1,6 +1,4 @@
 <?php
-
-
 $parents = 918;
 
 //Выбрать ресурсы с родителем фотогалереи
@@ -33,9 +31,9 @@ foreach ($tvArr as $item) {
 
 $out = array();
 foreach ($output as $key => $val) {
-    $out[] = $val;
+    foreach($val as $v){
+        $out[] = $v;
+    }
 }
 
-print_r(array_unique($out));
-
-//return array_unique($output);
+return array_unique($output);
