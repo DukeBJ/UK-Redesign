@@ -33,4 +33,4 @@ foreach ($tvArr as $item) {
 
 print_r($output);
 
-return array_unique($output);
+//return array_unique($output);
