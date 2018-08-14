@@ -6,7 +6,7 @@
         'parents' => 919,
         'depth' => 1,
         'includeContent' => 1,
-        'tpl' => '@FILE chunks/blocks/legal_info/block_legal_documents.tpl'
+        'tpl' => '@FILE chunks/legal_info/block_legal_documents.tpl'
     ]}
 
     {include 'file:chunks/blocks/legal_info/urinfo_block.tpl'}
