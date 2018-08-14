@@ -21,6 +21,7 @@
                             {'!pdoResources'|snippet:[
                                 'parents' => 918,
                                 'includeTVs' => 'gallery_tags',
+                                'prepareTVs'=> 'gallery_tags',
                                 'limit' => 0,
                                 'tpl' => '@INLINE <li><a href="#">{$_pls["tv.gallery_tags"]}</a></li>'
                             ]}
