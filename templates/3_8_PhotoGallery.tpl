@@ -22,7 +22,7 @@
                                 'parents' => 918,
                                 'includeTVs' => 'gallery_tags',
                                 'prepareTVs'=> 1,
-                                'groupby' => 'tv.gallery_tags',
+                                'groupby' => 'gallery_tags',
                                 'limit' => 0,
                                 'tpl' => '@INLINE <li><a href="#">{$_pls["tv.gallery_tags"]}</a></li>'
                             ]}
