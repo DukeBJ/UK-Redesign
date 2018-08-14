@@ -20,10 +20,10 @@
                         <ul>
 
                             {var $tags = '@FILE snippets/getGalleryTags.php'|snippet:[]}
-                            {$tags}
 
                             {if $tags}
                                 {foreach $tags as $tag}
+                                    {$tag}
                                     <li><a href="{'918'|url}?tag={$tag}">{$tag}</a></li>
                                 {/foreach}
                             {/if}
