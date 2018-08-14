@@ -1,5 +1,5 @@
 <div class="col-sm-6 col-xs-12">
-    <div class="shares__block"><img src="{$blogSmall}" alt="">
+    <div class="shares__block"><img src="{$image}" alt="">
         <a class="img">
             <h4>{$pagetitle}</h4><img src="{$template}img/separation-line.svg" alt="">
             <p>{$description}</p>

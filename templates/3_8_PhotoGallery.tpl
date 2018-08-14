@@ -30,11 +30,20 @@
                     {var $where = ['gallery_tag:LIKE' => $.get.tag]}
                 {/if}
 
-                {'!ms2GalleryResources'|snippet:[
+                {'!pdoResources'|snippet:[
                     'parents' => 918,
                     'includeTVs' => 'gallery_tags',
                     'where' => $where,
-                    'includeThumbs' => 'blogSmall',
+                    'leftJoin' => [
+                        "image" => [
+                            "class" => "msResourceFile",
+                            "alias" => "image",
+                            "on" => "image.resource_id = modResource.id AND image.path LIKE '%/blogSmall/%'"
+                        ]
+                    ],
+                    'select' => [
+                        "image" => "image.url as image"
+                    ],
                     'tpl' => '@FILE chunks/gallery/gallery.tpl',
                     'showLog' => 1
                 ]}
