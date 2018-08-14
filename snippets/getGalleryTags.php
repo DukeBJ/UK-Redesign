@@ -28,7 +28,7 @@ foreach ($tvs as $tv) {
 
 $output = array();
 foreach ($tvArr as $item) {
-    $output = array_merge(explode(',', trim($item)));
+    $output[] = array_merge(explode(',', trim($item)));
 }
 
 
