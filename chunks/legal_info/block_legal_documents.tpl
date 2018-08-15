@@ -1,5 +1,5 @@
-<!-- Блок документов -->
-<section class="contracts bg-white">
+<!-- Блок документов -->{$idx}
+<section class="contracts bg-white bg-beige">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
