@@ -384,7 +384,7 @@
                 </div>
                 <a href="#" data-pop="data-pop" class="btn btn-sandy next">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
-                        <defs>
+                        <defs>{ignore}
                             <style>.cls-1 {
                                     fill: #f4e07a;
                                 }
@@ -399,7 +399,7 @@
                                     stroke-miterlimit: 10;
                                     stroke-width: 2px;
                                 }</style>
-                        </defs>
+                        </defs>{/ignore}
                         <title>button</title>
                         <g id="Layer_3" data-name="Layer 3">
                             <path class="cls-1 cls-1-bg"
