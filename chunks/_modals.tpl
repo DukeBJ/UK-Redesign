@@ -37,6 +37,7 @@
                 'parents' => '915',
                 'level' => 1
                 ]}
+
             </div>
             <div class="menu__block">
                 <h4><a href="{'161'|url}">Контакты</a></h4>
@@ -259,10 +260,10 @@
                 <textarea placeholder="Ваш отзыв"></textarea>
                 <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
-                        <defs>
+                        <defs>{ignore}
                             <style>.cls-1 {
                                     fill: #f4e07a;
-                                }
+                                 }
 
                                 .cls-1, .cls-2 {
                                     fill-rule: evenodd;
@@ -273,7 +274,7 @@
                                     stroke: #fff;
                                     stroke-miterlimit: 10;
                                     stroke-width: 2px;
-                                }</style>
+                                }</style>{/ignore}
                         </defs>
                         <title>button</title>
                         <g id="Layer_3" data-name="Layer 3">
@@ -322,7 +323,7 @@
                 </div>
                 <a href="#step-2" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
-                        <defs>
+                        <defs>{ignore}
                             <style>.cls-1 {
                                     fill: #f4e07a;
                                 }
@@ -336,7 +337,7 @@
                                     stroke: #fff;
                                     stroke-miterlimit: 10;
                                     stroke-width: 2px;
-                                }</style>
+                                }</style>{/ignore}
                         </defs>
                         <title>button</title>
                         <g id="Layer_3" data-name="Layer 3">
@@ -535,7 +536,7 @@
                     </div>
                     <a href="#" data-pop="data-pop" class="btn btn-sandy">
                         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
-                            <defs>
+                            <defs>{ignore}
                                 <style>.cls-1 {
                                         fill: #f4e07a;
                                     }
@@ -550,7 +551,7 @@
                                         stroke-miterlimit: 10;
                                         stroke-width: 2px;
                                     }</style>
-                            </defs>
+                            </defs>{/ignore}
                             <title>button</title>
                             <g id="Layer_3" data-name="Layer 3">
                                 <path class="cls-1 cls-1-bg"
@@ -586,7 +587,7 @@
                             <a href="#" data-pop="data-pop" class="btn btn-sandy">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                      viewBox="0 0 273 50">
-                                    <defs>
+                                    <defs>{ignore}
                                         <style>.cls-1 {
                                                 fill: #f4e07a;
                                             }
@@ -600,7 +601,7 @@
                                                 stroke: #fff;
                                                 stroke-miterlimit: 10;
                                                 stroke-width: 2px;
-                                            }</style>
+                                            }</style>{/ignore}
                                     </defs>
                                     <title>button</title>
                                     <g id="Layer_3" data-name="Layer 3">
@@ -625,7 +626,7 @@
                             <a href="#" data-pop="data-pop" class="btn btn-sandy">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                      viewBox="0 0 273 50">
-                                    <defs>
+                                    <defs>{ignore}
                                         <style>.cls-1 {
                                                 fill: #f4e07a;
                                             }
@@ -640,7 +641,7 @@
                                                 stroke-miterlimit: 10;
                                                 stroke-width: 2px;
                                             }</style>
-                                    </defs>
+                                    </defs>{/ignore}
                                     <title>button</title>
                                     <g id="Layer_3" data-name="Layer 3">
                                         <path class="cls-1 cls-1-bg"
@@ -664,7 +665,7 @@
                             <a href="#" data-pop="data-pop" class="btn btn-sandy">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                      viewBox="0 0 273 50">
-                                    <defs>
+                                    <defs>{ignore}
                                         <style>.cls-1 {
                                                 fill: #f4e07a;
                                             }
@@ -679,7 +680,7 @@
                                                 stroke-miterlimit: 10;
                                                 stroke-width: 2px;
                                             }</style>
-                                    </defs>
+                                    </defs>{/ignore}
                                     <title>button</title>
                                     <g id="Layer_3" data-name="Layer 3">
                                         <path class="cls-1 cls-1-bg"
