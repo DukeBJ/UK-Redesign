@@ -13,7 +13,7 @@
     <div class="container-two">
         <div class="row">
 
-            [[FileAttach?
+            [[!FileAttach?
                 &resource=`[[+id]]`
                 &tpl=`FileAttachTpl_new`
                 &makeURL=`1`
