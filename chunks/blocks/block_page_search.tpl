@@ -16,12 +16,13 @@
 
             </div>
 
-            {var $ids = 'mSearch2'|snippet:[
+            {if $.get.query}
+                {var $ids = 'mSearch2'|snippet:[
                 'returnIds' => 1,
                 'limit' => 0
-            ]}
+                ]}
 
-            {'!mFilter2'|snippet:[
+                {'!mFilter2'|snippet:[
                 'parents' => 0,
                 'sortby' => 'ids',
                 'ajaxMode' => 'button',
@@ -29,8 +30,8 @@
                 'tplOuter' => '@FILE chunks/search/tplOuter.tpl',
                 'tpl' => '@INLINE <li><a href="{$id|url}">{$pagetitle}</a></li>',
                 'filterOptions' => json_encode([
-            "more" => ".btn-load",
-            "more_tpl" => '<button class="btn btn-sandy btn-load" type="submit">
+                "more" => ".btn-load",
+                "more_tpl" => '<button class="btn btn-sandy btn-load" type="submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                                     <defs>
                                         <style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1, .cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style>
@@ -51,6 +52,9 @@
                             </button>'
             ]),
             ]}
+            {/if}
+
+
 
 
             <script type="text/javascript">
