@@ -4,7 +4,7 @@
 
             {'!pdoResources'|snippet:[
             'parents' => 50,
-            'depth' => 1,
+            'depth' => 0,
             'includeContent' => 1,
             'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
             ]}
