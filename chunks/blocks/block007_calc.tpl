@@ -1,4 +1,4 @@
-<section class="calculator">
+<section id="calc" class="calculator">
     <div class="container">
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
