@@ -15,6 +15,7 @@
                 {'!pdoMenu'|snippet:[
                     'parents' => $_modx->resource.id,
                     'showHidden' => 1,
+                    'sortdir' => 'asc',
                     'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
                     'tpl' => '@INLINE <li ><a href="">{$menutitle}</a></li>'
                 ]}
@@ -24,6 +25,7 @@
 
             {'!pdoResources'|snippet:[
                 'parents' => $_modx->resource.id,
+                'sortdir' => 'asc',
                 'tpl' => '@FILE chunks/diplom/resource.tpl'
             ]}
 
