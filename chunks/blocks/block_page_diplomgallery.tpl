@@ -15,8 +15,10 @@
                 {'!pdoMenu'|snippet:[
                     'parents' => $_modx->resource.id,
                     'showHidden' => 1,
-                    'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>'
+                    'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li {if $idx == 1 ? "active" : ""}><a href="">{$menutitle}</a></li>'
                 ]}
+
 
             </div>
 
