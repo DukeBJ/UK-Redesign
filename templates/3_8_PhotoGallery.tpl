@@ -42,8 +42,7 @@
                     'select' => [
                         "image" => "image.url as image"
                     ],
-                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
-                    'showLog' => 1
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl'
                 ]}
 
 
