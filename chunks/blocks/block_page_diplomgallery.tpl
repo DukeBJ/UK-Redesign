@@ -4,26 +4,19 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Наши награды</h2>
-                    <p>Наша компания ежегодно получает множество наград за развитие санаторно-курортных услуг в России.</p>
+                    <h2>{$_modx->resource.pagetitle}</h2>
+                    <p>{$_modx->resource.longtitle}</p>
                 </div>
             </div>
         </div>
         <div class="tabs">
             <div class="tabs__nav">
-                <ul class="tabs__caption">
-                    <li class="active">2014</li>
-                    <li>2013</li>
-                    <li>2012</li>
-                    <li>2011</li>
-                    <li>2010</li>
-                    <li>2008</li>
-                    <li>2007</li>
-                    <li>2006</li>
-                    <li>2005</li>
-                    <li>2004</li>
-                    <li>2003</li>
-                </ul>
+
+                {'!pdoMenu'|snippet:[
+                    'parents' => $_modx->resource.id,
+                    'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>'
+                ]}
+
             </div>
             <div class="tabs__content active">
                 <div class="row">
