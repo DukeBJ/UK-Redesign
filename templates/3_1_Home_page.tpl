@@ -68,7 +68,7 @@
         </div>
     </section>
     {include 'file:chunks/blocks/block015_entertainment.tpl'}
-    {include 'file:chunks/blocks/block006_list_sanatorium.tpl'}
+    {include 'file:chunks/blocks/block006_list_camping.tpl'}
     {include 'file:chunks/main_page/_healthy_children.tpl'}
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_reply.tpl'}
