@@ -1,5 +1,5 @@
 <div class="bg-line bg-line--clay"></div>
-<section class="clay">
+<section id="glina_blok" class="clay">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
