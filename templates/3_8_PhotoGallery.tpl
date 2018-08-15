@@ -36,7 +36,7 @@
                         "image" => [
                             "class" => "msResourceFile",
                             "alias" => "image",
-                            "on" => "image.resource_id = modResource.id AND image.path LIKE '%//%'"
+                            "on" => "image.resource_id = modResource.id AND image.path LIKE '%/blogSmall/%'"
                         ]
                     ],
                     'select' => [
