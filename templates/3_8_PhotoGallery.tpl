@@ -39,7 +39,8 @@
                             "on" => "image.resource_id = modResource.id AND image.path LIKE '%//%'"
                         ]
                     ],
-                    'tpl' => '@FILE chunks/gallery/gallery.tpl'
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
+                    'showLog' => 1
                 ]}
 
 
