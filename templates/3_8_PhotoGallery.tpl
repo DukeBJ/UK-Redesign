@@ -40,7 +40,6 @@
                         ]
                     ],
                     'select' => [
-                        "modResource" => "*",
                         "image" => "image.url as image"
                     ],
                     'tpl' => '@FILE chunks/gallery/gallery.tpl',
