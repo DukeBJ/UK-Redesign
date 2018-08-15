@@ -13,25 +13,33 @@
         <div class="row">
             <div class="col-sm-3 col-xs-6">
                 <div class="natural-factors__block">
-                    <div class="natural-factors__block__img"><img src="{$template}img/water.svg" alt=""></div>
+                    <div class="natural-factors__block__img">
+                        <img src="{$template}img/water.svg" alt="">
+                    </div>
                     <p>Минеральные воды</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="natural-factors__block">
-                    <div class="natural-factors__block__img"><img src="{$template}img/solt.svg" alt=""></div>
+                    <div class="natural-factors__block__img">
+                        <img src="{$template}img/solt.svg" alt="">
+                    </div>
                     <p>Соляные рассолы</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="natural-factors__block">
-                    <div class="natural-factors__block__img"><img src="{$template}img/glinko.svg" alt=""></div>
+                    <div class="natural-factors__block__img">
+                        <img src="{$template}img/glinko.svg" alt="">
+                    </div>
                     <p>Глинолечение</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-6">
                 <div class="natural-factors__block">
-                    <div class="natural-factors__block__img"><img src="{$template}img/sun.svg" alt=""></div>
+                    <div class="natural-factors__block__img">
+                        <img src="{$template}img/sun.svg" alt="">
+                    </div>
                     <p>Климатолечение</p>
                 </div>
             </div>
