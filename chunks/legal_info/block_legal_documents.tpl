@@ -1,4 +1,4 @@
-<!-- Блок документов -->{$idx}
+<!-- Блок документов -->
 <section class="contracts {if $idx is even}bg-beige{else}bg-white{/if}">
     <div class="container">
         <div class="row">
