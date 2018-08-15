@@ -6,22 +6,22 @@
             <div class="menu__block">
                 <h4><a href="{'912'|url}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
                 {'!pdoMenu'|snippet:[
-                    'parents' => '912',
-                    'level' => 1
+                'parents' => '912',
+                'level' => 1
                 ]}
             </div>
             <div class="menu__block">
                 <h4><a href="{'50'|url}">Санатории</a><i class="icon icon-left-arrow"></i></h4>
 
                 {'!pdoMenu'|snippet:[
-                    'parents' => '50',
-                    'level' => 1
+                'parents' => '50',
+                'level' => 1
                 ]}
 
                 <h4><a href="{'281'|url}">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
                 {'!pdoMenu'|snippet:[
-                    'parents' => '281',
-                    'level' => 1
+                'parents' => '281',
+                'level' => 1
                 ]}
             </div>
             <div class="menu__block">
@@ -34,8 +34,8 @@
                 <h4><a href="{'915'|url}">Досуг</a><i class="icon icon-left-arrow"></i></h4>
 
                 {'!pdoMenu'|snippet:[
-                    'parents' => '915',
-                    'level' => 1
+                'parents' => '915',
+                'level' => 1
                 ]}
             </div>
             <div class="menu__block">
@@ -51,11 +51,199 @@
         </div>
 
         {'!mSearchForm'|snippet:[
-            'pageId' => '922',
-            'tplForm' => '@FILE chunks/forms/formTop.tpl',
-            'autocomplete' => 0
+        'pageId' => '922',
+        'tplForm' => '@FILE chunks/forms/formTop.tpl',
+        'autocomplete' => 0
         ]}
 
+    </div>
+</div>
+
+<!-- МОДАЛЬНОЕ ОКНО ИНФОРМАЦИОННОЕ -->
+<div id="pop-info" class="modal pop-rooms">
+    <div class="modal__close"><span></span></div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="pop-rooms__block">
+                <div class="tabs__content medical-profile__content">
+                    <div class="heading">
+                        <h2>Лечение эндокринологических заболеваний</h2>
+                        <p>Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
+                            №99/228 от 22.12.1999 г.).</p>
+                    </div>
+                    <div class="medical-profile__content__img"><img src="{$template}img/medical-profile.png" alt=""></div>
+                    <p>Медицинский персонал санатория помогает избавиться сотням пациентов не только от различных.</p>
+                    <p>Но и органов дыхания и пищеварения, нервной и сердечно-сосудистой систем, гинекологических
+                        заболеваний и болезней органов мочеполовой системы и многих других.</p>
+                    <h3>Cанаторно-курортное лечение имеет ряд медицинских противопоказаний:</h3>
+                    <ul>
+                        <li>Заболевания в острой и подострой стадии, в том числе острые инфекционные заболевания до
+                            окончания периода изоляции.
+                        </li>
+                        <li>Заболевания, передающиеся половым путем.</li>
+                    </ul>
+
+                    <!-- Вызов модалки с заявкой -->
+                    <div class="container medical-order">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
+                            </div>
+                        </div>
+                        <div class="row middle-xs center-xs">
+                            <div class="col-xs-12">
+                                <div class="heading">
+                                    <h3>Пройти санаторное лечение просто!</h3>
+                                    <p>Оставьте заявку и наши менеджеры расскажут как сохранить злоровье.</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <a href="#pop-application" class="btn btn-sandy" data-pop>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
+                                         viewBox="0 0 273 50">
+                                        <defs>{ignore}
+                                            <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                        </defs>{/ignore}
+                                        <title>button</title>
+                                        <g id="Layer_3" data-name="Layer 3">
+                                            <path class="cls-1 cls-1-bg"
+                                                  d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                            <path class="cls-1 cls-1-bg"
+                                                  d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                            <path class="cls-1 cls-1-bg"
+                                                  d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                            <path class="cls-2"
+                                                  d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                                        </g>
+                                    </svg>
+                                    <b>Отправить</b>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- СПИСОК САНАТОРИЕВ В КОТОРЫХ ЕСТЬ ДАННЫЙ ПРОФИЛЬ -->
+                    <div class="container sanatoriums">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="heading">
+                                    <h3>Пройдите курс лечения в наших санаториях</h3>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 center-xs">
+                                <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
+                                    <a class="img"><img src="{$template}img/sanatoriums/lenin.svg" alt="">
+                                        <a class="btn btn-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
+                                                 viewBox="0 0 273 50">
+                                                <defs>{ignore}
+                                                    <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                </defs>{/ignore}
+                                                <title>button</title>
+                                                <g id="Layer_3" data-name="Layer 3">
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-2"
+                                                          d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <b>Узнать подробности</b>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 center-xs">
+                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                    <a class="img"><img src="{$template}img/sanatoriums/dubki.svg" alt="">
+                                        <a class="btn btn-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
+                                                 viewBox="0 0 273 50">
+                                                <defs>{ignore}
+                                                    <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                </defs>{ignore}
+                                                <title>button</title>
+                                                <g id="Layer_3" data-name="Layer 3">
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-2"
+                                                          d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <b>Узнать подробности</b>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 center-xs">
+                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                    <a class="img"><img src="{$template}img/sanatoriums/transfiguration.svg" alt="">
+                                        <a class="btn btn-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
+                                                 viewBox="0 0 273 50">
+                                                <defs>{ignore}
+                                                    <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                </defs>{/ignore}
+                                                <title>button</title>
+                                                <g id="Layer_3" data-name="Layer 3">
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-2"
+                                                          d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <b>Узнать подробности</b>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-xs-12 center-xs">
+                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                    <a class="img"><img src="{$template}img/sanatoriums/white-yar.svg" alt="">
+                                        <a class="btn btn-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
+                                                 viewBox="0 0 273 50">
+                                                <defs>{ignore}
+                                                    <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                </defs>{ignore}
+                                                <title>button</title>
+                                                <g id="Layer_3" data-name="Layer 3">
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-1 cls-1-bg"
+                                                          d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                                    <path class="cls-2"
+                                                          d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                                                </g>
+                                            </svg>
+                                            <b>Узнать подробности</b>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -229,6 +417,7 @@
         </div>
     </div>
 </div>
+
 <div id="pop-question" class="modal pop-question">
     <div class="modal__close"><span></span></div>
     <div class="modal__content">
@@ -238,19 +427,20 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'email,FormItSaveForm',
-                'form' => '@FILE chunks/forms/sendQuestion.tpl',
-                'emailTo' => 'email'|config,
-                'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => 'name:required,email:required,message:required',
-                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            'hooks' => 'email,FormItSaveForm',
+            'form' => '@FILE chunks/forms/sendQuestion.tpl',
+            'emailTo' => 'email'|config,
+            'emailFrom' => 'emailsender'|config,
+            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'validate' => 'name:required,email:required,message:required',
+            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
     </div>
 </div>
+
 <div id="pop-application" class="modal pop-application">
     <div class="modal__close"><span></span></div>
     <div class="modal__content">
@@ -261,14 +451,14 @@
                     санатории.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'email,FormItSaveForm',
-                'form' => '@FILE chunks/forms/kurort.tpl',
-                'emailTo' => 'email'|config,
-                'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => 'name:required,email:required,phone:required',
-                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            'hooks' => 'email,FormItSaveForm',
+            'form' => '@FILE chunks/forms/kurort.tpl',
+            'emailTo' => 'email'|config,
+            'emailFrom' => 'emailsender'|config,
+            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'validate' => 'name:required,email:required,phone:required',
+            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
@@ -377,7 +567,8 @@
                     </a>
                     <div class="form__checkbox checkbox">
                         <input type="checkbox" id="checkbox-1">
-                        <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных данных.</a></label></div>
+                        <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a
+                                    href="#">персональных данных.</a></label></div>
                 </form>
             </div>
             <div class="pop-rooms__info">

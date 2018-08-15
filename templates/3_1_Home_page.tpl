@@ -19,11 +19,11 @@
     {include 'file:chunks/blocks/block008_news_slider.tpl'}
     {include 'file:chunks/blocks/block010_1_mineral_water.tpl'}
     {include 'file:chunks/blocks/block010_2_Healing_clay.tpl'}
-    {include 'file:chunks/blocks/block010_3_Salt_brines.tpl'}
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
+    {include 'file:chunks/blocks/block010_3_Salt_brines.tpl'}
 
     <div class="bg-line bg-line--clay"></div>
-    <section class="clay">
+    <section id="weather_blok" class="clay">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
