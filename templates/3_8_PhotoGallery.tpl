@@ -32,9 +32,14 @@
                     'parents' => 918,
                     'includeTVs' => 'gallery_tags',
                     'where' => $where,
-
-                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
-                    'showLog' => 1
+                    'leftJoin' => [
+                        "image" => [
+                            "class" => "msResourceFile",
+                            "alias" => "image",
+                            "on" => "image.resource_id = modResource.id AND image.path LIKE '%//%'"
+                        ]
+                    ],
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl'
                 ]}
 
 
