@@ -21,8 +21,8 @@
                     'includeTVs' => 'sanator_cover,sanator_img',
                     'prepareTVs' => 1,
                     'processTVs' => 1,
-                    'sortby' =>'publishedon',
-                    'sortdir' => 'DESC',s
+                    'sortby' => 'publishedon',
+                    'sortdir' => 'DESC',
                     'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
                     ]}
 
