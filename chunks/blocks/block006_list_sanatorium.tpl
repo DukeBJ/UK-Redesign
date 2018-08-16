@@ -6,7 +6,7 @@
             'parents' => 50,
             'depth' => 0,
             'includeContent' => 1,
-            'includeTVs' => 'sanator_cover,sanator_cover',
+            'includeTVs' => 'sanator_cover,sanator_img',
             'prepareTVs' => 1,
             'processTVs' => 1,
             'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
