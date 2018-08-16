@@ -23,6 +23,7 @@
                     'processTVs' => 1,
                     'sortby' => 'publishedon',
                     'sortdir' => 'DESC',
+                    'hideContainers' => 1,
                     'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
                     ]}
 
