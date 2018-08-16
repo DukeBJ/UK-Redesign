@@ -1,3 +1,5 @@
+{set $template = 'template_url'|config}
+
 <div class="col-sm-6 col-xs-12 center-xs">
     <div class="sanatoriums__block">
         <img src="{$template}img/lenin.png" alt="{$pagetitle}">
