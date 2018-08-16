@@ -2,7 +2,7 @@
 
 <div class="col-sm-6 col-xs-12 center-xs">
     <div class="sanatoriums__block">
-        <img src="{$sanator_img}" alt="{$pagetitle}">
+        <img src="{var $sanator_img = $_pls['sanator_img']}" alt="{$pagetitle}">
         <a class="img">
             <img src="{$sanator_cover}" alt="">
             <a href="{$_modx->makeUrl($_modx->resource.id)}" class="btn btn-white">{ignore}
