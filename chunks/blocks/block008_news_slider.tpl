@@ -18,7 +18,7 @@
                     'parents' => '923, 924',
                     'depth' => 0,
                     'includeContent' => 1,
-                    'includeTVs' => 'sanator_cover,sanator_img',
+                    'includeTVs' => 'news_img',
                     'prepareTVs' => 1,
                     'processTVs' => 1,
                     'sortby' => 'publishedon',
