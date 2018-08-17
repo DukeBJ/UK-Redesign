@@ -4,7 +4,7 @@
 
             {'!ms2GalleryResources'|snippet:[
             'parents' => 0,
-            'resources' => var $res_id = $_modx->resource.id_gallery ?: $_modx->resource.id,
+            'resources' => $_modx->resource.id_gallery ?: $_modx->resource.id,
             'includeThumbs' => 'wideGallery',
             'tpl' => '@FILE chunks/gallery/gallery_wide.tpl',
             'limit' => 0
