@@ -4,10 +4,9 @@
 
             {'!ms2GalleryResources'|snippet:[
             'parents' => 0,
-            'resources' => 940,
+            'resources' => $_modx->resource.id_gallery,
             'includeThumbs' => 'wideGallery',
-            'tpl' => '@FILE chunks/gallery/gallery_wide.tpl'
-            'showLog' => 1
+            'tpl' => ''
             ]}
 
         </div>
