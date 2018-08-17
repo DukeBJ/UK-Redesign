@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-2 col-xs-3">
                     <div class="comments__img">
-                        <img src="img/user.png" alt="">
+                        <img src="{$template}img/user.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-8 col-sm-6 col-xs-9">
