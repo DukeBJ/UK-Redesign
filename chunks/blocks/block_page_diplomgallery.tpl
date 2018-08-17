@@ -1,4 +1,3 @@
-</section>
 <section class="honors">
     <div class="container">
         <div class="row">
