@@ -6,8 +6,8 @@
             'parents' => 0,
             'resources' => $_modx->resource.id_gallery,
             'includeThumbs' => 'wideGallery',
-            'limit' => 0,
-            'tpl' => ''
+            'tpl' => '@FILE chunks/gallery/gallery_wide.tpl',
+            'limit' => 0
             ]}
 
         </div>
