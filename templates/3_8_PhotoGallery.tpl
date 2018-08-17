@@ -31,7 +31,7 @@
                 {'!pdoResources'|snippet:[
                     'parents' => 918,
                     'includeTVs' => 'gallery_tags',
-                    'where' => $where,
+
                     'leftJoin' => [
                         "image" => [
                             "class" => "msResourceFile",
@@ -43,7 +43,7 @@
                         "image" => "image.url as image"
                     ],
                     'tpl' => '@FILE chunks/gallery/gallery.tpl',
-                    'showLog' => 1
+
                 ]}
 
 
