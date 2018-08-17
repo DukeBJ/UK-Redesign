@@ -3,7 +3,6 @@
 {include 'file:chunks/_head.tpl'}
 <body>
 
-{set $template = 'template_url'|config}
 <!--BEGIN out-->
 <div class="out">
 
