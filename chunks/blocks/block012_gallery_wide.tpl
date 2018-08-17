@@ -3,7 +3,7 @@
         <div class="swiper-wrapper">
 
             {'!ms2GalleryResources'|snippet:[
-            'resources' => $_modx->resource.id_gallery,
+            'resources' => 940,
             'includeThumbs' => 'wideGallery',
             'tpl' => '@FILE chunks/gallery/gallery_wide.tpl'
             ]}
