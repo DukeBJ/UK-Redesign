@@ -2,7 +2,8 @@
     <div class="swiper-container swiper-gallery">
         <div class="swiper-wrapper">
 
-            {'!ms2GalleryResources'|snippet:[
+            {'!ms2Gallery'|snippet:[
+            'parents' => 0,
             'resources' => 940,
             'includeThumbs' => 'wideGallery',
             'tpl' => '@FILE chunks/gallery/gallery_wide.tpl',
