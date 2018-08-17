@@ -40,7 +40,7 @@
                         ]
                     ],
                     'select' => [
-                        "image" => "image.url as image"
+                        "image" => "*"
                     ],
                     'tpl' => '@FILE chunks/gallery/gallery.tpl',
                     'showLog' => 1
