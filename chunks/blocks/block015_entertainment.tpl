@@ -4,8 +4,8 @@
             <div class="col-xs-12 center-xs"><img src="{$template}img/logo-white.svg" class="logo"></div>
             <div class="col-xs-12">
                 <div class="heading heading-secondary">
-                    <h2>Скучать будет некогда!</h2>
-                    <p>Устроить ваш досуг помогут отличный горнолыжный комплекс, конюшня, множество интересных экскурсий и рыбалка.</p>
+                    <h2>{$_modx->resource.entertament_title}</h2>
+                    <p>{$_modx->resource.entertament_descr}</p>
                 </div>
             </div>
             <div class="col-xs-12">

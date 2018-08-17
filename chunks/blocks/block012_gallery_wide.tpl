@@ -1,15 +1,13 @@
 <section class="gallery">
     <div class="swiper-container swiper-gallery">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                <p>Закат на пляже санатория Дубки</p>
-            </div>
-            <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                <p>Закат на пляже санатория Дубки</p>
-            </div>
-            <div class="swiper-slide"><img src="{$template}img/jessica-ruscello-120993.png">
-                <p>Закат на пляже санатория Дубки</p>
-            </div>
+
+            {'!ms2GalleryResources'|snippet:[
+            'resources' => {$id_gallery},
+            'includeThumbs' => 'wideGallery',
+            'tpl' => '@FILE chunks/gallery/gallery_wide.tpl'
+            ]}
+            
         </div>
         <div class="swiper-pagination swiper-gallery-pagination"></div>
     </div>
