@@ -13,7 +13,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="water__img">
-                    <img src="img/glass.png" alt="" id="water2">
+                    <img src="{$template}img/glass.png" alt="" id="water2">
                 </div>
             </div>
         </div>

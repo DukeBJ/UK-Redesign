@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->config.ijs_title}</h2>
-                    <p>{$_modx->config.ijs_descr}</p>
+                    <h2>{$_modx->config.area_for_izs_title}</h2>
+                    <p>{$_modx->config.area_for_izs_descr}</p>
                     <h2>Участки под ИЖС</h2>
                     <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
                 </div>
