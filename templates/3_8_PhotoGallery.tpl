@@ -40,7 +40,7 @@
                         ]
                     ],
                     'tpl' => '@FILE chunks/gallery/gallery.tpl',
-
+                    'showLog' => 1
                 ]}
 
 
