@@ -31,6 +31,7 @@
                 {'!ms2GalleryResources'|snippet:[
                     'parents' => 918,
                     'includeTVs' => 'gallery_tags',
+                    'where' => $where,
                     'includeThumbs' => 'blogSmall',
                     'tpl' => '@FILE chunks/gallery/gallery.tpl'
                 ]}
