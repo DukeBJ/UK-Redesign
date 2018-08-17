@@ -39,10 +39,7 @@
                             "on" => "image.resource_id = modResource.id AND image.path LIKE '%/blogSmall/%'"
                         ]
                     ],
-                    'select' => [
-                        "image" => "image.url as image"
-                    ],
-
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
 
                 ]}
 
