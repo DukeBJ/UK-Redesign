@@ -3,11 +3,11 @@
         <div class="swiper-wrapper">
 
             {'!ms2GalleryResources'|snippet:[
-            'resources' => {$id_gallery},
+            'resources' => $_modx->resource.id_gallery,
             'includeThumbs' => 'wideGallery',
             'tpl' => '@FILE chunks/gallery/gallery_wide.tpl'
             ]}
-            
+
         </div>
         <div class="swiper-pagination swiper-gallery-pagination"></div>
     </div>
