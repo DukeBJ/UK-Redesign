@@ -32,8 +32,7 @@
                     'parents' => 918,
                     'includeTVs' => 'gallery_tags',
                     'includeThumbs' => 'blogSmall',
-                    'tpl' => '@FILE chunks/gallery/gallery.tpl',
-                    'showLog' => 1
+                    'tpl' => '@FILE chunks/gallery/gallery.tpl'
                 ]}
 
 
