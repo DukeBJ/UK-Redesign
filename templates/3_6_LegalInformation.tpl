@@ -26,10 +26,7 @@
 
                         {'!ms2Gallery'|snippet:[
                             'parents' => 942,
-                            'tpl' => '@INLINE {if $files}
-                                {foreach $files as $file}
-                                    <div class="license__block"><img src="{$file.cert}" srcset="{$file.url}"></div>
-                                {/if}'
+                            'tpl' => '@FILE chunks/legal_info/gallery.tpl'
                         ]}
                     </div>
                 </div>
