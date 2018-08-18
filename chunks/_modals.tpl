@@ -428,14 +428,14 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-            'hooks' => 'email,FormItSaveForm',
-            'form' => '@FILE chunks/forms/sendQuestion.tpl',
-            'emailTo' => 'email'|config,
-            'emailFrom' => 'emailsender'|config,
-            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-            'emailTpl' => '@FILE chunks/emails/email.tpl',
-            'validate' => 'name:required,email:required,message:required',
-            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+                'hooks' => 'email,FormItSaveForm',
+                'form' => '@FILE chunks/forms/sendQuestion.tpl',
+                'emailTo' => 'email'|config,
+                'emailFrom' => 'emailsender'|config,
+                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+                'emailTpl' => '@FILE chunks/emails/email.tpl',
+                'validate' => 'name:required,email:required,message:required',
+                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
