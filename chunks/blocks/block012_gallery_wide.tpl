@@ -2,7 +2,7 @@
     <div class="swiper-container swiper-gallery">
         <div class="swiper-wrapper">
 
-            {'!ms2GalleryResources'|snippet:[
+            {'!ms2Gallery'|snippet:[
                 'parents' => 0,
                 'resources' => $_modx->resource.id_gallery ? $_modx->resource.id_gallery : $_modx->resource.id,
                 'includeThumbs' => 'wideGallery',
