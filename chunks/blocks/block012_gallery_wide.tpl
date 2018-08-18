@@ -2,12 +2,15 @@
     <div class="swiper-container swiper-gallery">
         <div class="swiper-wrapper">
 
+            {$_modx->resource.id_gallery}
+
+
             {'!ms2GalleryResources'|snippet:[
-            'parents' => 0,
-            'resources' => $_modx->resource.id_gallery ?: $_modx->resource.id,
-            'includeThumbs' => 'wideGallery',
-            'tpl' => '@FILE chunks/gallery/gallery_wide.tpl',
-            'limit' => 0
+                'parents' => 0,
+                'resources' => $_modx->resource.id_gallery ?: $_modx->resource.id,
+                'includeThumbs' => 'wideGallery',
+                'tpl' => '@FILE chunks/gallery/gallery_wide.tpl',
+                'limit' => 0
             ]}
 
         </div>
