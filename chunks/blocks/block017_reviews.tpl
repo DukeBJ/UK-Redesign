@@ -13,34 +13,19 @@
         <div class="container">
             <div class="swiper-container swiper-reviews">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                        <div class="slide__text">
-                            <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                            <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                        <div class="slide__text">
-                            <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                            <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                        <div class="slide__text">
-                            <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                            <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="slide__img"><img src="{$template}img/user.png" alt=""></div>
-                        <div class="slide__text">
-                            <h4>Марина Константинопольская</h4><span>Санаторий имени Ленина, 2017</span>
-                            <p>Лечение, питание превосходное. Местная природа, воздух восхитительная! Каждый день экскурсии, по вечерам развлекательные программы, на территории имеется очень хороший ресторан, кухня замечательная, обслуживание клиентов высший бал!</p>
-                        </div>
-                    </div>
+
+                    {if $_modx->resource.reviews}
+                        {foreach $_modx->resource.reviews|fromJSON as $reviews}
+                            <div class="swiper-slide">
+                                <div class="slide__img"><img src="{$reviews.image}" alt=""></div>
+                                <div class="slide__text">
+                                    <h4>{$reviews.name}</h4><span>{$reviews.from}</span>
+                                    <p>{$reviews.text}</p>
+                                </div>
+                            </div>
+                        {/foreach}
+                    {/if}
+
                 </div>
             </div>
             <div class="swiper-button-next swiper-reviews-next"><i class="icon icon-right-arrow"></i></div>
