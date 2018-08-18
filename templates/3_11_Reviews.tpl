@@ -28,7 +28,7 @@
             <div class="comments__review">
                 <div class="row">
                     <div class="col-md-2 col-xs-3">
-                        <div class="comments__img"><img src="img/user.png" alt=""></div>
+                        <div class="comments__img"><img src="{'template_url'|config}img/user.png" alt=""></div>
                     </div>
                     <div class="col-md-8 col-sm-6 col-xs-9">
                         <div class="comments__review">
@@ -166,7 +166,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                    <div class="dividing_line_logo"><img src="{'template_url'|config}img/separation-line-body.svg"></div>
                 </div>
             </div>
             <div class="modal__content">
