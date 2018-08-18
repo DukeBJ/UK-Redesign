@@ -1,1 +1,1 @@
-<li {if $idx == 1}class="active" {/if}><a href="">{$menutitle}</a></li>
+<li {if $idx == 1}class="active" {/if}>{$menutitle}</li>
