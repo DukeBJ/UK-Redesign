@@ -12,7 +12,7 @@
 
                     {'!ms2Gallery'|snippet:[
                         'parents' => 942,
-                        'limit' => 8,
+                        'limit' => 4,
                         'tpl' => '@FILE chunks/legal_info/gallery.tpl'
                     ]}
 
