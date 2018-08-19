@@ -9,7 +9,7 @@
 <div class="out">
 
     {include 'file:chunks/blocks/block_header.tpl'}
-    {include 'file:chunks/blocks/block018_intro_big'}
+    {include 'file:chunks/blocks/block018_intro_big.tpl'}
 
     <section class="medical-profile">
         <div class="container-fluid">
