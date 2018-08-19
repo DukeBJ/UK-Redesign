@@ -1,4 +1,4 @@
-<section class="reply">
+<section class="reply bg-beige wave-up">
     <div class="container">
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">

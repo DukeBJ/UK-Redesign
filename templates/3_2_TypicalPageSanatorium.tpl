@@ -343,9 +343,8 @@
             </div>
         </div>
     </section>
-
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
     {include 'file:chunks/blocks/block017_reviews.tpl'}
-
+    {include 'file:chunks/blocks/_contacts.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
 {/block}
