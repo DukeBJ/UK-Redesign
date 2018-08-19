@@ -1,3 +1,5 @@
+{ignore}
+
 <!-- БОКОВОЕ МЕНЮ -->
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
@@ -708,3 +710,4 @@
 
     </div>
 </div>
+{/ignore}
