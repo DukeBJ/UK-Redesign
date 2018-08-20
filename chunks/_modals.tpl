@@ -573,7 +573,7 @@
 </div>
 <!-- END -->
 
-<script>
+<script type="text/javascript">
     $(document).ready(function () {
         $('#doctor').on('click', function(){
             //Запросим базы отдыха
