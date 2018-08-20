@@ -7,7 +7,7 @@
                 <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
             </div>
             <form action="" class="form">
-                <textarea placeholder="Ваш отзыв" name=""></textarea>
+                <textarea placeholder="Ваш отзыв" name="message"></textarea>
                 <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                         <defs>{ignore}
@@ -55,18 +55,21 @@
             <form action="" class="form">
                 <div class="form__block">
                     <div class="form__select"><i></i>
-                        <p></p><select name="day">
+                        <p></p>
+                        <select name="day">
                             <option value="1">Имени В.И.Ленина</option>
                             <option value="2">Дубки</option>
                             <option value="3">Прибрежный</option>
                         </select><span>Где отдыхали?</span></div>
                     <div class="form__select"><i></i>
-                        <p></p><select name="day">
+                        <p></p>
+                        <select name="day">
                             <option value="1">Август</option>
                             <option value="2">Июнь</option>
                         </select><span>В каком месяце?</span></div>
                     <div class="form__select"><i></i>
-                        <p></p><select name="day">
+                        <p></p>
+                        <select name="day">
                             <option value="1">2017</option>
                             <option value="2">2016</option>
                         </select><span>Год отдыха</span></div>

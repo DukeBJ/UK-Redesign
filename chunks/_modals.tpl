@@ -572,3 +572,18 @@
     </div>
 </div>
 <!-- END -->
+
+<script>
+    $(document).ready(function () {
+        $('#doctor').on('click', function(){
+            //Запросим базы отдыха
+
+            $.ajax({
+                url: '/assets/connectors/doctor.php',
+                success: function(response){
+                    console.log(response);
+                }
+            });
+        });
+    });
+</script>
