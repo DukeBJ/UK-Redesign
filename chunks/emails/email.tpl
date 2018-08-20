@@ -1,4 +1,4 @@
-<p>[[+name]]</p>
-<p>[[+phone]]</p>
-<p>[[+email]]</p>
-<p>[[+message]]</p>
+[[+name:notempty=`<p>[[+name]]</p>]]
+[[+phone:notempty=`<p>[[+phone]]</p>`]]
+[[+email:notempty=`<p>[[+email]]</p>`]]
+[[+message:notempty=`<p>[[+message]]</p>`]]
