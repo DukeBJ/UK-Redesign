@@ -59,8 +59,8 @@
                         'emailTo' => 'emailsender'|config,
                         'emailFrom' => 'emailsender'|config,
                         'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                        'emailTpl' => '@FILE ',
-                        'validate' => '',
+                        'emailTpl' => '@FILE chunks/emails/email.tpl',
+                        'validate' => 'phone:required',
                         'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                     ]}
 
