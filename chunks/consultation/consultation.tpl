@@ -56,11 +56,10 @@
                 <div class="form__block">
                     <div class="form__select"><i></i>
                         <p></p>
-                        <select name="day">
-                            <option value="1">Имени В.И.Ленина</option>
-                            <option value="2">Дубки</option>
-                            <option value="3">Прибрежный</option>
-                        </select><span>Где отдыхали?</span></div>
+                        <select name="kurort">
+
+                        </select>
+                        <span>Где отдыхали?</span></div>
                     <div class="form__select"><i></i>
                         <p></p>
                         <select name="day">

@@ -294,14 +294,14 @@
                     санатории.</p>
             </div>
             {'!AjaxForm'|snippet:[
-            'hooks' => 'email,FormItSaveForm',
-            'form' => '@FILE chunks/forms/kurort.tpl',
-            'emailTo' => 'email'|config,
-            'emailFrom' => 'emailsender'|config,
-            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-            'emailTpl' => '@FILE chunks/emails/email.tpl',
-            'validate' => 'name:required,email:required,phone:required',
-            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+                'hooks' => 'email,FormItSaveForm',
+                'form' => '@FILE chunks/forms/kurort.tpl',
+                'emailTo' => 'email'|config,
+                'emailFrom' => 'emailsender'|config,
+                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+                'emailTpl' => '@FILE chunks/emails/email.tpl',
+                'validate' => 'name:required,email:required,phone:required',
+                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>

@@ -15,7 +15,7 @@
             $.ajax({
                 url: '/assets/connectors/doctor.php',
                 success: function(response){
-                    console.log(response);
+                    $('select[name=kurort]').append(response);
                 }
             });
         });
