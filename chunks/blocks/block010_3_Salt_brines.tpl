@@ -1,4 +1,4 @@
-<section id="rassol_blok" class="water">
+<section id="rassol_blok" class="left-block bg-beige wave-up no-wave">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-xs-12">
@@ -8,22 +8,22 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
-                        <div class="water__block"><img src="{$template}img/medical-profiles/jeludok.svg">
+                        <div class="left-block__block"><img src="{$template}img/medical-profiles/jeludok.svg">
                             <p>Гастроэнтерологические заболевания</p>
                         </div>
                     </div>
                     <div id="clay-triger" class="col-sm-6 col-xs-12">
-                        <div class="water__block"><img src="{$template}img/medical-profiles/serdce.svg">
+                        <div class="left-block__block"><img src="{$template}img/medical-profiles/serdce.svg">
                             <p>Заболевания сердечно-сосудистой системы</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="water__block"><img src="{$template}img/medical-profiles/skelet.svg">
+                        <div class="left-block__block"><img src="{$template}img/medical-profiles/skelet.svg">
                             <p>Болезни опорно-двигательного аппарата</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="water__block"><img src="{$template}img/medical-profiles/pochki.svg">
+                        <div class="left-block__block"><img src="{$template}img/medical-profiles/pochki.svg">
                             <p>Урологические заболевания, мочекаменная болезнь</p>
                         </div>
                     </div>

@@ -1,14 +1,17 @@
 <div class="bg-line bg-line--clay"></div>
-<section id="glina_blok" class="clay">
+<section id="clay_blok" class="right-block bg-beige wave-dn no-wave">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <div class="clay__img">
+                <div class="right-block__img">
                     <img src="{$template}img/rock.png" alt="" id="clay">
+                    <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
+                        <div data-depth="0.5"><img src="{$template}img/rock.png" alt=""></div>
+                    </div>
                 </div>
-                <a href="#" class="clay__video">
-                    <img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span>
-                </a>
+                <a href="#" class="right-block__block"></div>
+                <img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span>
+                <a href="#" class="right-block__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>
             </div>
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
@@ -17,22 +20,22 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
-                        <div class="clay__block"><img src="{$template}img/medical-profiles/endocrinolog.svg">
+                        <div class="right-block__block"><img src="{$template}img/medical-profiles/endocrinolog.svg">
                             <p>Заболевания нервных систем</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="clay__block"><img src="{$template}img/medical-profiles/koja.svg">
+                        <div class="right-block__block"><img src="{$template}img/medical-profiles/koja.svg">
                             <p>Заболевания кожи, аллергозы, псориаз</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="clay__block"><img src="{$template}img/medical-profiles/legkie.svg">
+                        <div class="right-block__block"><img src="{$template}img/medical-profiles/legkie.svg">
                             <p>Болезни органов дыхания</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <div class="clay__block"><img src="{$template}img/medical-profiles/serdce.svg">
+                        <div class="right-block__block"><img src="{$template}img/medical-profiles/serdce.svg">
                             <p>Заболевания сердечно-сосудистой системы</p>
                         </div>
                     </div>
