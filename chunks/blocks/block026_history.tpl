@@ -5,9 +5,6 @@
             <div class="history__decor">
                 <i class="history__decor-1"></i>
                 <i class="history__decor-2"></i>
-                <i class="history__decor-3"></i>
-                <i class="history__decor-4"></i>
-                <i class="history__decor-5"></i>
             </div>
 
             [[!getImageList?
@@ -24,6 +21,7 @@
                     <div class="history__img history__img-primary">
                         <img src="[[+image]]" srcset="[[+image_2x]] 2x, [[+image_3x]] 3x">
                     </div>
+                    <div class="history__img__decor history__img__decor-secondary"></div>
                 </div>
             </div>
             `:else=`
@@ -33,6 +31,7 @@
                     <div class="history__img">
                         <img src="[[+image]]" srcset="[[+image_2x]] 2x, [[+image_3x]] 3x">
                     </div>
+                    <div class="history__img__decor"></div>
                 </div>
                 <div class="col-sm-5 col-xs-12 col-sm-offset-2">
                     <h4>[[+title]]</h4>
