@@ -6,38 +6,33 @@
             <div class="menu__block">
                 <h4> <a href="{$_modx->makeUrl(912)}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
 
-                {'!pdoMenu'|snippet:[
+                {'pdoMenu'|snippet:[
                     'parents' => '912',
                     'level' => 1
                 ]}
 
-                <ul>
-                    <li><a href="#">История</a></li>
-                    <li><a href="#">Руководство</a></li>
-                    <li><a href="#">Полезная информация</a></li>
-                    <li><a href="#">Фотогалерея</a></li>
-                    <li><a href="#">Награды</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Молочный Цех</a></li>
-                    <li><a href="#">Участки ИЖС</a></li>
-                </ul>
+                {'pdoMenu'|snippet:[
+                    'parents' => 912,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
+
             </div>
             <div class="menu__block">
-                <h4><a href="#">Санатории</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="#">Имени Ленина</a></li>
-                    <li><a href="#">Дубки</a></li>
-                    <li><a href="#">Прибрежный</a></li>
-                    <li><a href="#">Белый Яр</a></li>
-                </ul>
-                <h4> <a href="#">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="#">Кепинг «Чайка»</a></li>
-                    <li><a href="#">Прибрежный</a></li>
-                    <li><a href="#">Белый Яр</a></li>
-                    <li><a href="#">Слава Черноморья</a></li>
-                    <li><a href="#">Лагерь «Сосенка»</a></li>
-                </ul>
+                <h4><a href="{'50'|url}">Санатории</a><i class="icon icon-left-arrow"></i></h4>
+                {'pdoMenu'|snippet:[
+                    'parents' => 50,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
+
+                <h4> <a href="{'281'|url}">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
+                {'pdoMenu'|snippet:[
+                    'parents' => 281,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
+
             </div>
             <div class="menu__block">
                 <h4> <a href="#">Лечение</a><i class="icon icon-left-arrow"></i></h4>
@@ -47,13 +42,13 @@
                     <li><a href="#">Особенности</a></li>
                 </ul>
                 <h4> <a href="{'915'|url}">Досуг</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="#">Анимация</a></li>
-                    <li><a href="#">Экскурсии</a></li>
-                    <li><a href="#">Конюшня</a></li>
-                    <li><a href="#">Рыбалка</a></li>
-                    <li><a href="#">Горные лыжи</a></li>
-                </ul>
+
+                {'pdoMenu'|snippet:[
+                    'parents' => 915,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
+
             </div>
             <div class="menu__block">
                 <h4><a href="{'161'|url}">Контакты</a></h4>
