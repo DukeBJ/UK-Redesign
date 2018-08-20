@@ -15,8 +15,8 @@
             $.ajax({
                 url: '/assets/connectors/doctor.php',
                 success: function(response){
-                    $('.selectize-dropdown-content').append(response);
-                    //$('select[name=kurort]').append(response);
+                    $('select[name=kurort]').append(response);
+                    $('select[name=kurort]').selectize();
                 }
             });
         });
