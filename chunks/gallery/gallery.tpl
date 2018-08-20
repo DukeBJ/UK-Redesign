@@ -16,6 +16,7 @@
 
             {'ms2Gallery'|snippet:[
                 'resources' => $id,
+                'limit' => 0,
                 'tpl' => '@FILE chunks/gallery/galleryModal.tpl'
             ]}
         </div>
