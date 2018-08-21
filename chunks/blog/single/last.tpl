@@ -1,5 +1,5 @@
 <div class="swiper-slide">
-    <div class="special-offers__block"><img src="{$blogSmall}" alt="">
+    <div class="special-offers__block"><img src="{$blogMedium}" alt="">
         <a class="img">
             <h4>{$pagetitle}</h4><img src="{'template_url'|config}img/separation-line.svg" alt="">
             <p>{$description}</p>

@@ -72,7 +72,7 @@
 
                             {'!ms2GalleryResources'|snippet:[
                                 'parents' => $_modx->resource.parent,
-                                'includeThumbs' => 'blogSmall',
+                                'includeThumbs' => 'blogMedium',
                                 'tpl' => '@FILE chunks/blog/single/last.tpl'
                             ]}
                         </div>
