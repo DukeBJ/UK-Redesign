@@ -10,7 +10,6 @@
     <link rel="icon" type="image/png" href="{$template}img/favicon/favicon.png">
 
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
-    <link rel="stylesheet" media="all" href="{$template}css/strip.css">
     <link rel="stylesheet" media="all" href="{$template}css/add_styles.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="{$template}img/favicon/apple-touch-icon.png">
