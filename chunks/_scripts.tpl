@@ -16,15 +16,9 @@
                 url: '/assets/connectors/doctor.php',
                 success: function(response){
                     $('select[name=kurort]').append(response);
+                    $('#selec').selectize();
                 }
             });
-
-
-            $('#selec').selectize({
-                preload: true
-            });
-
-
 
         });
     });
