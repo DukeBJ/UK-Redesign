@@ -15,10 +15,5 @@
             </div>
         </div>
     </div>
-    <!-- МОДАЛЬНОЕ ОКНО VIDEO -->
-    <div id="video" class="video-pop-up modal">
-        <div class="modal__close"><span></span></div>
-        {$_modx->resource.video_block_link}
-    </div>
 {/if}
 
