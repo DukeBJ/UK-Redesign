@@ -12,20 +12,16 @@
         $('#doctor').on('click', function(){
             //Запросим базы отдыха
 
+            $.ajax({
+                url: '/assets/connectors/doctor.php',
+                success: function(response){
+                    $('select[name=kurort]').append(response);
+                }
+            });
+
 
             $('#selec').selectize({
-                preload: true,
-                valueField: 'text',
-                labelField: 'text',
-                searchField: 'text',
-                load: function(query, callback) {
-                    $.ajax({
-                        url: '/assets/connectors/doctor.php',
-                        success: function(response){
-                            $('select[name=kurort]').append(response);
-                        }
-                    });
-                }
+                preload: true
             });
 
 
