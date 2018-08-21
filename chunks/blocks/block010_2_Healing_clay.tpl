@@ -8,7 +8,6 @@
                     <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
                         <div data-depth="0.5"><img src="{$template}img/rock.png" alt=""></div>
                     </div>
-                </div>
                 <a href="#" class="right-block__block"></div>
                 <img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span>
                 <a href="#" class="right-block__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>
