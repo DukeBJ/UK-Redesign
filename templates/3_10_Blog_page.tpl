@@ -9,7 +9,7 @@
         'tpl' => '@INLINE {if $files}{foreach $files as $file}{$file.url}{/foreach}{/if}'
     ]}
 
-        <section class="page-intro" style="background:url({$_modx->resource.intro_block_img}) no-repeat; background-size: cover;">
+        <section class="page-intro" style="background:url({$image});">
             <div class="page-intro__content">
                 <div class="container">
                     <div class="heading heading-secondary">
