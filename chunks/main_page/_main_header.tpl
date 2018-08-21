@@ -5,7 +5,7 @@
             <div class="col-md-4 col-xs-5">
                 <div class="header__scroll__block">
                     <div class="menu-open"><span></span></div><a href="#">Забронировать</a><i class="icon icon-ring"></i>
-                    <p>Санаторий имени В. И. Ленина</p>
+                    <p>{$_modx->resource.tv_pagetitle ? $_modx->resource.tv_pagetitle : $_modx->resource.pagetitle}</p>
                 </div>
             </div>
             <div class="col-md-4 col-xs-2 center-xs"><a href="#" class="header__scroll__logo"><img src="{$template}img/logo-smal.svg"></a></div>
