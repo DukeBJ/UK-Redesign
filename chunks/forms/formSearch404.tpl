@@ -1,6 +1,6 @@
 <form action="[[~[[+pageId]]]]" method="get" class="form msearch2" id="mse2_form">
     <div class="form__input">
-        <input type="text" name="[[+queryVar]]" value="[[+mse2_query]]">
+        <input type="text" name="[[+queryVar]]" value="[[+mse2_query]]" id="text-2">
         <label for="text-2">Что ищем?</label>
     </div>
     <button type="submit" class="btn btn-sandy">
