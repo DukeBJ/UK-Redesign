@@ -9,7 +9,7 @@
         'tpl' => '@INLINE {if $files}{foreach $files as $file}{$file.url}{/foreach}{/if}'
     ]}
 
-        <section class="page-intro" style="background:url({$image});">
+        <section class="page-intro" style="background:url({$image}) no-repeat;background-size: cover;background-position: center center;">
             <div class="page-intro__content">
                 <div class="container">
                     <div class="heading heading-secondary">
