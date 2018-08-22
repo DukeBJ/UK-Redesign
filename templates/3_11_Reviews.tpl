@@ -2,7 +2,7 @@
 {block 'main'}
 
     <!-- ИНТРО отзывов -->
-    <section class="page-intro" style="background:url({'template_url'|config}img/sanatorium-Lenin.png) no-repeat;background-size: cover;">
+    <section class="page-intro" style="background:url({'template_url'|config}img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
         <div class="page-intro__content">
             <div class="container">
                 <div class="heading heading-secondary">
