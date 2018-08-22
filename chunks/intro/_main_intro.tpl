@@ -14,7 +14,7 @@
                     &tvname=`intro-slider`
                     &where=`{ "active":"1" }`
                     &tpl=`@CODE:
-                <div style="background-image: url('[[+image]]')" class="swiper-slide">
+                <div style="background-image: url('[[+image]]');background-position: center center;" class="swiper-slide">
                     <div class="swiper-slide__text">
                         <h2>[[+title]]</h2>
                         <p>[[+description]]</p>
