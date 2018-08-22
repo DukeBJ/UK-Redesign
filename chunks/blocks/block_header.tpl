@@ -15,7 +15,7 @@
     <div class="header__top no_lk">
         <div class="menu-open"><span></span></div>
         <nav>
-            <ul>
+            <ul class="scroll">
                 <li><a href="#medicine">Лечение</a></li>
                 <li><a href="#sanator-list">Санатории</a></li>
                 <li><a href="#weather-one">Уникальность</a></li>
