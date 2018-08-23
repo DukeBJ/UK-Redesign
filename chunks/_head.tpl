@@ -1,7 +1,7 @@
 {set $template = 'template_url'|config}
 <head>
     {*<base href="{'site_url'|config}">*}
-    [[Canonical]]
+    <link rel="canonical" href="[[Canonical]]">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fff">
