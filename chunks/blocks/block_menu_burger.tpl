@@ -55,8 +55,8 @@
                 <h4><a href="{'395'|url}">Цены</a></h4>
                 <h4><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
-                    <li><a href="{'372'|url}">Акции</a></li>
-                    <li><a href="{'181'|url}">Новости</a></li>
+                    <li><a href="{'923'|url}">Акции</a></li>
+                    <li><a href="{'924'|url}">Новости</a></li>
                     <li><a href="{'925'|url}">Статьи</a></li>
                 </ul>
             </div>
