@@ -5,7 +5,7 @@
         </div>
         <div class="contacts__info">
 
-            {foreach $_modx->resource.intro_slider|fromJSON as $address}
+            {foreach $_modx->resource.contact_address|fromJSON as $address}
                 <div class="contacts__content">
                     <div class="contacts__line"><span>{$address.title}:</span>
                         <p>{$address.description}</p>
