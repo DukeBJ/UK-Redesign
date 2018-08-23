@@ -5,15 +5,13 @@
         </div>
         <div class="contacts__info">
 
-            [[!getImageList?
-            &tvname=`contact_address`
-            &tpl=`@CODE:
-            <div class="contacts__content">
-            <div class="contacts__line"><span>[[+title]]:</span>
-                <p>[[+description]]</p>
-            </div>
-            </div>`
-            ]]
+            {foreach $_modx->resource.intro_slider|fromJSON as $address}
+                <div class="contacts__content">
+                    <div class="contacts__line"><span>{$address.title}:</span>
+                        <p>{$address.description}</p>
+                    </div>
+                </div>
+            {/foreach}
 
         </div>
     </div>
