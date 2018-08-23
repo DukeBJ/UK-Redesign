@@ -1,4 +1,4 @@
-<section class="gallery">
+<section id="gallery" class="gallery">
     <div class="swiper-container swiper-gallery">
         <div class="swiper-wrapper">
 
