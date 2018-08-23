@@ -35,7 +35,7 @@
 
             </div>
             <div class="menu__block">
-                <h4> <a href="#">Лечение</a><i class="icon icon-left-arrow"></i></h4>
+                <h4> <a href="{'4'|url}">Лечение</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
                     <li><a href="#">Профили </a></li>
                     <li><a href="#">Методики</a></li>

@@ -20,7 +20,7 @@
 
                     </div>
                     <div class="col-sm-3 col-xs-6">
-                        <h3><a href="#">Лечение</a></h3>
+                        <h3><a href="{'4'|url}">Лечение</a></h3>
                         <ul>
                             <li><a href="#">Профили</a></li>
                             <li><a href="#">Методики</a></li>

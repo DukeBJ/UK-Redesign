@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Уникальность природы</h2>
-                    <p>Еще древние племена, населяющие территорию Ундоровского курорта, знали о волшебной силе здешней минеральной воды. Ведь с тюркского Ундоры переводится как «долина десяти лекарств».</p>
+                    <h2>{$_modx->resource.lager_unikal_title}</h2>
+                    <p>{$_modx->resource.lager_unikal_description}</p>
                 </div>
             </div>
         </div>
