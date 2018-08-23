@@ -18,7 +18,7 @@
             <div class="col-sm-4">
                 <div class="left-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-1 scene-secondary">
-                        <div data-depth="0.5"><img src="img/solt.png" alt=""></div>
+                        <div data-depth="0.5"><img src="{$template}img/solt.png" alt=""></div>
                     </div>
                 </div>
             </div>
