@@ -5,6 +5,13 @@
         </div>
         <div class="contacts__info">
 
+            {foreach $_modx->resource.contact_address|fromJSON as $address}
+                <div class="contacts__content">
+                    <div class="contacts__line"><span>{$address.title}:</span>
+                        <p>{$address.description}</p>
+                    </div>
+                </div>
+            {/foreach}
             {set $rows = json_decode($_modx->resource.contact_address, true)}
             {foreach $rows as $address}
                 <div class="contacts__content">
