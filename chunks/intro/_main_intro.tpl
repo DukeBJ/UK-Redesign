@@ -10,9 +10,8 @@
         <div class="swiper-container swiper-intro">
             <div class="swiper-wrapper">
 
-                {$_modx->resource.intro_slider|fromJSON|print_r}
-
                 {foreach $_modx->resource.intro_slider|fromJSON as $slider}
+                    {$slider.active}
                     {if $slider.active == 1}
                         <div style="background-image: url($slider.image);background-position: center center;" class="swiper-slide">
                             <div class="swiper-slide__text">
