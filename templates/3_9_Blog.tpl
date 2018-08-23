@@ -24,7 +24,7 @@
         'parents' => $_modx->resource.id,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
-        'limit' => 1,
+        'limit' => 10,
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
         'filters' => 'createdon:year,resource|parent,tv:number',
