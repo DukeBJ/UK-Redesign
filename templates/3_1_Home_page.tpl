@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 {include 'file:chunks/_head.tpl'}
-<body>
+<body class="mainpg">
 
 {set $template = 'template_url'|config}
 

@@ -6,14 +6,14 @@
         <div class="container-fluid">
             <div class="tabs medical-profile__menu">
                 <div class="tabs__nav">
-                    <ul class="tabs__caption medical-profile__menu__caption">
-                        <li class="active">Лечение</li>
-                        <li>Номера</li>
-                        <li>Путёвка</li>
-                        <li>Природа</li>
-                        <li>Питание</li>
-                        <li>Спорт и отдых</li>
-                        <li>Контакты</li>
+                    <ul class="scroll tabs__caption medical-profile__menu__caption">
+                        <li class="active"><a href="#">Лечение</a></li>
+                        <li><a href="#">Номера</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#weather">Природа</a></li>
+                        <li><a href="#">Питание</a></li>
+                        <li><a href="#">Спорт и отдых</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
                     </ul>
                 </div>
 
@@ -33,61 +33,61 @@
                 <div class="swiper-container swiper-working-profiles">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg"></div>
                                 <p>Болезни кожи, аллергозы, псориаз</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg"></div>
                                 <p>Эндокринологические заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg"></div>
                                 <p>Болезни органов дыхания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg"></div>
                                 <p>Гинекологические заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg"></div>
                                 <p>Гастроэнторологические заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
                                 <p>Сердечно-сосудистые заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
                                 <p>Сердечно-сосудистые заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg"></div>
                                 <p>Урологические заболевания</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg"></div>
                                 <p>Опорно-двигательный аппарат</p>
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#" class="working-profiles__block">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
                                 <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg"></div>
                                 <p>Заболевания нервной системы</p>
                             </a>
@@ -98,55 +98,55 @@
             <div class="working-profiles__desctop">
                 <div class="row">
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg"></div>
                             <p>Болезни кожи, аллергозы, псориаз</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg"></div>
                             <p>Эндокринологические заболевания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg"></div>
                             <p>Болезни органов дыхания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg"></div>
                             <p>Гинекологические заболевания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg"></div>
                             <p>Гастроэнторологические заболевания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
                             <p>Сердечно-сосудистые заболевания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg"></div>
                             <p>Урологические заболевания</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg"></div>
                             <p>Опорно-двигательный аппарат</p>
                         </a>
                     </div>
                     <div class="col-xs-4 center-xs">
-                        <a href="#" class="working-profiles__block">
+                        <a href="#pop-info" class="working-profiles__block" data-pop>
                             <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg"></div>
                             <p>Заболевания нервной системы</p>
                         </a>
@@ -155,38 +155,44 @@
             </div>
         </div>
     </section>
-    <section class="water">
+    <section id="weather" class="natural-factors">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-xs-12">
-                    <div class="heading">
-                        <h2>Проживание</h2>
-                        <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
-                    </div>
-                    <a class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Выбрать номер</b></a>
-
-                </div>
-                <div class="col-sm-4">
-                    <div class="water__img"><img src="{$template}img/glass.png" alt="" id="water2"></div></div>
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="heading">
+                <h2>Природные факторы</h2>
+                <p>Еще древние племена, населяющие территорию Ундоровского курорта, знали о волшебной силе здешней минеральной воды. Ведь с тюркского Ундоры переводится как «долина десяти лекарств».</p>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <div class="bg-line bg-line--clay"></div>
-    <section class="clay">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="clay__img"><img src="{$template}img/rock.png" alt="" id="clay3"></div>
-                </div>
-                <div class="col-sm-8 col-xs-12">
-                    <div class="heading">
-                        <h2>Питание</h2>
-                        <p>Климат приближен к морскому с естественной аэроионизацией до 1105 аэроионов/см3, что превышает показатели санаториев Кавказских Минеральных Вод. </p>
-                    </div>
-                    <a class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Заказать путевку</b></a>
-
-                </div>
+        <div class="container-two">
+          <div class="row">
+            <div class="col-sm-3 col-xs-6">
+              <a href="#pop-info" class="natural-factors__block" data-pop>
+                <div class="natural-factors__block__img"><img src="{$template}img/water.svg" alt=""></div>
+                <p>Минеральные воды</p>
+              </a>
             </div>
+            <div class="col-sm-3 col-xs-6">
+              <a href="#pop-info" class="natural-factors__block" data-pop>
+                <div class="natural-factors__block__img"><img src="{$template}img/solt.svg" alt=""></div>
+                <p>Соляные рассолы</p>
+              </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <a href="#pop-info" class="natural-factors__block" data-pop>
+                <div class="natural-factors__block__img"><img src="{$template}img/glinko.svg" alt=""></div>
+                <p>Глинолечение</p>
+              </a>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+              <a href="#pop-info" class="natural-factors__block" data-pop>
+                <div class="natural-factors__block__img"><img src="{$template}img/sun.svg" alt=""></div>
+                <p>Климатолечение</p>
+              </a>
+            </div>
+          </div>
         </div>
     </section>
     <section class="calculator">
@@ -217,46 +223,6 @@
                     </form>
                 </div>
                 <div class="col-xs-12 center-xs"><a class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Посчитать поточнее</b></a></div>
-            </div>
-        </div>
-    </section>
-    <section class="natural-factors">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="heading">
-                        <h2>Природные факторы</h2>
-                        <p>Еще древние племена, населяющие территорию Ундоровского курорта, знали о волшебной силе здешней минеральной воды. Ведь с тюркского Ундоры переводится как «долина десяти лекарств».</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-two">
-            <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/water.svg" alt=""></div>
-                        <p>Минеральные воды</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/solt.svg" alt=""></div>
-                        <p>Соляные рассолы</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/glinko.svg" alt=""></div>
-                        <p>Глинолечение</p>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <div class="natural-factors__block">
-                        <div class="natural-factors__block__img"><img src="{$template}img/sun.svg" alt=""></div>
-                        <p>Климатолечение</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -310,40 +276,114 @@
             </div>
         </div>
     </section>
-    <section class="water">
+    <section class="left-block bg-beige wave-up">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-xs-12">
                     <div class="heading">
-                        <h2>Спорт и отдых</h2>
+                        <h2>Проживание</h2>
                         <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
+                        <div class="buttons_block">
+                            <a href="#" class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Выбрать номер</b>
+                            </a>
+                        </div>
                     </div>
-                    <a class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Хочу отдухнуть</b></a>
-
                 </div>
                 <div class="col-sm-4">
-                    <div class="water__img"><img src="{$template}img/glass.png" alt="" id="water3"></div></div>
+                    <div class="left-block__img">
+                        <div data-invert-x="false" data-invert-y="false" class="scene-1 scene-secondary">
+                            <div data-depth="0.5"><img src="{$template}img/solt.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <div class="bg-line bg-line--clay"></div>
-    <section class="clay">
+    <section class="right-block bg-beige wave-dn no-wave">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="clay__img"><img src="{$template}img/rock.png" alt="" id="clay4"></div></div>
+                    <div class="right-block__img">
+                        <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
+                            <div data-depth="0.5"><img src="img/{$template}weather.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-8 col-xs-12">
                     <div class="heading">
-                        <h2>Отдых с детьми</h2>
-                        <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
+                        <h2>Питание</h2>
+                        <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии.</p>
+                        <div class="buttons_block">
+                            <a href="#pop-application" class="btn btn-sandy" data-pop><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Заказать путёвку</b>
+                            </a>
+                            <a href="#" class="btn btn-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Подробнее</b>
+                            </a>
+                        </div>
                     </div>
-                    <a class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Отдохнуть с семьёй</b></a>
-
                 </div>
             </div>
         </div>
     </section>
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
+    <section class="left-block bg-beige wave-up  no-wave">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-12">
+                    <div class="heading">
+                        <h2>Проживание</h2>
+                        <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
+                        <div class="buttons_block">
+                            <a href="#pop-application" class="btn btn-sandy" data-pop><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Хочу отдохнуть</b>
+                            </a>
+                            <a href="#" class="btn btn-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Все развлечения</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="left-block__img">
+                        <div data-invert-x="false" data-invert-y="false" class="scene-1 scene-secondary">
+                            <div data-depth="0.5"><img src="{$template}img/solt.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bg-line bg-line--clay"></div>
+    <section class="right-block bg-beige wave-dn">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="right-block__img">
+                        <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
+                            <div data-depth="0.5"><img src="img/{$template}weather.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-xs-12">
+                    <div class="heading">
+                        <h2>Питание</h2>
+                        <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии.</p>
+                        <div class="buttons_block">
+                            <a href="#pop-application" class="btn btn-sandy" data-pop><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Отдохнуть с семьей</b>
+                            </a>
+                            <a href="#" class="btn btn-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{ignore}{fill:#f4e07a;}{/ignore}.cls-1,.cls-2{ignore}{fill-rule:evenodd;}{/ignore}.cls-2{ignore}{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}{/ignore}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
+                                <b>Все развлечения</b>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/blocks/_contacts.tpl'}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
