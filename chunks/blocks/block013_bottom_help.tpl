@@ -15,7 +15,7 @@
                     'emailFrom' => 'emailsender|config',
                     'emailSubject' => 'Вопрос с сайта',
                     'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
-                    'validate' => 'email:required',
+                    'validate' => 'tel:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
             </div>
