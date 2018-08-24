@@ -12,10 +12,10 @@
                     'hooks' => 'email,FormItSaveForm',
                     'form' => '@FILE chunks/forms/replyForm.tpl',
                     'emailTo' => 'ivanx86@gmail.com',
-                    'emailFrom' => 'emailsender'|config,
-                    'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                    'emailTpl' => '@FILE chunks/emails/contactEmail.tpl',
-                    'validate' => 'name:required,phone:required,email:required,message:required',
+                    'emailFrom' => '{$_modx->config.emailsender}',
+                    'emailSubject' => 'Вопрос с сайта ' ~ 'site_name'|config,
+                    'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
+                    'validate' => 'email:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
             </div>
