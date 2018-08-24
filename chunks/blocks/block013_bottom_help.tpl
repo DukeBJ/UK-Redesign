@@ -13,13 +13,11 @@
                     'form' => '@FILE chunks/forms/replyForm.tpl',
                     'emailTo' => 'ivanx86@gmail.com',
                     'emailFrom' => '{$_modx->config.emailsender}',
-                    'emailSubject' => 'Вопрос с сайта ' ~ 'site_name'|config,
+                    'emailSubject' => 'Вопрос с сайта - {$_modx->config.emailsender}',
                     'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
                     'validate' => 'email:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
-
-                [[!QuickEmail? &debug=`1`]]
             </div>
         </div>
     </div>
