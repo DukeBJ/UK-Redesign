@@ -18,6 +18,8 @@
                     'validate' => 'email:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
+
+                [[!QuickEmail? &debug=`1`]]
             </div>
         </div>
     </div>
