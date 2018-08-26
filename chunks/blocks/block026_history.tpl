@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-sm-5 col-xs-12 col-sm-offset-2 center-xs first-xs">
                     <div class="history__img history__img-primary">
-                        <img src="[[+image]]" srcset="[[+image_2x]] 2x, [[+image_3x]] 3x">
+                        <img src="[[+image]]" alt="">
                     </div>
                 </div>
             </div>
@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-sm-5 col-xs-12 center-xs">
                     <div class="history__img">
-                        <img src="[[+image]]" srcset="[[+image_2x]] 2x, [[+image_3x]] 3x">
+                        <img src="[[+image]]" alt="">
                     </div>
                 </div>
                 <div class="col-sm-5 col-xs-12 col-sm-offset-2">
