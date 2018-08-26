@@ -7,7 +7,7 @@
                     <p>Всем ребятам включен ряд оздоровительных процедур:</p>
                     <ul class="head_list">
                         {foreach $_modx->resource.lager_hill|fromJSON as $lager_hill}
-                            <li><a href="{$lager_hill.link}">{$lager_doc.description}</a></li>
+                            <li><a href="{$lager_hill.link}">{$lager_hill.description}</a></li>
                         {/foreach}
                     </ul>
                 </div>
