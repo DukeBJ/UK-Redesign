@@ -13,12 +13,9 @@
                     <h2>Родителям</h2>
                     <p>Все необходимые документы для зачисления ребенка в лагерь</p>
                     <ul class="head_list">
-                        <li><a href="#">Как записать ребенка</a></li>
-                        <li><a href="#">Заявление о зачислении</a></li>
-                        <li><a href="#">Информированное добровольное согласие</a></li>
-                        <li><a href="#">Входная анкета</a></li>
-                        <li><a href="#">Памятка 2018</a></li>
-                        <li><a href="#">Письмо лето 2018</a></li>
+                        {foreach $_modx->resource.lager_parent_doc|fromJSON as $lager_doc}
+                            <li><a href="{$lager_doc.link}">{$lager_doc.title}</a></li>
+                        {/foreach}
                     </ul>
                 </div>
             </div>
