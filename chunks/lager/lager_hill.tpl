@@ -6,12 +6,9 @@
                     <h2>Оздоровительные процедуры</h2>
                     <p>Всем ребятам включен ряд оздоровительных процедур:</p>
                     <ul class="head_list">
-                        <li>Спелеотерапия</li>
-                        <li>Кислородный коктейль</li>
-                        <li>Ароматерапия</li>
-                        <li>Занятия ЛФК</li>
-                        <li>Скандинавская ходьба</li>
-                        <li>Орошение зева минеральной водой</li>
+                        {foreach $_modx->resource.lager_hill|fromJSON as $lager_hill}
+                            <li><a href="{$lager_hill.link}">{$lager_doc.description}</a></li>
+                        {/foreach}
                     </ul>
                 </div>
             </div>
