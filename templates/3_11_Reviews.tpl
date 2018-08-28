@@ -2,22 +2,19 @@
 {block 'main'}
 
     <!-- ИНТРО отзывов -->
-    <section class="page-intro" style="background:url({'template_url'|config}img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
+    <section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png) no-repeat;background-size: cover;">
         <div class="page-intro__content">
             <div class="container">
                 <div class="heading heading-secondary">
                     <h2>Консультации врача санатория имени В.И. Ленина</h2>
                     <p>Перечень необходимых для изучения документов, правила заявления и условия пребывания в наших санаториях.</p>
                     <div class="intro-btn">
-
-                        <a href="#step" id="doctor" class="btn btn-sandy" data-pop>
-
+                        <a href="#step" class="btn btn-sandy" data-pop>
                             {ignore}
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{fill:#f4e07a;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
                             {/ignore}
                             <b>Написать отзыв</b>
                         </a>
-
                     </div>
                 </div>
             </div>
@@ -31,7 +28,9 @@
             <div class="comments__review">
                 <div class="row">
                     <div class="col-md-2 col-xs-3">
-                        <div class="comments__img"><img src="{'template_url'|config}img/user.png" alt=""></div>
+                        <div class="comments__img">
+                            <img src="{$template}img/user.png" alt="">
+                        </div>
                     </div>
                     <div class="col-md-8 col-sm-6 col-xs-9">
                         <div class="comments__review">
@@ -52,7 +51,9 @@
                         <p>Мария, спасибо вам за Ваш отзыв. Нам очень жаль, что молодой персонал плохо выполняет свою работу. Об этом доложено главврачу санатория. Мы учтем ваши замечания и постораемся улучшить Ваше пребывание в санатории. Обязательно ждем Вас снова!</p>
                     </div>
                     <div class="col-md-2 col-xs-3">
-                        <div class="comments__img"><img src="img/user.png" alt=""></div>
+                        <div class="comments__img">
+                            <img src="{$template}img/user.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,7 +62,9 @@
                 <div class="comments__review">
                     <div class="row">
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-9">
                             <div class="comments__review">
@@ -82,7 +85,9 @@
                             <p>Мария, спасибо вам за Ваш отзыв. Нам очень жаль, что молодой персонал плохо выполняет свою работу. Об этом доложено главврачу санатория. Мы учтем ваши замечания и постораемся улучшить Ваше пребывание в санатории. Обязательно ждем Вас снова!</p>
                         </div>
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -92,7 +97,9 @@
                 <div class="comments__review">
                     <div class="row">
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-9">
                             <div class="comments__review">
@@ -113,7 +120,9 @@
                             <p>Мария, спасибо вам за Ваш отзыв. Нам очень жаль, что молодой персонал плохо выполняет свою работу. Об этом доложено главврачу санатория. Мы учтем ваши замечания и постораемся улучшить Ваше пребывание в санатории. Обязательно ждем Вас снова!</p>
                         </div>
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,7 +132,9 @@
                 <div class="comments__review">
                     <div class="row">
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                         <div class="col-md-8 col-sm-6 col-xs-9">
                             <div class="comments__review">
@@ -144,7 +155,9 @@
                             <p>Мария, спасибо вам за Ваш отзыв. Нам очень жаль, что молодой персонал плохо выполняет свою работу. Об этом доложено главврачу санатория. Мы учтем ваши замечания и постораемся улучшить Ваше пребывание в санатории. Обязательно ждем Вас снова!</p>
                         </div>
                         <div class="col-md-2 col-xs-3">
-                            <div class="comments__img"><img src="img/user.png" alt=""></div>
+                            <div class="comments__img">
+                                <img src="{$template}img/user.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,22 +178,21 @@
 
 
     <!-- ОСТАВЬТЕ ОТЗЫВ -->
-    <section class="pop-question">
+    <section class="step">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="dividing_line_logo"><img src="{'template_url'|config}img/separation-line-body.svg"></div>
+                    <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
                 </div>
             </div>
             <div class="modal__content">
-                <div class="pop-question__block">
+                <div class="step__block">
                     <div class="heading">
                         <h2>Оставьте свой отзыв</h2>
                         <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
                     </div>
-                    <form action="" class="form">
-                        <textarea placeholder="Ваш отзыв"></textarea>
-                        <a href="#pop-question-1" data-pop="data-pop" class="btn btn-sandy">
+                    <form action="" class="form"><textarea placeholder="Ваш отзыв"></textarea>
+                        <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                             {ignore}
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{fill:#f4e07a;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg>
                             {/ignore}
@@ -206,7 +218,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="video__block slider">
-                                <img src="img/video.png" alt="">
+                                <img src="{$template}img/video.png" alt="">
                                 <a href="#">
                                     <i class="icon icon-play"></i>
                                     <div class="video__block__text">
@@ -217,7 +229,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="video__block slider">
-                                <img src="img/video.png" alt="">
+                                <img src="{$template}img/video.png" alt="">
                                 <a href="#">
                                     <i class="icon icon-play"></i>
                                     <div class="video__block__text">
@@ -228,7 +240,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="video__block slider">
-                                <img src="img/video.png" alt="">
+                                <img src="{$template}img/video.png" alt="">
                                 <a href="#">
                                     <i class="icon icon-play"></i>
                                     <div class="video__block__text">
@@ -239,7 +251,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="video__block slider">
-                                <img src="img/video.png" alt="">
+                                <img src="{$template}img/video.png" alt="">
                                 <a href="#">
                                     <i class="icon icon-play"></i>
                                     <div class="video__block__text">
