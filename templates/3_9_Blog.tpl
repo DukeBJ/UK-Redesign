@@ -6,18 +6,12 @@
 
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
-        'filters' => 'resource|parent:parents'
-    ]}
-
-
-    {'!mFilter2'|snippet:[
-        'parents' => $_modx->resource.id,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
-        'filters' => 'createdon:year,resource|parent:parents,tv:number',
+        'filters' => 'resource|parent:parents',
 
         'tplFilter.outer.resource|parent' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
         'tplFilter.row.resource|parent' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
