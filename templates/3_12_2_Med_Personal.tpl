@@ -15,6 +15,7 @@
                     </ul>
                 </div>
 
+                asdasd
 
                 {if $_modx->resource.medpersonal}
                     {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
