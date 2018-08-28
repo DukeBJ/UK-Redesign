@@ -6,11 +6,6 @@
 
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
-        'element' => 'ms2GalleryResources',
-        'includeThumbs' => 'blogSmall',
-        'limit' => 10,
-        'ajaxMode' => 'button',
-        'includeTVs' => 'blogs_tags',
         'filters' => 'resource|parent:parents'
     ]}
 
