@@ -11,13 +11,13 @@
         'limit' => 10,
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
-        'filters' => 'resource|parent:parents, createdon:year',
+        'filters' => 'resource|parent:parents, resource|createdon:year',
 
         'tplFilter.outer.resource|parent' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
         'tplFilter.row.resource|parent' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
 
-        'tplFilter.outer.createdon|year' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
-        'tplFilter.row.createdon|year' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
+        'tplFilter.outer.resource|createdon' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
+        'tplFilter.row.resource|createdon' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
 
         'filterOptions' => json_encode([
         "more" => ".btn-load",
