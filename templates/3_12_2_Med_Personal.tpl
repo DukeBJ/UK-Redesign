@@ -17,7 +17,7 @@
 
 
                 {if $_modx->resource.medpersonal}
-                    {foreach $_modx->resource.medpersonal as $medpersonal}
+                    {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
                         {$medpersonal|print_r}
                     {/foreach}
                 {/if}
