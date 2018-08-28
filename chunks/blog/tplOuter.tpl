@@ -12,29 +12,29 @@
                 <!-- !!! Выбор года в Акциях должен быть отключен -->
                 <form action="[[~[[*id]]]]" method="post" id="mse2_filters">
                     [[+filters]]
-                    <select>
-                        <option value="1">За всё время</option>
-                        <option value="2">2018</option>
-                        <option value="3">2017</option>
-                        <option value="4">2016</option>
-                    </select>
-                    <div class="tags">
-                        <ul>
-                            <li><a href="#">Сезон 2018 </a></li>
-                            <li><a href="#">Скидка</a></li>
-                            <li><a href="#">Лечение</a></li>
-                            <li><a href="#">Лечебная глина</a></li>
-                            <li><a href="#">Минеральна вода</a></li>
-                            <li><a href="#">Выходные</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Отдых</a></li>
-                            <li><a href="#">Соляные рассолы</a></li>
-                            <li><a href="#">Ski Pass</a></li>
-                            <li><a href="#">Горнолыжный курорт</a></li>
-                            <li><a href="#">Конкурс</a></li>
-                        </ul>
+                    {*<select>*}
+                        {*<option value="1">За всё время</option>*}
+                        {*<option value="2">2018</option>*}
+                        {*<option value="3">2017</option>*}
+                        {*<option value="4">2016</option>*}
+                    {*</select>*}
+                    {*<div class="tags">*}
+                        {*<ul>*}
+                            {*<li><a href="#">Сезон 2018 </a></li>*}
+                            {*<li><a href="#">Скидка</a></li>*}
+                            {*<li><a href="#">Лечение</a></li>*}
+                            {*<li><a href="#">Лечебная глина</a></li>*}
+                            {*<li><a href="#">Минеральна вода</a></li>*}
+                            {*<li><a href="#">Выходные</a></li>*}
+                            {*<li><a href="#">Рыбалка</a></li>*}
+                            {*<li><a href="#">Отдых</a></li>*}
+                            {*<li><a href="#">Соляные рассолы</a></li>*}
+                            {*<li><a href="#">Ski Pass</a></li>*}
+                            {*<li><a href="#">Горнолыжный курорт</a></li>*}
+                            {*<li><a href="#">Конкурс</a></li>*}
+                        {*</ul>*}
                         <!-- !!! Все теги появляются, только при условии, что тегов больше чем две строчки -->
-                        <a href="#" class="all-tags">Все теги</a>
+                        <a href="{'920'|url}" class="all-tags">Все теги</a>
                     </div>
                 </form>
 
