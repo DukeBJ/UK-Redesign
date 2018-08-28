@@ -16,8 +16,8 @@
                 </div>
 
 
-                {if $_modx->resource.medpesonal}
-                    {foreach $_modx->resource.medpesonal as $medpersonal}
+                {if $_modx->resource.medpersonal}
+                    {foreach $_modx->resource.medpersonal as $medpersonal}
                         {$medpersonal|print_r}
                     {/foreach}
                 {/if}
