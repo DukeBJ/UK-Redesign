@@ -11,7 +11,7 @@
         'limit' => 10,
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
-        'filters' => 'resource|parent:parents',
+        'filters' => 'resource|parent:parents, createdon:year',
 
         'tplFilter.outer.resource|parent' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
         'tplFilter.row.resource|parent' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
