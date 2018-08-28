@@ -1,4 +1,4 @@
-<section class="left-block bg-beige wave-dn">
+<section class="left-block bg-beige wave-up zeropadding no-wave">
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-xs-12">
