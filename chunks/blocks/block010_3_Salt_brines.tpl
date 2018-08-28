@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <div class="water__img"><img src="{$template}img/glass.png" alt="" id="sun"></div><a href="#" class="water__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a></div>
+                <div class="water__img"><img src="{$template}img/solt.png" alt="" id="sun"></div><a href="#" class="water__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a></div>
         </div>
     </div>
 </section>
