@@ -15,6 +15,14 @@
                     </ul>
                 </div>
 
+
+                {if $_modx->resource.medpesonal}
+                    {foreach $_modx->resource.medpesonal as $medpersonal}
+                        {$medpersonal|print_r}
+                    {/foreach}
+                {/if}
+
+
                 <!-- Комментарий -->
                 <div class="container comments">
                     <div class="comments__review">
