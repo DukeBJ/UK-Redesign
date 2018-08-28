@@ -36,7 +36,13 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <div class="water__img"><img src="{$template}img/solt.png" alt="" id="sun"></div><a href="#" class="water__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a></div>
+                <div class="left-block__img">
+                  <div data-invert-x="false" data-invert-y="false" class="scene-3 scene-secondary">
+                    <div data-depth="0.5"><img src="img/solt.png" alt=""></div>
+                  </div>
+                </div>
+                <a href="#video" data-pop class="left-block__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>
+            </div>
         </div>
     </div>
 </section>
