@@ -12,7 +12,6 @@
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
         'filters' => 'createdon:year,resource|parent:parents,tv:number',
-        'suggestionsRadio' => 'createdon:year,resource|parent:parents',
 
         'tplFilter.outer.resource|parent' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
         'tplFilter.row.resource|parent' => '@FILE chunks/blog/filters/tplFilter.option.tpl',
