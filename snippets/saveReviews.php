@@ -2,6 +2,8 @@
 
 $values = $hook->getValues();
 
-$modx->log(1, print_r($values, 1));
+$modx->log(1, 'Тестируем мой кастомный хук');
+
+return true;
 
 
