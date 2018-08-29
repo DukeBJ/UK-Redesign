@@ -22,7 +22,7 @@
                                 'parents' => '920',
                                 'element' => 'tagCloud',
                                 'limit' => 1,
-
+                                'ajaxMode' => 'button'
                             ]}
                         </div>
                         [[!+page.nav]]
