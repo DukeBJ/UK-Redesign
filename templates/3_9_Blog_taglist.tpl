@@ -23,7 +23,7 @@
                             {'!pdoPage'|snippet:[
                             'parents' => '920',
                             'element' => 'tagCloud',
-                            'limit' => 1,
+                            'limit' => 50,
                             'ajaxMode' => 'button',
                             'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn-center btn_more">
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs>
