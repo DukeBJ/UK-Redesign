@@ -16,15 +16,16 @@
                 <div class="col-xs-12">
                     <!-- !!! Выбор года в Акциях должен быть отключен -->
 
-                    {*<div id="pdopage">*}
-                        {*[[!+page.nav]]*}
-                        {*<div class="rows">*}
-                            {*[[!pdoPage?*}
-                            {*&parents=`0`*}
-                            {*&ajaxMode=`button`*}
-                            {*&limit=`5`*}
-                            {*]]*}
-                        {*</div>*}
+                    <div id="pdopage">
+                        [[!+page.nav]]
+                        <div class="rows">
+                            {'pdoPage'|snippet:[
+                                'parents' => '920',
+                                'element' => 'tagCloud',
+                                'limit' => 1,
+                                'ajaxMode' => 'button'
+                            ]}
+                        </div>
                     </div>
 
                     <div class="tags alltag">
@@ -35,6 +36,7 @@
                                 'parents' => '920',
                                 'element' => 'tagCloud',
                                 'limit' => 1,
+                                'ajaxMode' => 'button'
                             ]}
 
 
