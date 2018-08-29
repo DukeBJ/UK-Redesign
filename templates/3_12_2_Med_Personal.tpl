@@ -17,10 +17,10 @@
 
 
                 {if $_modx->resource.medpersonal}
-                    {$_modx->resource.medpersonal|fromJSON|print_r}
+                    {$idx = 1}
                     {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
 
-                        {if $medpersonal.MIGX_id == 1}
+                        {if $idx == 1}
                             <div class="container comments">
                                 <div class="comments__review">
                                     <div class="row">
@@ -50,8 +50,9 @@
                     <div class="row center-xs">
 
                         {if $_modx->resource.medpersonal}
+                            {var $idx = 1}
                             {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
-                                {if $medpersonal.MIGX_id > 1}
+                                {if $idx > 1}
                                     <div class="col-md-3 col-sm-6 col-xs-12">
                                     <div class="directors__block">
                                         <div class="directors__block__img">
@@ -63,6 +64,7 @@
                                     </div>
                                 </div>
                                 {/if}
+                                {$idx++}
                             {/foreach}
                         {/if}
 
