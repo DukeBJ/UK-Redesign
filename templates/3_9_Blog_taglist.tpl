@@ -25,7 +25,7 @@
                                 'parents' => '920',
                                 'element' => 'tagCloud',
 
-                                'tpl' => ''
+                                'tpl' => '@INLINE <a href="">{$value}</a>'
                             ]}
 
 
