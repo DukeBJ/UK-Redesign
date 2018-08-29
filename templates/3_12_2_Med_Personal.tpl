@@ -17,6 +17,7 @@
 
 
                 {if $_modx->resource.medpersonal}
+                    {$_modx->resource.medpersonal|fromJSON|print_r}
                     {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
 
                         {if $medpersonal.MIGX_id == 1}
