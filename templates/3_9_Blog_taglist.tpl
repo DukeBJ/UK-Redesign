@@ -19,57 +19,13 @@
                         <ul>
 
                             {'pdoPage'|snippet:[
-                                'parents' => '920'
+                                'parents' => '920',
+                                'includeTVs' => 'blogs_tags',
+                                'groupby' => 'blogs_tags',
+                                'tpl' => '@INLINE <li><a href="#">{$_pls["blogs_tags"]}</a></li>'
                             ]}
 
-                            <li><a href="#">Сезон 2018 </a></li>
-                            <li><a href="#">Скидка</a></li>
-                            <li><a href="#">Лечение</a></li>
-                            <li><a href="#">Лечебная глина</a></li>
-                            <li><a href="#">Минеральна вода</a></li>
-                            <li><a href="#">Выходные</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Отдых</a></li>
-                            <li><a href="#">Соляные рассолы</a></li>
-                            <li><a href="#">Ski Pass</a></li>
-                            <li><a href="#">Горнолыжный курорт</a></li>
-                            <li><a href="#">Конкурс</a></li>
-                            <li><a href="#">Сезон 2018 </a></li>
-                            <li><a href="#">Скидка</a></li>
-                            <li><a href="#">Лечение</a></li>
-                            <li><a href="#">Лечебная глина</a></li>
-                            <li><a href="#">Минеральна вода</a></li>
-                            <li><a href="#">Выходные</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Отдых</a></li>
-                            <li><a href="#">Соляные рассолы</a></li>
-                            <li><a href="#">Ski Pass</a></li>
-                            <li><a href="#">Горнолыжный курорт</a></li>
-                            <li><a href="#">Конкурс</a></li>
-                            <li><a href="#">Сезон 2018 </a></li>
-                            <li><a href="#">Скидка</a></li>
-                            <li><a href="#">Лечение</a></li>
-                            <li><a href="#">Лечебная глина</a></li>
-                            <li><a href="#">Минеральна вода</a></li>
-                            <li><a href="#">Выходные</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Отдых</a></li>
-                            <li><a href="#">Соляные рассолы</a></li>
-                            <li><a href="#">Ski Pass</a></li>
-                            <li><a href="#">Горнолыжный курорт</a></li>
-                            <li><a href="#">Конкурс</a></li>
-                            <li><a href="#">Сезон 2018 </a></li>
-                            <li><a href="#">Скидка</a></li>
-                            <li><a href="#">Лечение</a></li>
-                            <li><a href="#">Лечебная глина</a></li>
-                            <li><a href="#">Минеральна вода</a></li>
-                            <li><a href="#">Выходные</a></li>
-                            <li><a href="#">Рыбалка</a></li>
-                            <li><a href="#">Отдых</a></li>
-                            <li><a href="#">Соляные рассолы</a></li>
-                            <li><a href="#">Ski Pass</a></li>
-                            <li><a href="#">Горнолыжный курорт</a></li>
-                            <li><a href="#">Конкурс</a></li>
+
                         </ul>
                     </div>
                 </div>
