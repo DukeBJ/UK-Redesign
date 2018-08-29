@@ -23,7 +23,7 @@
                                 'includeTVs' => 'blogs_tags',
                                 'processTVs' => 'blogs_tags',
 
-                                'tpl' => '@INLINE <li><a href="#">{$_pls["tv.blogs_tags"]}</a></li>'
+                                'tpl' => '@INLINE <li><a href="#">{$pagetitle}</a></li>'
                             ]}
 
 
