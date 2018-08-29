@@ -23,10 +23,11 @@
     <!-- END -->
 
     <!-- ОТЗЫВЫ -->
-    <section class="comments" id="pdopage">
-        <div class="container rows">
+    <div id="pdopage">
+        <section class="comments rows">
+            <div class="container">
 
-            {'pdoPage'|snippet:[
+                {'pdoPage'|snippet:[
                 'parents' => 49,
                 'limit' => 1,
                 'ajaxMode' => 'button',
@@ -38,20 +39,23 @@
                 {/ignore}
                 <b>Смотреть еще</b>
             </button>',
-            'ajaxElemMore' => '#pdopage .btn_more'
-            ]}
+                'ajaxElemMore' => '#pdopage .btn_more'
+                ]}
 
+            </div>
+
+
+
+        </section>
+        <!-- END ОТЗЫВЫ -->
+
+        <!-- Кнопка подгрузки вопросов -->
+        <div class="col-xs-12 center-xs">
+            [[!+page.nav]]
         </div>
-
-
-
-    </section>
-    <!-- END ОТЗЫВЫ -->
-
-    <!-- Кнопка подгрузки вопросов -->
-    <div class="col-xs-12 center-xs">
-        [[!+page.nav]]
     </div>
+
+
     <!-- ОСТАВЬТЕ ОТЗЫВ -->
     <section class="step">
         <div class="container">
