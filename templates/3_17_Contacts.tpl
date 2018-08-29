@@ -2,22 +2,22 @@
 {block 'main'}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
 
-    <!-- ТАБУЛЯЦИЯ КОНТАКТОВ -->
     <section class="inside-menu">
         <div class="container container-wide">
-            <div class="tabs inside__menu">
+            <div class="tabs inside__menu medical-profile__menu">
                 <div class="tabs__nav">
-                    <ul class="tabs__caption inside__menu__caption">
-                        <li class="active">{$_modx->resource.contact_filial_1_tab_title}</li>
-                        <li>{$_modx->resource.contact_filial_2_tab_title}</li>
-                        <li>{$_modx->resource.contact_filial_3_tab_title}</li>
-                    </ul>
-                    <!-- Блок контактов -->
+                    <div class="tabs__nav__ul">
+                        <ul class="tabs__caption inside__menu__caption">
+                            <li class="active">{$_modx->resource.contact_filial_1_tab_title}</li>
+                            <li>{$_modx->resource.contact_filial_2_tab_title}</li>
+                            <li>{$_modx->resource.contact_filial_3_tab_title}</li>
+                        </ul>
+                    </div>
+                </div>
                     <div class="tabs__content medical-profile__menu__content active">
                         <div class="heading">
                             <h2>{$_modx->resource.contact_filial_1_title}</h2>
                         </div>
-                        <!-- Менеджеры -->
                         <div class="row center-xs">
 
                             [[!getImageList?
@@ -37,13 +37,9 @@
                             ]]
 
                         </div>
-                        <!-- END Менеджеры -->
-                        <!-- Контакты -->
-                        <!-- Карта -->
                         <div class="contacts__map">
                             {$_modx->resource.contact_filial_1_map}
                         </div>
-                        <!-- первый столбик -->
                         <div class="contacts__info">
 
                             [[!getImageList?
@@ -62,7 +58,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_phone_1`
                             &wrapperTpl=`@CODE:
-                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
                                 [[+output]]
@@ -76,7 +71,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_requisites_1`
                             &wrapperTpl=`@CODE:
-                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
                                 [[+output]]
@@ -88,15 +82,12 @@
                             ]]
 
                         </div>
-                        <!-- END Контакты -->
                     </div>
 
-                    <!-- Симбирские курорты -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
                             <h2>{$_modx->resource.contact_filial_2_title}</h2>
                         </div>
-                        <!-- Менеджеры -->
                         <div class="row center-xs">
                             [[!getImageList?
                             &tvname=`contact_filial_managers_2`
@@ -114,13 +105,9 @@
                             </div>`
                             ]]
                         </div>
-                        <!-- END Менеджеры -->
-                        <!-- Контакты -->
-                        <!-- Карта -->
                         <div class="contacts__map">
                             {$_modx->resource.contact_filial_2_map}
                         </div>
-                        <!-- первый столбик -->
                         <div class="contacts__info">
 
                             [[!getImageList?
@@ -139,7 +126,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_phone_2`
                             &wrapperTpl=`@CODE:
-                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
                                 [[+output]]
@@ -153,7 +139,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_requisites_2`
                             &wrapperTpl=`@CODE:
-                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
                                 [[+output]]
@@ -165,15 +150,11 @@
                             ]]
 
                         </div>
-                        <!-- END Контакты -->
                     </div>
-
-                    <!-- Филиал в москве -->
                     <div class="tabs__content medical-profile__menu__content">
                         <div class="heading">
                             <h2>{$_modx->resource.contact_filial_3_title}</h2>
                         </div>
-                        <!-- Менеджеры -->
                         <div class="row center-xs">
                             [[!getImageList?
                             &tvname=`contact_filial_managers_3`
@@ -191,13 +172,9 @@
                             </div>`
                             ]]
                         </div>
-                        <!-- END Менеджеры -->
-                        <!-- Контакты -->
-                        <!-- Карта -->
                         <div class="contacts__map">
                             {$_modx->resource.contact_filial_3_map}
                         </div>
-                            <!-- первый столбик -->
 
                             [[!getImageList?
                             &tvname=`contact_filial_address_3`
@@ -215,7 +192,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_phone_3`
                             &wrapperTpl=`@CODE:
-                            <!-- второй столбик -->
                             <div class="contacts__content">
                                 <h3>Телефоны и электронная почта</h3>
                                 [[+output]]
@@ -229,7 +205,6 @@
                             [[!getImageList?
                             &tvname=`contact_filial_requisites_3`
                             &wrapperTpl=`@CODE:
-                            <!-- Третий столбик -->
                             <div class="contacts__content">
                                 <h3>Реквизиты компании</h3>
                                 [[+output]]
@@ -239,9 +214,7 @@
                                 <p>[[+description]]</p>
                             </div>`
                             ]]
-                            <!-- END Контакты -->
                     </div>
-                </div>
             </div>
         </div>
     </section>
