@@ -22,6 +22,7 @@
                             {'pdoPage'|snippet:[
                                 'parents' => '920',
                                 'element' => 'tagCloud',
+                                'limit' => 1
                             ]}
 
 
