@@ -22,7 +22,7 @@
                                 'parents' => '920',
                                 'includeTVs' => 'blogs_tags',
 
-                                'tpl' => '@INLINE <li><a href="#">{$_pls["blogs_tags"]}</a></li>'
+                                'tpl' => '@INLINE <li><a href="#">{$_pls["tv.blogs_tags"]}</a></li>'
                             ]}
 
 
