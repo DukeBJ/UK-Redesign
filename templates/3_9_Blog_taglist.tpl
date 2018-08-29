@@ -16,14 +16,14 @@
                 <div class="col-xs-12">
                     <!-- !!! Выбор года в Акциях должен быть отключен -->
                     <div class="tags alltag">
+
                         <ul>
 
                             {'pdoPage'|snippet:[
                                 'parents' => '920',
-                                'includeTVs' => 'blogs_tags',
-                                'processTVs' => 'blogs_tags',
+                                'element' => 'tagCloud',
 
-                                'tpl' => '@INLINE <li><a href="#">{$pagetitle}</a></li>'
+                                'tpl' => ''
                             ]}
 
 
