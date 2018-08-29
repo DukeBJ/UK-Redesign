@@ -43,15 +43,15 @@
 
         </div>
 
-        <!-- Кнопка подгрузки вопросов -->
-        <div class="col-xs-12 center-xs">
-            [[!+page.nav]]
-        </div>
+
 
     </section>
     <!-- END ОТЗЫВЫ -->
 
-
+    <!-- Кнопка подгрузки вопросов -->
+    <div class="col-xs-12 center-xs">
+        [[!+page.nav]]
+    </div>
     <!-- ОСТАВЬТЕ ОТЗЫВ -->
     <section class="step">
         <div class="container">
