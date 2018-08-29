@@ -16,7 +16,31 @@
     </section>
     <!-- END -->
 
+    <!-- РУБИКАТОР БЛОГА -->
+    <section class="honors">
+        <div class="container">
+            <div class="tabs">
+                <div class="tabs__nav">
+                    {'!pdoMenu'|snippet:[
+                        'parents' => $_modx->resource.id,
+                        'showHidden' => 1,
+                        'sortdir' => 'asc',
+                        'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
+                        'tpl' => '@FILE chunks/diplom/tpl.tpl'
+                    ]}
+                </div>
+                {'!pdoResources'|snippet:[
+                    'parents' => $_modx->resource.id,
+                    'sortdir' => 'asc',
+                    'tpl' => '@FILE chunks/diplom/resource.tpl'
+                ]}
+            </div>
+        </div>
+    </section>
 
-    {include 'file:chunks/blocks/block_page_diplomgallery.tpl'}
+    <!-- END -->
+
+
+    {*{include 'file:chunks/blocks/block_page_diplomgallery.tpl'}*}
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
 {/block}
