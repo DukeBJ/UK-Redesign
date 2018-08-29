@@ -17,9 +17,8 @@
 
 
                 {if $_modx->resource.medpersonal}
-                    {$_modx->resource.medpersonal|fromJSON|print_r}
                     {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
-                        {$medpersonal.MIGX_id}
+
                         {if $medpersonal.MIGX_id == 1}
                             <div class="container comments">
                                 <div class="comments__review">
