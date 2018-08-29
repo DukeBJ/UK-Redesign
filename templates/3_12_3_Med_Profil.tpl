@@ -6,14 +6,7 @@
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="medical-profile__menu">
-                <div class="tabs__nav">
-                    <ul class="medical-profile__menu__caption">
-                        <li class="active">Профили</li>
-                        <li><a href="#">Программы лечения</a></li>
-                        <li><a href="#">Особенности</a></li>
-                        <li><a href="#">Методики</a></li>
-                    </ul>
-                </div>
+                {include 'file:chunks/blocks/medical_services/medical_menu.tpl'}
 
                 {include 'file:chunks/medical_services/med_profile.tpl'}
 

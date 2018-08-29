@@ -24,14 +24,7 @@
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="tabs medical-profile__menu">
-                <div class="tabs__nav">
-                    <ul class="tabs__caption medical-profile__menu__caption">
-                        <li><a href="#">Профили</a></li>
-                        <li><a href="#">Программы лечения</a></li>
-                        <li><a href="#">Медперсонал</a></li>
-                        <li class="active">Консультация врача</li>
-                    </ul>
-                </div>
+                {include 'file:chunks/blocks/medical_services/medical_menu.tpl'}
 
 
                 <!-- Вопросы -->
