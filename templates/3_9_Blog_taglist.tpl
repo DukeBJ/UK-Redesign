@@ -21,6 +21,7 @@
                             {'pdoPage'|snippet:[
                                 'parents' => '920',
                                 'includeTVs' => 'blogs_tags',
+                                'processTVs' => 'blogs_tags',
 
                                 'tpl' => '@INLINE <li><a href="#">{$_pls["tv.blogs_tags"]}</a></li>'
                             ]}
