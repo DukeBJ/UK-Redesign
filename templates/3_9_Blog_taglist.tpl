@@ -17,15 +17,15 @@
                     <!-- !!! Выбор года в Акциях должен быть отключен -->
 
                     <div id="pdopage">
-                        [[!+page.nav]]
                         <div class="rows">
-                            {'pdoPage'|snippet:[
+                            {'!pdoPage'|snippet:[
                                 'parents' => '920',
                                 'element' => 'tagCloud',
                                 'limit' => 1,
 
                             ]}
                         </div>
+                        [[!+page.nav]]
                     </div>
 
                     {*<div class="tags alltag">*}
