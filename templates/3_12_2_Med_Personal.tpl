@@ -16,30 +16,12 @@
                 </div>
 
 
-                {if $_modx->resource.medpersonal}
-                    {$idx = 1}
-                    {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
-
-                        {if $idx == 1}
-                            <div class="container comments">
-                                <div class="comments__review">
-                                    <div class="row">
-                                        <div class="col-md-2 col-xs-3">
-                                            <div class="comments__img"><img src="{$medpersonal.image}" alt=""></div>
-                                        </div>
-                                        <div class="col-md-8 col-sm-6 col-xs-9">
-                                            <div class="comments__review">
-                                                <h4>{$medpersonal.title}</h4><span>{$medpersonal.position}</span>
-                                                <p>{$medpersonal.description}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        {/if}
-                    {/foreach}
-                {/if}
+                [[getImageList?
+                    &tvname=`medpersonal`
+                    &docid=`[[*id]]`
+                    &limit=`1`
+                    &tpl=`medpersonal.first.tpl`
+                ]]
 
 
                 <!-- Комментарий -->
@@ -49,24 +31,13 @@
                 <div class="container-two directors">
                     <div class="row center-xs">
 
-                        {if $_modx->resource.medpersonal}
-                            {var $idx = 1}
-                            {foreach $_modx->resource.medpersonal|fromJSON as $medpersonal}
-                                {if $idx > 1}
-                                    <div class="col-md-3 col-sm-6 col-xs-12">
-                                    <div class="directors__block">
-                                        <div class="directors__block__img">
-                                            <img src="{$medpersonal.image}" alt="">
-                                        </div>
-                                        <h3>{$medpersonal.title}</h3>
-                                        <p>{$medpersonal.position}</p>
-                                        <a href="tel:{$medpersonal.phone}">{$medpersonal.phone}</a>
-                                    </div>
-                                </div>
-                                {/if}
-                                {$idx++}
-                            {/foreach}
-                        {/if}
+                        [[getImageList?
+                        &tvname=`medpersonal`
+                        &docid=`[[*id]]`
+                        &limit=`1`
+                        &offset=`1`
+                        &tpl=`medpersonal.tpl`
+                        ]]
 
                     </div>
                 </div>
