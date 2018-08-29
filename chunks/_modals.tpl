@@ -276,7 +276,7 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'email,FormItSaveForm',
+                'hooks' => 'saveReview',
                 'form' => '@FILE chunks/forms/sendQuestion.tpl',
                 'emailTo' => 'email'|config,
                 'emailFrom' => 'emailsender'|config,

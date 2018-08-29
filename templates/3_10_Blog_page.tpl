@@ -34,7 +34,7 @@
                             <div class="tags">
                                 <ul>
                                     {foreach $_modx->resource.blogs_tags|split as $tag}
-                                        <li><a href="#">{$tag}</a></li>
+                                        <li><a href="/blog?tv|blogs_tags={$tag}">{$tag}</a></li>
                                     {/foreach}
                                 </ul>
                             </div>
