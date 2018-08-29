@@ -1,9 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 
 {block 'main'}
-    {include 'file:chunks/blocks/block_header.tpl'}
 
-    <!-- ИНТРО фотогалереи -->
     <section class="page-intro" style="background:url({'template_url'|config}img/sanatorium-Lenin.png) no-repeat;background-size: cover;">
         <div class="page-intro__content">
             <div class="container">
@@ -14,9 +12,7 @@
             </div>
         </div>
     </section>
-    <!-- END -->
 
-    <!-- РУБИКАТОР БЛОГА -->
     <section class="honors">
         <div class="container">
             <div class="tabs">
@@ -37,8 +33,6 @@
             </div>
         </div>
     </section>
-
-    <!-- END -->
 
     {include 'file:chunks/blocks/block013_bottom_help.tpl'}
 {/block}
