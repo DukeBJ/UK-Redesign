@@ -35,7 +35,6 @@
                                 'parents' => '920',
                                 'element' => 'tagCloud',
                                 'limit' => 1,
-                                'offset' => 1
                             ]}
 
 
