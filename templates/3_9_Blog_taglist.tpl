@@ -22,8 +22,6 @@
                             {'pdoPage'|snippet:[
                                 'parents' => '920',
                                 'element' => 'tagCloud',
-
-                                'tpl' => '@INLINE <a href="">{$value}</a>'
                             ]}
 
 
