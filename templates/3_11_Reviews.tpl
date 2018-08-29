@@ -27,8 +27,6 @@
         <section class="comments rows">
             <div class="container">
 
-                123123
-
                 {'pdoPage'|snippet:[
                     'parents' => 49,
                     'limit' => 1,
