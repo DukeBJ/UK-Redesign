@@ -1,9 +1,7 @@
 <?php
 
-$name = $hook->getValue('name');
-$email = $hook->getValue('email');
-$message = $hook->getValue('message');
+$values = $hook->getValues();
 
-$modx->log(1, $name);
+$modx->log(1, print_r($values, 1));
 
 
