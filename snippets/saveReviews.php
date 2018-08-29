@@ -1,9 +1,9 @@
 <?php
 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+$name = $hook->getValue('name');
+$email = $hook->getValue('email');
+$message = $hook->getValue('message');
 
-$modx->log(1, print_r($_POST, 1));
+$modx->log(1, print_r($name, 1));
 
 
