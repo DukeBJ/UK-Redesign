@@ -15,6 +15,18 @@
                 </div>
                 <div class="col-xs-12">
                     <!-- !!! Выбор года в Акциях должен быть отключен -->
+
+                    {*<div id="pdopage">*}
+                        {*[[!+page.nav]]*}
+                        {*<div class="rows">*}
+                            {*[[!pdoPage?*}
+                            {*&parents=`0`*}
+                            {*&ajaxMode=`button`*}
+                            {*&limit=`5`*}
+                            {*]]*}
+                        {*</div>*}
+                    </div>
+
                     <div class="tags alltag">
 
                         <ul>
@@ -27,6 +39,7 @@
 
 
                         </ul>
+                        [[!+page.nav]]
                     </div>
                 </div>
                 <div class="col-xs-12 center-xs">
