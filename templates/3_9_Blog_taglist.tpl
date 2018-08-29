@@ -28,21 +28,21 @@
                         </div>
                     </div>
 
-                    <div class="tags alltag">
+                    {*<div class="tags alltag">*}
 
-                        <ul>
+                        {*<ul>*}
 
-                            {'pdoPage'|snippet:[
-                                'parents' => '920',
-                                'element' => 'tagCloud',
-                                'limit' => 1,
-                                'ajaxMode' => 'button'
-                            ]}
+                            {*{'pdoPage'|snippet:[*}
+                                {*'parents' => '920',*}
+                                {*'element' => 'tagCloud',*}
+                                {*'limit' => 1,*}
+                                {*'ajaxMode' => 'button'*}
+                            {*]}*}
 
 
-                        </ul>
+                        {*</ul>*}
 
-                    </div>
+                    {*</div>*}
                 </div>
                 <div class="col-xs-12 center-xs">
                     <div class="button_margin">
