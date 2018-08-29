@@ -39,11 +39,14 @@
 
 
                         </ul>
-                        [[!+page.nav]]
+
                     </div>
                 </div>
                 <div class="col-xs-12 center-xs">
                     <div class="button_margin">
+
+                        [[!+page.nav]]
+
                         <a class="btn btn-sandy btn-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs>
                                     {ignore}
