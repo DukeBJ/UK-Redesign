@@ -21,7 +21,7 @@
                             {'pdoPage'|snippet:[
                                 'parents' => '920',
                                 'includeTVs' => 'blogs_tags',
-                                'groupby' => 'blogs_tags',
+
                                 'tpl' => '@INLINE <li><a href="#">{$_pls["blogs_tags"]}</a></li>'
                             ]}
 
