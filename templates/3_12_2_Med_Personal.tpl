@@ -34,7 +34,6 @@
                         [[getImageList?
                         &tvname=`medpersonal`
                         &docid=`[[*id]]`
-                        &limit=`1`
                         &offset=`1`
                         &tpl=`medpersonal.tpl`
                         ]]
