@@ -10,7 +10,7 @@
             <div class="col-sm-4">
                 <div class="left-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-1 scene-secondary">
-                        <div data-depth="0.5"><img src="{$template}img/flow/ippo_heat.png" alt=""></div>
+                        <div data-depth="0.5"><img src="{$_modx->resource.dosug_image_1}" alt=""></div>
                     </div>
                 </div>
             </div>
