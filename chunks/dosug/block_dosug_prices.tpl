@@ -30,9 +30,7 @@
                         <tr>
                             <td>[[+price_name]]</td>
                             <td class="coins">[[+price_1]]</td>
-                        </tr>
-
-                        `
+                        </tr>`
                         ]]
 
                     </table>

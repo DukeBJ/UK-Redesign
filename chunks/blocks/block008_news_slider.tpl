@@ -15,7 +15,7 @@
                 <div class="swiper-wrapper">
 
                     {'!pdoResources'|snippet:[
-                    'parents' => '920',
+                    'parents' => 920,
                     'depth' => 1,
                     'includeContent' => 1,
                     'includeTVs' => 'news_img',
@@ -24,7 +24,7 @@
                     'sortby' => 'publishedon',
                     'sortdir' => 'DESC',
                     'hideContainers' => 1,
-                    'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
+                    'tpl' => '@FILE chunks/main_page/swiper-slide.tpl'
                     ]}
 
                 </div>
