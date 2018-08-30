@@ -1,4 +1,3 @@
-<!-- блок 010 -->
 <section class="left-block bg-white">
     <div class="container">
         <div class="row">
@@ -9,9 +8,12 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="water__img"><img src="{$template}img/glass.png" alt="" id="water"></div>
+                <div class="left-block__img">
+                    <div data-invert-x="false" data-invert-y="false" class="scene-3 scene-secondary">
+                        <div data-depth="0.5"><img src="{$template}img/flow/diet.png" alt=""></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- END -->
