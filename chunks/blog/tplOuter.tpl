@@ -39,7 +39,7 @@
                 </form>
 
             </div>
-            <div class="col-sm-12">
+            <div class="col-xs-12">
                 <div class="row" id="mse2_results">
                     [[+results]]
                 </div>
