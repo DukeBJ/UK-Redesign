@@ -4,9 +4,12 @@
     {include 'file:chunks/dosug/block_dosug_1.tpl'}
     <div class="bg-line"></div>
     {include 'file:chunks/dosug/block_dosug_2.tpl'}
-    {include 'file:chunks/dosug/block_dosug_prices.tpl'}
-    {include 'file:chunks/dosug/slider_hources.tpl'}
-    
+    {if $_modx->resource.dosug_table_hources_price != ''}
+        {include 'file:chunks/dosug/block_dosug_prices.tpl'}
+    {/if}
+    {if $_modx->resource.dosug_hources_slider != ''}
+        {include 'file:chunks/dosug/slider_hources.tpl'}
+    {/if}
         <section class="blog-inside">
             <div class="container">
                 <div class="row">
