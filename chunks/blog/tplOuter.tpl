@@ -10,7 +10,7 @@
             </div>
             <div class="col-xs-12">
                 <!-- !!! Выбор года в Акциях должен быть отключен -->
-                <form action="[[~[[*id]]]]" method="post" id="mse2_filters">
+                <form action="[[~[[*id]]]]" method="post" id="mse2_filters" class="blog-filter">
                     [[+filters]]
                     {*<select>*}
                         {*<option value="1">За всё время</option>*}
@@ -35,7 +35,7 @@
                         {*</ul>*}
                         <!-- !!! Все теги появляются, только при условии, что тегов больше чем две строчки -->
                         <a href="{'949'|url}" class="all-tags1">Все теги</a>
-                    </div>
+                    {*</div>*}
                 </form>
 
             </div>
