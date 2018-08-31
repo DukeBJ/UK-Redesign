@@ -13,7 +13,7 @@
         <div class="container">
             <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
-
+<!--
                     {'!pdoResources'|snippet:[
                     'parents' => 920,
                     'depth' => 1,
@@ -26,7 +26,7 @@
                     'hideContainers' => 1,
                     'tpl' => '@FILE /chunks/main_page/swiper-slide.tpl'
                     ]}
-
+-->
                 </div>
             </div>
             <div class="swiper-button-next swiper-special-offers-next"><i class="icon icon-right-arrow"></i></div>
