@@ -7,6 +7,7 @@
     {include 'file:chunks/blocks/block007_calc.tpl'}
     {include 'file:chunks/blocks/block_news_slider.tpl'}
     {include 'file:chunks/sanator/sanator_accommodation.tpl'}
+    {include 'file:chunks/sanator/sanator_food.tpl'}
     {include 'file:chunks/sanator/sanator_sport.tpl'}
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
     {include 'file:chunks/sanator/sanator_recreation.tpl'}
