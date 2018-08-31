@@ -7,7 +7,7 @@
     {include 'file:chunks/blocks/block005_med_profile_list.tpl'}
     {include 'file:chunks/blocks/block006_list_sanatorium.tpl'}
     {include 'file:chunks/blocks/block007_calc.tpl'}
-    {include 'file:chunks/blocks/block008_news_slider.tpl'}
+    {* {include 'file:chunks/blocks/block008_news_slider.tpl'} *}
     {include 'file:chunks/blocks/block010_1_mineral_water.tpl'}
     {include 'file:chunks/blocks/block010_2_Healing_clay.tpl'}
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
