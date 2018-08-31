@@ -49,9 +49,9 @@
                     <div class="col-sm-3 col-xs-6">
                         <ul>
                             <li><a href="{$_modx->makeUrl(372)}">Акции</a></li>
-                            <li><a href="#">Фотогалерея</a></li>
-                            <li><a href="#">Награды</a></li>
-                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="{$_modx->makeUrl(918)}">Фотогалерея</a></li>
+                            <li><a href="{$_modx->makeUrl(164)}">Награды</a></li>
+                            <li><a href="{$_modx->makeUrl(49)}">Отзывы</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
