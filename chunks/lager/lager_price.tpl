@@ -17,10 +17,12 @@
                     <li>IV смена</li>
                 </ul>
                 <div class="tabs__content active">
+                    
                     {set $rows = json_decode($_modx->resource.main_ul, true)}
                     
                     <div class="tabs__content__block">
                         <h3>Смена 1</h3>
+
                         {foreach $rows as $row}
                         
                         <div class="tabs__content__block">
@@ -32,8 +34,8 @@
                             <table>
                                 {foreach $rows as $row}
                                     <tr>
-                                        <td>{$row.li_row}</td>
-                                        <td class="coins">240 ₽</td>
+                                        <td>{$row.td_title}</td>
+                                        <td class="coins">{$row.td_descr}</td>
                                     </tr>
                                 {/foreach}
                             </table>
