@@ -47,7 +47,7 @@
 
                 <div class="tabs__content">
                     
-                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    {set $rows = json_decode($_modx->resource.price_table_2, true)}
                     
                     <div class="tabs__content__block">
                         <h3>Смена 2</h3>
@@ -75,7 +75,7 @@
 
                 <div class="tabs__content">
                     
-                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    {set $rows = json_decode($_modx->resource.price_table_3, true)}
                     
                     <div class="tabs__content__block">
                         <h3>Смена 3</h3>
@@ -103,7 +103,7 @@
 
                 <div class="tabs__content">
                     
-                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    {set $rows = json_decode($_modx->resource.price_table_4, true)}
                     
                     <div class="tabs__content__block">
                         <h3>Смена 4</h3>
