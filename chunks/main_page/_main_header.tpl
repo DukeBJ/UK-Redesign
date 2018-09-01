@@ -12,7 +12,7 @@
             <div class="col-md-4 col-sm-5 end-xs"><a href="tel:88007074105" class="phone">8 (800) 707-41-05</a></div>
         </div>
     </div>
-    <div class="header__top">
+    <div class="header__top no_lk">
         <div class="menu-open"><span></span></div>
         <nav>
             <ul>
