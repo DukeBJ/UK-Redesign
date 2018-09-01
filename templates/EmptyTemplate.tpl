@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 {include 'file:chunks/_head.tpl'}
-<body>
+{if $_modx->resource.id == '917'}
+    <body class="mainpg">
+{else}
+    <body>
+{/if}
 
 {set $template = 'template_url'|config}
 <!--<div class="loader">Loading...</div>-->
