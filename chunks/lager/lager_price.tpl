@@ -1,22 +1,3 @@
-{set $rows = json_decode($_modx->resource.main_ul, true)}
-    <h4>Вложенные списки</h4>
-        <ul>
-            {foreach $rows as $row}
-            
-                <li>{$row.title}
-                    
-                      {set $rows = json_decode($row.inner,true)}
-                        <ul>
-                            {foreach $rows as $row}
-                                <li>{$row.li_row}</li>
-                            {/foreach}
-                        </ul>
-                        
-                </li> 
-            {/foreach}
-        </ul>
-
-
 <section id="price" class="prices">
     <div class="container">
         <div class="row">
@@ -36,231 +17,27 @@
                     <li>IV смена</li>
                 </ul>
                 <div class="tabs__content active">
+                    {set $rows = json_decode($_modx->resource.main_ul, true)}
+                    
                     <div class="tabs__content__block">
                         <h3>Смена 1</h3>
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная</h4>
+                        {foreach $rows as $row}
+                        
+                        <div class="tabs__content__block">
+                            <div class="tabs__content__title">
+                                <h4>{$row.title}</h4>
+                            </div>
+                            
+                            {set $rows = json_decode($row.inner,true)}
+                            <table>
+                                {foreach $rows as $row}
+                                    <tr>
+                                        <td>{$row.li_row}</td>
+                                        <td class="coins">240 ₽</td>
+                                    </tr>
+                                {/foreach}
+                            </table>
                         </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="tabs__content__block">
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная 2</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="tabs__content">
-                    <div class="tabs__content__block">
-                        <h3>Смена 2</h3>
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="tabs__content__block">
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная 2</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="tabs__content">
-                    <div class="tabs__content__block">
-                        <h3>Смена 3</h3>
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="tabs__content__block">
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная 2</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="tabs__content">
-                    <div class="tabs__content__block">
-                        <h3>Смена 4</h3>
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="tabs__content__block">
-                        <div class="tabs__content__title">
-                            <h4>Стрижка модельная 2</h4>
-                        </div>
-                        <table>
-                            <tr>
-                                <td>Короткие волосы</td>
-                                <td class="coins">240 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Средние волосы</td>
-                                <td class="coins">270 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Длинные волосы</td>
-                                <td class="coins">300 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание по всей длине</td>
-                                <td class="coins">150 ₽</td>
-                            </tr>
-                            <tr>
-                                <td>Подравнивание чёлки</td>
-                                <td class="coins">70 ₽</td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
             </div>
