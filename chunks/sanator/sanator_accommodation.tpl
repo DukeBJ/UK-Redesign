@@ -3,6 +3,8 @@
         <div class="row">
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
+                    <h2>{$_modx->resource.sanator_accommodation_title}</h2>
+                    <p>{$_modx->resource.sanator_accommodation_description}</p>
                     <h2>Проживание</h2>
                     <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
                     <div class="buttons_block">
