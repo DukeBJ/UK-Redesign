@@ -1,3 +1,4 @@
+
 <section id="price" class="prices">
     <div class="container">
         <div class="row">
@@ -43,6 +44,91 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="tabs__content">
+                    
+                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    
+                    <div class="tabs__content__block">
+                        <h3>Смена 2</h3>
+
+                        {foreach $rows as $row}
+                        
+                        <div class="tabs__content__block">
+                            <div class="tabs__content__title">
+                                <h4>{$row.title}</h4>
+                            </div>
+                            
+                            {set $rows = json_decode($row.inner,true)}
+                            <table>
+                                {foreach $rows as $row}
+                                    <tr>
+                                        <td>{$row.td_title}</td>
+                                        <td class="coins">{$row.td_descr}</td>
+                                    </tr>
+                                {/foreach}
+                            </table>
+                        {/foreach}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs__content">
+                    
+                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    
+                    <div class="tabs__content__block">
+                        <h3>Смена 3</h3>
+
+                        {foreach $rows as $row}
+                        
+                        <div class="tabs__content__block">
+                            <div class="tabs__content__title">
+                                <h4>{$row.title}</h4>
+                            </div>
+                            
+                            {set $rows = json_decode($row.inner,true)}
+                            <table>
+                                {foreach $rows as $row}
+                                    <tr>
+                                        <td>{$row.td_title}</td>
+                                        <td class="coins">{$row.td_descr}</td>
+                                    </tr>
+                                {/foreach}
+                            </table>
+                        {/foreach}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs__content">
+                    
+                    {set $rows = json_decode($_modx->resource.price_table, true)}
+                    
+                    <div class="tabs__content__block">
+                        <h3>Смена 4</h3>
+
+                        {foreach $rows as $row}
+                        
+                        <div class="tabs__content__block">
+                            <div class="tabs__content__title">
+                                <h4>{$row.title}</h4>
+                            </div>
+                            
+                            {set $rows = json_decode($row.inner,true)}
+                            <table>
+                                {foreach $rows as $row}
+                                    <tr>
+                                        <td>{$row.td_title}</td>
+                                        <td class="coins">{$row.td_descr}</td>
+                                    </tr>
+                                {/foreach}
+                            </table>
+                        {/foreach}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
