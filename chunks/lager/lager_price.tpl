@@ -18,7 +18,7 @@
                 </ul>
                 <div class="tabs__content active">
                     
-                    {set $rows = json_decode($_modx->resource.main_ul, true)}
+                    {set $rows = json_decode($_modx->resource.price_table, true)}
                     
                     <div class="tabs__content__block">
                         <h3>Смена 1</h3>
