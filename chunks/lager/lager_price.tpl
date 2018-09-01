@@ -37,6 +37,7 @@
                                     </tr>
                                 {/foreach}
                             </table>
+                        {/foreach}
                         </div>
                     </div>
                 </div>
