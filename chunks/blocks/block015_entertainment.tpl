@@ -16,7 +16,8 @@
                             <a href="#" class="ulyanovsk__block">
                                 <img src="{$template}img/ulyanovsk/animation.png" srcset="{$template}img/ulyanovsk/animation@2x.png 2x, {$template}img/ulyanovsk/animation@3x.png 3x">
                                 <h3>Анимация</h3>
-                                <p>Независимо от степени вашей подготовки мы стараемся доставить вам радость от общения с природой и лошадьми.</p></a>
+                                <p>Независимо от степени вашей подготовки мы стараемся доставить вам радость от общения с природой и лошадьми.</p>
+                            </a>
                         </div>
                         <div class="col-sm-6 col-xs-12">
                             <a href="#" class="ulyanovsk__block">
@@ -32,7 +33,9 @@
                             <a href="#" class="ulyanovsk__block">
                                 <img src="{$template}img/ulyanovsk/dino.png" srcset="{$template}img/ulyanovsk/dino@2x.png 2x, {$template}img/ulyanovsk/dino@3x.png 3x">
                                 <h3>Интересные экскурсии</h3>
-                                <p>Независимо от степени вашей подготовки мы стараемся доставить вам радость от общения с природой и лошадьми.</p></a></div>
+                                <p>Независимо от степени вашей подготовки мы стараемся доставить вам радость от общения с природой и лошадьми.</p>
+                            </a>
+                        </div>
                         <div class="col-sm-6 col-xs-12">
                             <a href="#" class="ulyanovsk__block">
                                 <img src="{$template}img/ulyanovsk/horse.png" srcset="{$template}img/ulyanovsk/horse@2x.png 2x, {$template}img/ulyanovsk/horse@3x.png 3x">

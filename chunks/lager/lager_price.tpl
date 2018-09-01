@@ -1,3 +1,22 @@
+{set $rows = json_decode($_modx->resource.main_ul, true)}
+    <h4>Вложенные списки</h4>
+        <ul>
+            {foreach $rows as $row}
+            
+                <li>{$row.title}
+                    
+                      {set $rows = json_decode($row.inner,true)}
+                        <ul>
+                            {foreach $rows as $row}
+                                <li>{$row.li_row}</li>
+                            {/foreach}
+                        </ul>
+                        
+                </li> 
+            {/foreach}
+        </ul>
+
+
 <section id="price" class="prices">
     <div class="container">
         <div class="row">
