@@ -40,7 +40,10 @@
     </button>
 
     <div
-            class="form__checkbox checkbox"><input type="checkbox" id="checkbox"><label for="checkbox">Нажимая
-            кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных
+            class="form__checkbox checkbox"><input type="checkbox" id="checkbox" checked><label for="checkbox">Нажимая
+            кнопку «Отправить», я даю своё согласие на обработку <a href="{'957'|url}">персональных
                 данных.</a></label></div>
 </form>
+<div class="msgdone">
+    Спасибо! Мы получили Ваш вопрос и&nbsp;передали специалисту.
+</div>
