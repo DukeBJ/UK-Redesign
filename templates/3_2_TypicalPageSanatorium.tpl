@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/blocks/block018_intro_big.tpl'}
+    {include 'file:chunks/blocks/block018_intro_big_booking.tpl'}
     {include 'file:chunks/sanator/sanator_menu.tpl'}
     {include 'file:chunks/sanator/sanator_profiles.tpl'}
     {include 'file:chunks/sanator/sanator_natural_factors.tpl'}
