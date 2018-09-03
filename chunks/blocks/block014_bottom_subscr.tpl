@@ -13,6 +13,9 @@
                     'tplSubscribeAuth' => 'sendexSibscribeForm',
                     'tplSubscribeGuest' => 'sendexSibscribeForm'
                 ]}
+                <div class="msgdone">
+                    Спасибо за&nbsp;подписку!
+                </div>
             </div>
         </div>
     </div>
