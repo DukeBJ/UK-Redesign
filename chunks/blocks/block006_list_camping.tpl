@@ -17,6 +17,7 @@
                     {'!pdoResources'|snippet:[
                     'parents' => 281,
                     'depth' => 0,
+                    'resources' => -318,
                     'includeContent' => 1,
                     'includeTVs' => 'sanator_cover,sanator_img',
                     'prepareTVs' => 1,
