@@ -17,6 +17,9 @@
                     'validate' => 'tel:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
+                <div class="msgdone">
+                    Спасибо за&nbsp;обращение! Мы получили Ваш телефон и&nbsp;свяжемся в&nbsp;течении часа.
+                </div>
             </div>
         </div>
     </div>
