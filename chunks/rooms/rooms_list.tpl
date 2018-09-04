@@ -2,7 +2,7 @@
 <section class="room">
     <div class="container">
         <div class="row middle-xs center-xs">
-            <div id="oneroom" class="room__block">
+            <div id="oneroom" class="room__block" style="background:url(img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">
                         <h2>Одноместные номера</h2>
@@ -16,7 +16,7 @@
                     </a>
                 </div>
             </div>
-            <div id="doubleroom" class="room__block">
+            <div id="doubleroom" class="room__block" style="background:url(img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">
                         <h2>Двуместные номера</h2>
@@ -30,7 +30,7 @@
                     </a>
                 </div>
             </div>
-            <div id="apartment" class="room__block">
+            <div id="apartment" class="room__block" style="background:url(img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">
                         <h2>Апартаменты</h2>
@@ -44,7 +44,7 @@
                     </a>
                 </div>
             </div>
-            <div id="lux" class="room__block">
+            <div id="lux" class="room__block" style="background:url(img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">
                         <h2>Люкс</h2>
@@ -58,7 +58,7 @@
                     </a>
                 </div>
             </div>
-            <div id="doublelux" class="room__block">
+            <div id="doublelux" class="room__block" style="background:url(img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">
                         <h2>Двуместный люкс</h2>
