@@ -20,8 +20,9 @@
           </ul>
         </div>
         <div id="tl-booking-form">&nbsp;</div>
+          {ignore}
         <script type="text/javascript">
-            {ignore}function getUrlParams() {
+            function getUrlParams() {
                 var urlParams = {};
                 var params = location.search.substr(1).split('&');
                 for (var key in params) {
@@ -91,8 +92,9 @@
                     s.src = (p == 'https:' ? p : 'http:') + '//ibe.tlintegration.com/integration/loader.js';
                     (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
                 }
-            })(window);{/ignore}
+            })(window);
         </script>
+          {/ignore}
       </div>
     </div>
 </section>
