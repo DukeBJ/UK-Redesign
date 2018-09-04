@@ -40,26 +40,27 @@
                         <h3><a href="{$_modx->makeUrl(912)}">О курорте</a></h3>
                     </div>
                     <div class="col-sm-3 col-xs-6">
-
-                        {'!pdoMenu'|snippet:[
-                            'parents' => '912',
-                            'level' => 1
-                        ]}
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
                         <ul>
-                            <li><a href="{$_modx->makeUrl(372)}">Акции</a></li>
-                            <li><a href="{$_modx->makeUrl(918)}">Фотогалерея</a></li>
+                            <li><a href="{$_modx->makeUrl(914)}">История курорта</a></li>
+                            <li><a href="{$_modx->makeUrl(166)}">Руководство</a></li>
+                            <li><a href="{$_modx->makeUrl(919)}">Юридическая информация</a></li>
                             <li><a href="{$_modx->makeUrl(164)}">Награды</a></li>
-                            <li><a href="{$_modx->makeUrl(49)}">Отзывы</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
                         <ul>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Питание</a></li>
+                            <li><a href="{$_modx->makeUrl(918)}">Фотогалерея</a></li>
+                            <li><a href="{$_modx->makeUrl(49)}">Отзывы</a></li>
                             <li><a href="{$_modx->makeUrl(453)}">Молочный Цех</a></li>
                             <li><a href="{$_modx->makeUrl(618)}">Участки ИЖС</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6">
+                        <ul>
+                            <li><a href="{$_modx->makeUrl(924)}">Новости компании</a></li>
+                            <li><a href="{$_modx->makeUrl(923)}">Акции</a></li>
+                            <li><a href="{$_modx->makeUrl(925)}">Статьи</a></li>
+                            <li><a href="#">Цены</a></li>
                         </ul>
                     </div>
                 </div>
