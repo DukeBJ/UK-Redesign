@@ -15,7 +15,13 @@
                                 <p>7 дней</p><input type="range" min="1" max="20"><span>Количество дней</span></div>
                         </div>
                         <div class="col-sm-4 col-xs-12">
-                            <div class="form__select"><select name="day"><option value="1">Без лечения</option><option value="2">С лечением</option></select><span>Тип лечения</span></div>
+                            <div class="form__select">
+                                <select name="day">
+                                <option value="{'data-value-calc-1' | config}">Без лечения</option>
+                                <option value="{'data-value-calc-2' | config}">С лечением</option>
+                                </select>
+                            <span>Тип лечения</span>
+                            </div>
                         </div>
                         <div class="col-sm-4 col-xs-12">
                             <div class="form__sum"><span>от 19 500 ₽</span>
