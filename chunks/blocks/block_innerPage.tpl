@@ -1,4 +1,4 @@
-<div class="room__block">
+<div class="room__block" style="background:url({$_modx->resource.intro_block_img}) no-repeat;background-size: cover;background-position: center center;">
   <div class="room__block__content">
     <div class="heading heading-secondary">
       <h2>{*Сюда заголовок из внутренней страницы*}</h2>
