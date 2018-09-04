@@ -17,8 +17,8 @@
                         <div class="col-sm-4 col-xs-12">
                             <div class="form__select">
                                 <select name="day">
-                                <option value="{'data-value-calc-1' | config}">Без лечения</option>
-                                <option value="{'data-value-calc-2' | config}">С лечением</option>
+                                <option value="{'data-value-calc-2' | config}">Без лечения</option>
+                                <option value="{'data-value-calc-1' | config}">С лечением</option>
                                 </select>
                             <span>Тип лечения</span>
                             </div>
