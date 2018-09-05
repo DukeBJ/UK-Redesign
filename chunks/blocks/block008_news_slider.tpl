@@ -14,6 +14,7 @@
         <div class="container">
             {'!pdoResources'|snippet:[
                 'parents' => '920',
+                'depth' => 1,
                 'includeContent' => 1,
                 'includeTVs' => 'news_img',
                 'hideContainers' => 1,
