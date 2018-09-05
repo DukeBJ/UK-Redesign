@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/blocks/block018_intro_mini.tpl'}
+    {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     
     <section class="page-list">
         <div class="container">
