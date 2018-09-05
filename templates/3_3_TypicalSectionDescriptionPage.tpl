@@ -7,7 +7,7 @@
             <div class="row middle-xs center-xs">
             
                 {'!pdoResources'|snippet:[
-                    'parents' => $id,
+                    'parents' => $_modx->resource.id,
                     'depth' => 1,
                     'includeTVs' => 'intro_block_img',
                     'includeContent' => 1,
