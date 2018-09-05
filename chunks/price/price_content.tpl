@@ -37,8 +37,7 @@
                             {set $rows = json_decode($row.all_price_line,true)}
                             <tr>
                                 {foreach $rows as $row}
-                                    <li>{$row.level_two_inner_li_row}</li>
-                                    <td>Путевка с проживанием в апартаментах</td>
+                                    <td>{$row.title}</td>
                                     <td class="coins">
                                         <p>500 ₽<span>будни</span></p>
                                         <p>600 ₽<span>выходные</span></p>
