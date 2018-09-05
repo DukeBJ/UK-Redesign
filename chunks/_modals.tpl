@@ -290,6 +290,29 @@
     </div>
 </div>
 
+<div id="pop-question-doctor" class="modal pop-question">
+    <div class="modal__close"><span></span></div>
+    <div class="modal__content">
+        <div class="pop-question__content">
+            <div class="heading">
+                <h2>Задайте свой вопрос</h2>
+                <p>Наши врачи ответят на все ваши вопросы.</p>
+            </div>
+            {'!AjaxForm'|snippet:[
+                'hooks' => 'saveReviewDoctor',
+                'form' => '@FILE chunks/forms/sendQuestion.tpl',
+                'emailTo' => 'email'|config,
+                'emailFrom' => 'emailsender'|config,
+                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+                'emailTpl' => '@FILE chunks/emails/email.tpl',
+                'validate' => 'name:required,email:required,message:required',
+                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            ]}
+
+        </div>
+    </div>
+</div>
+
 <div id="pop-application" class="modal pop-application">
     <div class="modal__close"><span></span></div>
     <div class="modal__content">

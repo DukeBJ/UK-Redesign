@@ -8,8 +8,8 @@
    {* {include 'file:chunks/blocks/block_news_slider.tpl'} *}
     {include 'file:chunks/sanator/sanator_accommodation.tpl'}
     {include 'file:chunks/sanator/sanator_food.tpl'}
-    {include 'file:chunks/sanator/sanator_sport.tpl'}
     {include 'file:chunks/blocks/block012_gallery_wide.tpl'}
+    {include 'file:chunks/sanator/sanator_sport.tpl'}
     {include 'file:chunks/sanator/sanator_recreation.tpl'}
     {include 'file:chunks/blocks/block017_reviews.tpl'}
     {include 'file:chunks/_contacts.tpl'}
