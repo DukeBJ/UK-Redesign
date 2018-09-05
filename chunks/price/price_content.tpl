@@ -10,7 +10,9 @@
                 </div>
             </div>
 
-            {$_modx->resource.all_price_table|fromJSON|print_r}
+            <pre>
+                {$_modx->resource.all_price_table|fromJSON|print_r}
+            </pre>
 
 
             <!-- Блок таблицы (1) -->
