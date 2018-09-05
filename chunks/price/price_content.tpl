@@ -355,7 +355,7 @@
                                 <!-- END Таблица первая -->
                             {/foreach}
                             </div>
-                            {$idx++}
+                            <span style="display: none">{$idx++}</span>
                         {/foreach}
 
                     </div>
