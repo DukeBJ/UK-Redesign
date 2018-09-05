@@ -331,7 +331,7 @@
 
                         {var $idx = 1}
                         {foreach $_modx->resource.all_price_table|fromJSON as $price}
-                            <div class="tabs__content {$idx == 1 ? 'active'}">
+                            <div class="tabs__content {$idx == 1 ? 'active' :''}">
                             {foreach $price.inner|fromJSON as $inner}
                                 <!-- Таблица первая -->
 
