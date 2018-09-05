@@ -24,17 +24,17 @@
                         <ul class="tabs__caption">
                             <li>{$row.title}</li>
                         </ul>
-                    {set $rows = json_decode($row.inner,true)}
                     <div class="tabs__content">
                         <div class="tabs__content__block">
                             <div class="tabs__content__title">
-
+                            {set $rows = json_decode($row.all_price_out,true)}
+                   
                                 {foreach $rows as $row}
                                 <h4>{$row.title}</h4>
 
                             </div>
                             <table>
-                            {set $rows = json_decode($row.inner_ul_,true)}
+                            {set $rows = json_decode($row.all_price_line,true)}
                             <tr>
                                 {foreach $rows as $row}
                                     <li>{$row.level_two_inner_li_row}</li>
