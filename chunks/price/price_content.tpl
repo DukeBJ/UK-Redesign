@@ -28,6 +28,7 @@
 
                         {foreach $_modx->resource.all_price_table|fromJSON as $price}
                             {foreach $price.inner|fromJSON as $inner}
+                                {$inner|print_r}
                                 <!-- Таблица первая -->
                                 <div class="tabs__content">
                                     <div class="tabs__content__block">
