@@ -9,6 +9,13 @@
             </div>
         </div>
     </div>
+
+    {'pdoResources'|snippet:[
+        'parents' => 0,
+        'limit' => 1,
+        'tpl' => ''
+    ]}
+
     <div id="water-triger" class="swiper">
         <div class="container">
             {'!pdoResources'|snippet:[
