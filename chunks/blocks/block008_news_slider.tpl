@@ -14,18 +14,7 @@
             <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
-                    {'!pdoResources'|snippet:[
-                        'parents' => 920,
-                        'depth' => 1,
-                        'includeContent' => 1,
-                        'includeTVs' => 'news_img',
-                        'prepareTVs' => 1,
-                        'processTVs' => 1,
-                        'sortby' => 'publishedon',
-                        'sortdir' => 'DESC',
-                        'hideContainers' => 1,
-                        'tpl' => '@FILE /chunks/main_page/swiper-slide.tpl'
-                    ]}
+
 
                 </div>
             </div>
