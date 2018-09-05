@@ -11,7 +11,8 @@
                     'depth' => 1,
                     'includeTVs' => 'intro_block_img',
                     'includeContent' => 1,
-                    'tpl' => '@FILE chunks/blocks/block_innerPage.tpl',
+                    'tpl' => '@FILE chunks/blocks/block_innerPage.tpl'
+                    'showLog' => 1
                 ]}
             
             </div>
