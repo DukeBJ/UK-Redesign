@@ -1,4 +1,7 @@
 <form action="" class="form ajax_form">
+
+    <input type="text" name="parent" value="[[*id]]">
+
     <div class="form__block">
         <div class="form__input"><input type="text" name="name" value="[[!+fi.name]]" id="text-6"><label for="text-6">Как к Вам
                 обращаться?</label></div>
