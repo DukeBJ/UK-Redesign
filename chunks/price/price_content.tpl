@@ -26,8 +26,9 @@
                 <div class="prices__content">
                     <div class="tabs">
                         <ul class="tabs__caption">
-                            <li>1 мая — 30 июня</li>
-                            <li class="active">1 июля — 31 августа</li>
+                        {foreach $_modx->resource.all_price_table|fromJSON as $price}
+                            <li>{$price.title}</li>
+                        {/foreach}
                         </ul>
 
                         <!-- Таблица первая -->
