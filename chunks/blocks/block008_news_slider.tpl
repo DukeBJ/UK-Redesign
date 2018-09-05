@@ -16,6 +16,7 @@
                 'parents' => '920',
                 'includeContent' => 1,
                 'includeTVs' => 'news_img',
+                'hideContainers' => 1,
                 'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
