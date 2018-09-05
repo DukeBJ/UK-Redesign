@@ -2,7 +2,7 @@
     <ul class="tabs__caption medical-profile__menu__caption">
         <li {if $_modx->resource.id == $_modx->resource.link_profile} class="active" {/if}><a href="#">Профили</a></li>
         <li {if $_modx->resource.id == $_modx->resource.link_programa} class="active" {/if}><a href="#">Программы лечения</a></li>
-        <li {if $_modx->resource.id == $_modx->resource.link_osobennosti} class="active" {/if}>Особенности</li>
-        <li {if $_modx->resource.id == $_modx->resource.link_metodiki} class="active" {/if}><a href="#">Методики</a></li>
+        <li {if $_modx->resource.id == $_modx->resource.link_medpersonal} class="active" {/if}>Медперсонал</li>
+        <li {if $_modx->resource.id == $_modx->resource.link_consult} class="active" {/if}><a href="#">Консультация врача</a></li>
     </ul>
 </div>
