@@ -23,7 +23,6 @@
                         <ul class="tabs__caption">
                         {foreach $rows as $row}
                             <li>{$row.title}</li>
-                        {{/foreach}}
                         </ul>
                     <div class="tabs__content">
                         <div class="tabs__content__block">
@@ -57,8 +56,8 @@
                         </div>
                     </div>
                     </div>
-                </div>
                 {/foreach}
+                </div>
             </div>
                 
         </div>
