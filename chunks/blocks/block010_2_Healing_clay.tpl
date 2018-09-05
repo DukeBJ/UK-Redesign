@@ -5,10 +5,15 @@
             <div class="col-sm-4">
                 <div class="right-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
-                        <div data-depth="0.5"><img src="{$template}img/rock.png" alt=""></div>
+                        <div data-depth="0.5">
+                            <img src="{$template}img/rock.png" alt="">
+                        </div>
                     </div>
                 </div>
-                <a href="#" class="right-block__video"><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>
+                {* <a href="#" class="right-block__video">
+                    <img src="http://via.placeholder.com/70x40" alt="">
+                    <span>Посмотрите видео</span>
+                </a> *}
             </div>
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
@@ -16,26 +21,16 @@
                     <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
                 </div>
                 <div class="row">
+
+                    {foreach $_modx->resource.healing_clay|fromJSON as $clay}
                     <div class="col-sm-6 col-xs-12">
-                        <div class="right-block__block"><img src="{$template}img/medical-profiles/endocrinolog.svg">
-                            <p>Заболевания нервных систем</p>
+                        <div class="right-block__block">
+                            <img src="{$clay.image}">
+                            <p>{$clay.description}</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="right-block__block"><img src="{$template}img/medical-profiles/koja.svg">
-                            <p>Заболевания кожи, аллергозы, псориаз</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="right-block__block"><img src="{$template}img/medical-profiles/legkie.svg">
-                            <p>Болезни органов дыхания</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12">
-                        <div class="right-block__block"><img src="{$template}img/medical-profiles/serdce.svg">
-                            <p>Заболевания сердечно-сосудистой системы</p>
-                        </div>
-                    </div>
+                    {/foreach}
+
                 </div>
                 <a class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
@@ -67,7 +62,8 @@
                                   d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                         </g>
                     </svg>
-                    <b>Обмазаться глиной</b></a>
+                    <b>Обмазаться глиной</b>
+                </a>
                 <ul>
                     <li><a href="#">Все направления лечения</a></li>
                     <li><a href="#">Особенности воды</a></li>
