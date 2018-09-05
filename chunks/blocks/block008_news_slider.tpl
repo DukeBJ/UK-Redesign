@@ -13,12 +13,9 @@
     <div id="water-triger" class="swiper">
         <div class="container">
             {'!pdoResources'|snippet:[
-                'parents' => 920,
+                'parents' => '920',
                 'includeContent' => 1,
                 'includeTVs' => 'news_img',
-                'prepareTVs' => 1,
-                'processTVs' => 1,
-                'hideContainers' => 1,
                 'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
