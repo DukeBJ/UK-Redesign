@@ -27,7 +27,7 @@
                         </ul>
 
                         {foreach $_modx->resource.all_price_table|fromJSON as $price}
-                            {$price.inner|fromJson|print_r}
+                            {$price.inner|fromJSON|print_r}
 
                         {/foreach}
 
