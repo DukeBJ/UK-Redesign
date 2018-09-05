@@ -8,7 +8,14 @@
                 </div>
                 <div class="row">
                     
-                    {* {$_modx->resource.salt_brines_block} *}
+                    {foreach $_modx->resource.salt_block|fromJSON as $salt}
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="left-block__block">
+                            <img src="{$salt.image}">
+                            <p>{$salt.description}</p>
+                        </div>
+                    </div>
+                    {/foreach}
 
                 </div>
                 <a href="#" class="btn btn-sandy">
