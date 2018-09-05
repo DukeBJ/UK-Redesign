@@ -22,8 +22,7 @@
 
                     <div class="tabs">
                         <ul class="tabs__caption">
-                            <li>1 мая — 30 июня</li>
-                            <li class="active">1 июля — 31 августа</li>
+                            <li>{$row.title}</li>
                         </ul>
                     {set $rows = json_decode($row.inner,true)}
                     <div class="tabs__content">
