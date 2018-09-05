@@ -13,12 +13,12 @@
     <div class="container-two">
         <div class="row">
 
-            [[!FileAttach?
-                &resource=`[[+id]]`
-                &tpl=`FileAttachTpl_new`
-                &makeURL=`1`
-                &showSize=`1`
-            ]]
+            {'!FileAttach'|snippet:[
+                'resource' => $id,
+                'makeURL' => 1,
+                'showSize' => 1,
+                'tpl' => 'FileAttachTpl_new'
+            ]}
 
         </div>
     </div>
