@@ -10,12 +10,6 @@
         </div>
     </div>
 
-    {'pdoResources'|snippet:[
-        'parents' => 0,
-        'limit' => 1,
-        'tpl' => ''
-    ]}
-
     <div id="water-triger" class="swiper">
         <div class="container">
             {'!pdoResources'|snippet:[
@@ -25,8 +19,6 @@
                 'includeTVs' => 'news_img',
                 'prepareTVs' => 1,
                 'processTVs' => 1,
-                'sortby' => 'publishedon',
-                'sortdir' => 'DESC',
                 'hideContainers' => 1,
                 'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
