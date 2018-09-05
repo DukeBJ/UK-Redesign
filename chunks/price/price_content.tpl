@@ -17,12 +17,13 @@
                 </div>
                
                 {set $rows = json_decode($_modx->resource.all_price_table, true)}
-                {foreach $rows as $row}
                 <div class="prices__content">
 
                     <div class="tabs">
                         <ul class="tabs__caption">
+                        {foreach $rows as $row}
                             <li>{$row.title}</li>
+                        {{/foreach}}
                         </ul>
                     <div class="tabs__content">
                         <div class="tabs__content__block">
