@@ -330,7 +330,7 @@
                         </ul>
 
                         {foreach $_modx->resource.all_price_table|fromJSON as $price}
-                            <div class="tabs__content">
+                            <div class="tabs__content active">
                             {foreach $price.inner|fromJSON as $inner}
                                 <!-- Таблица первая -->
 
