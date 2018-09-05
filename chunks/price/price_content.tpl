@@ -10,11 +10,6 @@
                 </div>
             </div>
 
-            <pre>
-                {$_modx->resource.all_price_table|fromJSON|print_r}
-            </pre>
-
-
             <!-- Блок таблицы (1) -->
             <div class="tabs__content active">
                 <div class="heading">
@@ -30,6 +25,11 @@
                             <li>{$price.title}</li>
                         {/foreach}
                         </ul>
+
+                        {foreach $_modx->resource.all_price_table|fromJSON as $price}
+                            {$price.inner|fromJson|print_r}
+
+                        {/foreach}
 
                         <!-- Таблица первая -->
                         <div class="tabs__content">
