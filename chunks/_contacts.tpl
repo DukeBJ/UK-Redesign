@@ -3,6 +3,7 @@
         <div class="contacts__map">
             {$_modx->resource.contact_map}
         </div>
+        {if $_modx->resource.contact_address != ''}
         <div class="contacts__info">
             <div class="contacts__content">
             {foreach $_modx->resource.contact_address|fromJSON as $address}
@@ -12,5 +13,6 @@
             {/foreach}
             </div>
         </div>
+        {/if}        
     </div>
 </section>
