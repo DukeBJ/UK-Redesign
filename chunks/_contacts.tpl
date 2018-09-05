@@ -1,8 +1,12 @@
 <section id="contacts" class="contacts">
     <div class="container">
-        <div class="contacts__map">
-            {$_modx->resource.contact_map}
-        </div>
+        
+        {if $_modx->resource.contact_map != ''}
+            <div class="contacts__map">
+                {$_modx->resource.contact_map}
+            </div>
+        {/if}
+    
         {if $_modx->resource.contact_address != ''}
         <div class="contacts__info">
             <div class="contacts__content">
@@ -13,6 +17,7 @@
             {/foreach}
             </div>
         </div>
-        {/if}        
+        {/if} 
+
     </div>
 </section>
