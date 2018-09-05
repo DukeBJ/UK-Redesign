@@ -28,7 +28,7 @@
             <div class="container">
 
                 {'pdoPage'|snippet:[
-                    'parents' => 49,
+                    'parents' => $_modx->resource.id,
                     'limit' => 1,
                     'ajaxMode' => 'button',
                     'includeTVs' => 'queemail,quephone,quetext',
