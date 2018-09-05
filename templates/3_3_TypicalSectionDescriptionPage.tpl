@@ -8,10 +8,11 @@
             
                 {'!pdoResources'|snippet:[
                     'parents' => $_modx->resource.id,
-                    'depth' => 1,
+                    'depth' => 0,
                     'includeTVs' => 'intro_block_img',
                     'includeContent' => 1,
-                    'tpl' => '@FILE chunks/blocks/block_innerPage.tpl',
+                    'tpl' => '@FILE chunks/blocks/block_innerPage.tpl'
+                    'showLog' => 1
                 ]}
             
             </div>
