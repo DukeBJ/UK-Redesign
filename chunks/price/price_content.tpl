@@ -16,7 +16,7 @@
                     <p>{$_modx->resource.introtext}</p>
                 </div>
                
-                {set $rows = json_decode( 8 | resource: $name_tv, true)}
+                {set $rows = json_decode($_modx->resource.all_price_table, true)}
                 {foreach $rows as $row}
                 <div class="prices__content">
 
