@@ -8,7 +8,7 @@
                 </div>
                 <div class="row">
                     
-                    {$_modx->resource.salt_brines_block}
+                    {* {$_modx->resource.salt_brines_block} *}
 
                 </div>
                 <a href="#" class="btn btn-sandy">
