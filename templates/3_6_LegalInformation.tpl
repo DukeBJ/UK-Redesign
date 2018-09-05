@@ -6,6 +6,8 @@
         'parents' => 919,
         'depth' => 1,
         'includeContent' => 1,
+        'sortby' => 'menuindex',
+        'sortdir' => 'ASC
         'tpl' => '@FILE chunks/legal_info/block_legal_documents.tpl',
     ]}
 
