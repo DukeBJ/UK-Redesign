@@ -1,8 +1,8 @@
 <div id="{$id}-{$alias}" class="room__block" style="background:url({$roomsOutput}) no-repeat;background-size: cover;background-position: center center;">
     <div class="room__block__content">
         <div class="heading heading-secondary">
-            <h2>{$_modx->resource.longtitle ?: $_modx->resource.pagetitle}</h2>
-            <p>{$_modx->resource.description}</p>
+            <h2>{$longtitle ?: $pagetitle}</h2>
+            <p>{$description}</p>
         </div>
         <a href="#pop-rooms" class="btn btn-sandy" data-pop>
             {ignore}
