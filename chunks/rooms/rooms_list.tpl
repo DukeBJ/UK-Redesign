@@ -2,6 +2,7 @@
 <section class="room">
     <div class="container">
         <div class="row middle-xs center-xs">
+
             <div id="oneroom" class="room__block" style="background:url({'template_url'|config}img/sanatorium-Lenin.png) no-repeat;background-size: cover;background-position: center center;">
                 <div class="room__block__content">
                     <div class="heading heading-secondary">

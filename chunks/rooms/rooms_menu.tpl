@@ -3,14 +3,11 @@
     <div class="container-fluid">
         <div class="tabs inside__menu">
             <div class="tabs__nav">
-                <ul class="tabs__caption inside__menu__caption">
-                    <li><a href="#oneroom">Одноместный</a></li>
-                    <li><a href="#doubleroom">Двуместный</a></li>
-                    <li><a href="#apartment">Апартаменты</a></li>
-                    <li><a href="#lux">Люкс</a></li>
-                    <li><a href="#doublelux">Двухкомнатный люкс</a></li>
-                    <li><a href="#">Коттедж</a></li>
-                </ul>
+                {'pdoMenu'|snippet:[
+                    'parents' => $_modx->resource.id,
+                    'tplWrapper' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="#{$id}-{$alias}">{$menutitle}</a></li>'
+                ]}
             </div>
         </div>
     </div>
