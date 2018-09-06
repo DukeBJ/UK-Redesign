@@ -22,11 +22,11 @@
                 <p>Уютный одноместный номер со всеми удобствами. Возможно заселение на дополнительное место.</p>
                 <div class="swiper-container swiper-pop-rooms-1">
                     <div class="swiper-wrapper">
-                        <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')"
+                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
                              class="swiper-slide"></div>
-                        <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')"
+                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
                              class="swiper-slide"></div>
-                        <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')"
+                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
                              class="swiper-slide"></div>
                     </div>
                     <div class="swiper-pagination swiper-pop-rooms-1-pagination"></div>
@@ -109,7 +109,7 @@
         <div class="col-xs-12">
             <div class="swiper-container swiper-pop-rooms-2">
                 <div class="swiper-wrapper">
-                    <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')" class="swiper-slide">
+                    <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)" class="swiper-slide">
                         <div class="swiper-slide__block">
                             <h2>Апартаменты</h2>
                             <p>Комфортабельный двухместный номер, возможно заселение на два дополнительных места</p>
@@ -148,7 +148,7 @@
                             </a>
                         </div>
                     </div>
-                    <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')" class="swiper-slide">
+                    <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)" class="swiper-slide">
                         <div class="swiper-slide__block">
                             <h2>Апартаменты</h2>
                             <p>Комфортабельный двухместный номер, возможно заселение на два дополнительных места</p>
@@ -187,7 +187,7 @@
                             </a>
                         </div>
                     </div>
-                    <div style="background-image: url('{'template_url'|config}img/jessica-ruscello-120993.png')" class="swiper-slide">
+                    <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)" class="swiper-slide">
                         <div class="swiper-slide__block">
                             <h2>Апартаменты</h2>
                             <p>Комфортабельный двухместный номер, возможно заселение на два дополнительных места</p>
