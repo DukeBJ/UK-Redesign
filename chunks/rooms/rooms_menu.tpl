@@ -6,7 +6,7 @@
                 {'pdoMenu'|snippet:[
                     'parents' => $_modx->resource.id,
                     'showHidden' => 1,
-                    'tplWrapper' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
+                    'tplOuter' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
                     'tpl' => '@INLINE <li><a href="#{$id}-{$alias}">{$menutitle}</a></li>'
                 ]}
             </div>
