@@ -1,7 +1,7 @@
 <!-- Блок таблицы (1) -->
 <div class="tabs__content {if $idx == 1} active{/if}">
     <div class="heading">
-        <h2>{$longtitle ?: $pagetitle} {$idx}</h2>
+        <h2>{$longtitle ?: $pagetitle} {$menuindex}</h2>
         <p>{$description}</p>
     </div>
     <!-- Переключатель таблиц -->
