@@ -21,19 +21,14 @@
                 <h4>Одноместный номер в санаторий им. В. И. Ленина</h4><span>{$_pls['tv.rooms_price']}</span>
                 <p>{$description}</p>
                 <div class="swiper-container swiper-pop-rooms-1">
-
-                    {if $_pls['tv.first_slider']}
-                        {foreach $_pls['tv.first_slider']|fromJSON as $first_slider}{/foreach}
-                    {/if}
                     <div class="swiper-wrapper">
-                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
-                             class="swiper-slide"></div>
-                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
-                             class="swiper-slide"></div>
-                        <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
-                             class="swiper-slide"></div>
+                        {if $_pls['tv.first_slider']}
+                            {foreach $_pls['tv.first_slider']|fromJSON as $first_slider}
+                                <div style="background-image: url({$first_slider.image})"
+                                     class="swiper-slide"></div>
+                            {/foreach}
+                        {/if}
                     </div>
-
                     <div class="swiper-pagination swiper-pop-rooms-1-pagination"></div>
                     <div class="swiper-button-next swiper-pop-rooms-1-next"><i class="icon icon-right-arrow"></i>
                     </div>
