@@ -16,9 +16,9 @@
                 <div class="col-sm-3 col-xs-6">
                     <div class="natural-factors__block">
                         <div class="natural-factors__block__img">
-                            <img src="{$address.image}" alt="">
+                            <img src="{$nature.image}" alt="">
                         </div>
-                        <p>{$address.title}</p>
+                        <p>{$nature.title}</p>
                     </div>
                 </div>
             {/foreach}
