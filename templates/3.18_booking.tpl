@@ -80,7 +80,7 @@
             (function (w) {
                 var q = [
                     ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru'],
-                    ['embed', 'booking-form', {container: 'tl-booking-form'}]
+                    ['embed', 'booking-form', { container: 'tl-booking-form'}]
                 ];
                 var t = w.travelline = (w.travelline || {}), ti = t.integration = (t.integration || {});
                 ti.__cq = ti.__cq ? ti.__cq.concat(q) : q;
