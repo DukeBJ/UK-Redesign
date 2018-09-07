@@ -12,7 +12,7 @@
                     'includeTVs' => 'intro_block_img',
                     'includeContent' => 1,
                     'tpl' => '@FILE chunks/blocks/block_innerPage.tpl',
-                    'showLog' => 1
+                    'showLog' => 0
                 ]}
             
             </div>
