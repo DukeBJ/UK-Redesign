@@ -1,11 +1,11 @@
 <div class="bg-line bg-line--clay"></div>
-<section class="right-block bg-beige wave-dn">
+<section class="right-block bg-beige wave-dn no-wave">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
                 <div class="right-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
-                        <div data-depth="0.5"><img src="{$template}img/weather.png" alt=""></div>
+                        <div data-depth="0.5"><img src="{$template}img/flow/pitanie.png" alt=""></div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-<section class="resort-sanatoriums">
+<section id="weather-one" class="resort-sanatoriums">
     <div class="container">
         <div class="row middle-xs">
             <div class="col-xs-12">
