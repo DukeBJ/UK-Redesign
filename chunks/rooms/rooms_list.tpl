@@ -5,7 +5,7 @@
 
             {'ms2GalleryResources'|snippet:[
                 'parents' => $_modx->resource.id,
-                'includeTVs' => 'rooms_price',
+                'includeTVs' => 'rooms_price,first_slider',
                 'sortdir' => 'asc',
                 'includeThumbs' => 'roomsOutput',
                 'tpl' => '@FILE chunks/rooms/lists.tpl'
