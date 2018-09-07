@@ -20,11 +20,11 @@
             <div class="pop-rooms__block">
                 <h4>Одноместный номер в санаторий им. В. И. Ленина</h4><span>{$_pls['tv.rooms_price']}</span>
                 <p>{$description}</p>
-{$_pls['tv.first_slider']|print_r}
                 <div class="swiper-container swiper-pop-rooms-1">
                     <div class="swiper-wrapper">
                         {if $_pls['tv.first_slider']}
                             {foreach $_pls['tv.first_slider'] as $first_slider}
+                                {$first_slider.image}
                                 <div style="background-image: url({$first_slider.image})"
                                      class="swiper-slide"></div>
                             {/foreach}
