@@ -1,18 +1,14 @@
-<!-- БОКОВОЕ МЕНЮ -->
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
     
         {'!pdoMenu'|snippet:[
             'parents' => 4,
             'depth' => 1,
-            'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+            'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
         ]}
 
-        <!-- END БОКОВОЕ МЕНЮ -->
-
-        <!-- Статья о лечении (1) -->
         <div class="tabs__content medical-profile__content active">
             
             <div class="heading">
@@ -22,8 +18,6 @@
             
             {$_modx->resource.content}
     
-
-            <!-- Вызов модалки с заявкой -->
             <div class="container medical-order">
                 <div class="row">
                     <div class="col-xs-12">
@@ -34,7 +28,7 @@
                     <div class="col-xs-12">
                         <div class="heading">
                             <h3>Пройти санаторное лечение просто!</h3>
-                            <p>Оставьте заявку и наши менеджеры расскажут как сохранить злоровье.</p>
+                            <p>Оставьте заявку и наши менеджеры расскажут как сохранить здоровье.</p>
                         </div>
                     </div>
                     <div class="col-xs-12">
@@ -97,7 +91,6 @@
                 </div>
             </div>
         </div>
-        <!-- END Статья о лечении (1) -->
 
     </div>
 </div>
