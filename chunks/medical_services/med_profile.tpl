@@ -3,16 +3,14 @@
 <!-- БОКОВОЕ МЕНЮ -->
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
-        <ul class="tabs__caption">
-            <li class="active">Эндокринология</li>
-            <li>Органы дыхания</li>
-            <li>Гинекология</li>
-            <li>Урология</li>
-            <li>Гастрэнторология</li>
-            <li>Сердечно-сосудистая система</li>
-            <li>Опорно-двигательный аппарат</li>
-            <li>Нервная система</li>
-        </ul>
+    
+        {'pdoMenu'|snippet:[
+            'parents' => $_modx->resource.id,
+            'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+            'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
+            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+        ]}
+        
         <!-- END БОКОВОЕ МЕНЮ -->
 
         <!-- Статья о лечении (1) -->

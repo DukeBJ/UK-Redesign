@@ -1,6 +1,5 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     {include 'file:chunks/medical_services/medical_menu_dop.tpl'}
     <div class="medical-profile__one-container">
