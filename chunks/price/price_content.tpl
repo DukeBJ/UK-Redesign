@@ -10,7 +10,7 @@
                 </div>
             </div>
 
-            {'pdoResources'|snippet:[
+            {'!pdoResources'|snippet:[
                 'parnets' => $_modx->resource.id,
                 'depth' => 1,
                 'sortby' => 'DESC',
