@@ -7,47 +7,56 @@
             </div>
         {/if}
     
-        {if $_modx->resource.contact_address != ''}
         <div class="contacts__info">
         
-                            [[!getImageList?
-                            &tvname=`contact_filial_address_1`
-                            &wrapperTpl=`@CODE:
-                            <div class="contacts__content">
-                                <h3>Как добраться</h3>
-                                [[+output]]
-                            </div>`
-                            &tpl=`@CODE:
-                            <div class="contacts__line"><span>[[+title]]:</span>
-                                <p>[[+description]]</p>
-                            </div>`
-                            ]]
+            {if $_modx->resource.contact_filial_address_1 != ''}
+        
+                <div class="contacts__content">
+                    <h3>Как добраться</h3>
+                    {foreach $_modx->resource.contact_filial_address_1|fromJSON as $address}
+                        <div class="contacts__line">
+                            <span>{$address.title}:</span>
+                            <p>{$address.description}</p>
+                        </div>
+                    {/foreach}
+                </div>
+
+            {/if}
+
+            {if $_modx->resource.contact_address != ''}
         
             <div class="contacts__content">
                 <h3>Контакты санатория</h3>
-            {foreach $_modx->resource.contact_address|fromJSON as $address}
-                <div class="contacts__line">
-                    <span>{$address.title}:</span>
-                    <p>{$address.description}</p>
-                </div>
-            {/foreach}
+                {foreach $_modx->resource.contact_address|fromJSON as $address}
+                    <div class="contacts__line">
+                        <span>{$address.title}:</span>
+                        <p>{$address.description}</p>
+                    </div>
+                {/foreach}
             </div>
-            
-                            [[!getImageList?
-                            &tvname=`contact_filial_phone_1`
-                            &wrapperTpl=`@CODE:
-                            <div class="contacts__content">
-                                <h3> !!!! здесь в идеале вынести название в админку !!!! </h3>
-                                [[+output]]
-                            </div>`
-                            &tpl=`@CODE:
-                            <div class="contacts__line"><span>[[+title]]:</span>
-                                <p>[[+description]]</p>
-                            </div>`
-                            ]]
-            
-        </div>
-        {/if} 
 
+            {/if}
+            
+            {if $_modx->resource.contact_filial_phone_1 != ''}
+
+            {set $rows = json_decode($_modx->resource.contact_filial_phone_1, true)}
+
+                <div class="contacts__content">
+                {foreach $rows as $row}
+                    <h3>{$row.title}</h3>
+                </div>
+                    {set $rows = json_decode($row.inner_contact,true)}
+                    {foreach $rows as $row}
+                    <div class="contacts__line">
+                        <span>{$row.title}:</span>
+                        <p>{$row.description}</p>
+                    </div>
+                    {/foreach}
+
+                {/foreach}
+
+            {/if}
+        </div>
+    
     </div>
 </section>
