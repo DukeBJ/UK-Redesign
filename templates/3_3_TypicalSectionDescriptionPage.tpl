@@ -10,6 +10,8 @@
                     'parents' => $_modx->resource.id,
                     'depth' => 0,
                     'includeTVs' => 'intro_block_img',
+                    'sortby' => 'menuindex',
+                    'sortdir' => 'ASC',
                     'includeContent' => 1,
                     'tpl' => '@FILE chunks/blocks/block_innerPage.tpl',
                     'showLog' => 0
