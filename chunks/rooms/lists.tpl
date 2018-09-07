@@ -64,6 +64,9 @@
         <div class="col-xs-12">
             <div class="swiper-container swiper-pop-rooms-2">
                 <div class="swiper-wrapper">
+                    <pre>
+                        {$_pls['tv.second_slider']|print_r}
+                    </pre>
                     {if $_pls['tv.second_slider']}
                         {foreach $_pls['tv.second_slider']|fromJSON as $second_slider}
                             {$second_slider.image}
