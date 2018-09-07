@@ -8,14 +8,14 @@
     <div class="prices__content">
         <div class="tabs">
             <ul class="tabs__caption">
-                {foreach $_pls['all_price_table'] as $price}
+                {foreach $_pls['tv.all_price_table'] as $price}
                     <li>{$price.title}</li>
                 {/foreach}
             </ul>
 
-            {var $idx = 1}
-            {foreach $_modx->resource.all_price_table|fromJSON as $price}
-                <div class="tabs__content {$idx == 1 ? 'active' :''}">
+            {var $ids = 1}
+            {foreach $_pls['tv.all_price_table'] as $price}
+                <div class="tabs__content {$ids == 1 ? 'active' :''}">
                     {foreach $price.inner|fromJSON as $inner}
                         <!-- Таблица первая -->
 
@@ -39,7 +39,7 @@
                         <!-- END Таблица первая -->
                     {/foreach}
                 </div>
-                <span style="display: none">{$idx++}</span>
+                <span style="display: none">{$ids++}</span>
             {/foreach}
 
         </div>
