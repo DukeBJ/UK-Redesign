@@ -30,10 +30,10 @@
             <div class="col-sm-4">
                 <div class="left-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-1 scene-secondary">
-                        <div data-depth="0.5"><img src="{$template}img/glass.png" alt=""></div>
+                        <div data-depth="0.5"><img src="{$template}img/flow/glass.png" alt=""></div>
                     </div>
                 </div>
-                <a href="#video" class="left-block__video" data-pop><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>
+                {*<a href="#video" class="left-block__video" data-pop><img src="http://via.placeholder.com/70x40" alt=""><span>Посмотрите видео</span></a>*}
             </div>
         </div>
     </div>
