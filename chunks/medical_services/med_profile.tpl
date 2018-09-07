@@ -1,16 +1,15 @@
-{ignore}
-
 <!-- БОКОВОЕ МЕНЮ -->
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
     
-        {'pdoMenu'|snippet:[
-            'parents' => $_modx->resource.id,
+        {'!pdoMenu'|snippet:[
+            'parents' => 4,
+            'depth' => 1,
             'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
         ]}
-        
+
         <!-- END БОКОВОЕ МЕНЮ -->
 
         <!-- Статья о лечении (1) -->
@@ -708,4 +707,3 @@
 
     </div>
 </div>
-{/ignore}
