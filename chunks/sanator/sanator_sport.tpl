@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="col-sm-4">
-                <div class="right-block__img">
+                <div class="left-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-3 scene-secondary">
                         <div data-depth="0.5"><img src="{$template}img/flow/dosug.png" alt=""></div>
                     </div>
