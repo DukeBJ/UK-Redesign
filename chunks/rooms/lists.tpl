@@ -24,7 +24,6 @@
                     <div class="swiper-wrapper">
                         {if $_pls['tv.first_slider']}
                             {foreach $_pls['tv.first_slider'] as $first_slider}
-                                {$first_slider.image}
                                 <img src="{$first_slider.image}" alt="">
                                 <div style="background-image: url({$first_slider.image})"
                                      class="swiper-slide"></div>
