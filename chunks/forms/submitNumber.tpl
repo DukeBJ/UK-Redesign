@@ -1,17 +1,17 @@
-<form action="" class="form">
+<form action="" method="post" class="form ajax_form">
     <div class="form__input">
-        <input type="text" id="text-8">
+        <input type="text" name="name" value="[[!+fi.name]]" id="text-8">
         <label for="text-8">Ваше имя</label>
     </div>
     <div class="form__input">
-        <input type="tel" id="tel-5" class="phone">
+        <input type="tel" name="phone" value="[[!+fi.phone]]" id="tel-5" class="phone">
         <label for="tel-5">Номер телефона</label>
     </div>
     <div class="form__input">
-        <input type="email" id="email-5">
+        <input type="email" name="email" value="[[!+fi.email]]" id="email-5">
         <label for="email-5">Адрес e-mail</label>
     </div>
-    <a href="#" data-pop="data-pop" class="btn btn-sandy">
+    <button href="#" data-pop="data-pop" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>{ignore}
                 <style>.cls-1 {
@@ -42,7 +42,7 @@
             </g>
         </svg>
         <b>Отправить</b>
-    </a>
+    </button>
     <div class="form__checkbox checkbox">
         <input type="checkbox" id="checkbox-1">
         <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a
