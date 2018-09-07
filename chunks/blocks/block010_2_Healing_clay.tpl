@@ -6,7 +6,7 @@
                 <div class="right-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
                         <div data-depth="0.5">
-                            <img src="{$template}img/rock.png" alt="">
+                            <img src="{$template}img/flow/rock.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     {/foreach}
 
                 </div>
-                <a class="btn btn-sandy">
+                <a href="#pop-application" data-pop class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                         <defs>
                             <style>.cls-1 {
