@@ -3,8 +3,8 @@
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Лечебные профили</h2>
-                    <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
+                    <h2>{$_modx->resource.working_profiles_title}</h2>
+                    <p>{$_modx->resource.working_profiles_description}</p>
                 </div>
             </div>
         </div>

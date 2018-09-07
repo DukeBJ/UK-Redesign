@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{'nature_factor_title' | config}</h2>
-                    <p>{'nature_factor_descr' | config}</p>
+                    <h2>{$_modx->resource.nature_factors_title}</h2>
+                    <p>{$_modx->resource.nature_factors_description}</p>
                 </div>
             </div>
         </div>
