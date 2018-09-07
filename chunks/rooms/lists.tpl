@@ -24,7 +24,7 @@
                     {if $_pls['tv.first_slider']}
                     <div class="swiper-wrapper">
                         {foreach $_pls['tv.first_slider']|fromJSON as $first_slider}
-                            <div style="background-image: url({$first_slider})"
+                            <div style="background-image: url({$first_slider.image})"
                                  class="swiper-slide"></div>
                         {/foreach}
                     </div>
