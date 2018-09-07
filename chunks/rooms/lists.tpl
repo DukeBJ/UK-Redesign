@@ -21,6 +21,8 @@
                 <h4>Одноместный номер в санаторий им. В. И. Ленина</h4><span>{$_pls['tv.rooms_price']}</span>
                 <p>{$description}</p>
                 <div class="swiper-container swiper-pop-rooms-1">
+
+                    {if $_pls['tv.first_slider']}{/if}
                     <div class="swiper-wrapper">
                         <div style="background-image: url({'template_url'|config}img/jessica-ruscello-120993.png)"
                              class="swiper-slide"></div>
