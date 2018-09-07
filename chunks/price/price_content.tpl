@@ -15,7 +15,8 @@
                 'depth' => 1,
                 'sortby' => 'DESC',
                 'includeTVs' => 'all_price_table',
-                'tpl' => '@FILE chunks/price/wrapper.tpl'
+                'tpl' => '@FILE chunks/price/wrapper.tpl',
+                'showLog' => 1
             ]}
                 
         </div>
