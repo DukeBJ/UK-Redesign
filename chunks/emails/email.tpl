@@ -1,4 +1,5 @@
 [[+name:notempty=`<p>[[+name]]</p>]]
 [[+phone:notempty=`<p>[[+phone]]</p>`]]
 [[+email:notempty=`<p>[[+email]]</p>`]]
+[[+address:notempty=`<p>[[+address]]</p>`]]
 [[+message:notempty=`<p>[[+message]]</p>`]]
