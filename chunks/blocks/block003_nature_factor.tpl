@@ -11,38 +11,18 @@
     </div>
     <div class="container-two">
         <div class="row">
-            <div class="col-sm-3 col-xs-6">
-                <div class="natural-factors__block">
-                    <div class="natural-factors__block__img">
-                        <img src="{$template}img/water.svg" alt="">
+
+            {foreach $_modx->resource.nature_factors_block|fromJSON as $nature}
+                <div class="col-sm-3 col-xs-6">
+                    <div class="natural-factors__block">
+                        <div class="natural-factors__block__img">
+                            <img src="{$address.image}" alt="">
+                        </div>
+                        <p>{$address.title}</p>
                     </div>
-                    <p>Минеральные воды</p>
                 </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="natural-factors__block">
-                    <div class="natural-factors__block__img">
-                        <img src="{$template}img/solt.svg" alt="">
-                    </div>
-                    <p>Соляные рассолы</p>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="natural-factors__block">
-                    <div class="natural-factors__block__img">
-                        <img src="{$template}img/glinko.svg" alt="">
-                    </div>
-                    <p>Глинолечение</p>
-                </div>
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="natural-factors__block">
-                    <div class="natural-factors__block__img">
-                        <img src="{$template}img/sun.svg" alt="">
-                    </div>
-                    <p>Климатолечение</p>
-                </div>
-            </div>
+            {/foreach}
+
         </div>
     </div>
 </section>
