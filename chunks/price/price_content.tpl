@@ -13,7 +13,7 @@
             {'pdoResources'|snippet:[
                 'parnets' => $_modx->resource.id,
                 'depth' => 1,
-                'sortdir' => 'DESC',
+                'sortdir' => 'ASC',
                 'includeTVs' => 'all_price_table',
                 'tpl' => '@FILE chunks/price/wrapper.tpl'
             ]}
