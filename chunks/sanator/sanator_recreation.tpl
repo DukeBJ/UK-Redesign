@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <div class="left-block__img">
+                <div class="right-block__img">
                     <div data-invert-x="false" data-invert-y="false" class="scene-4 scene-secondary">
                         <div data-depth="0.5"><img src="{$template}img/flow/child.png" alt=""></div>
                     </div>
