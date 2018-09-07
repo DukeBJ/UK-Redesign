@@ -14,12 +14,12 @@
     <div class="header__top no_lk">
         <div class="menu-open"><span></span></div>
         <nav>
-            <ul>
-                <li><a href="#medicine" data-pop>Лечение</a></li>
-                <li><a href="#sanator-list" data-pop>Санатории</a></li>
-                <li><a href="#weather-one" data-pop>Уникальность</a></li>
-                <li><a href="#entertament" data-pop>Досуг</a></li>
-                <li><a href="#camping" data-pop>Дома отдыха</a></li>
+            <ul class="scroll">
+                <li><a href="#medicine">Лечение</a></li>
+                <li><a href="#sanator-list">Санатории</a></li>
+                <li><a href="#weather-one">Уникальность</a></li>
+                <li><a href="#entertament">Досуг</a></li>
+                <li><a href="#camping">Дома отдыха</a></li>
                 <li><a href="#calc">Цены</a></li>
                 <li><a href="#pop-booking" data-pop>Забронировать<i class="icon icon-ring"></i></a></li>
             </ul>
