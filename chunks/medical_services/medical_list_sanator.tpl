@@ -13,15 +13,15 @@
                 <h3>Пройдите курс лечения в наших санаториях</h3>
             </div>
         </div>
-
+<pre>
         {'!pdoResources'|snippet:[
             'parents' => $_modx->resource.id_list_sanator,
             'depth' => 0,
-            'includeTVs' => 'id_list_sanator',
+            'includeTVs' => 'intro_block_img',
             'includeContent' => 1,
             'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
             'showLog' => 1
         ]}
-
+</pre>
     </div>
 </div>
