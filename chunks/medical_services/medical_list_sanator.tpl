@@ -13,15 +13,16 @@
                 <h3>Пройдите курс лечения в наших санаториях</h3>
             </div>
         </div>
-
-        {'!pdoResources'|snippet:[
-            'parents' => $_modx->resource.id | resource : 'id_list_sanator',
-            'depth' => 0,
-            'includeTVs' => 'id_list_sanator,intro_block_img',
-            'includeContent' => 1,
-            'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
-            'showLog' => 0
-        ]}
+        {if $_modx->resource.id_list_sanator}
+            {'!pdoResources'|snippet:[
+                'parents' => $_modx->resource.id_list_sanator,
+                'depth' => 0,
+                'includeTVs' => 'id_list_sanator,intro_block_img',
+                'includeContent' => 1,
+                'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
+                'showLog' => 0
+            ]}
+        {/if}
 
     </div>
 </div>
