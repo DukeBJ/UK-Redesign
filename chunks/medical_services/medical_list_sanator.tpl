@@ -16,12 +16,12 @@
 
         {'!pdoResources'|snippet:[
             'parents' => 0,
-            'resources' => $_modx->resource.id,
+            'resources' => $_modx->resource.id_list_sanator,
             'depth' => 0,
             'includeTVs' => 'id_list_sanator',
             'includeContent' => 1,
             'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
-            'showLog' => 0
+            'showLog' => 1
         ]}
 
     </div>
