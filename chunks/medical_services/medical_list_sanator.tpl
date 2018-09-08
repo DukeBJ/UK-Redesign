@@ -15,7 +15,8 @@
         </div>
 
         {'!pdoResources'|snippet:[
-            'parents' => $_modx->resource.id,
+            'parents' => 0,
+            'resources' => $_modx->resource.id,
             'depth' => 0,
             'includeTVs' => 'id_list_sanator',
             'includeContent' => 1,
