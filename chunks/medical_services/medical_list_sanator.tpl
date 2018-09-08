@@ -19,7 +19,7 @@
             'depth' => 0,
             'includeTVs' => 'id_list_sanator',
             'includeContent' => 1,
-            'tpl' => '@FILE chunks/blocks/medical_list_sanator_item.tpl',
+            'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
             'showLog' => 0
         ]}
 
