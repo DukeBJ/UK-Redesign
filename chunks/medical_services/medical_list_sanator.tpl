@@ -13,7 +13,6 @@
                 <h3>Пройдите курс лечения в наших санаториях</h3>
             </div>
         </div>
-        {$_modx->resource.id_list_sanator}
         {if $_modx->resource.id_list_sanator}
             {'!pdoResources'|snippet:[
                 'parents' => 0,
