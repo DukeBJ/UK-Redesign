@@ -20,7 +20,7 @@
             'includeTVs' => 'id_list_sanator,intro_block_img',
             'includeContent' => 1,
             'tpl' => '@FILE chunks/medical_services/medical_list_sanator_item.tpl',
-            'showLog' => 1
+            'showLog' => 0
         ]}
 
     </div>
