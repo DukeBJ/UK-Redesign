@@ -8,7 +8,7 @@
                 </div>
             </div>
         </div>
-asdadasd
+
         <div class="swiper">
             <div class="swiper-container swiper-working-profiles">
                 <div class="swiper-wrapper">
@@ -19,17 +19,6 @@ asdadasd
                         'resources' => $_modx->resource.select_medical_profile,
                         'tpl' => '@FILE chunks/main_page/block_with_icon.tpl'
                     ]}
-
-                    {foreach $_modx->resource.working_profiles|fromJSON as $profiles}
-                        <div class="swiper-slide">
-                            <a href="#pop-info" class="working-profiles__block" data-pop>
-                                <div class="working-profiles__block__img">
-                                    <img src="{$profiles.image}">
-                                </div>
-                                <p>{$profiles.description}</p>
-                            </a>
-                        </div>
-                    {/foreach}
 
                 </div>
             </div>
