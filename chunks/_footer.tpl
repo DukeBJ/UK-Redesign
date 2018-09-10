@@ -22,9 +22,9 @@
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{'4'|url}">Лечение</a></h3>
                         <ul>
-                            <li><a href="#">Профили</a></li>
-                            <li><a href="#">Методики</a></li>
-                            <li><a href="#">Особенности</a></li>
+                            <li><a href="{'993'|url}">Профили</a></li>
+                            <li><a href="{'997'|url}">Методики</a></li>
+                            <li><a href="{'996'|url}">Особенности</a></li>
                             <li><a href="#">Персонал</a></li>
                             <li><a href="#">Консультация врача</a></li>
                         </ul>
@@ -108,7 +108,12 @@
                 </div>
             </div>
             <div class="col-sm-3 col-xs-12">
-                <div class="footer__author"><a href="#"><span>Сайт сделали<br>в Студии Бакина</span><i class="icon icon-logo-author"></i></a></div>
+                <div class="footer__author">
+                    <a href="https://bakin.ru/" target="_blank">
+                        <span>Сайт сделали<br>в Студии Бакина</span>
+                        <i class="icon icon-logo-author"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
