@@ -562,7 +562,8 @@
     <script>
         console.log('Working');
         $('.med-prifile-ajax').on('click', function(){
-            console.log('Click mather fucker');
+
+            console.log(this);
         });
 
     </script>
