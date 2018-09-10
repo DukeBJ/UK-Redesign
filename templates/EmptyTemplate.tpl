@@ -563,7 +563,7 @@
         console.log('Working');
         $('.med-prifile-ajax').on('click', function(){
 
-            console.log(this);
+            console.log(this.getAttribute('data-id'));
         });
 
     </script>
