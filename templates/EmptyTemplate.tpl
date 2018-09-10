@@ -559,6 +559,10 @@
     <!-- КОНЕЦ -->
     {include 'file:chunks/_scripts.tpl'}
 
+    <script>
+        console.log('Working');
+    </script>
+
 </body>
 
 </html>
