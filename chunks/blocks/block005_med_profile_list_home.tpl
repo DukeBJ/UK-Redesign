@@ -3,7 +3,7 @@
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->resource.working_profiles_title} 123123</h2>
+                    <h2>{$_modx->resource.working_profiles_title}</h2>
                     <p>{$_modx->resource.working_profiles_description}</p>
                 </div>
             </div>
@@ -17,7 +17,8 @@
                         'parents' => 0,
                         'includeTVs' => 'medical_icon',
                         'resources' => $_modx->resource.select_medical_profile,
-                        'tpl' => '@FILE chunks/main_page/block_with_icon.tpl'
+                        'tpl' => '@FILE chunks/main_page/block_with_icon.tpl',
+                        'showLog' => 1
                     ]}
 
                 </div>
