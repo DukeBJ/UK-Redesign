@@ -7,11 +7,13 @@
             
                 {include 'file:chunks/medical_services/medical_menu_dop.tpl'}
                 
-                <div class="medical-profile__one-container">
-                    <div class="medical-profile__content">
+                <div class="tabs">
+                    <div class="medical-profile__one-container">
+                        <div class="medical-profile__content">
           
-                         {$_modx->resource.content}
+                            {$_modx->resource.content}
 
+                        </div>
                     </div>
                 </div>
             </div>
