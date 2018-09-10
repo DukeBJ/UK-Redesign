@@ -8,6 +8,11 @@
                 </div>
             </div>
         </div>
+
+        {$_modx->resource.select_medical_profile}
+
+        asdasd
+
         <div class="swiper">
             <div class="swiper-container swiper-working-profiles">
                 <div class="swiper-wrapper">
