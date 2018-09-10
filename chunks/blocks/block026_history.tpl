@@ -34,6 +34,24 @@
             </div>
             `]]`
             ]]
+
+            {set $rows = json_decode($_modx->resource.history_time, true)}
+            {set $idx = 0}
+            {foreach $rows as $idxArr => $row}
+                {set $row['idx'] = $idx++} {* idx от созданной переменной с инкриментом*}
+                {set $row['idxForeach'] = $row@index} {* idx от foreach*}
+                {*set $idxMIGX = $row['MIGX_id']*} {* idx от MIGX*}
+                {if $row@first}
+                    {set $row['_first'] = 'first item'}
+                {/if}
+                {if $row@last}
+                    {set $row['_last'] = 'last item'}
+                {/if}
+                {if !($idx % 2)}
+                    {set $row['_alt'] = 'odd item'}
+                {/if}
+                {$row | print_r}
+            {/foreach}
             
         </div>
     </div>
