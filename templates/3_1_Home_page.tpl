@@ -4,9 +4,6 @@
     {include 'file:chunks/blocks/block002_UK_advantage.tpl'}
     {include 'file:chunks/blocks/block003_nature_factor.tpl'}
     {include 'file:chunks/blocks/block004_video_wide.tpl'}
-
-    123123123123
-
     {include 'file:chunks/blocks/block005_med_profile_list_home.tpl'}
     {include 'file:chunks/blocks/block006_list_sanatorium.tpl'}
     {include 'file:chunks/blocks/block007_calc.tpl'}
