@@ -15,6 +15,7 @@
             {'!pdoResources'|snippet:[
                 'parents' => 920,
                 'depth' => 1,
+                'resources' => -949,
                 'includeContent' => 1,
                 'includeTVs' => 'news_img',
                 'sortby' => 'publishedon',
