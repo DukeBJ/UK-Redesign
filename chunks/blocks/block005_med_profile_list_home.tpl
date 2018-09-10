@@ -3,7 +3,7 @@
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>{$_modx->resource.working_profiles_title}</h2>
+                    <h2>{$_modx->resource.working_profiles_title} 123123</h2>
                     <p>{$_modx->resource.working_profiles_description}</p>
                 </div>
             </div>
