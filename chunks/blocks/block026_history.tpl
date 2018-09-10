@@ -7,7 +7,7 @@
             </div>
 
             {foreach $_modx->resource.history_time|fromJSON as $idx => $time}
-                {if $a is odd}
+                {if $idx is odd}
                     <div class="row">
                         <div class="col-sm-5 col-xs-12 first-sm">
                             <h4 class="history__text-primary">{$ф.title}</h4>
@@ -21,7 +21,7 @@
                         </div>
                     </div>
                 {/if}
-                {if $a is even}
+                {if $idx is even}
                     <div class="row">
                         <div class="col-sm-5 col-xs-12 center-xs">
                             <div class="history__img">
