@@ -19,6 +19,7 @@
                     'depth' => 0,
                     'resources' => -318,
                     'includeContent' => 1,
+                    'sortby' => ["menuindex" => "ASC"],
                     'includeTVs' => 'sanator_cover,sanator_img',
                     'prepareTVs' => 1,
                     'processTVs' => 1,
