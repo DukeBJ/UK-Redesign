@@ -34,7 +34,6 @@
                     'tpl' => '@FILE chunks/main_page/block_with_icon.tpl'
                 ]}
 
-
             </div>
         </div>
     </div>
