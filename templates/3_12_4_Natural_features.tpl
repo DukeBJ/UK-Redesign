@@ -8,7 +8,7 @@
             <div class="medical-profile__menu">
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
 
-                {include 'file:chunks/medical_services/natural_features.tpl'}
+                {include 'file:chunks/natural_features/natural_features.tpl'}
 
             </div>
         </div>
