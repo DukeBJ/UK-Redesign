@@ -2,7 +2,6 @@
 {block 'main'}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
 
-    <!-- БЛОК МЕДИЦИНЫ -->
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="medical-profile__menu">
