@@ -563,7 +563,18 @@
         console.log('Working');
         $('.med-prifile-ajax').on('click', function(){
 
-            console.log(this.getAttribute('data-id'));
+            var id = this.getAttribute('data-id');
+
+            $.ajax({
+                url: '/assets/connectors/getContent.php',
+                data:{
+                    id: id
+                },
+                success: function(response){
+                    console.log(response);
+                }
+            });
+            console.log();
         });
 
     </script>
