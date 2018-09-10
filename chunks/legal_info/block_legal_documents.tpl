@@ -39,7 +39,6 @@
                                 </div>
                             </a>
                         </div>
-                        {$docs | print_r}
                     {/foreach}
                 </div>
 

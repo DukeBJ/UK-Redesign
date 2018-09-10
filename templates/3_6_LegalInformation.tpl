@@ -8,6 +8,9 @@
         'includeContent' => 1,
         'sortby' => 'menuindex',
         'sortdir' => 'ASC',
+        'includeTVs' => 'legal_info_docs',
+        'prepareTVs' => 1,
+        'processTVs' => 1,        
         'tpl' => '@FILE chunks/legal_info/block_legal_documents.tpl',
     ]}
 
