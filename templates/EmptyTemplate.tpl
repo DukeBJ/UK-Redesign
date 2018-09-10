@@ -573,6 +573,7 @@
                 },
                 success: function(response){
                     console.log(response);
+                    $('.include-content').html(response);
                 }
             });
             console.log();
