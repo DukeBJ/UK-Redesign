@@ -6,7 +6,6 @@
                 <i class="history__decor-2"></i>
             </div>
 
-            {set $idx = 0}
             {foreach $_modx->resource.history_time|fromJSON as $time => $a}
                 {if $a is odd}
                     <div class="row">
