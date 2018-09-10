@@ -567,7 +567,6 @@
 
             $.ajax({
                 url: '/assets/connectors/getContent.php',
-                dataType: 'json',
                 type: 'post',
                 data:{
                     id: id
