@@ -8,12 +8,14 @@
                 </div>
             </div>
         </div>
+
+        {$_modx->resource.select_medical_profile}
+
+        asdasd
+
         <div class="swiper">
             <div class="swiper-container swiper-working-profiles">
                 <div class="swiper-wrapper">
-
-                    {$_modx->resource.select_medical_profile}
-
 
                     {foreach $_modx->resource.working_profiles|fromJSON as $profiles}
                         <div class="swiper-slide">
