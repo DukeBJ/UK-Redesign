@@ -43,14 +43,12 @@
                 {*set $idxMIGX = $row['MIGX_id']*} {* idx от MIGX*}
                 {if $row@first}
                     {set $row['_first'] = 'first item'}
-                {/if}
-                {if $row@last}
-                    {set $row['_last'] = 'last item'}
+                    1
                 {/if}
                 {if !($idx % 2)}
                     {set $row['_alt'] = 'odd item'}
+                    2
                 {/if}
-                {$row | print_r}
             {/foreach}
             
         </div>
