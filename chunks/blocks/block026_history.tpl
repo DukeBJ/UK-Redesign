@@ -6,16 +6,16 @@
                 <i class="history__decor-2"></i>
             </div>
 
-            {foreach $_modx->resource.history_time|fromJSON as $time => $a}
+            {foreach $_modx->resource.history_time|fromJSON as $idx => $time}
                 {if $a is odd}
                     <div class="row">
                         <div class="col-sm-5 col-xs-12 first-sm">
-                            <h4 class="history__text-primary">{$a.title}</h4>
-                            <p>{$a.description}</p>
+                            <h4 class="history__text-primary">{$ф.title}</h4>
+                            <p>{$time.description}</p>
                         </div>
                         <div class="col-sm-5 col-xs-12 col-sm-offset-2 center-xs first-xs">
                             <div class="history__img history__img-primary">
-                                <img src="{$a.image}" alt="">
+                                <img src="{$time.image}" alt="">
                             </div>
                             <div class="history__img__decor history__img__decor-secondary"></div>
                         </div>
@@ -25,13 +25,13 @@
                     <div class="row">
                         <div class="col-sm-5 col-xs-12 center-xs">
                             <div class="history__img">
-                                <img src="{$a.image}" alt="">
+                                <img src="{$time.image}" alt="">
                             </div>
                             <div class="history__img__decor"></div>
                         </div>
                         <div class="col-sm-5 col-xs-12 col-sm-offset-2">
-                            <h4>{$a.title}</h4>
-                            <p>{$a.description}</p>
+                            <h4>{$time.title}</h4>
+                            <p>{$time.description}</p>
                         </div>
                     </div>
                 {/if}
