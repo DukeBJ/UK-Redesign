@@ -2,7 +2,7 @@
 
 {block 'main'}
 
-        <!-- ИНТРО СТАТЬИ -->
+    {include 'file:chunks/blog/blog_menu.tpl'}
 
     {var $image = 'ms2Gallery'|snippet:[
         'resources' => $_modx->resource.id,
@@ -19,9 +19,7 @@
                 </div>
             </div>
         </section>
-        <!-- END -->
 
-        <!-- ТЕКСТ СТАТЬИ -->
         <section class="blog-inside">
             <div class="container">
                 <div class="row">
@@ -38,7 +36,6 @@
                                     {/foreach}
                                 </ul>
                             </div>
-                            <!-- ШАРИНГ СТАТЕЙ -->
                             <div class="blog__content__social"><span>Поделитесь этим с друзьями:</span>
                                 <div class="blog__content__social__block">
                                     <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
@@ -51,12 +48,9 @@
                 </div>
             </div>
         </section>
-        <!-- END -->
-
 
         {include 'file:chunks/blocks/block022_targetaction.tpl'}
 
-        <!-- СХОЖИЕ СТАТЬИ -->
         <section class="other-article">
             <div class="container">
                 <div class="row middle-xs center-xs">
@@ -82,7 +76,6 @@
                 </div>
             </div>
         </section>
-        <!-- END -->
 
     {include 'file:chunks/blocks/block014_bottom_subscr.tpl'}
 
