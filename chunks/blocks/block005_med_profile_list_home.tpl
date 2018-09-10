@@ -13,13 +13,16 @@
             <div class="swiper-container swiper-working-profiles">
                 <div class="swiper-wrapper">
 
-                    {'pdoResources'|snippet:[
-                        'parents' => 0,
-                        'includeTVs' => 'medical_icon',
-                        'resources' => $_modx->resource.select_medical_profile,
-                        'tpl' => '@FILE chunks/main_page/block_with_icon.tpl',
-                        'showLog' => 1
-                    ]}
+                    {foreach $_modx->resource.working_profiles|fromJSON as $profiles}
+                        <div class="swiper-slide">
+                            <a href="#pop-info" class="working-profiles__block" data-pop>
+                                <div class="working-profiles__block__img">
+                                    <img src="{$profiles.image}">
+                                </div>
+                                <p>{$profiles.description}</p>
+                            </a>
+                        </div>
+                    {/foreach}
 
                 </div>
             </div>
