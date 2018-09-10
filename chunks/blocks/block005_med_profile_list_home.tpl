@@ -9,13 +9,16 @@
             </div>
         </div>
 
-        {$_modx->resource.select_medical_profile}
-
-        asdasd
-
         <div class="swiper">
             <div class="swiper-container swiper-working-profiles">
                 <div class="swiper-wrapper">
+
+                    {'pdoResources'|snippet:[
+                        'parents' => 0,
+                        'includeTVs' => 'medical_icon',
+                        'resources' => $_modx->resource.select_medical_profile,
+                        'tpl' => '@FILE chunks/main_page/block_with_icon.tpl'
+                    ]}
 
                     {foreach $_modx->resource.working_profiles|fromJSON as $profiles}
                         <div class="swiper-slide">
