@@ -40,20 +40,20 @@
             {if $_modx->resource.contact_info != ''}
 
             {set $rows = json_decode($_modx->resource.contact_info, true)}
-
-                <div class="contacts__content">
-                {foreach $rows as $row}
-                    <h3>{$row.title}</h3>
-                </div>
-                    {set $rows = json_decode($row.inner_ul,true)}
+                
+                <div class="contacts__content">                    
                     {foreach $rows as $row}
-                    <div class="contacts__line">
-                        <span>{$row.title}:</span>
-                        <p>{$row.description}</p>
-                    </div>
+                    <h3>{$row.title}</h3>
+                        
+                        {set $rows = json_decode($row.inner,true)}
+                            {foreach $rows as $row}
+                                <div class="contacts__line">
+                                    <span>{$row.title}:</span>
+                                    <p>{$row.description}</p>
+                                </div>
+                            {/foreach}
+                        </table>
                     {/foreach}
-
-                {/foreach}
 
             {/if}
         </div>

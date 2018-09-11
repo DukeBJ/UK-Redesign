@@ -2,7 +2,7 @@
     <div class="tabs">
     
         {'!pdoMenu'|snippet:[
-            'parents' => 1015,
+            'parents' => 998,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
@@ -13,7 +13,7 @@
             
             <div class="heading">
                 <h2>{$_modx->resource.pagetitle}</h2>
-                <p>{$_modx->resource.inttrotext}</p>
+                <p>{$_modx->resource.introtext}</p>
             </div>
             
             {$_modx->resource.content}
