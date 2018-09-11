@@ -2,7 +2,7 @@
     <div class="tabs">
     
         {'!pdoMenu'|snippet:[
-            'parents' => 998,
+            'parents' => 1015,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
