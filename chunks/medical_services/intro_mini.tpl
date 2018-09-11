@@ -13,7 +13,7 @@
                     ]]
                     {'!pdoField'|snippet:[
                         'id' => $_modx->resource.id,
-                        'field' => '$_modx->resource.longtitle? : $_modx->resource.pagetitle',
+                        'field' => $_modx->resource.longtitle? : $_modx->resource.pagetitle,
                         'top' => 2
                     ]}
 
@@ -25,8 +25,8 @@
                 {else}
                     {'!pdoField'|snippet:[
                         'id' => $_modx->resource.id,
-                        'field' => '$_modx->resource.introtext',
-                        'top' => 2
+                        'field' => $_modx->resource.introtext,
+                        'top' => 2,
                     ]}
                 {/if}
                 </p>
