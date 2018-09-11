@@ -9,7 +9,7 @@
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
         ]}
 
-        <div class="tabs__content medical-profile__content article">
+        <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
                 <h2>{$_modx->resource.pagetitle}</h2>
