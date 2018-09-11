@@ -37,15 +37,15 @@
 
             {/if}
             
-            {if $_modx->resource.contact_filial_phone_1 != ''}
+            {if $_modx->resource.contact_info != ''}
 
-            {set $rows = json_decode($_modx->resource.contact_filial_phone_1, true)}
+            {set $rows = json_decode($_modx->resource.contact_info, true)}
 
                 <div class="contacts__content">
                 {foreach $rows as $row}
                     <h3>{$row.title}</h3>
                 </div>
-                    {set $rows = json_decode($row.inner_contact,true)}
+                    {set $rows = json_decode($row.inner_ul,true)}
                     {foreach $rows as $row}
                     <div class="contacts__line">
                         <span>{$row.title}:</span>
