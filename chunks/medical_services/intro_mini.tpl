@@ -9,12 +9,12 @@
                     [[pdoField?
                         &id=`[[*id]]`
                         &field='$_modx->resource.longtitle? : $_modx->resource.pagetitle'
-                        &top=`2`
+                        &top=`1`
                     ]]
                     {'!pdoField'|snippet:[
                         'id' => $_modx->resource.id,
                         'field' => $_modx->resource.longtitle? : $_modx->resource.pagetitle,
-                        'top' => 2
+                        'top' => 1
                     ]}
 
                 {/if}
