@@ -3,7 +3,8 @@
         <div class="container">
             <div class="heading heading-secondary">
                 <h2>
-                {if $_modx->resource.id|in:[993,998,997,996]}
+                {var $list= [993,998,997,996]}
+                {if $_modx->resource.id in list $list}
                     {$_modx->resource.longtitle? : $_modx->resource.pagetitle}
                 {else}
                     {'!pdoField'|snippet:[
@@ -11,11 +12,10 @@
                         'field' => $_modx->resource.longtitle? : $_modx->resource.pagetitle,
                         'top' => 1
                     ]}
-
                 {/if}
                 </h2>
                 <p>
-                {if $_modx->resource.id|in:[993,998,997,996]}
+                {if $_modx->resource.id in list $list}
                     {$_modx->resource.introtext}
                 {else}
                     {'!pdoField'|snippet:[
