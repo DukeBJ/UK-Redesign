@@ -6,14 +6,28 @@
                 {if $_modx->resource.id == '993,998,997,996'}
                     {$_modx->resource.longtitle? : $_modx->resource.pagetitle}
                 {else}
-                    1
+                    [[pdoField?
+                        &id=`[[*id]]`
+                        &field='$_modx->resource.longtitle? : $_modx->resource.pagetitle'
+                        &top=`2`
+                    ]]
+                    {'!pdoField'|snippet:[
+                        'id' => $_modx->resource.id,
+                        'field' => '$_modx->resource.longtitle? : $_modx->resource.pagetitle',
+                        'top' => 2
+                    ]}
+
                 {/if}
                 </h2>
                 <p>
                 {if $_modx->resource.id == '993,998,997,996'}
                     {$_modx->resource.introtext}
                 {else}
-                    2
+                    {'!pdoField'|snippet:[
+                        'id' => $_modx->resource.id,
+                        'field' => '$_modx->resource.introtext',
+                        'top' => 2
+                    ]}
                 {/if}
                 </p>
             </div>
