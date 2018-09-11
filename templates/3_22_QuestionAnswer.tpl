@@ -63,6 +63,7 @@
             <div class="modal__content">
                 <div class="step__block">
                     <div class="heading">
+
                         <h2>Задайте Ваш вопрос</h2>
                         <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
                     </div>
