@@ -15,7 +15,6 @@
 
             {'!FileAttach'|snippet:[
                 'resource' => $id,
-                'makeURL' => 1,
                 'showSize' => 1,
                 'privateUrl' => 1,
                 'tpl' => 'FileAttachTpl_new'
