@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/blocks/block019_intro_mini.tpl'}
+    {include 'file:chunks/medical_services/intro_mini.tpl'}
 
     <section class="medical-profile">
         <div class="container-fluid">
