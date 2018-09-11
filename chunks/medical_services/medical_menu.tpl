@@ -3,11 +3,11 @@
         {var $list= [993,998,997,996]}
         <li {if $_modx->resource.id in list $list} class="active"
                 {else}
-                    {if {'!pdoField'|snippet:[
+                    {if '!pdoField'|snippet:[
                         'id' => $_modx->resource.id,
                         'field' => $_modx->resource.id,
                         'top' => 1 
-                    ]} == $_modx->resource.link_profile} class="active"
+                    ] == $_modx->resource.link_profile} class="active"
                 {/if}<a href="#">Профили</a></li>
         <li {if $_modx->resource.id == $_modx->resource.link_programa} class="active" {/if}><a href="#">Программы лечения</a></li>
         <li {if $_modx->resource.id == $_modx->resource.link_osobennosti} class="active" {/if}><a href="#">Особенности</a></li>
