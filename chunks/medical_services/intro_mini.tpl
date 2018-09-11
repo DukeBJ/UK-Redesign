@@ -21,7 +21,7 @@
                     {'!pdoField'|snippet:[
                         'id' => $_modx->resource.id,
                         'field' => $_modx->resource.introtext,
-                        'top' => 2,
+                        'top' => 1,
                     ]}
                 {/if}
                 </p>
