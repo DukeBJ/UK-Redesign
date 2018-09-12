@@ -90,25 +90,25 @@
     
 <div id="video-rev01" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev01}
+     {$_modx->resource.video_rev01}
 </div>
 <div id="video-rev02" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev02}
+     {$_modx->resource.video_rev02}
 </div>
 <div id="video-rev03" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev03}
+     {$_modx->resource.video_rev03}
 </div>
 <div id="video-rev04" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev04}
+     {$_modx->resource.video_rev04}
 </div>
 <div id="video-rev05" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev05}
+     {$_modx->resource.video_rev05}
 </div>
 <div id="video-rev06" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {$_modx->resource.video-rev06}
+     {$_modx->resource.video_rev06}
 </div>
