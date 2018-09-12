@@ -45,10 +45,10 @@
                             'includeContent' => 1
                         ]}
                     </div>
-                    [[!+page.nav]]
+
                 <!-- Кнопка подгрузки вопросов -->
                 <div class="col-xs-12 center-xs">
-
+                    [[!+page.nav]]
                 </div>
 
             </div>
