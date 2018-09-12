@@ -13,7 +13,7 @@
     <div class="container-two">
         <div class="row">
 
-            {'!FileAttach'|snippet:[
+            {'!FileAttachNew'|snippet:[
                 'resource' => $id,
                 'makeURL' => 1,
                 'showSize' => 1,
