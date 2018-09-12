@@ -31,7 +31,7 @@
 
                     {'pdoPage'|snippet:[
                         'parents' => $_modx->resource.id,
-                        'limit' => 5,
+                        'limit' => 1,
                         'ajaxMode' => 'button',
                         'includeTVs' => 'queemail,quephone,quetext',
                         'tpl' => '@FILE chunks/reviews/reviews.tpl',
