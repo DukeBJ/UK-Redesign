@@ -26,8 +26,7 @@
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
                 <div id="pdopage">
                 <!-- Вопросы -->
-                    [[!+page.nav]]
-                <div class="container comments row">
+                <div class="container comments rows">
                     <!-- Вопрос -->
 
                     {'pdoPage'|snippet:[
@@ -49,7 +48,7 @@
 
                 <!-- Кнопка подгрузки вопросов -->
                 <div class="col-xs-12 center-xs">
-
+                    [[!+page.nav]]
                 </div>
 
             </div>
