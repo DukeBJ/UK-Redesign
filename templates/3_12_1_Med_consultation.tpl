@@ -33,7 +33,7 @@
                     {'pdoPage'|snippet:[
                         'parents' => $_modx->resource.id,
                         'limit' => 1,
-                        'ajaxMode' => 'button',
+                        'ajaxMode' => 'default',
                         'includeTVs' => 'queemail,quephone,quetext',
                         'tpl' => '@FILE chunks/reviews/reviews.tpl',
                         'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn_more">
