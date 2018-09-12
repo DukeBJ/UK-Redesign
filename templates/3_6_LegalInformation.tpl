@@ -4,7 +4,7 @@
 
     {'!pdoResources'|snippet:[
         'parents' => 919,
-        'depth' => 1,
+        'depth' => 0,
         'resources' => -942,
         'includeContent' => 1,
         'sortby' => 'menuindex',

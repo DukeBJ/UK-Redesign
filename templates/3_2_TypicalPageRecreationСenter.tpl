@@ -1,7 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
     {include 'file:chunks/blocks/block018_intro_big_booking.tpl'}
-    {include 'file:chunks/sanator/RecreationСenter_menu.tpl'}
+    {include 'file:chunks/sanator/sanator_menu.tpl'}
     {include 'file:chunks/sanator/sanator_natural_factors.tpl'}
     {include 'file:chunks/blocks/block007_calc.tpl'}
     {include 'file:chunks/blocks/block_news_slider.tpl'}
