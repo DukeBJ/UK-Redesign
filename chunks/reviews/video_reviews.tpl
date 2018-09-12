@@ -12,72 +12,84 @@
       <div class="container">
           <div class="swiper-container swiper-special-offers">
               <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev01" data-pop>
+                {if $_modx->resource.video_rev01 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev01_img}" alt="">
+                                <a href="#video-rev01" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev01_desc}</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev02" data-pop>
+                {/if}
+                {if $_modx->resource.video_rev02 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev02_img}" alt="">
+                                <a href="#video-rev02" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev02_desc}</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev03" data-pop>
+                {/if}
+                {if $_modx->resource.video_rev03 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev03_img}" alt="">
+                                <a href="#video-rev03" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev03_desc}</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev04" data-pop>
+                {/if}
+                {if $_modx->resource.video_rev04 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev04_img}" alt="">
+                                <a href="#video-rev04" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev04_desc}</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev05" data-pop>
+                {/if}
+                {if $_modx->resource.video_rev05 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev05_img}" alt="">
+                                <a href="#video-rev05" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev05_desc}</p>
                                 </div>
                             </a>
                         </div>
                     </div>
-                  <div class="swiper-slide">
-                      <div class="video__block slider">
-                          <img src="{$template}img/video.png" alt="">
-                             <a href="#video-rev06" data-pop>
+                {/if}
+                {if $_modx->resource.video_rev06 != ''}    
+                    <div class="swiper-slide">
+                        <div class="video__block slider">
+                            <img src="{$_modx->resource.video_rev06_img}" alt="">
+                                <a href="#video-rev06" data-pop>
                                 <i class="icon icon-play"></i>
                                 <div class="video__block__text">
-                                    <p>Уникальность курортов Ульяновской области</p>
+                                    <p>{$_modx->resource.video_rev06_desc}</p>
                                 </div>
                             </a>
                         </div>
-                    </div>      
+                    </div>
+                {/if}  
                 </div>
             </div>
             <div class="swiper-button-next swiper-special-offers-next"><i class="icon icon-right-arrow"></i></div>
