@@ -208,5 +208,4 @@
     </section>
     <!-- END -->
 
-    {include 'file:chunks/blocks/block013_bottom_help.tpl'}
 {/block}
