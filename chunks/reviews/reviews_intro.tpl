@@ -3,8 +3,8 @@
         <div class="page-intro__content">
             <div class="container">
                 <div class="heading heading-secondary">
-                    <h2>Консультации врача санатория имени В.И. Ленина</h2>
-                    <p>Перечень необходимых для изучения документов, правила заявления и условия пребывания в наших санаториях.</p>
+                    <h2>{$_modx->resource.longtitle? : $_modx->resource.pagetitle}</h2>
+                    <p>{$_modx->resource.introtext}</p>
                     <div class="intro-btn">
                         <a href="#pop-question" class="btn btn-sandy" data-pop>
                             {ignore}
