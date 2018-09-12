@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="tabs medical-profile__menu">
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
-
+                <div id="pdopage">
                 <!-- Вопросы -->
                 <div class="container comments">
                     <!-- Вопрос -->
@@ -44,6 +44,7 @@
                         'ajaxElemMore' => '#pdopage .btn_more',
                         'includeContent' => 1
                     ]}
+                </div>
 
                 <!-- Кнопка подгрузки вопросов -->
                 <div class="col-xs-12 center-xs">
