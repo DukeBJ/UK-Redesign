@@ -51,6 +51,12 @@
             console.log();
         });
 
+        $(document).on('submit', '.ajax_form', function() {
+            // Здесь любой код для проверки формы при отправке
+            // Я просто печатаю её в консоли бразуреа
+            console.log(this);
+        });
+
     </script>
 
 </body>
