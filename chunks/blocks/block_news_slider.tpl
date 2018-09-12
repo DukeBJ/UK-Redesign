@@ -15,7 +15,7 @@
                 <div class="swiper-wrapper">
 
                     {'!pdoResources'|snippet:[
-                    'parents' => '923, 924',
+                    'parents' => '923',
                     'depth' => 0,
                     'includeContent' => 1,
                     'includeTVs' => 'news_img',
