@@ -90,25 +90,25 @@
     
 <div id="video-rev01" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev01}
 </div>
 <div id="video-rev02" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev02}
 </div>
 <div id="video-rev03" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev03}
 </div>
 <div id="video-rev04" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev04}
 </div>
 <div id="video-rev05" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev05}
 </div>
 <div id="video-rev06" class="video-pop-up modal">
      <div class="modal__close"><span></span></div>
-     {* !!! сюда вставляется сссылка на видео !!! *} <iframe src="https://www.youtube.com/embed/XFCg9Ojvqu0?ecver=2" width="100%" height="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     {$_modx->resource.video-rev06}
 </div>
