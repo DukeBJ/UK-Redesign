@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
-                <h3>Видеоотзывы наших посетителей</h3>
+                <div class="heading">
+                    <h3>Видеоотзывы наших посетителей</h3>
+                </div>
             </div>
         </div>
     </div>
