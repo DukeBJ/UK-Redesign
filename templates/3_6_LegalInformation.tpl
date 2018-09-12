@@ -5,6 +5,7 @@
     {'!pdoResources'|snippet:[
         'parents' => 919,
         'depth' => 1,
+        'where' => ["isfolder" => "1"],
         'includeContent' => 1,
         'sortby' => 'menuindex',
         'sortdir' => 'ASC',
