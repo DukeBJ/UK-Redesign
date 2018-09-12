@@ -437,8 +437,8 @@
                 </form>
             </div>
             <div class="pop-rooms__info">
-                <a href="#">Необходимые документы</a>
-                <a href="#">Правила пребывания</a>
+                <a href="{'rooms_docs'|config}">Необходимые документы</a>
+                <a href="{'rooms_pravila'|config}">Правила пребывания</a>
             </div>
         </div>
         <div class="col-xs-12">
