@@ -22,3 +22,6 @@
     </div>
 </section>
 <!-- END -->
+
+<input type="hidden" name="price" value="" id="price">
+<input type="hidden" name="prop" value="" id="prop">
