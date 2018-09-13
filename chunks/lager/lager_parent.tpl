@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="right-block__img">
-                    <div data-invert-x="false" data-invert-y="false" class="scene-2 scene-secondary">
+                    <div data-invert-x="false" data-invert-y="false" class="scene-4 scene-secondary">
                         <div data-depth="0.5"><img src="{$template}img/flow/note.png" alt=""></div>
                     </div>
                 </div>
