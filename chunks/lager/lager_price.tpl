@@ -40,8 +40,9 @@
                                     </tr>
                                 {/foreach}
                             </table>
-                        {/foreach}
+                        
                         </div>
+                        {/foreach}
                     </div>
                 </div>
 
@@ -68,8 +69,8 @@
                                     </tr>
                                 {/foreach}
                             </table>
-                        {/foreach}
                         </div>
+                        {/foreach}
                     </div>
                 </div>
 
@@ -96,8 +97,8 @@
                                     </tr>
                                 {/foreach}
                             </table>
-                        {/foreach}
                         </div>
+                        {/foreach}
                     </div>
                 </div>
 
@@ -124,8 +125,8 @@
                                     </tr>
                                 {/foreach}
                             </table>
-                        {/foreach}
                         </div>
+                        {/foreach}
                     </div>
                 </div>
 
