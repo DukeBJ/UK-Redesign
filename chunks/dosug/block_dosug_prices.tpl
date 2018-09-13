@@ -17,21 +17,15 @@
                     </div>
                     <table>
 
-                        [[!getImageList?
-                        &tvname=`dosug_table_hources_price`
-                        &tpl=`@CODE:
-                        <tr>
-                            <td>[[+price_name]]</td>
-                            <td class="coins">
-                                <p>[[+price_1]]<span>[[+price_1_description]]</span></p>
-                                <p>[[+price_2]]<span>[[+price_2_description]]</span></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>[[+price_name]]</td>
-                            <td class="coins">[[+price_1]]</td>
-                        </tr>`
-                        ]]
+                        {foreach $_modx->resource.dosug_table_hources_price|fromJSON as $price}
+                            <tr>
+                                <td>{$price.price_name}</td>
+                                <td class="coins">
+                                    <p>{$price.price_1}<span>{$price.price_1_description}</span></p>
+                                    <p>{$price.price_2}<span>{$price.price_2_description}</span></p>
+                                </td>
+                            </tr>
+                        {/foreach}
 
                     </table>
                 </div>
