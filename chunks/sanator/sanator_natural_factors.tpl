@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Природные факторы</h2>
-                    <p>Еще древние племена, населяющие территорию Ундоровского курорта, знали о волшебной силе здешней минеральной воды. Ведь с тюркского Ундоры переводится как «долина десяти лекарств».</p>
+                    <h2>{$_modx->resource.nature_factors_title}</h2>
+                    <p>{$_modx->resource.nature_factors_description}</p>
                 </div>
             </div>
         </div>

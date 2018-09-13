@@ -22,9 +22,9 @@
                         <b>Оздоровиться</b>
                     </a>
                 <ul>
-                    <li><a href="#">Все направления лечения</a></li>
-                    <li><a href="#">Особенности воды</a></li>
-                    <li><a href="#">Врачи и методики</a></li>
+                    <li><a href="{'all_directions_treatment'|config}">Все направления лечения</a></li>
+                    <li><a href="{'features_of_water'|config}">Особенности воды</a></li>
+                    <li><a href="{'doctors_and_technicians'|config}">Врачи и методики</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
