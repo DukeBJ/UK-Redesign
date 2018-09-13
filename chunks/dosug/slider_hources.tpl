@@ -16,17 +16,15 @@
                     <div class="swiper-container swiper-search">
                         <div class="swiper-wrapper">
                         
-                            [[!getImageList?
-                            &tvname=`dosug_hources_slider`
-                            &tpl=`@CODE:
-                            <div class="swiper-slide">
-                                <div class="swiper-slide__img">
-                                    <img src="[[+image_1]]" srcset="[[+image_2x]] 2x, [[+image_3x]] 3x">
+                            {foreach $_modx->resource.dosug_hources_slider|fromJSON as $slider}
+                                <div class="swiper-slide">
+                                    <div class="swiper-slide__img">
+                                        <img src="{$slider.image_1}">
+                                    </div>
+                                    <h4>{$slider.title}</h4>
+                                    <p>{$slider.description}</p>
                                 </div>
-                                <h4>[[+title]]</h4>
-                                <p>[[+description]]</p>
-                            </div>`
-                            ]]
+                            {/foreach}
                         
                         </div>
                     </div>
