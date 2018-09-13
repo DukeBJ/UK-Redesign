@@ -12,7 +12,7 @@
 
                 {foreach $_modx->resource.intro_slider|fromJSON as $slider}
                     <div style="background-image: url({$slider.image});background-position: center center;" class="swiper-slide">
-                        <div class="swiper-slide__text">
+                        <div class="swiper-slide__text scroll">
                             <h2>{$slider.title}</h2>
                             <p>{$slider.description}</p>
                             <a href="{$slider.link}" class="btn btn-transparent">
