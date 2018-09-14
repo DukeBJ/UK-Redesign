@@ -2,7 +2,6 @@
 {block 'main'}
 
     {include 'file:chunks/reviews/reviews_intro.tpl'}
-
     <div id="pdopage">
         <section class="comments rows">
             <div class="container">
