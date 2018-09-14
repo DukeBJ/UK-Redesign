@@ -64,10 +64,8 @@
                 type: 'post',
                 dataType: 'json',
                 success: function(response){
-                    console.log(response.length);
                     for (var i = 0; i < response.length; i++){
-                        console.log(i);
-                        console.log(response[i]);
+                        $('select[name=from]').append('<option value="'+response[i]+'">'+response[i]+'</option>');
                     }
                 }
             });
