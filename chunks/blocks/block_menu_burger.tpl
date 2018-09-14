@@ -36,11 +36,12 @@
             </div>
             <div class="menu__block">
                 <h4> <a href="{'4'|url}">Лечение</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="{'993'|url}">Профили </a></li>
-                    <li><a href="{'997'|url}">Методики</a></li>
-                    <li><a href="{'996'|url}">Особенности</a></li>
-                </ul>
+                {'pdoMenu'|snippet:[
+                    'parents' => 992,
+                    'resources' => -996,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
                 <h4> <a href="{'915'|url}">Досуг</a><i class="icon icon-left-arrow"></i></h4>
 
                 {'pdoMenu'|snippet:[
@@ -54,11 +55,12 @@
                 <h4><a href="{'161'|url}">Контакты</a></h4>
                 <h4><a href="{'395'|url}">Цены</a></h4>
                 <h4><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="{'923'|url}">Акции</a></li>
-                    <li><a href="{'924'|url}">Новости</a></li>
-                    <li><a href="{'925'|url}">Статьи</a></li>
-                </ul>
+                {'pdoMenu'|snippet:[
+                    'parents' => 920,
+                    'resources' => -949,
+                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
+                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+                ]}
             </div>
         </div>
         <div class="menu__search"><input type="text" placeholder="Поиск по сайту"><i class="icon icon-search"></i></div>
