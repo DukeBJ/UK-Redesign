@@ -7,7 +7,7 @@
             
                 {include 'file:chunks/medical_services/medical_menu_dop.tpl'}
                 
-                <div class="tabs">
+                <div class="med-article">
                     <div class="medical-profile__one-container">
                         <div class="medical-profile__content">
           
