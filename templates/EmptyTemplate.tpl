@@ -66,7 +66,7 @@
                 success: function(response){
                     console.log(response.length);
                     for (var i = 0; response.length < i; i++){
-                        console.log(response.[i]);
+                        console.log(response.i);
                     }
                 }
             });
