@@ -6,7 +6,7 @@
                 <h2>Оставьте свой отзыв</h2>
                 <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
             </div>
-            <form action="" class="form">
+            <form action="" class="form" id="formStep-1">
                 <textarea placeholder="Ваш отзыв" name="message" id="message"></textarea>
                 <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
@@ -52,7 +52,7 @@
                 <h2>Где Вы отдыхали?</h2>
                 <p>Выберите санаторий или дом отдыха, а также время отдыха.</p>
             </div>
-            <form action="" class="form">
+            <form action="" class="form" id="formStep-2">
                 <div class="form__block">
                     <div class="form__select"><i></i>
                         <p></p>
@@ -61,15 +61,18 @@
                         </select><span>Где отдыхали?</span></div>
                     <div class="form__select"><i></i>
                         <p></p>
-                        <select name="day">
-                            <option value="1">Август</option>
-                            <option value="2">Июнь</option>
+                        <select name="month">
+                            <option value="Август">Август</option>
+                            <option value="Июнь">Июнь</option>
                         </select><span>В каком месяце?</span></div>
                     <div class="form__select"><i></i>
                         <p></p>
-                        <select name="day">
-                            <option value="1">2017</option>
-                            <option value="2">2016</option>
+                        <select name="year">
+                            <option value="2017">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2016">2015</option>
+                            <option value="2016">2014</option>
                         </select><span>Год отдыха</span></div>
                 </div>
                 <a href="#step-2" data-pop="data-pop" class="btn btn-sandy">
@@ -116,14 +119,14 @@
                 <h2>И последний вопрос</h2>
                 <p>Мы будем рады, если Вы представитесь.</p>
             </div>
-            <form action="" class="form">
+            <form action="" class="form" id="formStep-3">
                 <div class="form__block">
                     <div class="form__input">
-                        <input type="text" id="text-5">
+                        <input type="text" id="text-5" name="name">
                         <label for="text-5">Как к Вам обращаться?</label>
                     </div>
                     <div class="form__input">
-                        <input type="email" id="email">
+                        <input type="email" id="email" name="email">
                         <label for="email">Адрес e-mail</label>
                     </div>
                 </div>

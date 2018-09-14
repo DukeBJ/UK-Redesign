@@ -58,8 +58,24 @@
         });
 
         $('#sendReviews').on('click', function(){
-            var message = $('#message');
-            console.log(message);
+            var step = [];
+            step.push($('#formStep-1').serializeArray());
+            step.push($('#formStep-2').serializeArray());
+            step.push($('#formStep-3').serializeArray());
+
+            $.ajax({
+                url: '/assets/connectors/saveReviews.php',
+                type: 'post',
+                data: {
+                    data: step
+                },
+                success: function(response){
+                    console.log(response);
+                }
+            });
+
+
+            console.log(step);
         });
 
         // Подстановка в отзывы
