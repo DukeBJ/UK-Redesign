@@ -64,7 +64,7 @@
                 type: 'post',
                 dataType: 'json',
                 success: function(response){
-                    console.log(response[3]);
+                    console.log(response);
                     for (var i = 0; response.length < i; i++){
                         console.log(response[i]);
                     }
