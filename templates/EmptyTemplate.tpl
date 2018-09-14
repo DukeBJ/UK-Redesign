@@ -59,7 +59,11 @@
 
         $('#sendReviews').on('click', function(){
             var step1 = $('#formStep-1').serializeArray();
+            var step2 = $('#formStep-2').serializeArray();
+            var step3 = $('#formStep-3').serializeArray();
             console.log(step1);
+            console.log(step2);
+            console.log(step3);
         });
 
         // Подстановка в отзывы
