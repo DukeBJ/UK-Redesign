@@ -2,7 +2,6 @@
 {block 'main'}
 
     {include 'file:chunks/reviews/reviews_intro.tpl'}
-asdadasd
     <div id="pdopage">
         <section class="comments rows">
             <div class="container">
@@ -33,18 +32,5 @@ asdadasd
 
     {include 'file:chunks/reviews/make_reviews.tpl'}
     {include 'file:chunks/reviews/video_reviews.tpl'}
-
-        <script>
-            // Подстановка в отзывы
-            $(document).ready(function(){
-                $.ajax({
-                    url: '/assets/connectors/getSanator.php',
-                    type: 'post',
-                    success: function(response){
-                        console.log(response);
-                    }
-                });
-            });
-        </script>
     
 {/block}

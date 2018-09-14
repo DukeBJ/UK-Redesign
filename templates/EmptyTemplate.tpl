@@ -57,6 +57,17 @@
             $('.msgdone').show();
         });
 
+        // Подстановка в отзывы
+        $(document).ready(function(){
+            $.ajax({
+                url: '/assets/connectors/getSanator.php',
+                type: 'post',
+                success: function(response){
+                    console.log(response);
+                }
+            });
+        });
+
     </script>
 
 </body>
