@@ -58,7 +58,7 @@
         });
 
         $('#sendReviews').on('click', function(){
-            var message = $('#message').value;
+            var message = $('#message');
             console.log(message);
         });
 
