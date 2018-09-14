@@ -63,7 +63,9 @@
                 url: '/assets/connectors/getSanator.php',
                 type: 'post',
                 success: function(response){
-                    console.log(response);
+                    for (i=1;response.length < i; i++){
+                        console.log(response[i]);
+                    }
                 }
             });
         });
