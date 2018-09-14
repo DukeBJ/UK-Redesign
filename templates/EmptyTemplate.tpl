@@ -57,6 +57,10 @@
             $('.msgdone').show();
         });
 
+        $('#sendReviews').on('click', function(){
+            console.log(this);
+        });
+
         // Подстановка в отзывы
         $(document).ready(function(){
             $.ajax({
