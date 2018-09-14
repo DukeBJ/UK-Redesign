@@ -58,7 +58,7 @@
         });
 
         $('#sendReviews').on('click', function(){
-            var message = $('#step textarea[name=message]').value();
+            var message = $('#step textarea[name=message]').value;
             console.log(message);
         });
 
