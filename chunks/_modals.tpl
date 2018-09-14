@@ -722,10 +722,13 @@
                     <p>Выберите санаторий или дом отдыха, а также время отдыха.</p>
                 </div>
                 <form action="" class="form">
+
+                    <select name="from" id=""></select>
+
                     <div class="form__block">
                         <div class="form__select"><i></i>
                             <p></p>
-                            <select name="from">
+                            <select name="fro1">
                                 <option value="1">Имени В.И.Ленина</option>
                                 <option value="2">Дубки</option>
                                 <option value="3">Прибрежный</option>

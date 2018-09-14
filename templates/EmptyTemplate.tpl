@@ -65,7 +65,6 @@
                 dataType: 'json',
                 success: function(response){
                     for (var i = 0; i < response.length; i++){
-                        console.log('<option value="'+response[i]+'">'+response[i]+'</option>');
                         $('select[name=from]').append('<option value="'+response[i]+'">'+response[i]+'</option>');
                     }
                 }
