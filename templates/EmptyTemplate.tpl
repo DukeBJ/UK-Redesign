@@ -59,9 +59,9 @@
 
         $('#sendReviews').on('click', function(){
             var step = [];
-            step[] = $('#formStep-1').serializeArray();
-            step[] = $('#formStep-2').serializeArray();
-            step[] = $('#formStep-3').serializeArray();
+            step.push($('#formStep-1').serializeArray());
+            step.push($('#formStep-2').serializeArray());
+            step.push($('#formStep-3').serializeArray());
 
 
             console.log(step);
