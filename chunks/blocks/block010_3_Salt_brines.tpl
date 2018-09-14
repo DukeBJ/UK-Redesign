@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
-                    <h2>Соляные рассолы</h2>
-                    <p>Хлоридные натриевые ванные в большой степени, чем все другие, улучшают тонус вен и стимулируют венозный кровоток. </p>
+                    <h2>{'block_3_title'|config}</h2>
+                    <p>{'block_3_description'|config}</p>
                 </div>
                 <div class="row">
                     
@@ -23,9 +23,9 @@
                     <b>Принять ванну</b>
                 </a>
                 <ul>
-                    <li><a href="{'all_directions_treatment'|config}">Все направления лечения</a></li>
-                    <li><a href="{'features_of_water'|config}">Особенности воды</a></li>
-                    <li><a href="{'doctors_and_technicians'|config}">Врачи и методики</a></li>
+                    <li><a href="{'block_3_link_1'|config}">{'block_3_link_title_1'|config}</a></li>
+                    <li><a href="{'block_3_link_2'|config}">{'block_3_link_title_2'|config}</a></li>
+                    <li><a href="{'block_3_link_3'|config}">{'block_3_link_title_3'|config}</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">

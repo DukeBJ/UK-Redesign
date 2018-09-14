@@ -17,8 +17,8 @@
             </div>
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
-                    <h2>Морской климат</h2>
-                    <p>Климат приближен к морскому с естественной аэроионизацией до 1105 аэроионов/см3, что превышает показатели санаториев Кавказских Минеральных Вод. </p>
+                    <h2>{'block_4_title'|config}</h2>
+                    <p>{'block_4_description'|config}</p>
                 </div>
                 <div class="row">
 
@@ -36,9 +36,9 @@
                     <b>Оздоровиться</b>
                 </a>
                 <ul>
-                    <li><a href="{'all_directions_treatment'|config}">Все направления лечения</a></li>
-                    <li><a href="{'features_of_water'|config}">Особенности воды</a></li>
-                    <li><a href="{'doctors_and_technicians'|config}">Врачи и методики</a></li>
+                    <li><a href="{'block_4_link_1'|config}">{'block_4_link_title_1'|config}</a></li>
+                    <li><a href="{'block_4_link_2'|config}">{'block_4_link_title_2'|config}</a></li>
+                    <li><a href="{'block_4_link_3'|config}">{'block_4_link_title_3'|config}</a></li>
                 </ul>
             </div>
         </div>

@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-sm-8 col-xs-12">
                 <div class="heading">
-                    <h2>Минеральная вода</h2>
-                    <p>Единственные в России по своему минеральному составу источники лечебной минеральной воды. По своему составу похоже на Карловы Вары в Чехии. </p>
+                    <h2>{'block_1_title'|config}</h2>
+                    <p>{'block_1_description'|config}</p>
                 </div>
                 <div class="row">
 
@@ -22,9 +22,9 @@
                         <b>Оздоровиться</b>
                     </a>
                 <ul>
-                    <li><a href="{'all_directions_treatment'|config}">Все направления лечения</a></li>
-                    <li><a href="{'features_of_water'|config}">Особенности воды</a></li>
-                    <li><a href="{'doctors_and_technicians'|config}">Врачи и методики</a></li>
+                    <li><a href="{'block_1_link_1'|config}">{'block_1_link_title_1'|config}</a></li>
+                    <li><a href="{'block_1_link_2'|config}">{'block_1_link_title_2'|config}</a></li>
+                    <li><a href="{'block_1_link_3'|config}">{'block_1_link_title_3'|config}</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
