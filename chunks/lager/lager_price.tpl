@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Цены в лагерь на 2018 год</h2>
-                    <p>Вся территория лечебно-оздоровительного лагеря «Сосенка» теперь принадлежит только детям. Лагерь будет размещать 500 ребят в смену.</p>
+                    <h2>{$_modx->resource.lager_price_block_title}</h2>
+                    <p>{$_modx->resource.lager_price_block_description}</p>
                 </div>
             </div>
         </div>
