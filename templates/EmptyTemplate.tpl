@@ -64,7 +64,7 @@
                 type: 'post',
                 success: function(response){
                     for (var i = 1;response.length < i; i++){
-                        console.log(response[i]);
+                        console.log(response);
                     }
                 }
             });
