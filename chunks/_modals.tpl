@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-xs-12 center-xs">
-                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/dubki.svg" alt="">
                                         <a class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
@@ -230,7 +230,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-xs-12 center-xs">
-                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/transfiguration.svg" alt="">
                                         <a class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
@@ -269,7 +269,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 col-xs-12 center-xs">
-                                <div class="sanatoriums__block"><img src="img/lenin.png" alt="">
+                                <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/white-yar.svg" alt="">
                                         <a class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
