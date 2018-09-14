@@ -12,16 +12,13 @@
     <div class="container-two">
         <div class="row">
 
-            {foreach $_modx->resource.natural_factors|fromJSON as $factors}
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#pop-info" class="natural-factors__block" data-pop>
-                        <div class="natural-factors__block__img">
-                            <img src="{$factors.image}" alt="">
-                        </div>
-                        <p>{$factors.description}</p>
-                    </a>
-                </div>
-            {/foreach}
+            {'pdoResources'|snippet:[
+                'parents' => 0,
+                'includeTVs' => 'nature_factor_icon',
+                'resources' => $_modx->resource.select_nature_factors,
+                'tpl' => '@FILE chunks/sanator/block_with_icon.tpl'
+            ]}
+
         </div>
     </div>
 </section>
