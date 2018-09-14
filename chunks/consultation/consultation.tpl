@@ -7,7 +7,7 @@
                 <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
             </div>
             <form action="" class="form">
-                <textarea placeholder="Ваш отзыв" name="message"></textarea>
+                <textarea placeholder="Ваш отзыв" name="message" id="message"></textarea>
                 <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                         <defs>{ignore}
