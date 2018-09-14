@@ -78,7 +78,8 @@
                         <p>Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
                             №99/228 от 22.12.1999 г.).</p>
                     </div>
-                    <div class="medical-profile__content__img"><img src="{$template}img/medical-profile.png" alt=""></div>
+                    <div class="medical-profile__content__img"><img src="{$template}img/medical-profile.png" alt="">
+                    </div>
 
                     <div class="include-content"></div>
 
@@ -87,7 +88,8 @@
                     <div class="container medical-order">
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
+                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg">
+                                </div>
                             </div>
                         </div>
                         <div class="row middle-xs center-xs">
@@ -102,7 +104,20 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                          viewBox="0 0 273 50">
                                         <defs>{ignore}
-                                            <style>.cls-1{ fill:#f4e07a;}.cls-1, .cls-2{ fill-rule:evenodd;}.cls-2{ fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                            <style>.cls-1 {
+                                                    fill: #f4e07a;
+                                                }
+
+                                                .cls-1, .cls-2 {
+                                                    fill-rule: evenodd;
+                                                }
+
+                                                .cls-2 {
+                                                    fill: none;
+                                                    stroke: #fff;
+                                                    stroke-miterlimit: 10;
+                                                    stroke-width: 2px;
+                                                }</style>
                                         </defs>{/ignore}
                                         <title>button</title>
                                         <g id="Layer_3" data-name="Layer 3">
@@ -126,7 +141,8 @@
                     <div class="container sanatoriums">
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
+                                <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg">
+                                </div>
                             </div>
                         </div>
                         <div class="row">
@@ -142,7 +158,20 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
-                                                    <style>.cls-1{ fill:#f4e07a;}.cls-1, .cls-2{ fill-rule:evenodd;}.cls-2{ fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                    <style>.cls-1 {
+                                                            fill: #f4e07a;
+                                                        }
+
+                                                        .cls-1, .cls-2 {
+                                                            fill-rule: evenodd;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                            stroke: #fff;
+                                                            stroke-miterlimit: 10;
+                                                            stroke-width: 2px;
+                                                        }</style>
                                                 </defs>{/ignore}
                                                 <title>button</title>
                                                 <g id="Layer_3" data-name="Layer 3">
@@ -168,7 +197,20 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
-                                                    <style>.cls-1{ fill:#f4e07a;}.cls-1, .cls-2{ fill-rule:evenodd;}.cls-2{ fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                    <style>.cls-1 {
+                                                            fill: #f4e07a;
+                                                        }
+
+                                                        .cls-1, .cls-2 {
+                                                            fill-rule: evenodd;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                            stroke: #fff;
+                                                            stroke-miterlimit: 10;
+                                                            stroke-width: 2px;
+                                                        }</style>
                                                 </defs>{/ignore}
                                                 <title>button</title>
                                                 <g id="Layer_3" data-name="Layer 3">
@@ -194,7 +236,20 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
-                                                    <style>.cls-1{ fill:#f4e07a;}.cls-1, .cls-2{ fill-rule:evenodd;}.cls-2{ fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                    <style>.cls-1 {
+                                                            fill: #f4e07a;
+                                                        }
+
+                                                        .cls-1, .cls-2 {
+                                                            fill-rule: evenodd;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                            stroke: #fff;
+                                                            stroke-miterlimit: 10;
+                                                            stroke-width: 2px;
+                                                        }</style>
                                                 </defs>{/ignore}
                                                 <title>button</title>
                                                 <g id="Layer_3" data-name="Layer 3">
@@ -220,7 +275,20 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
-                                                    <style>.cls-1{ fill:#f4e07a;}.cls-1, .cls-2{ fill-rule:evenodd;}.cls-2{ fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                                                    <style>.cls-1 {
+                                                            fill: #f4e07a;
+                                                        }
+
+                                                        .cls-1, .cls-2 {
+                                                            fill-rule: evenodd;
+                                                        }
+
+                                                        .cls-2 {
+                                                            fill: none;
+                                                            stroke: #fff;
+                                                            stroke-miterlimit: 10;
+                                                            stroke-width: 2px;
+                                                        }</style>
                                                 </defs>{/ignore}
                                                 <title>button</title>
                                                 <g id="Layer_3" data-name="Layer 3">
@@ -248,16 +316,15 @@
 </div>
 
 {'!AjaxForm'|snippet:[
-    'hooks' => 'email,FormItSaveForm',
-    'form' => '@FILE chunks/consultation/consultation.tpl',
-    'emailTo' => 'emailsender'|config,
-    'emailFrom' => 'emailsender'|config,
-    'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-    'emailTpl' => '@FILE chunks/emails/email.tpl',
-    'validate' => '',
-    'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+'hooks' => 'email,FormItSaveForm',
+'form' => '@FILE chunks/consultation/consultation.tpl',
+'emailTo' => 'emailsender'|config,
+'emailFrom' => 'emailsender'|config,
+'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+'emailTpl' => '@FILE chunks/emails/email.tpl',
+'validate' => '',
+'validationErrorMessage' => 'Вам необходимо заполнить все поля'
 ]}
-
 
 
 <div id="pop-question" class="modal pop-question">
@@ -269,14 +336,14 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'saveReview',
-                'form' => '@FILE chunks/forms/sendQuestion.tpl',
-                'emailTo' => 'email'|config,
-                'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => 'name:required,email:required,message:required',
-                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            'hooks' => 'saveReview',
+            'form' => '@FILE chunks/forms/sendQuestion.tpl',
+            'emailTo' => 'email'|config,
+            'emailFrom' => 'emailsender'|config,
+            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'validate' => 'name:required,email:required,message:required',
+            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
@@ -292,14 +359,14 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'saveReviewDoctor',
-                'form' => '@FILE chunks/forms/sendQuestion.tpl',
-                'emailTo' => 'email'|config,
-                'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => 'name:required,email:required,message:required',
-                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            'hooks' => 'saveReviewDoctor',
+            'form' => '@FILE chunks/forms/sendQuestion.tpl',
+            'emailTo' => 'email'|config,
+            'emailFrom' => 'emailsender'|config,
+            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'validate' => 'name:required,email:required,message:required',
+            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
@@ -316,14 +383,14 @@
                     санатории.</p>
             </div>
             {'!AjaxForm'|snippet:[
-                'hooks' => 'email,FormItSaveForm',
-                'form' => '@FILE chunks/forms/kurort.tpl',
-                'emailTo' => 'email'|config,
-                'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                'emailTpl' => '@FILE chunks/emails/email.tpl',
-                'validate' => 'name:required,email:required,phone:required',
-                'validationErrorMessage' => 'Вам необходимо заполнить все поля'
+            'hooks' => 'email,FormItSaveForm',
+            'form' => '@FILE chunks/forms/kurort.tpl',
+            'emailTo' => 'email'|config,
+            'emailFrom' => 'emailsender'|config,
+            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'validate' => 'name:required,email:required,phone:required',
+            'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
 
         </div>
@@ -452,20 +519,21 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                      viewBox="0 0 273 50">
                                     <defs>{ignore}
-                                        <style>.cls-1 {
-                                                fill: #f4e07a;
-                                            }
+                                            <style>.cls-1 {
+                                                    fill: #f4e07a;
+                                                }
 
-                                            .cls-1, .cls-2 {
-                                                fill-rule: evenodd;
-                                            }
+                                                .cls-1, .cls-2 {
+                                                    fill-rule: evenodd;
+                                                }
 
-                                            .cls-2 {
-                                                fill: none;
-                                                stroke: #fff;
-                                                stroke-miterlimit: 10;
-                                                stroke-width: 2px;
-                                            }</style>{/ignore}
+                                                .cls-2 {
+                                                    fill: none;
+                                                    stroke: #fff;
+                                                    stroke-miterlimit: 10;
+                                                    stroke-width: 2px;
+                                                }</style>
+                                        {/ignore}
                                     </defs>
                                     <title>button</title>
                                     <g id="Layer_3" data-name="Layer 3">
@@ -571,93 +639,181 @@
 </div>
 <!-- бронь -->
 <div id="pop-booking" class="modal pop-application">
-          <div class="modal__close"><span></span></div>
-          <div class="modal__content">
-            <div class="row">
+    <div class="modal__close"><span></span></div>
+    <div class="modal__content">
+        <div class="row">
             <div class="pop-application__content col-xs-12">
-              <div class="heading">
-                <h2>Бронирование</h2>
-                <p>Выберите санаторий, дату заезда и колличество дней пребывания чтобы забронировать номер.</p>
-              </div>
+                <div class="heading">
+                    <h2>Бронирование</h2>
+                    <p>Выберите санаторий, дату заезда и колличество дней пребывания чтобы забронировать номер.</p>
+                </div>
             </div>
             <div class="booking_form col-xs-12">
-              <div id="block-search">
-                <div id="tl-search-form" class="tl-container"><noindex><a href="http://www.travelline.ru/products/tl-hotel/" rel="nofollow">система онлайн-бронирования</a></noindex></div>
-              </div>
+                <div id="block-search">
+                    <div id="tl-search-form" class="tl-container">
+                        <noindex><a href="http://www.travelline.ru/products/tl-hotel/" rel="nofollow">система
+                                онлайн-бронирования</a></noindex>
+                    </div>
+                </div>
                 {ignore}
-              <script type="text/javascript">
-                  (function(w){
-                      var q=[
-                          ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru'],
-                          ['embed', 'search-form', { container: 'tl-search-form'}]
-                      ];
-                      var t=w.travelline=(w.travelline||{}),ti=t.integration=(t.integration||{});ti.__cq=ti.__cq?ti.__cq.concat(q):q;
-                      if (!ti.__loader){ ti.__loader=true;var d=w.document,p=d.location.protocol,s=d.createElement('script');s.type='text/javascript';s.async=true;s.src=(p=='https:'?p:'http:')+'//ibe.tlintegration.com/integration/loader.js';(d.getElementsByTagName('head')[0]||d.getElementsByTagName('body')[0]).appendChild(s);}
-                  })(window);
-              </script>
+                    <script type="text/javascript">
+                        (function (w) {
+                            var q = [
+                                ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru'],
+                                ['embed', 'search-form', {container: 'tl-search-form'}]
+                            ];
+                            var t = w.travelline = (w.travelline ||{}), ti = t.integration = (t.integration ||{});
+                            ti.__cq = ti.__cq ? ti.__cq.concat(q) : q;
+                            if (!ti.__loader) {
+                                ti.__loader = true;
+                                var d = w.document, p = d.location.protocol, s = d.createElement('script');
+                                s.type = 'text/javascript';
+                                s.async = true;
+                                s.src = (p == 'https:' ? p : 'http:') + '//ibe.tlintegration.com/integration/loader.js';
+                                (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s);
+                            }
+                        })(window);
+                    </script>
                 {/ignore}
             </div>
-          </div>
-          </div>
         </div>
+    </div>
+</div>
 
 {ignore}
-<!-- Написать отзыв - шаг 1 -->
-<div id="step" class="modal step step-1">
-    <div class="modal__close"><span></span></div>
-    <div class="modal__content">
-        <div class="step__block">
-            <div class="heading">
-                <h2>Оставьте свой отзыв</h2>
-                <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
-            </div>
-            <form action="" class="form"><textarea placeholder="Ваш отзыв"></textarea>
-                <a href="#step-1" data-pop="data-pop" class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{fill:#f4e07a;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Отправить</b></a></form>
-        </div>
-    </div>
-</div>
-<!-- Написать отзыв - шаг 2 -->
-<div id="step-1" class="modal step step-2">
-    <div class="modal__close"><span></span></div>
-    <div class="modal__content">
-        <div class="step__block">
-            <div class="heading">
-                <h2>Где Вы отдыхали?</h2>
-                <p>Выберите санаторий или дом отдыха, а также время отдыха.</p>
-            </div>
-            <form action="" class="form">
-                <div class="form__block">
-                    <div class="form__select"><i></i>
-                        <p></p><select name="day"><option value="1">Имени В.И.Ленина</option><option value="2">Дубки</option><option value="3">Прибрежный</option></select><span>Где отдыхали?</span></div>
-                    <div class="form__select"><i></i>
-                        <p></p><select name="day"><option value="1">Август</option><option value="2">Июнь</option></select><span>В каком месяце?</span></div>
-                    <div class="form__select"><i></i>
-                        <p></p><select name="day"><option value="1">2017</option><option value="2">2016</option></select><span>Год отдыха</span></div>
-                </div><a href="#step-2" data-pop="data-pop" class="btn btn-sandy"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{fill:#f4e07a;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Отправить</b></a></form>
-        </div>
-    </div>
-</div>
-<!-- Написать отзыв - шаг 3 -->
-<div id="step-2" class="modal step step-3">
-    <div class="modal__close"><span></span></div>
-    <div class="modal__content">
-        <div class="step__block">
-            <div class="heading">
-                <h2>И последний вопрос</h2>
-                <p>Мы будем рады, если Вы представитесь.</p>
-            </div>
-            <form action="" class="form">
-                <div class="form__block">
-                    <div class="form__input"><input type="text" id="text-5"><label for="text-5">Как к Вам обращаться?</label></div>
-                    <div class="form__input"><input type="email" id="email"><label for="email">Адрес e-mail</label></div>
+    <!-- Написать отзыв - шаг 1 -->
+    <div id="step" class="modal step step-1">
+        <div class="modal__close"><span></span></div>
+        <div class="modal__content">
+            <div class="step__block">
+                <div class="heading">
+                    <h2>Оставьте свой отзыв</h2>
+                    <p>Нам важно, что Вы думаете о санаториях и обслуживании.</p>
                 </div>
-                <div class="form__social"><span>Представьтесь через соцсети:</span>
-                    <div class="form__social__block"><a href="#"><i class="icon icon-vk"></i></a><a href="#"><i class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a></div>
-                </div><a href="#" data-pop="data-pop" class="btn btn-sandy next"><svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs><style>.cls-1{fill:#f4e07a;}.cls-1,.cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>button</title><g id="Layer_3" data-name="Layer 3"><path class="cls-1 cls-1-bg" d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/><path class="cls-1 cls-1-bg" d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-1 cls-1-bg" d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/><path class="cls-2" d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/></g></svg><b>Отправить</b></a>
-                <div class="form__checkbox checkbox"><input type="checkbox" id="checkbox"><label for="checkbox">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных данных.</a></label></div>
-            </form>
+                <form action="" class="form"><textarea placeholder="Ваш отзыв"></textarea>
+                    <a href="#step-1" data-pop="data-pop" class="btn btn-sandy">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
+                            <defs>
+                                <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                            </defs>
+                            <title>button</title>
+                            <g id="Layer_3" data-name="Layer 3">
+                                <path class="cls-1 cls-1-bg"
+                                      d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-2"
+                                      d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                            </g>
+                        </svg>
+                        <b>Отправить</b></a></form>
+            </div>
         </div>
     </div>
-</div>
-<!-- END Написать отзыв -->
+    <!-- Написать отзыв - шаг 2 -->
+    <div id="step-1" class="modal step step-2">
+        <div class="modal__close"><span></span></div>
+        <div class="modal__content">
+            <div class="step__block">
+                <div class="heading">
+                    <h2>Где Вы отдыхали?</h2>
+                    <p>Выберите санаторий или дом отдыха, а также время отдыха.</p>
+                </div>
+                <form action="" class="form">
+                    <div class="form__block">
+                        <div class="form__select"><i></i>
+                            <p></p>
+                            <select name="from">
+                                <option value="1">Имени В.И.Ленина</option>
+                                <option value="2">Дубки</option>
+                                <option value="3">Прибрежный</option>
+                            </select>
+                            <span>Где отдыхали?</span>
+                        </div>
+                        <div class="form__select"><i></i>
+                            <p></p>
+                            <select name="month">
+                                <option value="1">Август</option>
+                                <option value="2">Июнь</option>
+                            </select>
+                            <span>В каком месяце?</span>
+                        </div>
+                        <div class="form__select"><i></i>
+                            <p></p>
+                            <select name="year">
+                                <option value="1">2017</option>
+                                <option value="2">2016</option>
+                            </select>
+                            <span>Год отдыха</span>
+                        </div>
+                    </div>
+                    <a href="#step-2" data-pop="data-pop" class="btn btn-sandy">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
+                            <defs>
+                                <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                            </defs>
+                            <title>button</title>
+                            <g id="Layer_3" data-name="Layer 3">
+                                <path class="cls-1 cls-1-bg"
+                                      d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-2"
+                                      d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                            </g>
+                        </svg>
+                        <b>Отправить</b></a></form>
+            </div>
+        </div>
+    </div>
+    <!-- Написать отзыв - шаг 3 -->
+    <div id="step-2" class="modal step step-3">
+        <div class="modal__close"><span></span></div>
+        <div class="modal__content">
+            <div class="step__block">
+                <div class="heading">
+                    <h2>И последний вопрос</h2>
+                    <p>Мы будем рады, если Вы представитесь.</p>
+                </div>
+                <form action="" class="form">
+                    <div class="form__block">
+                        <div class="form__input"><input type="text" id="text-5"><label for="text-5">Как к Вам
+                                обращаться?</label></div>
+                        <div class="form__input"><input type="email" id="email"><label for="email">Адрес e-mail</label>
+                        </div>
+                    </div>
+                    <div class="form__social"><span>Представьтесь через соцсети:</span>
+                        <div class="form__social__block"><a href="#"><i class="icon icon-vk"></i></a><a href="#"><i
+                                        class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a></div>
+                    </div>
+                    <a href="#" data-pop="data-pop" class="btn btn-sandy next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
+                            <defs>
+                                <style>.cls-1{fill:#f4e07a;}.cls-1, .cls-2{fill-rule:evenodd;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style>
+                            </defs>
+                            <title>button</title>
+                            <g id="Layer_3" data-name="Layer 3">
+                                <path class="cls-1 cls-1-bg"
+                                      d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M264.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24l.42-.42a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17l.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39l-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-1 cls-1-bg"
+                                      d="M.49,25.67a.68.68,0,0,1,0-1c.12-.13.28-.27.45-.43a.57.57,0,0,1,.21-.13,4.16,4.16,0,0,0,2.47-2.49.78.78,0,0,1,.16-.24L4.2,21a.68.68,0,0,1,1,0l.36.36a.68.68,0,0,1,.19.39,2.93,2.93,0,0,0,2.46,2.39.69.69,0,0,1,.3.17c.15.15.29.28.4.4a.68.68,0,0,1,0,1l-.4.4a.64.64,0,0,1-.3.17,3,3,0,0,0-2.45,2.39.73.73,0,0,1-.2.39c-.13.13-.25.26-.36.36a.68.68,0,0,1-1,0c-.12-.12-.26-.25-.41-.41a.57.57,0,0,1-.16-.27,4,4,0,0,0-2.49-2.46.86.86,0,0,1-.2-.13l-.45-.44"/>
+                                <path class="cls-2"
+                                      d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
+                            </g>
+                        </svg>
+                        <b>Отправить</b></a>
+                    <div class="form__checkbox checkbox"><input type="checkbox" id="checkbox"><label for="checkbox">Нажимая
+                            кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных
+                                данных.</a></label></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- END Написать отзыв -->
 {/ignore}

@@ -37,7 +37,13 @@
         <script>
             // Подстановка в отзывы
             $(document).ready(function(){
-                console.log('working');
+                $.ajax({
+                    url: '/assets/connectors/getSanator.php',
+                    type: 'post',
+                    success: function(response){
+                        console.log(response);
+                    }
+                });
             });
         </script>
     
