@@ -62,8 +62,9 @@
             $.ajax({
                 url: '/assets/connectors/getSanator.php',
                 type: 'post',
+                dataType: 'json',
                 success: function(response){
-                    for (var i = 1;response.length < i; i++){
+                    for (var i = 0; response.length < i; i++){
                         console.log(response);
                     }
                 }
