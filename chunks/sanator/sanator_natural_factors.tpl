@@ -16,7 +16,7 @@
                 'parents' => 0,
                 'includeTVs' => 'nature_factor_icon',
                 'resources' => $_modx->resource.select_nature_factors,
-                'tpl' => '@FILE chunks/sanator/block_nature_with_icon.tpl'
+                'tpl' => '@FILE chunks/sanator/block_nature_width_icon.tpl'
             ]}
 
         </div>
