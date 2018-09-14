@@ -4,8 +4,8 @@
         <div class="row room_head">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Оснащение номера</h2>
-                    <p>Перечень необходимых для изучения документов, правила заявления и условия пребывания в наших санаториях.</p>
+                    <h2>{$_modx->resource.equipment_title}</h2>
+                    <p>{$_modx->resource.equipment_descr}</p>
                 </div>
             </div>
         </div>
