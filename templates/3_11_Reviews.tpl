@@ -33,5 +33,12 @@
 
     {include 'file:chunks/reviews/make_reviews.tpl'}
     {include 'file:chunks/reviews/video_reviews.tpl'}
+
+        <script>
+            // Подстановка в отзывы
+            $(document).ready(function(){
+                console.log('working');
+            });
+        </script>
     
 {/block}
