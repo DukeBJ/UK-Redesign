@@ -64,9 +64,8 @@
                 type: 'post',
                 dataType: 'json',
                 success: function(response){
-                    console.log(response[1]);
                     for (var i = 0; response.length < i; i++){
-                        console.log(response.i);
+                        console.log(response[i]);
                     }
                 }
             });
