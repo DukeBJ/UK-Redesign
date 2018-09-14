@@ -58,7 +58,8 @@
         });
 
         $('#sendReviews').on('click', function(){
-            console.log(this);
+            var message = $('#step textarea[name=message]').value();
+            console.log(message);
         });
 
         // Подстановка в отзывы
