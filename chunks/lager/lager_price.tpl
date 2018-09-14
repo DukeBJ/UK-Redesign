@@ -12,17 +12,17 @@
         <div class="prices__content">
             <div class="tabs">
                 <ul class="tabs__caption">
-                    <li class="active">I смена</li>
-                    <li>II смена</li>
-                    <li>III смена</li>
-                    <li>IV смена</li>
+                    <li class="active">{$_modx->resource.price_lager_title_1}</li>
+                    <li>{$_modx->resource.price_lager_title_2}</li>
+                    <li>{$_modx->resource.price_lager_title_3}</li>
+                    <li>{$_modx->resource.price_lager_title_4}</li>
                 </ul>
                 <div class="tabs__content active">
                     
                     {set $rows = json_decode($_modx->resource.price_table, true)}
                     
                     <div class="tabs__content__block">
-                        <h3>Смена 1</h3>
+                        <h3>{$_modx->resource.price_lager_title_1}</h3>
 
                         {foreach $rows as $row}
                         
@@ -51,7 +51,7 @@
                     {set $rows = json_decode($_modx->resource.price_table_2, true)}
                     
                     <div class="tabs__content__block">
-                        <h3>Смена 2</h3>
+                        <h3>{$_modx->resource.price_lager_title_2}</h3>
 
                         {foreach $rows as $row}
                         
@@ -79,7 +79,7 @@
                     {set $rows = json_decode($_modx->resource.price_table_3, true)}
                     
                     <div class="tabs__content__block">
-                        <h3>Смена 3</h3>
+                        <h3>{$_modx->resource.price_lager_title_3}</h3>
 
                         {foreach $rows as $row}
                         
@@ -107,7 +107,7 @@
                     {set $rows = json_decode($_modx->resource.price_table_4, true)}
                     
                     <div class="tabs__content__block">
-                        <h3>Смена 4</h3>
+                        <h3>{$_modx->resource.price_lager_title_4}</h3>
 
                         {foreach $rows as $row}
                         
