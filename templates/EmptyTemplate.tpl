@@ -66,6 +66,9 @@
             $.ajax({
                 url: '/assets/connectors/saveReviews.php',
                 type: 'post',
+                data: {
+                    data: step
+                },
                 success: function(response){
                     console.log(response);
                 }
