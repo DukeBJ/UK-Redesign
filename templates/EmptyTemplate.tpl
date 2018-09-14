@@ -58,9 +58,10 @@
         });
 
         $('#sendReviews').on('click', function(){
-            var step[] = $('#formStep-1').serializeArray();
-            var step[] = $('#formStep-2').serializeArray();
-            var step[] = $('#formStep-3').serializeArray();
+            var step = [];
+            step[] = $('#formStep-1').serializeArray();
+            step[] = $('#formStep-2').serializeArray();
+            step[] = $('#formStep-3').serializeArray();
 
 
             console.log(step);
