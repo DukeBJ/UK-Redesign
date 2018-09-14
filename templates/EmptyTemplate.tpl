@@ -65,7 +65,7 @@
                 dataType: 'json',
                 success: function(response){
                     for (var i = 0; i < response.length; i++){
-                        $('select[name=from]').append('<option value="'+response[i]+'">'+response[i]+'</option>');
+                        $('select[name=kurort]').append('<option value="'+response[i]+'">'+response[i]+'</option>');
                     }
                 }
             });
