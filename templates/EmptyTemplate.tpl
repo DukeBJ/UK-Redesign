@@ -63,7 +63,10 @@
             step.push($('#formStep-2').serializeArray());
             step.push($('#formStep-3').serializeArray());
 
-            console.log(step);
+            var output = [];
+            for(var i = 0; i < step.length; i++){
+                console.log(step[i]);
+            }
 
             $.ajax({
                 url: '/assets/connectors/saveReviews.php',
@@ -72,7 +75,7 @@
                     data: step
                 },
                 success: function(response){
-                    console.log(response);
+                    //console.log(response);
                 }
             });
 
