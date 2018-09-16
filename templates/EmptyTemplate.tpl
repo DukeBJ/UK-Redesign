@@ -63,6 +63,8 @@
             step.push($('#formStep-2').serializeArray());
             step.push($('#formStep-3').serializeArray());
 
+            console.log(step);
+
             $.ajax({
                 url: '/assets/connectors/saveReviews.php',
                 type: 'post',
