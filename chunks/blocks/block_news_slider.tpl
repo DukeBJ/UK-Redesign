@@ -3,12 +3,16 @@
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Специальные предложенияфывфывфы</h2>
+                    <h2>Специальные предложения</h2>
                     <p>Не пропустите наши спецаильные предложения. Обычно они ограничены по времени, но очень привлекательны!</p>
                 </div>
             </div>
         </div>
     </div>
+
+    -------
+    {$_modx->resource.id}
+
     <div id="water-triger" class="swiper">
         <div class="container">
             <div class="swiper-container swiper-special-offers">
