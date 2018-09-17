@@ -9,22 +9,28 @@
             </div>
         </div>
     </div>
+
+    {var $parent = $_modx->resource.parent}
+
     <div id="water-triger" class="swiper">
         <div class="container">
             <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
                     {'!pdoResources'|snippet:[
-                    'parents' => '923',
-                    'depth' => 0,
-                    'includeContent' => 1,
-                    'includeTVs' => 'news_img',
-                    'prepareTVs' => 1,
-                    'processTVs' => 1,
-                    'sortby' => 'publishedon',
-                    'sortdir' => 'DESC',
-                    'hideContainers' => 1,
-                    'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
+                        'parents' => '923',
+                        'depth' => 0,
+                        'includeContent' => 1,
+                        'includeTVs' => 'news_img, sanator_from',
+                        'prepareTVs' => 1,
+                        'processTVs' => 1,
+                        'where' => [
+                            "sanator_from:LIKE" => "%"~$parent~"%"
+                        ],
+                        'sortby' => 'publishedon',
+                        'sortdir' => 'DESC',
+                        'hideContainers' => 1,
+                        'tpl' => '@FILE chunks/main_page/swiper-slide.tpl'
                     ]}
 
                 </div>
