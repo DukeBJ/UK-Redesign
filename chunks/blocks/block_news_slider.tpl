@@ -11,7 +11,7 @@
     </div>
 
     -------
-    {$_modx->getParentIds()}
+    {$_modx->getParentIds()|print_r}
 
     <div id="water-triger" class="swiper">
         <div class="container">
