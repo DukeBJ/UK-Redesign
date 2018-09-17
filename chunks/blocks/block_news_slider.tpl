@@ -25,13 +25,12 @@
                         'prepareTVs' => 1,
                         'processTVs' => 1,
                         'where' => [
-                            $parent~":IN" => "sanator_from"
+                            "sanator_from:LIKE" => $parent
                         ],
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
                         'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
-                        'showLog' => 1
                     ]}
 
                 </div>
