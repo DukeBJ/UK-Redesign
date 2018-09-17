@@ -10,8 +10,7 @@
         </div>
     </div>
 
-    -------
-    {$_modx->getParentIds()|print_r}
+    {$parent = $modx->resource.parent}
 
     <div id="water-triger" class="swiper">
         <div class="container">
@@ -22,9 +21,12 @@
                         'parents' => '923',
                         'depth' => 0,
                         'includeContent' => 1,
-                        'includeTVs' => 'news_img',
+                        'includeTVs' => 'news_img, sanator_from',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
+                        'where' => [
+                            "tv.sanator_from:LIKE" => $parent
+                        ],
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
