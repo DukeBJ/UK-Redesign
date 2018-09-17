@@ -12,10 +12,10 @@
         <div class="prices__content">
             <div class="tabs">
                 <ul class="tabs__caption">
-                    <li class="active">{$_modx->resource.price_lager_title_1}</li>
-                    <li>{$_modx->resource.price_lager_title_2}</li>
-                    <li>{$_modx->resource.price_lager_title_3}</li>
-                    <li>{$_modx->resource.price_lager_title_4}</li>
+                    <li class="active">I смена</li>
+                    <li>II смена</li>
+                    <li>III смена</li>
+                    <li>IV смена</li>
                 </ul>
                 <div class="tabs__content active">
                     
