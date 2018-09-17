@@ -57,6 +57,7 @@
                     <div class="form__select"><i></i>
                         <p></p>
                         <select name="kurort" id="selec">
+                            <option value="Санаторий имени Ленина">Санаторий имени Ленина</option>
 
                         </select><span>Где отдыхали?</span></div>
                     <div class="form__select"><i></i>
