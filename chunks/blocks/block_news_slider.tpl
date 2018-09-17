@@ -26,7 +26,7 @@
                         'prepareTVs' => 1,
                         'processTVs' => 1,
                         'where' => [
-
+                            "sanator_from:LIKE" => "%"~$parent~"%"
                         ],
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
