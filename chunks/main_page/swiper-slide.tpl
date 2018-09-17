@@ -1,4 +1,7 @@
 {set $template = 'template_url'|config}
+
+{$_pls['tv.snator_from']|print_r}
+
 <div class="swiper-slide">
     <div class="special-offers__block">
         <img src="{$_pls['tv.news_img']}" alt="">
