@@ -23,9 +23,9 @@
                     <b>Принять ванну</b>
                 </a>
                 <ul>
-                    <li><a href="{'block_3_link_1'|config}">{'block_3_link_title_1'|config}</a></li>
-                    <li><a href="{'block_3_link_2'|config}">{'block_3_link_title_2'|config}</a></li>
-                    <li><a href="{'block_3_link_3'|config}">{'block_3_link_title_3'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_3_link_1)}">{'block_3_link_title_1'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_3_link_2)}">{'block_3_link_title_2'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_3_link_3)}">{'block_3_link_title_3'|config}</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
