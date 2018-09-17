@@ -8,7 +8,7 @@
                         <p>{914|resource:'introtext'}</p>
                     </div>
                     <div class="blog__content__img">
-                        <img src="{'about_block_button'|config}" alt="">
+                        <img src="{'about_block_image'|config}" alt="">
                     </div>
                     <div class="col-xs-12 center-xs">
                         <div class="button_margin">
