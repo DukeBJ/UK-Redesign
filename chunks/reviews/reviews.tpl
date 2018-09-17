@@ -9,7 +9,7 @@
             <div class="col-md-8 col-sm-6 col-xs-9">
                 <div class="comments__review">
                     <h4>{$pagetitle}</h4>
-                    <span>3 августа 2017, отдыхала в санатории им. В.И.Ленина</span>
+                    <span>{$_pls['tv.month']} {$_pls['tv.year']}, {$_pls['tv.kurort']}</span>
                     <p>{$_pls['tv.quetext']}</p>
                 </div>
             </div>

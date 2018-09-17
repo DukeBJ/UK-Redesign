@@ -6,11 +6,14 @@
         <section class="comments rows">
             <div class="container">
 
+                {$_modx->resource.id}
+
+
                 {'pdoPage'|snippet:[
                     'parents' => 49,
                     'limit' => 5,
                     'ajaxMode' => 'button',
-                    'includeTVs' => 'queemail,quephone,quetext',
+                    'includeTVs' => 'queemail,quephone,quetext,kurort,year,month,',
                     'tpl' => '@FILE chunks/reviews/reviews.tpl',
                     'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn_more btn-center">
                         {ignore}
