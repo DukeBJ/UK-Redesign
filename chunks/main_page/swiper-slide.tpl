@@ -1,6 +1,6 @@
 {set $template = 'template_url'|config}
 
-{$_pls['tv.snator_from']|print_r}
+{$_pls['tv.sanator_from']|print_r}
 
 <div class="swiper-slide">
     <div class="special-offers__block">
