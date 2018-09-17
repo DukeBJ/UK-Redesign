@@ -11,7 +11,6 @@
     </div>
 
     {var $parent = $_modx->resource.parent}
-    {$parent}
 
     <div id="water-triger" class="swiper">
         <div class="container">
