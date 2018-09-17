@@ -6,9 +6,6 @@
         <section class="comments rows">
             <div class="container">
 
-                {$_modx->resource.id}
-
-
                 {'pdoPage'|snippet:[
                     'parents' => 49,
                     'limit' => 5,
