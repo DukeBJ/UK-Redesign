@@ -10,7 +10,7 @@
         </div>
     </div>
 
-    {$parent = $_modx->resource.parent}
+    {var $parent = $_modx->resource.parent}
 
     <div id="water-triger" class="swiper">
         <div class="container">
@@ -31,6 +31,7 @@
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
                         'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
+                        'showLog' => 1
                     ]}
 
                 </div>
