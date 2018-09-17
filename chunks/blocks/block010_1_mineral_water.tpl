@@ -22,9 +22,9 @@
                         <b>Оздоровиться</b>
                     </a>
                 <ul>
-                    <li><a href="{'block_1_link_1'|config}">{'block_1_link_title_1'|config}</a></li>
-                    <li><a href="{'block_1_link_2'|config}">{'block_1_link_title_2'|config}</a></li>
-                    <li><a href="{'block_1_link_3'|config}">{'block_1_link_title_3'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_1_link_1)}">{'block_1_link_title_1'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_1_link_2)}">{'block_1_link_title_2'|config}</a></li>
+                    <li><a href="{$_modx->makeUrl($_modx->config.block_1_link_3)}">{'block_1_link_title_3'|config}</a></li>
                 </ul>
             </div>
             <div class="col-sm-4">
