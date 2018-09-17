@@ -24,9 +24,6 @@
                         'includeTVs' => 'news_img, sanator_from',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
-                        'where' => [
-                            "tv.sanator_from:LIKE" => $parent
-                        ],
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
