@@ -3,7 +3,7 @@
         <div class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="heading">
-                    <h2>Специальные предложения</h2>
+                    <h2>Специальные предложенияфывфывфы</h2>
                     <p>Не пропустите наши спецаильные предложения. Обычно они ограничены по времени, но очень привлекательны!</p>
                 </div>
             </div>
@@ -15,16 +15,16 @@
                 <div class="swiper-wrapper">
 
                     {'!pdoResources'|snippet:[
-                    'parents' => '923',
-                    'depth' => 0,
-                    'includeContent' => 1,
-                    'includeTVs' => 'news_img',
-                    'prepareTVs' => 1,
-                    'processTVs' => 1,
-                    'sortby' => 'publishedon',
-                    'sortdir' => 'DESC',
-                    'hideContainers' => 1,
-                    'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
+                        'parents' => '923',
+                        'depth' => 0,
+                        'includeContent' => 1,
+                        'includeTVs' => 'news_img',
+                        'prepareTVs' => 1,
+                        'processTVs' => 1,
+                        'sortby' => 'publishedon',
+                        'sortdir' => 'DESC',
+                        'hideContainers' => 1,
+                        'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
                     ]}
 
                 </div>
