@@ -31,8 +31,7 @@
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
-                        'tpl' => '@FILE chunks/main_page/swiper-slide.tpl',
-                        'showLog' => 1
+                        'tpl' => '@FILE chunks/main_page/swiper-slide.tpl'
                     ]}
 
                 </div>
