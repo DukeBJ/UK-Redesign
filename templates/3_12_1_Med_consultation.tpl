@@ -1,7 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
 
-    <!-- ИНТРО медицины -->
     <section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png);">
         <div class="page-intro__content">
             <div class="container">
@@ -17,17 +16,13 @@
             </div>
         </div>
     </section>
-    <!-- END -->
 
-    <!-- БЛОК МЕДИЦИНЫ -->
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="tabs medical-profile__menu">
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
                 <div id="pdopage">
-                <!-- Вопросы -->
                     <div class="container comments rows">
-                        <!-- Вопрос -->
 
                         {'pdoPage'|snippet:[
                             'parents' => $_modx->resource.id,
@@ -46,14 +41,11 @@
                         ]}
                     </div>
                     [[!+page.nav]]
-                <!-- Кнопка подгрузки вопросов -->
 
             </div>
         </div>
     </section>
-    <!-- END БЛОК МЕДИЦИНЫ -->
 
-    <!-- ОТВЕТИМ НА ВСЕ ВОПРОСЫ -->
     <section class="reply bg-beige wave-up">
         <div class="container">
             <div class="modal__content">
@@ -77,6 +69,5 @@
             </div>
         </div>
     </section>
-    <!-- END -->
 
 {/block}
