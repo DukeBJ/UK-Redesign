@@ -3,7 +3,7 @@
     
         {'!pdoMenu'|snippet:[
             'parents' => 997,
-            'depth' => 0,
+            'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>',
