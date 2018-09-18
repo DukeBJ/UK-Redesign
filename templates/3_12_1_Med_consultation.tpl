@@ -1,7 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
 
-    <section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png); no-repeat;background-size: cover;background-position: center center;">
+    <section class="page-intro" style="background:url({$_modx->resource.intro_block_img}); no-repeat;background-size: cover;background-position: center center;">
         <div class="page-intro__content">
             <div class="container">
                 <div class="heading heading-secondary">
@@ -22,7 +22,7 @@
             <div class="tabs medical-profile__menu">
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
                 <div id="pdopage">
-                    <div class="container comments rows">
+                    <div class="rows">
 
                         {'pdoPage'|snippet:[
                             'parents' => $_modx->resource.id,
