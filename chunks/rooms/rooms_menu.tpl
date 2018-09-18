@@ -1,4 +1,4 @@
-<!-- МЕНЮ БЛОГА -->
+<!-- МЕНЮ БЛОГА -->12313123
 <section class="inside-menu">
     <div class="container-fluid">
         <div class="tabs inside__menu">
