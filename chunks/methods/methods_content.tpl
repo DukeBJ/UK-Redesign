@@ -6,21 +6,15 @@
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
-            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>',
+            'showLog' => 0
         ]}
-
-        {var $list= [1,2,3]}
-        {if $_modx->resource.id in list $list}
-            1
-        {else}
-            2
-        {/if}
 
         <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
                 <h2>{$_modx->resource.pagetitle}</h2>
-                <p>{$_modx->resource.introtext}</p>
+                {$_modx->resource.introtext}
             </div>
             
             {$_modx->resource.content}
