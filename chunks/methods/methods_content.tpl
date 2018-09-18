@@ -9,7 +9,7 @@
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>',
             'showLog' => 1
         ]}
-
+dfgdfgfg
         <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
