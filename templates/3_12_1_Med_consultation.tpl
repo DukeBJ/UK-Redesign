@@ -1,7 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
 
-    <section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png);">
+    <section class="page-intro" style="background:url({$template}img/sanatorium-Lenin.png); no-repeat;background-size: cover;background-position: center center;">
         <div class="page-intro__content">
             <div class="container">
                 <div class="heading heading-secondary">
