@@ -7,7 +7,7 @@
                     'parents' => $_modx->resource.id,
                     'showHidden' => 1,
                     'tplOuter' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
-                    'tpl' => '@INLINE <li><a href="{$_modx->resource.id}#{$id}-{$alias}-scroll">{$menutitle}</a></li>'
+                    'tpl' => '@INLINE <li><a href="{$_modx->resource.id|url}#{$id}-{$alias}-scroll">{$menutitle}</a></li>'
                 ]}
             </div>
         </div>
