@@ -9,18 +9,11 @@
             'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
         ]}
 
-        {var $list= [1,2,3]}
-        {if $_modx->resource.id in list $list}
-            1
-        {else}
-            2
-        {/if}
-
         <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
                 <h2>{$_modx->resource.pagetitle}</h2>
-                <p>{$_modx->resource.introtext}</p>
+                {$_modx->resource.introtext}
             </div>
             
             {$_modx->resource.content}

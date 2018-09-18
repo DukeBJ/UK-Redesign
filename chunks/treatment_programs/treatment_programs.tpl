@@ -13,7 +13,7 @@
             
             <div class="heading">
                 <h2>{$_modx->resource.pagetitle}</h2>
-                <p>{$_modx->resource.introtext}</p>
+                {$_modx->resource.introtext}
             </div>
             
             {$_modx->resource.content}
