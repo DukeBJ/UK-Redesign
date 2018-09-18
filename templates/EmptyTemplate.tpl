@@ -51,11 +51,11 @@
             console.log();
         });
 
-        $(document).on('af_complete', function(event, response) {
-            var form = response.form;
-            form.hide();
-            $('.msgdone').show();
-        });
+        // $(document).on('af_complete', function(event, response) {
+        //     var form = response.form;
+        //     form.hide();
+        //     $('.msgdone').show();
+        // });
 
         $('#sendReviews').on('click', function(){
             var step = [];
