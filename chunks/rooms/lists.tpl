@@ -1,4 +1,4 @@
-<div id="" class="room__block" style="background:url({$roomsOutput}) no-repeat;background-size: cover;background-position: center center;">
+<div id="{$id}-{$alias}-scroll" class="room__block" style="background:url({$roomsOutput}) no-repeat;background-size: cover;background-position: center center;">
     <div class="room__block__content">
         <div class="heading heading-secondary">
             <h2>{$longtitle ?: $pagetitle}</h2>

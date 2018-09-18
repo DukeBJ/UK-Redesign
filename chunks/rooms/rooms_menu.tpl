@@ -1,4 +1,4 @@
-<!-- МЕНЮ БЛОГА -->12313123
+<!-- МЕНЮ БЛОГА -->
 <section class="inside-menu">
     <div class="container-fluid">
         <div class="tabs inside__menu">
@@ -7,7 +7,7 @@
                     'parents' => $_modx->resource.id,
                     'showHidden' => 1,
                     'tplOuter' => '@INLINE <ul class="tabs__caption inside__menu__caption">{$wrapper}</ul>',
-                    'tpl' => '@INLINE <li><a href="#{$id}-{$alias}">{$menutitle}</a></li>'
+                    'tpl' => '@INLINE <li><a href="#{$id}-{$alias}-scroll">{$menutitle}</a></li>'
                 ]}
             </div>
         </div>
