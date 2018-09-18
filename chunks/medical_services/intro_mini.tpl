@@ -7,22 +7,14 @@
                 {if $_modx->resource.id in list $list}
                     {$_modx->resource.longtitle? : $_modx->resource.pagetitle}
                 {else}
-                    {'!pdoField'|snippet:[
-                        'id' => $_modx->resource.id,
-                        'field' => $_modx->resource.longtitle? : $_modx->resource.pagetitle,
-                        'top' => 1
-                    ]}
+                    {$_modx->resource.parent|resource:"pagetitle"}
                 {/if}
                 </h2>
                 <p>
                 {if $_modx->resource.id in list $list}
                     {$_modx->resource.introtext}
                 {else}
-                    {'!pdoField'|snippet:[
-                        'id' => $_modx->resource.id,
-                        'field' => $_modx->resource.introtext,
-                        'top' => 1,
-                    ]}
+                    {$_modx->resource.parent|resource:"introtext"}
                 {/if}
                 </p>
             </div>
