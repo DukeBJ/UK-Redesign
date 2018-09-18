@@ -2,6 +2,8 @@
 {block 'main'}
     {include 'file:chunks/blocks/block018_intro_big_booking.tpl'}
     {include 'file:chunks/sanator/sanator_menu.tpl'}
+
+    фывфывфыв
     {include 'file:chunks/sanator/sanator_profiles.tpl'}
     {include 'file:chunks/sanator/sanator_natural_factors.tpl'}
     {include 'file:chunks/blocks/block007_calc.tpl'}
