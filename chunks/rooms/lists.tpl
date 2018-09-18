@@ -111,7 +111,7 @@
                                                       d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                                             </g>
                                         </svg>
-                                        <b>{$second_slider.price}{$_pls['tv.rooms_price']}</b>
+                                        <b>{$second_slider.rooms_price}</b>
                                     </a>
                                 </div>
                             </div>
