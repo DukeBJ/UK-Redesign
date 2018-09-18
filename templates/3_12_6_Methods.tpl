@@ -6,7 +6,7 @@
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="medical-profile__menu">
-                {include 'file:chunks/medical_services/medical_menu.tpl'}
+                {include 'file:chunks/medical_services/medical_menu_dop.tpl'}
 
                 {include 'file:chunks/methods/methods_content.tpl'}
 

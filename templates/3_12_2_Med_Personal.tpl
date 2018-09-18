@@ -5,7 +5,7 @@
     <section class="medical-profile">
         <div class="container-fluid">
             <div class="tabs medical-profile__menu">
-                {include 'file:chunks/medical_services/medical_menu.tpl'}
+                {include 'file:chunks/medical_services/medical_menu_dop.tpl'}
 
                 [[getImageList?
                     &tvname=`medpersonal`
