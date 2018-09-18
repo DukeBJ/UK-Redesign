@@ -22,7 +22,7 @@
             <div class="tabs medical-profile__menu">
                 {include 'file:chunks/medical_services/medical_menu.tpl'}
                 <div id="pdopage">
-                    <div class="container comments rows">
+                    <div class="rows">
 
                         {'pdoPage'|snippet:[
                             'parents' => $_modx->resource.id,
