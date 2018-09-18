@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="medical-profile__menu">
             <div class="tabs__nav">
-                <ul class="scroll medical-profile__menu__caption">
+                <ul class="medical-profile__menu__caption">
                     <li {if $id == $_modx->resource.sanator_1} class="active" {/if}>
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_1)}">Лечение</a>
                     </li>
