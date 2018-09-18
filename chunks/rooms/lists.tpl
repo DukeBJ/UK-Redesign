@@ -64,6 +64,16 @@
         <div class="col-xs-12">
             <div class="swiper-container swiper-pop-rooms-2">
                 <div class="swiper-wrapper">
+
+                    {'ms2GalleryResources'|snippet:[
+                        'parents' => '',
+                        'resources' => '-'~$id,
+                        'includeTVs' => 'rooms_price,first_slider,second_slider',
+                        'sortdir' => 'asc',
+                        'includeThumbs' => 'roomsOutput',
+                        'tpl' => '@FILE chunks/rooms/introSlider.tpl'
+                    ]}
+
                     {if $_pls['tv.second_slider']}
                         {foreach $_pls['tv.second_slider'] as $second_slider}
                             <div style="background-image: url('{$second_slider['image']}')" class="swiper-slide">
