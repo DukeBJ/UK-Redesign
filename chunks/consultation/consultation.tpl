@@ -131,12 +131,6 @@
                         <label for="email">Адрес e-mail</label>
                     </div>
                 </div>
-                <div class="form__social"><span>Поделитесь этим с друзьями:</span>
-                    <div class="form__social__block">
-                        <a href="#"><i class="icon icon-vk"></i></a>
-                        <a href="#"><i class="icon icon-fb"></i></a><a href="#"><i class="icon icon-ok"></i></a>
-                    </div>
-                </div>
                 <button type="submit" data-pop="data-pop" class="btn btn-sandy next" id="sendReviews">
                     <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
                         <defs>{ignore}
@@ -169,7 +163,11 @@
                     </svg>
                     <b>Отправить</b>
                 </button>
+                <div class="form__checkbox checkbox"><input type="checkbox" id="checkbox" checked><label for="checkbox">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="{'957'|url}">персональных данных.</a></label></div>
             </form>
+            <div class="msgdone">
+                 Спасибо за&nbsp;отзыв! Мы прочитаем и обязательно ответим Вам.
+            </div>
         </div>
     </div>
 </div>
