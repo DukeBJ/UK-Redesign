@@ -25,11 +25,12 @@
                 ]}
             </div>
             <div class="menu__block">
-                <h4><a href="#">Лечение</a><i class="icon icon-left-arrow"></i></h4>
+                <h4><a href="{'992'|url}">Лечение</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
-                    <li><a href="#">Профили </a></li>
-                    <li><a href="#">Методики</a></li>
-                    <li><a href="#">Особенности</a></li>
+                    <li><a href="{'993'|url}">Лечебные профили</a></li>
+                    <li><a href="{'998'|url}">Программы лечения</a></li>
+                    <li><a href="{'997'|url}">Методики</a></li>
+                    <li><a href="{'996'|url}">Природные особенности</a></li>
                 </ul>
                 <h4><a href="{'915'|url}">Досуг</a><i class="icon icon-left-arrow"></i></h4>
 
