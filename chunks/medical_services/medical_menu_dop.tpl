@@ -1,5 +1,5 @@
 {var $list= [992,993,998,997,996]}
-{if $_modx->resource.id in list $list}
+{if ($_modx->resource.id in list $list) or ($_modx->resource.parent in list $list)}
     <div class="tabs__nav">
         <ul class="tabs__caption medical-profile__menu__caption">
             <li {if $_modx->resource.id == $_modx->resource.link_profile} class="active" {/if}><a href="{$_modx->makeUrl($_modx->resource.link_profile)}">Профили</a></li>
