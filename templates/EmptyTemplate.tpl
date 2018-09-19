@@ -75,8 +75,8 @@
                         $('#formStep-1')[0].reset();
                         $('#formStep-2')[0].reset();
                         $('#formStep-3')[0].reset();
-                        $('#clearTextarea').val('');
-                        $('#message').val('');
+                        $('#clearTextarea').text('');
+                        $('#message').text('');
                     }
                 });
 
