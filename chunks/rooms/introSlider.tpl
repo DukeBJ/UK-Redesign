@@ -2,7 +2,7 @@
     <div class="swiper-slide__block">
         <h2>{$pagetitle}</h2>
         <p>{$description}</p>
-        <a href="{$id|url}" data-pop="data-pop" class="btn btn-sandy">
+        <a href="#{$id}-{$alias}" data-pop="data-pop" class="btn btn-sandy">
             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                  viewBox="0 0 273 50">
                 <defs>{ignore}
@@ -33,7 +33,7 @@
                           d="M264,35.25V42a4,4,0,0,1-4,4H13a4,4,0,0,1-4-4V35.25a11,11,0,0,0,0-20.5V8a4,4,0,0,1,4-4H260a4,4,0,0,1,4,4v6.75a11,11,0,0,0,0,20.5Z"/>
                 </g>
             </svg>
-            <b>{$_pls['tv.price']}</b>
+            <b>{$_pls['tv.rooms_price']}</b>
         </a>
     </div>
 </div>
