@@ -76,6 +76,7 @@
                         $('#formStep-2')[0].reset();
                         $('#formStep-3')[0].reset();
                         $('#clearTextarea').val('');
+                        $('#message').val('');
                     }
                 });
 
