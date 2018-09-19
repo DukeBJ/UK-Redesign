@@ -15,8 +15,10 @@
                 <h2>{$_modx->resource.pagetitle}</h2>
                 {$_modx->resource.introtext}
             </div>
-            
-            {$_modx->resource.content}
+
+            <div class="content">
+                {$_modx->resource.content}
+            </div>
 
             {include 'file:chunks/medical_services/medical_order.tpl'}
             {include 'file:chunks/medical_services/medical_list_sanator.tpl'}
