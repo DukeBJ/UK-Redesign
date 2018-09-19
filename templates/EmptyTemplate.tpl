@@ -87,7 +87,7 @@
                 //Закидывание отзыва
 
                 $('#clearTextarea').on('change', function(){
-                    $('#message textarea').val($('#clearTextarea').val());
+                    $('#message textarea').append($('#clearTextarea').val());
                     console.log($('#clearTextarea').val());
                 });
 
