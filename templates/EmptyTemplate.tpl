@@ -71,10 +71,10 @@
                         data: step
                     },
                     success: function(response){
-                        console.log(response);
                         $('#formStep-1')[0].reset();
                         $('#formStep-2')[0].reset();
                         $('#formStep-3')[0].reset();
+                        $('#clearTextarea').html();
                     }
                 });
 
