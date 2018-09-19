@@ -71,6 +71,9 @@
                 },
                 success: function(response){
                     console.log(response);
+                    $('#formStep-1').reset();
+                    $('#formStep-2').reset();
+                    $('#formStep-3').reset();
                 }
             });
 
