@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col-md-6 col-xs-12">
             <div class="pop-rooms__block">
-                <h4>Одноместный номер в санаторий им. В. И. Ленина</h4><span>{$_pls['tv.rooms_price']}</span>
+                <h4>{$longtitle ?: $pagetitle}</h4><span>{$_pls['tv.rooms_price']}</span>
                 <p>{$description}</p>
                 <div class="swiper-container swiper-pop-rooms-1">
                     <div class="swiper-wrapper">
