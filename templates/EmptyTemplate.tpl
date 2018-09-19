@@ -84,6 +84,13 @@
 
             // Подстановка в отзывы
             $(document).ready(function(){
+
+                //Закидывание отзыва
+
+                $('#clearTextarea').on('change', function(){
+                    console.log($('#clearTextarea').val());
+                });
+
                 $.ajax({
                     url: '/assets/connectors/getSanator.php',
                     type: 'post',
