@@ -72,9 +72,9 @@
                     },
                     success: function(response){
                         console.log(response);
-                        $('#formStep-1').reset();
-                        $('#formStep-2').reset();
-                        $('#formStep-3').reset();
+                        $('#formStep-1')[0].reset();
+                        $('#formStep-2')[0].reset();
+                        $('#formStep-3')[0].reset();
                     }
                 });
 
