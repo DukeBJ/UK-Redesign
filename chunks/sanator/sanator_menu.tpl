@@ -3,8 +3,11 @@
         <div class="medical-profile__menu">
             <div class="tabs__nav">
                 <ul class="medical-profile__menu__caption">
+                    <li {if $id == $_modx->resource.sanator_1} class="active" {/if}>
+                        <a href="{$_modx->makeUrl($_modx->resource.sanator_1)}">Лечение</a>
+                    </li>
                     <li {if $id == $_modx->resource.sanator_2} class="active" {/if}>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_2)}">Проживание</a>
+                        <a href="{$_modx->makeUrl($_modx->resource.sanator_2)}">Номера</a>
                     </li>
                     <li {if $id == $_modx->resource.sanator_3} class="active" {/if}>
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_3)}">Цены</a>
