@@ -89,6 +89,20 @@
 
                 $('.ajaxContent').on('click', function(){
                     console.log($(this).attr('data-id'));
+                    var id = $(this).attr('data-id');
+
+                    //Отправляем запрос на коннектор
+                    $.ajax({
+                        url: '/assets/connectors/getProfileContent.php',
+                        type: 'post',
+                        data:{
+                            id: id
+                        },
+                        success: function(response){
+                            console.log(response);
+                        }
+                    });
+
                     return false;
                 });
 
