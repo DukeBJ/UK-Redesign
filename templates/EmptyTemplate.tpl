@@ -89,7 +89,7 @@
 
                 $('#clearTextarea').on('change', function(){
                     $('#message').val('');
-                    $('#message').append($('#clearTextarea').val());
+                    $('#message').val = $('#clearTextarea').val();
                     console.log($('#clearTextarea').val());
                 });
 
