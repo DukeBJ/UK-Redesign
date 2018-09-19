@@ -44,7 +44,7 @@
         <b>Отправить</b>
     </button>
     <div class="form__checkbox checkbox">
-        <input type="checkbox" id="checkbox-1">
+        <input type="checkbox" id="checkbox-1" checked>
         <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a
                     href="#">персональных данных.</a></label></div>
 </form>
