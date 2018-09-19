@@ -98,6 +98,9 @@
                         data:{
                             id: id
                         },
+                        beforeSend: function(){
+                            $('content').text('Загружаем');
+                        },
                         success: function(response){
                             $('.content').html(response);
                             console.log(response);
