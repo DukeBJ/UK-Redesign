@@ -102,7 +102,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
-                            $('.content').html(response);
+                            $('.content').innerHTML(response);
                             console.log(response);
                         }
                     });
