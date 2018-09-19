@@ -93,7 +93,7 @@
 
                     //Отправляем запрос на коннектор
                     $.ajax({
-                        url: '/assets/connectors/getProfileContent.php',
+                        url: '/assets/connectors/getContent.php',
                         type: 'post',
                         data:{
                             id: id
