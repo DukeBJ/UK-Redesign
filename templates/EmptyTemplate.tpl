@@ -90,6 +90,7 @@
                 $('#clearTextarea').on('change', function(){
                     $('#message').reset();
                     $('#message').append($('#clearTextarea').val());
+                    console.log($('#clearTextarea').val());
                 });
 
                 $.ajax({
