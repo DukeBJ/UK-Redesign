@@ -6,7 +6,7 @@
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
-            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+            'tpl' => '@INLINE <li><a href="{$link}" data-id="{$id}" class="ajaxContent">{$menutitle}</a></li>'
         ]}
 
         <div class="tabs__content medical-profile__content article active">

@@ -85,6 +85,13 @@
             // Подстановка в отзывы
             $(document).ready(function(){
 
+                //Загрузка в профилях
+
+                $('.ajaxContent').on('click', function(){
+                    console.log(this);
+                    return false;
+                });
+
                 //Закидывание отзыва
 
                 $('#clearTextarea').on('change', function(){
