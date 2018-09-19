@@ -88,7 +88,7 @@
                 //Загрузка в профилях
 
                 $('.ajaxContent').on('click', function(){
-                    console.log(this);
+                    console.log(this.attr('data-id'));
                     return false;
                 });
 
