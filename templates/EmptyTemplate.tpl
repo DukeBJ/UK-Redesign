@@ -59,7 +59,6 @@
             // });
 
             $('#sendReviews').on('click', function(){
-                alert('Click button');
                 var step = [];
                 step.push($('#formStep-1').serializeArray());
                 step.push($('#formStep-2').serializeArray());
