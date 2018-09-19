@@ -5,7 +5,7 @@
                 <div class="blog__content">
                     <div class="heading">
                         <h2>{914|resource:'pagetitle'}</h2>
-                        <p>{914|resource:'introtext'}</p>
+                        {914|resource:'introtext'}
                     </div>
                     <div class="blog__content__img">
                         <img src="{'about_block_image'|config}" alt="">
