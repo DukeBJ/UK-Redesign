@@ -99,7 +99,7 @@
                             id: id
                         },
                         success: function(response){
-                            $('.content').html(response);
+                            $('.content').text(response);
                             console.log(response);
                         }
                     });
