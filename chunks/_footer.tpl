@@ -60,7 +60,7 @@
                             <li><a href="{$_modx->makeUrl(924)}">Новости компании</a></li>
                             <li><a href="{$_modx->makeUrl(923)}">Акции</a></li>
                             <li><a href="{$_modx->makeUrl(925)}">Статьи</a></li>
-                            <li><a href="#">Цены</a></li>
+                            <li><a href="{$_modx->makeUrl(962)}">Цены</a></li>
                         </ul>
                     </div>
                 </div>

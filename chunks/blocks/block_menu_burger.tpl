@@ -53,14 +53,13 @@
             </div>
             <div class="menu__block">
                 <h4><a href="{'161'|url}">Контакты</a></h4>
-                <h4><a href="{'395'|url}">Цены</a></h4>
+                <h4><a href="{'962'|url}">Цены</a></h4>
                 <h4><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
-                {'pdoMenu'|snippet:[
-                    'parents' => 920,
-                    'resources' => -949,
-                    'tplOuter' => '@INLINE <ul>{$wrapper}</ul>',
-                    'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
-                ]}
+                <ul>
+                    <li><a href="{$_modx->makeUrl(923)}">Акции</a></li>
+                    <li><a href="{$_modx->makeUrl(924)}">Новости</a></li>
+                    <li><a href="{$_modx->makeUrl(925)}">Статьи</a></li>
+                </ul>
             </div>
         </div>
         <div class="menu__search"><input type="text" placeholder="Поиск по сайту"><i class="icon icon-search"></i></div>
