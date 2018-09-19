@@ -59,11 +59,11 @@
             // });
 
             $('#sendReviews').on('click', function(){
-                alert('Click button');
                 var step = [];
                 step.push($('#formStep-1').serializeArray());
                 step.push($('#formStep-2').serializeArray());
                 step.push($('#formStep-3').serializeArray());
+                console.log(step);
 
                 $.ajax({
                     url: '/assets/connectors/saveReviews.php',
@@ -72,10 +72,11 @@
                         data: step
                     },
                     success: function(response){
-                        console.log(response);
                         $('#formStep-1')[0].reset();
                         $('#formStep-2')[0].reset();
                         $('#formStep-3')[0].reset();
+                        $('#clearTextarea').text('');
+                        $('#message').text('');
                     }
                 });
 
@@ -83,6 +84,39 @@
 
             // Подстановка в отзывы
             $(document).ready(function(){
+
+                //Загрузка в профилях
+
+                $('.ajaxContent').on('click', function(){
+                    console.log($(this).attr('data-id'));
+                    var id = $(this).attr('data-id');
+
+                    //Отправляем запрос на коннектор
+                    $.ajax({
+                        url: '/assets/connectors/getContent.php',
+                        type: 'post',
+                        data:{
+                            id: id
+                        },
+                        beforeSend: function(){
+                            $('content').text('Загружаем');
+                        },
+                        success: function(response){
+                            $('.content').html(response);
+                            console.log(response);
+                        }
+                    });
+
+                    return false;
+                });
+
+                //Закидывание отзыва
+
+                $('#clearTextarea').on('change', function(){
+                    $('#message').text('');
+                    $('#message').append($('#clearTextarea').val());
+                });
+
                 $.ajax({
                     url: '/assets/connectors/getSanator.php',
                     type: 'post',
