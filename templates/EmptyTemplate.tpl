@@ -47,7 +47,7 @@
                         id: id
                     },
                     success: function(response){
-                        console.log(response.pagetitle);
+                        console.log(response);
                         $('.include-pagetitle').html(response.pagetitle);
                         $('.include-description').html(response.description);
                         $('.include-content').html(response.content);
