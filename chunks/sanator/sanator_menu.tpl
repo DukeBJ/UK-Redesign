@@ -18,7 +18,7 @@
                     <li {if $id == $_modx->resource.sanator_4} class="active" {/if}>
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_4)}">Питание</a></li>
                     <li {if $id == $_modx->resource.sanator_5} class="active" {/if}>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_5)}">Спорт и отдых</a>
+                        <a href="{$_modx->makeUrl($_modx->resource.sanator_5)}">Спорт&nbsp;и&nbsp;отдых</a>
                     </li>
                     <li>
                         <a href="#contacts">Контакты</a>
