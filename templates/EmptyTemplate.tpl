@@ -51,6 +51,7 @@
                         $('.include-pagetitle').html(response.pagetitle);
                         $('.include-description').html(response.description);
                         $('.include-content').html(response.content);
+                        $('.include-image').html(response.image);
                     }
                 });
             });
