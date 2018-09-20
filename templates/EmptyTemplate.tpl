@@ -98,6 +98,7 @@
                     $.ajax({
                         url: '/assets/connectors/getContent.php',
                         type: 'post',
+                        dataType: 'json',
                         data:{
                             id: id
                         },
@@ -105,8 +106,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
-                            $('.content').html(response);
-                            console.log(response);
+                            $('.content').html(response.content);
                         }
                     });
 
