@@ -42,10 +42,12 @@
                 $.ajax({
                     url: '/assets/connectors/getContent.php',
                     type: 'post',
+                    dataType: 'json',
                     data:{
                         id: id
                     },
                     success: function(response){
+                        console.log(response);
                         $('.include-content').html(response);
                     }
                 });

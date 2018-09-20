@@ -75,8 +75,8 @@
             <div class="pop-rooms__block">
                 <div class="tabs__content medical-profile__content">
                     <div class="heading">
-                        <h2>Лечение эндокринологических заболеваний</h2>
-                        <p>Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
+                        <h2 class="include-pagetitle">Лечение эндокринологических заболеваний</h2>
+                        <p class="include-description">Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
                             №99/228 от 22.12.1999 г.).</p>
                     </div>
                     <div class="medical-profile__content__img"><img src="{$template}img/medical-profile.png" alt="">
