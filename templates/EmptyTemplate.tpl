@@ -47,7 +47,6 @@
                         id: id
                     },
                     success: function(response){
-                        console.log(response);
                         $('.include-pagetitle').html(response.pagetitle);
                         $('.include-description').html(response.description);
                         $('.include-content').html(response.content);
@@ -91,7 +90,6 @@
                 //Загрузка в профилях
 
                 $('.ajaxContent').on('click', function(){
-                    console.log($(this).attr('data-id'));
                     var id = $(this).attr('data-id');
 
                     //Отправляем запрос на коннектор
@@ -106,6 +104,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
+                            console.log(response);
                             $('.content').html(response.content);
                         }
                     });
