@@ -48,10 +48,11 @@
                     },
                     success: function(response){
                         console.log(response.pagetitle);
-                        $('.include-content').html(response);
+                        $('.include-pagetitle').html(response.pagetitle);
+                        $('.include-description').html(response.description);
+                        $('.include-content').html(response.content);
                     }
                 });
-                console.log();
             });
 
             // $(document).on('af_complete', function(event, response) {
