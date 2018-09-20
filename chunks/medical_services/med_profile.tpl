@@ -2,7 +2,7 @@
     <div class="tabs">
     
         {'!pdoMenu'|snippet:[
-            'parents' => 993,
+            'parents' => $_modx->resource.id,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
