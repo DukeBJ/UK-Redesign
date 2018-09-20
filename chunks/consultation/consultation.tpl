@@ -57,23 +57,40 @@
                     <div class="form__select"><i></i>
                         <p></p>
                         <select name="kurort" id="selec">
-                            <option value="Санаторий имени Ленина">Санаторий имени Ленина</option>
+                            <option value="Санаторий им. Ленина">Санаторий им. Ленина</option>
+                            <option value="Санаторий Дубки">Санаторий Дубки</option>
+                            <option value="Санаторий Прибрежный">Санаторий Прибрежный</option>
+                            <option value="Санаторий Белый Яр">Санаторий Белый Яр</option>
+                            <option value="Слава Черноморья">Слава Черноморья</option>
+                            <option value="Лагерь Сосенка">Лагерь Сосенка</option>
 
                         </select><span>Где отдыхали?</span></div>
                     <div class="form__select"><i></i>
                         <p></p>
                         <select name="month">
-                            <option value="Август">Август</option>
+                            <option value="Январь">Январь</option>
+                            <option value="Февраль">Февраль</option>
+                            <option value="Март">Март</option>
+                            <option value="Апрель">Апрель</option>
+                            <option value="Май">Май</option>
                             <option value="Июнь">Июнь</option>
+                            <option value="Июль">Июль</option>
+                            <option value="Август">Август</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Октябрь">Октябрь</option>
+                            <option value="Ноябрь">Ноябрь</option>
+                            <option value="Декабрь">Декабрь</option>
                         </select><span>В каком месяце?</span></div>
                     <div class="form__select"><i></i>
                         <p></p>
                         <select name="year">
-                            <option value="2017">2018</option>
+                            <option value="2018">2018</option>
                             <option value="2017">2017</option>
                             <option value="2016">2016</option>
-                            <option value="2016">2015</option>
-                            <option value="2016">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
                         </select><span>Год отдыха</span></div>
                 </div>
                 <a href="#step-2" data-pop="data-pop" class="btn btn-sandy">
