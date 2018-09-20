@@ -47,7 +47,7 @@
                         id: id
                     },
                     success: function(response){
-                        console.log(response);
+                        console.log(response.pagetitle);
                         $('.include-content').html(response);
                     }
                 });
