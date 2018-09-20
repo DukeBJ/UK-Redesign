@@ -79,7 +79,6 @@
                         <p class="include-description">Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
                             №99/228 от 22.12.1999 г.).</p>
                     </div>
-                    <div class="medical-profile__content__img include-image"></div>
 
                     <div class="include-content"></div>
 
