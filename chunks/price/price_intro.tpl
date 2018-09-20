@@ -2,7 +2,7 @@
     <div class="page-intro__content">
         <div class="container">
             <div class="heading heading-secondary">
-                <h2>Цена путевки</h2>
+                <h2>{$_modx->resource.longtitle? : $_modx->resource.pagetitle}</h2>
             </div>
             <div class="booking_form col-xs-12">
                 <div id="block-search">
