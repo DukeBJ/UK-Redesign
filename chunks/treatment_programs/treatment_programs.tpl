@@ -1,5 +1,7 @@
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
+
+        asdasdasdasd
     
         {if ($_modx->resource.id == '1015') or ($_modx->resource.parent == '1015')}
         {'!pdoMenu'|snippet:[
