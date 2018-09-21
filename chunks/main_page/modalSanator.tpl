@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-xs-12 center-xs">
-    <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
-        <a href="{$id|url}" class="img"><img src="{$template}img/sanatoriums/lenin.svg" alt="">
+    <div class="sanatoriums__block"><img src="{$_pls['tv.sanator_img']}" alt="">
+        <a href="{$id|url}" class="img"><img src="{$_pls['tv.sanator_img']}" alt="">
             <a class="btn btn-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                      viewBox="0 0 273 50">

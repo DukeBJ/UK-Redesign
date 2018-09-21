@@ -154,6 +154,7 @@
                             {'pdoResources'|snippet:[
                                 'parents' => 50,
                                 'depth' => 1,
+                                'includeTVs' => 'sanator_img',
                                 'tpl' => '@FILE chunks/main_page/modalSanator.tpl'
                             ]}
                         </div>
