@@ -12,7 +12,7 @@
                 {'!AjaxForm'|snippet:[
                 'hooks' => 'email,FormItSaveForm',
                 'form' => '@FILE chunks/forms/replyForm.tpl',
-                'emailTo' => 'emailSend'|config,
+                'emailTo' => 'email'|config,
                 'emailFrom' => 'emailsender'|config,
                 'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
                 'emailTpl' => '@FILE chunks/emails/contactEmail.tpl',
