@@ -153,7 +153,7 @@
                             <div class="col-sm-6 col-xs-12 center-xs">
                                 <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/lenin.svg" alt="">
-                                        <a class="btn btn-white">
+                                        <a href="{'52'|url}" class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
@@ -192,7 +192,7 @@
                             <div class="col-sm-6 col-xs-12 center-xs">
                                 <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/dubki.svg" alt="">
-                                        <a class="btn btn-white">
+                                        <a href="{'84'|url}" class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
@@ -231,7 +231,7 @@
                             <div class="col-sm-6 col-xs-12 center-xs">
                                 <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/transfiguration.svg" alt="">
-                                        <a class="btn btn-white">
+                                        <a href="{'127'|url}" class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
@@ -270,7 +270,7 @@
                             <div class="col-sm-6 col-xs-12 center-xs">
                                 <div class="sanatoriums__block"><img src="{$template}img/lenin.png" alt="">
                                     <a class="img"><img src="{$template}img/sanatoriums/white-yar.svg" alt="">
-                                        <a class="btn btn-white">
+                                        <a href="{'142'|url}" class="btn btn-white">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                                                  viewBox="0 0 273 50">
                                                 <defs>{ignore}
