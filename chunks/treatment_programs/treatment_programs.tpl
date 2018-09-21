@@ -1,8 +1,6 @@
 <div class="tabs__content medical-profile__menu__content active">
     <div class="tabs">
 
-        asdasdasdasd
-    
         {if ($_modx->resource.id == '1015') or ($_modx->resource.parent == '1015')}
         {'!pdoMenu'|snippet:[
             'parents' => 1015,
@@ -13,7 +11,7 @@
         ]}
         {else}
         {'!pdoMenu'|snippet:[
-            'parents' => 998,
+            'parents' => $_modx->resource.link_programa,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
             'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
