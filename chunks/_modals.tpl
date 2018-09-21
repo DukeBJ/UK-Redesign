@@ -151,12 +151,16 @@
                                 </div>
                             </div>
 
-                            {'pdoResources'|snippet:[
-                                'parents' => 50,
-                                'depth' => 1,
-                                'includeTVs' => 'sanator_img',
-                                'tpl' => '@FILE chunks/main_page/modalSanator.tpl'
+                            {'!pdoResources'|snippet:[
+                            'parents' => 50,
+                            'depth' => 0,
+                            'sortby' => ["menuindex" => "ASC"],
+                            'includeTVs' => 'sanator_cover,sanator_img',
+                            'prepareTVs' => 1,
+                            'processTVs' => 1,
+                            'tpl' => '@FILE chunks/main_page/modalSanator.tpl'
                             ]}
+
                         </div>
                     </div>
                 </div>
