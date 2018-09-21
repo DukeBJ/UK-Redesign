@@ -1,7 +1,7 @@
 <div class="col-sm-6 col-xs-12 center-xs">
     <div class="sanatoriums__block"><img src="{$_pls['tv.sanator_img']}" alt="">
-        <a href="{$id|url}" class="img"><img src="{$_pls['tv.sanator_cover']}" alt="">
-            <a class="btn btn-white">
+        <a class="img"><img src="{$_pls['tv.sanator_cover']}" alt="">
+            <a href="{$id|url:"full"}" class="btn btn-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                      viewBox="0 0 273 50">
                     <defs>{ignore}
