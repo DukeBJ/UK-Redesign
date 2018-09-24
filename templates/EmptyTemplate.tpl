@@ -8,7 +8,6 @@
 {/if}
 
 {set $template = 'template_url'|config}
-<!--<div class="loader">Loading...</div>-->
 <!--BEGIN out-->
 <div class="out">
 

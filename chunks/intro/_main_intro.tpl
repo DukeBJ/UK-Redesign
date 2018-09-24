@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12">
-                <div class="intro__logo"><img src="{$template}img/logo-white-smile.svg"></div>
+                <div class="intro__logo"><img src="{$template}img/logo-white-smile.svg" alt="{'site_name'|config}"></div>
             </div>
         </div>
     </div>
@@ -29,5 +29,5 @@
         <div class="swiper-button-next swiper-intro-next"><i class="icon icon-right-arrow"></i></div>
         <div class="swiper-button-prev swiper-intro-prev"><i class="icon icon-left-arrow"></i></div>
     </div>
-    <div class="intro__down"><span>крутите</span><img src="{$template}img/mouse.svg"><span>колесо</span></div>
+    <div class="intro__down"><span>крутите</span><img src="{$template}img/mouse.svg" alt=""><span>колесо</span></div>
 </section>

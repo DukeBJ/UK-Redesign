@@ -13,61 +13,61 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg" alt=""></div>
                             <p>Болезни кожи, аллергозы, псориаз</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg" alt=""></div>
                             <p>Эндокринологические заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg" alt=""></div>
                             <p>Болезни органов дыхания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg" alt=""></div>
                             <p>Гинекологические заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg" alt=""></div>
                             <p>Гастроэнторологические заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg" alt=""></div>
                             <p>Сердечно-сосудистые заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg" alt=""></div>
                             <p>Сердечно-сосудистые заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg" alt=""></div>
                             <p>Урологические заболевания</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg" alt=""></div>
                             <p>Опорно-двигательный аппарат</p>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="#pop-info" class="working-profiles__block" data-pop>
-                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg"></div>
+                            <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg" alt=""></div>
                             <p>Заболевания нервной системы</p>
                         </a>
                     </div>
@@ -78,55 +78,55 @@
             <div class="row">
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/koja.svg" alt=""></div>
                         <p>Болезни кожи, аллергозы, псориаз</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/endocrinolog.svg" alt=""></div>
                         <p>Эндокринологические заболевания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/legkie.svg" alt=""></div>
                         <p>Болезни органов дыхания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/ginekolog.svg" alt=""></div>
                         <p>Гинекологические заболевания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/jeludok.svg" alt=""></div>
                         <p>Гастроэнторологические заболевания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/serdce.svg" alt=""></div>
                         <p>Сердечно-сосудистые заболевания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/pochki.svg" alt=""></div>
                         <p>Урологические заболевания</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/skelet.svg" alt=""></div>
                         <p>Опорно-двигательный аппарат</p>
                     </a>
                 </div>
                 <div class="col-xs-4 center-xs">
                     <a href="#pop-info" class="working-profiles__block" data-pop>
-                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg"></div>
+                        <div class="working-profiles__block__img"><img src="{$template}img/medical-profiles/neuro.svg" alt=""></div>
                         <p>Заболевания нервной системы</p>
                     </a>
                 </div>
