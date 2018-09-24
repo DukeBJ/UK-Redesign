@@ -41,7 +41,6 @@
         </div>
     </section>
 
-    <!-- ПОДПИСКА -->
     <section class="reply bg-beige wave-up">
         <div class="container">
             <div class="row middle-xs center-xs">
@@ -55,19 +54,20 @@
 
                     {'!AjaxForm'|snippet:[
                         'hooks' => 'email,FormItSaveForm',
-                        'form' => '@FILE chunks/callme/callme.tpl',
-                        'emailTo' => 'emailsender'|config,
-                        'emailFrom' => 'emailsender'|config,
-                        'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                        'emailTpl' => '@FILE chunks/emails/email.tpl',
-                        'validate' => 'phone:required',
+                        'form' => '@FILE chunks/forms/replyForm.tpl',
+                        'emailTo' => 'email'|config,
+                        'emailSubject' => 'Вопрос с сайта',
+                        'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
+                        'validate' => 'tel:required',
                         'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                     ]}
-
+                
+                    <div class="msgdone">
+                        Спасибо за&nbsp;обращение! Мы получили Ваш телефон и&nbsp;свяжемся в&nbsp;течении часа.
+                    </div>
 
                 </div>
             </div>
         </div>
     </section>
-    <!-- END -->
 {/block}

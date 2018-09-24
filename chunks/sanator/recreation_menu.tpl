@@ -11,7 +11,7 @@
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_3)}">Цены</a>
                     </li>
                     <li>
-                        <a href="#weather">Природа</a>
+                        <a href="{$_modx->resource.id|url}#weather">Природа</a>
                     </li>
                     <li {if $id == $_modx->resource.sanator_4} class="active" {/if}>
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_4)}">Питание</a></li>
@@ -19,7 +19,7 @@
                         <a href="{$_modx->makeUrl($_modx->resource.sanator_5)}">Спорт&nbsp;и&nbsp;отдых</a>
                     </li>
                     <li>
-                        <a href="#contacts">Контакты</a>
+                        <a href="{$_modx->resource.id|url}#contacts">Контакты</a>
                     </li>
                 </ul>
             </div>

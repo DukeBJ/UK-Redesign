@@ -11,7 +11,7 @@
                 {'!AjaxForm'|snippet:[
                     'hooks' => 'email,FormItSaveForm',
                     'form' => '@FILE chunks/forms/replyForm.tpl',
-                    'emailTo' => 'ivanx86@gmail.com',
+                    'emailTo' => 'email'|config,
                     'emailSubject' => 'Вопрос с сайта',
                     'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
                     'validate' => 'tel:required',
