@@ -81,7 +81,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <div class="footer__logo"><img src="{$template}img/separation-line-footer.svg"></div>
+                <div class="footer__logo"><img src="{$template}img/separation-line-footer.svg" alt=""></div>
             </div>
         </div>
         <div class="row">

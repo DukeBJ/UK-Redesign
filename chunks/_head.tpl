@@ -19,7 +19,7 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Booking | TL head script -->
     {ignore}
-    <script type="text/javascript">
+    <script>
         (function(w){
             var q=[
                 ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru']

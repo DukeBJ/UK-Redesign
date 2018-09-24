@@ -59,7 +59,7 @@
 
 
 
-            <script type="text/javascript">
+            <script>
                 $(document).ready(function(){
                     $(document).on('mse2_load', function(e, data) {
                         console.log(e, data);

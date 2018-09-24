@@ -9,7 +9,7 @@
                     <div id="tl-search-form" class="tl-container"><noindex><a href="http://www.travelline.ru/products/tl-hotel/" rel="nofollow">система онлайн-бронирования</a></noindex></div>
                 </div>
                 {ignore}
-                <script type="text/javascript">
+                <script>
                     (function(w){
                         var q=[
                             ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru'],

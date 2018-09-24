@@ -21,7 +21,7 @@
         </div>
         <div id="tl-booking-form">&nbsp;</div>
           {ignore}
-        <script type="text/javascript">
+        <script>
             function getUrlParams() {
                 var urlParams = {};
                 var params = location.search.substr(1).split('&');

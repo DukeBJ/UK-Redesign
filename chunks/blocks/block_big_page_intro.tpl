@@ -10,7 +10,7 @@
     </div>
     <div class="intro__down">
         <span>крутите</span>
-        <img src="{$template}img/mouse.svg"><span>колесо</span>
+        <img src="{$template}img/mouse.svg" alt=""><span>колесо</span>
     </div>
 </section>
 <!-- END -->

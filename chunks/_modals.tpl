@@ -510,7 +510,7 @@
                     </div>
                 </div>
                 {ignore}
-                    <script type="text/javascript">
+                    <script>
                         (function (w) {
                             var q = [
                                 ['setContext', 'TL-INT-ulyanovsk-kurort', 'ru'],
