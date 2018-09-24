@@ -3,7 +3,7 @@
         <div class="row middle-xs">
             <div class="col-md-4 col-xs-5">
                 <div class="header__scroll__block">
-                    <div class="menu-open"><span></span></div><a href="#">Забронировать</a><i class="icon icon-ring"></i>
+                    <div class="menu-open"><span></span></div><a href="#pop-booking" data-pop><i class="icon icon-ring"></i></a>
                     <p>{$_modx->resource.tv_pagetitle ? $_modx->resource.tv_pagetitle : $_modx->resource.pagetitle}</p>
                 </div>
             </div>
