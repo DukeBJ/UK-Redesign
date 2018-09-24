@@ -19,7 +19,7 @@
                             {foreach $_modx->resource.dosug_hources_slider|fromJSON as $slider}
                                 <div class="swiper-slide">
                                     <div class="swiper-slide__img">
-                                        <img src="{$slider.image_1}">
+                                        <img src="{$slider.image_1}" alt="">
                                     </div>
                                     <h4>{$slider.title}</h4>
                                     <p>{$slider.description}</p>

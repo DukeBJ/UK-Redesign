@@ -47,7 +47,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -69,7 +69,7 @@
                             <div class="container sanatoriums">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -138,7 +138,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -224,7 +224,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -310,7 +310,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -396,7 +396,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -482,7 +482,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -568,7 +568,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">
@@ -654,7 +654,7 @@
                             <div class="container medical-order">
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg"></div>
+                                        <div class="dividing_line_logo"><img src="img/separation-line-body.svg" alt=""></div>
                                     </div>
                                 </div>
                                 <div class="row middle-xs center-xs">

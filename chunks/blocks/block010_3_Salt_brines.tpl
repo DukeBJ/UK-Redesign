@@ -11,7 +11,7 @@
                     {foreach $_modx->resource.salt_block|fromJSON as $salt}
                     <div class="col-sm-6 col-xs-12">
                         <div class="left-block__block">
-                            <img src="{$salt.image}">
+                            <img src="{$salt.image}" alt="">
                             <p>{$salt.description}</p>
                         </div>
                     </div>

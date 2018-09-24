@@ -25,7 +25,7 @@
                     {foreach $_modx->resource.healing_clay|fromJSON as $clay}
                     <div class="col-sm-6 col-xs-12">
                         <div class="right-block__block">
-                            <img src="{$clay.image}">
+                            <img src="{$clay.image}" alt="">
                             <p>{$clay.description}</p>
                         </div>
                     </div>

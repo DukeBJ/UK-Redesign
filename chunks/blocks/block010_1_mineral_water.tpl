@@ -11,7 +11,7 @@
                     {foreach $_modx->resource.mineral_water|fromJSON as $mineral}
                     <div class="col-sm-6 col-xs-12">
                         <div class="left-block__block">
-                            <img src="{$mineral.image}">
+                            <img src="{$mineral.image}" alt="">
                             <p>{$mineral.description}</p>
                         </div>
                     </div>

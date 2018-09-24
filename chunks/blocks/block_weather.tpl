@@ -25,7 +25,7 @@
                     {foreach $_modx->resource.weather_block|fromJSON as $weather}
                     <div class="col-sm-6 col-xs-12">
                         <div class="right-block__block">
-                            <img src="{$weather.image}">
+                            <img src="{$weather.image}" alt="">
                             <p>{$weather.description}</p>
                         </div>
                     </div>

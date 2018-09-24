@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg"></div>
+                    <div class="dividing_line_logo"><img src="{$template}img/separation-line-body.svg" alt=""></div>
                 </div>
             </div>
             <div class="modal__content">

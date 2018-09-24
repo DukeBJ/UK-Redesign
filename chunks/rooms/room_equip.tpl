@@ -15,7 +15,7 @@
                 {foreach $_modx->resource.equipment|fromJSON as $equipment}
                     <div class="col-md-2 col-sm-3 col-xs-6">
                         <div class="room__conditions__block">
-                            <div class="room__conditions__block__img"><img src="{$equipment.image}"></div>
+                            <div class="room__conditions__block__img"><img src="{$equipment.image}" alt=""></div>
                             <p>{$equipment.title}</p>
                         </div>
                     </div>
