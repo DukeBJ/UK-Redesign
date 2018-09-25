@@ -14,7 +14,7 @@
                 'form' => '@FILE chunks/forms/replyForm.tpl',
                 'emailTo' => 'email'|config,
                 'emailFrom' => 'emailsender'|config,
-                'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
+                'emailSubject' => 'Обратный звонок с сайта Ульяновсккурорт',
                 'emailTpl' => '@FILE chunks/emails/contactEmail.tpl',
                 'validate' => 'name:required,phone:required,email:required,message:required',
                 'validationErrorMessage' => 'Вам необходимо заполнить все поля'

@@ -56,7 +56,7 @@
                         'hooks' => 'email,FormItSaveForm',
                         'form' => '@FILE chunks/forms/replyForm.tpl',
                         'emailTo' => 'email'|config,
-                        'emailSubject' => 'Вопрос с сайта',
+                        'emailSubject' => 'Обратный звонок с сайта Ульяновсккурорт',
                         'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
                         'validate' => 'tel:required',
                         'validationErrorMessage' => 'Вам необходимо заполнить все поля'
