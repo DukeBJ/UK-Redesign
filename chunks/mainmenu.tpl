@@ -5,10 +5,20 @@
             <div class="menu__block menu__block__tel"><a href="tel:88007074105">{'phone'|config}</a></div>
             <div class="menu__block">
                 <h4><a href="{'912'|url}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
+                
                 {'!pdoMenu'|snippet:[
                 'parents' => '912',
                 'level' => 1
                 ]}
+                
+                <h4><a href="{'161'|url}">Контакты</a></h4>
+                <h4><a href="{'962'|url}">Цены</a></h4>
+                <h4><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
+                <ul>
+                    <li><a href="{'923'|url}">Акции</a></li>
+                    <li><a href="{'924'|url}">Новости</a></li>
+                    <li><a href="{'925'|url}">Статьи</a></li>
+                </ul>
             </div>
             <div class="menu__block">
                 <h4><a href="{'50'|url}">Санатории</a><i class="icon icon-left-arrow"></i></h4>
@@ -39,16 +49,6 @@
                 'level' => 1
                 ]}
 
-            </div>
-            <div class="menu__block">
-                <h4><a href="{'161'|url}">Контакты</a></h4>
-                <h4><a href="{'962'|url}">Цены</a></h4>
-                <h4><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
-                <ul>
-                    <li><a href="{'923'|url}">Акции</a></li>
-                    <li><a href="{'924'|url}">Новости</a></li>
-                    <li><a href="{'925'|url}">Статьи</a></li>
-                </ul>
             </div>
         </div>
 
