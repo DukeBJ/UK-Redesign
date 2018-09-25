@@ -20,7 +20,6 @@
             {$_modx->resource.content}
 
             {include 'file:chunks/medical_services/medical_order.tpl'}
-            {include 'file:chunks/medical_services/medical_list_sanator.tpl'}
 
         </div>
 
