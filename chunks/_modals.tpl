@@ -2,7 +2,7 @@
     <div class="menu__content">
         <div class="menu__content__block">
             <div class="menu-close"><span></span></div>
-            <div class="menu__block menu__block__tel"><a href="tel:{'phone'|config}">{'phone'|config}</a></div>
+            <div class="menu__block menu__block__tel"><a href="tel:88007074105">{'phone'|config}</a></div>
             <div class="menu__block">
                 <h4><a href="{'912'|url}">О курорте</a><i class="icon icon-left-arrow"></i></h4>
                 {'!pdoMenu'|snippet:[
