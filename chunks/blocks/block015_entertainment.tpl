@@ -1,7 +1,7 @@
 <section id="entertament" class="ulyanovsk {$_modx->resource.style_block}">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 center-xs"><img src="{$template}img/logo-white.svg" class="logo"></div>
+            <div class="col-xs-12 center-xs"><img src="{$template}img/logo-white.svg" alt="" class="logo"></div>
             <div class="col-xs-12">
                 <div class="heading heading-secondary">
                     <h2>{$_modx->resource.entertament_title}</h2>
