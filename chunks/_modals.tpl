@@ -236,7 +236,7 @@
             {'!AjaxForm'|snippet:[
             'hooks' => 'email,FormItSaveForm',
             'form' => '@FILE chunks/forms/kurort.tpl',
-            'emailTo' => 'emailSend'|config,
+            'emailTo' => 'email'|config,
             'emailFrom' => 'emailsender'|config,
             'emailSubject' => 'Заявка с сайта Ульяновсккурорт',
             'emailTpl' => '@FILE chunks/emails/email_order.tpl',
