@@ -231,16 +231,15 @@
         <div class="pop-application__content">
             <div class="heading">
                 <h2>Заявка на санаторно-курортные услуги</h2>
-                <p>Наши менеджеры свяжутся с вами через несколько минут для уточнения даты и условий пребывания в
-                    санатории.</p>
+                <p>Наши менеджеры свяжутся с вами через несколько минут для уточнения даты и условий пребывания в санатории.</p>
             </div>
             {'!AjaxForm'|snippet:[
             'hooks' => 'email,FormItSaveForm',
             'form' => '@FILE chunks/forms/kurort.tpl',
-            'emailTo' => 'email'|config,
+            'emailTo' => 'emailSend'|config,
             'emailFrom' => 'emailsender'|config,
-            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'emailSubject' => 'Заявка с сайта Ульяновсккурорт',
+            'emailTpl' => '@FILE chunks/emails/email_order.tpl',
             'validate' => 'name:required,email:required,phone:required',
             'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
