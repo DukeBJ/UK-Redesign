@@ -10,8 +10,7 @@
             </div>
         </div>
     </div>
-    <div id="water-triger" class="swiper">
-        <section class="sanatoriums">
+    <div id="water-triger-two" class="swiper">
             <div class="container">
                 <div class="row">
                     {'!pdoResources'|snippet:[
@@ -27,6 +26,5 @@
                     ]}
                 </div>
             </div>
-        </section>
     </div>
 </section>
