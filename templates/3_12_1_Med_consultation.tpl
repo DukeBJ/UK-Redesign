@@ -59,8 +59,8 @@
                         'form' => '@FILE chunks/forms/sendQuestionStatic.tpl',
                         'emailTo' => 'email'|config,
                         'emailFrom' => 'emailsender'|config,
-                        'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-                        'emailTpl' => '@FILE chunks/emails/email.tpl',
+                        'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
+                        'emailTpl' => '@FILE chunks/emails/email_question.tpl',
                         'validate' => 'name:required,email:required,message:required',
                         'validationErrorMessage' => 'Вам необходимо заполнить все поля',
                         'submitVar' => 'staticForm'

@@ -131,8 +131,8 @@
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
             'emailTo' => 'email'|config,
             'emailFrom' => 'emailsender'|config,
-            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
+            'emailTpl' => '@FILE chunks/emails/email_question.tpl',
             'validate' => 'name:required,email:required,message:required',
             'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
@@ -154,8 +154,8 @@
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
             'emailTo' => 'email'|config,
             'emailFrom' => 'emailsender'|config,
-            'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
-            'emailTpl' => '@FILE chunks/emails/email.tpl',
+            'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
+            'emailTpl' => '@FILE chunks/emails/email_question.tpl',
             'validate' => 'name:required,email:required,message:required',
             'validationErrorMessage' => 'Вам необходимо заполнить все поля'
             ]}
