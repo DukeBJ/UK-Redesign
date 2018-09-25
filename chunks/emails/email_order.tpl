@@ -2,7 +2,7 @@
   <a href="{$_modx->config.site_url}">{$_modx->resource.pagetitle}</a>
 {else}
   <a href="{$_modx->makeUrl($_modx->resource.id)}">{$_modx->resource.pagetitle}</a>
-{/if}"> 
+{/if}
 <br>
 {$_modx->resource.pagetitle} <br>
 
