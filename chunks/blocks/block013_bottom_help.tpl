@@ -11,10 +11,10 @@
                 {'!AjaxForm'|snippet:[
                     'hooks' => 'email,FormItSaveForm',
                     'form' => '@FILE chunks/forms/replyForm.tpl',
-                    'emailTo' => 'emailSend'|config~,'electricaev@gmail.com',
+                    'emailTo' => 'electricaev@gmail.com',
                     'emailSubject' => 'Обратный звонок с сайта Ульяновсккурорт',
                     'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
-                    'validate' => 'tel:required',
+                    'validate' => 'phone:required',
                     'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
                 <div class="msgdone">
