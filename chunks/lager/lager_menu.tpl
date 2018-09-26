@@ -1,6 +1,6 @@
-<section class="medical-profile">
+<section class="medical-profile second-menu">
     <div class="container-fluid">
-        <div class="medical-profile__menu second-menu">
+        <div class="medical-profile__menu">
             <div class="tabs__nav">
                 <ul class="scroll tabs__caption medical-profile__menu__caption">
                     <li><a href="#about">О лагере</a></li>
