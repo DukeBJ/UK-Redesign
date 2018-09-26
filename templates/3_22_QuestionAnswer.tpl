@@ -70,7 +70,7 @@
                     {'!AjaxForm'|snippet:[
                         'hooks' => 'saveReview',
                         'form' => '@FILE chunks/forms/sendQuestionStatic.tpl',
-                        'emailTo' => 'email'|config,
+                        'emailTo' => 'emailSend'|config,
                         'emailFrom' => 'emailsender'|config,
                         'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
                         'emailTpl' => '@FILE chunks/emails/email.tpl',

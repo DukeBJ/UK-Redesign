@@ -109,7 +109,7 @@
 {'!AjaxForm'|snippet:[
 'hooks' => 'email,FormItSaveForm',
 'form' => '@FILE chunks/consultation/consultation.tpl',
-'emailTo' => 'email'|config,
+'emailTo' => 'emailSend'|config,
 'emailFrom' => 'emailsender'|config,
 'emailSubject' => 'Письмо с сайта ' ~ 'site_name'|config,
 'emailTpl' => '@FILE chunks/emails/email.tpl',
@@ -129,7 +129,7 @@
             {'!AjaxForm'|snippet:[
             'hooks' => 'saveReview',
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
-            'emailTo' => 'email'|config,
+            'emailTo' => 'emailSend'|config,
             'emailFrom' => 'emailsender'|config,
             'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
             'emailTpl' => '@FILE chunks/emails/email_question.tpl',
@@ -152,7 +152,7 @@
             {'!AjaxForm'|snippet:[
             'hooks' => 'saveReviewDoctor',
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
-            'emailTo' => 'email'|config,
+            'emailTo' => 'emailSend'|config,
             'emailFrom' => 'emailsender'|config,
             'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
             'emailTpl' => '@FILE chunks/emails/email_question.tpl',

@@ -57,7 +57,7 @@
                     {'!AjaxForm'|snippet:[
                         'hooks' => 'saveReview',
                         'form' => '@FILE chunks/forms/sendQuestionStatic.tpl',
-                        'emailTo' => 'email'|config,
+                        'emailTo' => 'emailSend'|config,
                         'emailFrom' => 'emailsender'|config,
                         'emailSubject' => 'Вопрос врачу с сайта Ульяновсккурорт',
                         'emailTpl' => '@FILE chunks/emails/email_question.tpl',
