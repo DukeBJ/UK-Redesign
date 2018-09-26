@@ -1,4 +1,4 @@
-<form action="" class="form ajax_form">
+<form action="" method="post" class="form ajax_form">
     <div class="form__block">
         <div class="form__input">
             <input type="text" id="text-7" name="name" value="[[!+fi.name]]"><label for="text-7">Как к Вам обращаться?</label>
@@ -39,8 +39,7 @@
         <b>Отправить</b></a>
     </button>
 
-    <div
-            class="form__checkbox checkbox"><input type="checkbox" id="checkbox-1" checked><label
+    <div class="form__checkbox checkbox"><input type="checkbox" id="checkbox-1" checked><label
                 for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="{'957'|url}">персональных
                 данных.</a></label></div>
 </form>

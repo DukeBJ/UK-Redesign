@@ -11,9 +11,9 @@
         <input type="email" name="email" value="[[!+fi.email]]" id="email-5">
         <label for="email-5">Адрес e-mail</label>
     </div>
-    <button data-pop="data-pop" type="submit" class="btn btn-sandy">
+    <button type="submit" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
-            <defs>{ignore}
+            <defs>
                 <style>.cls-1 {
                         fill: #f4e07a;
                     }
@@ -28,7 +28,7 @@
                         stroke-miterlimit: 10;
                         stroke-width: 2px;
                     }</style>
-            </defs>{/ignore}
+            </defs>
             <title>button</title>
                 <path class="cls-1 cls-1-bg"
                       d="M5,17V8a8,8,0,0,1,8-8H260a8,8,0,0,1,8,8v9a8,8,0,0,0,0,16v9a8,8,0,0,1-8,8H13a8,8,0,0,1-8-8V33A8,8,0,0,0,5,17Z"/>
@@ -43,6 +43,6 @@
     </button>
     <div class="form__checkbox checkbox">
         <input type="checkbox" id="checkbox-1" checked>
-        <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a
-                    href="#">персональных данных.</a></label></div>
+        <label for="checkbox-1">Нажимая кнопку «Отправить», я даю своё согласие на обработку <a href="#">персональных данных.</a></label>
+    </div>
 </form>
