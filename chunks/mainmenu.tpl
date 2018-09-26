@@ -45,8 +45,8 @@
                 <h4 class="menu__category-header"><a href="{'281'|url}">Базы отдыха</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
                     <li><h5 class="menu__category-subheader"><a href="{'289'|url}">{'289'|resource:"pagetitle"}</a></h5></li>
-                    <li><a href="{'1225'|url}">Номера</a></li>
-                    <li><a href="{'1161'|url}">Цены</a></li>
+                    <li><a href="{'1331'|url}">Номера</a></li>
+                    <li><a href="{'1259'|url}">Цены</a></li>
                     <li><h5 class="menu__category-subheader"><a href="{'296'|url}">{'296'|resource:"pagetitle"}</a></h5></li>
                     <li><a href="{'1339'|url}">Номера</a></li>
                     <li><a href="{'1232'|url}">Цены</a></li>
