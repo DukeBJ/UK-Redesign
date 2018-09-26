@@ -22,11 +22,10 @@
                     <div class="col-sm-3 col-xs-6">
                         <h3><a href="{'4'|url}">Лечение</a></h3>
                         <ul>
-                            <li><a href="{'993'|url}">Профили</a></li>
+                            <li><a href="{'993'|url}">Лечебные профили</a></li>
+                            <li><a href="{'998'|url}">Программы лечения</a></li>
                             <li><a href="{'997'|url}">Методики</a></li>
-                            <li><a href="{'996'|url}">Особенности</a></li>
-                            <li><a href="#">Персонал</a></li>
-                            <li><a href="#">Консультация врача</a></li>
+                            <li><a href="{'996'|url}">Природные особенности</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-xs-6">
