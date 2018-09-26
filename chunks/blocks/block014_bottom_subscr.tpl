@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-xs-12">
-                {'Sendex'|snippet:[
+                {'!Sendex'|snippet:[
                     'id' => 1,
                 ]}
                 <div class="msgdone">
