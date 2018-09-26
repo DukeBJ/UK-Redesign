@@ -1,7 +1,7 @@
 
-<section class="medical-profile">
+<section class="medical-profile second-menu">
     <div class="container-fluid">
-        <div class="medical-profile__menu second-menu">
+        <div class="medical-profile__menu">
             <div class="tabs__nav">
                 <ul class="medical-profile__menu__caption">
                     <li {if $id == $_modx->resource.sanator_2} class="active" {/if}>
