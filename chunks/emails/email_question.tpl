@@ -5,4 +5,4 @@
 {/if}
 [[+name:notempty=`<p><b>Имя:<b> [[+name]]</p>]]
 [[+email:notempty=`<p><b>E-mail:<b> [[+email]]</p>`]]
-[[+message:notempty=`<p><b>Вопрос</b>[[+message]]</p>`]]
+[[+message:notempty=`<p><b>Вопрос:</b> [[+message]]</p>`]]
