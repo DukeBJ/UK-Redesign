@@ -1,7 +1,7 @@
 <form action="" method="post" class="ajax_form af_example form">
     <div class="form__cell">
         <div class="form__input">
-            <input type="tel" id="tel" name="tel" value="[[+fi.tel]]" placeholder="" class="phone">
+            <input type="tel" id="tel" name="phone" value="[[+fi.tel]]" placeholder="" class="phone">
             <span class="error_tel">[[+fi.error.tel]]</span>
             <label for="tel">Номер телефона</label>
         </div>
