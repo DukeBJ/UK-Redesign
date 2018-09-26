@@ -14,7 +14,7 @@
                     <p>Все необходимые документы для зачисления ребенка в лагерь</p>
                     <ul class="head_list">
                         {foreach $_modx->resource.lager_parent_doc|fromJSON as $lager_doc}
-                            <li><a href="{$lager_doc.link}">{$lager_doc.description}</a></li>
+                            <li><a href="{$lager_doc.link}" target="_blank">{$lager_doc.description}</a></li>
                         {/foreach}
                     </ul>
                 </div>
