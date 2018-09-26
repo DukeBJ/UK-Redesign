@@ -10,8 +10,6 @@
             <div class="col-xs-12">
                 {'Sendex'|snippet:[
                     'id' => 1,
-                    'tplSubscribeAuth' => 'sendexSibscribeForm',
-                    'tplSubscribeGuest' => 'sendexSibscribeForm'
                 ]}
                 <div class="msgdone">
                     Спасибо за&nbsp;подписку!
