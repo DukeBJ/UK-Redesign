@@ -127,7 +127,7 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-            'hooks' => 'saveReview',
+            'hooks' => 'email,saveReview',
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
             'emailTo' => 'emailSend'|config,
             'emailFrom' => 'emailsender'|config,
@@ -150,7 +150,7 @@
                 <p>Наши врачи ответят на все ваши вопросы.</p>
             </div>
             {'!AjaxForm'|snippet:[
-            'hooks' => 'saveReviewDoctor',
+            'hooks' => 'email,saveReviewDoctor',
             'form' => '@FILE chunks/forms/sendQuestion.tpl',
             'emailTo' => 'emailSend'|config,
             'emailFrom' => 'emailsender'|config,
