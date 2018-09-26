@@ -1,4 +1,4 @@
-<form action="" class="form ajax_form" id="staticForm">
+<form action="" method="post" class="form ajax_form" id="staticForm">
 
     <input type="hidden" name="parent" value="{$_modx->resource.id}">
     <input type="hidden" name="staticForm" value="1" />
