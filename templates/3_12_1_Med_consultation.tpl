@@ -55,7 +55,7 @@
                         <p>Наши врачи ответят на все ваши вопросы.</p>
                     </div>
                     {'!AjaxForm'|snippet:[
-                        'hooks' => 'saveReview',
+                        'hooks' => 'email,saveReview',
                         'form' => '@FILE chunks/forms/sendQuestionStatic.tpl',
                         'emailTo' => 'emailSend'|config,
                         'emailFrom' => 'emailsender'|config,
