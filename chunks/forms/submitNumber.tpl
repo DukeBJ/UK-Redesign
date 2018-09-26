@@ -11,7 +11,7 @@
         <input type="email" name="email" value="[[!+fi.email]]" id="email-5">
         <label for="email-5">Адрес e-mail</label>
     </div>
-    <button data-pop="data-pop" class="btn btn-sandy">
+    <button data-pop="data-pop" type="submit" class="btn btn-sandy">
         <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50">
             <defs>{ignore}
                 <style>.cls-1 {
