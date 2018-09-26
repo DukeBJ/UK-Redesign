@@ -11,7 +11,8 @@
                 {'!AjaxForm'|snippet:[
                     'hooks' => 'email,FormItSaveForm',
                     'form' => '@FILE chunks/forms/replyForm.tpl',
-                    'emailTo' => 'electricaev@gmail.com',
+                    'emailTo' => 'emailSend'|config,
+                    'emailFrom' => 'emailsender'|config,
                     'emailSubject' => 'Обратный звонок с сайта Ульяновсккурорт',
                     'emailTpl' => '@FILE chunks/emails/emailReply.tpl',
                     'validate' => 'phone:required',

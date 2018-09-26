@@ -16,7 +16,7 @@
                 'emailFrom' => 'emailsender'|config,
                 'emailSubject' => 'Обратный звонок с сайта Ульяновсккурорт',
                 'emailTpl' => '@FILE chunks/emails/contactEmail.tpl',
-                'validate' => 'name:required,phone:required,email:required,message:required',
+                'validate' => 'phone:required',
                 'validationErrorMessage' => 'Вам необходимо заполнить все поля'
                 ]}
 
