@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu.tpl' padding=true}
+    {include 'file:chunks/sanator/sanator_menu_dop.tpl' padding=true}
     {include 'file:chunks/medical_services/intro_mini.tpl'}
 
     <!-- БЛОК МЕДИЦИНЫ -->
