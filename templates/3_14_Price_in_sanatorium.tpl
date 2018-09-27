@@ -1,7 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 
 {block 'main'}
-
+    {include 'file:chunks/sanator/sanator_menu.tpl' padding=1}
     {include 'file:chunks/price/price_intro.tpl'}
     {include 'file:chunks/price/price_content.tpl'}
     
