@@ -3,4 +3,4 @@
 {else}
   <a href="{$_modx->makeUrl($_modx->resource.id)}">{$_modx->resource.pagetitle}</a>
 {/if}
-[[+phone:notempty=`<p><b>Просьба перезвонить по номеру:<b> [[+phone]]</p>`]]
+[[+phone:notempty=`<p><b>Просьба перезвонить по номеру:</b> [[+phone]]</p>`]]
