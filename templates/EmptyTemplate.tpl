@@ -117,6 +117,12 @@
                     $('#message').append($('#clearTextarea').val());
                 });
 
+                //Скрытие модалки
+
+                $('.int-slider').on('click', function(){
+                    console.log(this);
+                });
+
                 $.ajax({
                     url: '/assets/connectors/getSanator.php',
                     type: 'post',
