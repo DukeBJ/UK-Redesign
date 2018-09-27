@@ -1,6 +1,13 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu_dop.tpl' padding=true}
+    {var $list= [998,993]}
+    {if $_modx->resource.id in list $list}  
+    
+    {else}
+        {include 'file:chunks/sanator/sanator_menu_dop.tpl' padding=true}
+    {/if}
+    
+    
     {include 'file:chunks/medical_services/intro_mini.tpl'}
 
     <!-- БЛОК МЕДИЦИНЫ -->
