@@ -1,4 +1,4 @@
-<section class="medical-profile second-menu {$padding}" {$padding?'style="padding:0 !important;"':''}>
+<section class="medical-profile second-menu {$_modx->resource.id != 917 ? 'inside' : ''} {$padding}" {$padding?'style="padding:0 !important;"':''}>
     <div class="container-fluid">
         <div class="medical-profile__menu">
             <div class="tabs__nav">
