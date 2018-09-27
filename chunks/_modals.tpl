@@ -1,5 +1,3 @@
-{include 'file:chunks/mainmenu.tpl'}
-
 <!-- МОДАЛЬНОЕ ОКНО VIDEO -->
 <div id="video" class="video-pop-up modal">
     <div class="modal__close"><span></span></div>
