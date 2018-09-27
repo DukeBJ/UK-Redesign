@@ -15,18 +15,46 @@
                         
                     </li>
                     <li>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_2)}">Номера</a>
+                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
                     </li>
                     <li>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_3)}">Цены</a>
+                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
                     </li>
                     <li>
                         <a href="{$_modx->resource.id|url}#weather">Природа</a>
                     </li>
                     <li>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_4)}">Питание</a></li>
+                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
                     <li>
-                        <a href="{$_modx->makeUrl($_modx->resource.sanator_5)}">Спорт&nbsp;и&nbsp;отдых</a>
+                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
                     </li>
                     <li>
                         <a href="{$_modx->resource.id|url}#contacts">Контакты</a>
