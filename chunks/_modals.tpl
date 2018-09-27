@@ -292,8 +292,8 @@
                 </form>
             </div>
             <div class="pop-rooms__info">
-                <a href="{'rooms_docs'|config}">Необходимые документы</a>
-                <a href="{'rooms_pravila'|config}">Правила пребывания</a>
+                <a href="{$_modx->config.rooms_docs}">Необходимые документы</a>
+                <a href="{$_modx->config.rooms_pravila}">Правила пребывания</a>
             </div>
         </div>
         <div class="col-xs-12">
