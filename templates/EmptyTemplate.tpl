@@ -102,6 +102,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
+                            $('.pagetitle').html(response.pagetitle);
                             $('.content').html(response.content);
                         }
                     });

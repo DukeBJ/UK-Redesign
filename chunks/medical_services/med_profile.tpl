@@ -12,7 +12,7 @@
         <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
-                <h2>{$_modx->resource.pagetitle}</h2>
+                <h2 class="pagetitle">{$_modx->resource.pagetitle}</h2>
                 {$_modx->resource.introtext}
             </div>
 
