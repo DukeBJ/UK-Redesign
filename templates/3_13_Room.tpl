@@ -1,7 +1,7 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu.tpl'}
+    {include 'file:chunks/sanator/sanator_menu.tpl' padding=true}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     {include 'file:chunks/rooms/rooms_menu.tpl'}
     {include 'file:chunks/rooms/room_equip.tpl'}
