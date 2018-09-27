@@ -1,6 +1,11 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
+    {var $list= [50,75]}
+    {if $_modx->resource.id in list $list}  
+    
+    {else}
+        {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
+    {/if}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     
     <section class="page-list">
