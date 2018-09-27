@@ -2,7 +2,7 @@
     <div class="swiper-slide__block">
         <h2>{$pagetitle}</h2>
         <p>{$description}</p>
-        <a href="#{$id}-{$alias}" data-pop="data-pop" class="btn btn-sandy">
+        <a href="#{$id}-{$alias}" data-pop="data-pop" class="btn btn-sandy int-slider">
             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50"
                  viewBox="0 0 273 50">
                 <defs>{ignore}
