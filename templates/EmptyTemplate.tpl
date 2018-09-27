@@ -120,7 +120,7 @@
                 //Скрытие модалки
 
                 $('.int-slider').on('click', function(){
-                    $(".int-slider").parents('.pop-rooms').css('display','none');
+                    $(".int-slider").closest('.pop-rooms').css('display','none');
                 });
 
                 $.ajax({
