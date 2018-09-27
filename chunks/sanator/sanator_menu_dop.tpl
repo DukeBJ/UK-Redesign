@@ -4,57 +4,42 @@
             <div class="tabs__nav">
                 <ul class="medical-profile__menu__caption">
                     <li>
-                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>{/if}
-                        
+                        {var $list= [51,84,127,142,289,296,303,310]}
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                     <li>
-                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
-                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>{/if}
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_2"}">Номера</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                     <li>
-                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
-                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>{/if}
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_3"}">Цены</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                     <li>
                         <a href="{$_modx->resource.id|url}#weather">Природа</a>
                     </li>
                     <li>
-                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
-                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>{/if}
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_4"}">Питание</a>
+                        {else}
+                            
+                        {/if}
                     <li>
-                        {if $_modx->resource.parent == '51'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '84'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '127'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '142'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '289'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '296'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '303'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
-                        {if $_modx->resource.parent == '310'} <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>{/if}
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_5"}">Спорт&nbsp;и&nbsp;отдых</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                     <li>
                         <a href="{$_modx->resource.id|url}#contacts">Контакты</a>
