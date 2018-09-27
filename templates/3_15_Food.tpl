@@ -1,5 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
+    {include 'file:chunks/sanator/sanator_menu.tpl'}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
 
     {include 'file:chunks/food/block_food_1.tpl'}
