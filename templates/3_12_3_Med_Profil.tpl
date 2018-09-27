@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu.tpl'}
+    {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
     {include 'file:chunks/medical_services/intro_mini.tpl'}
 
     <section class="medical-profile">
