@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {var $list= [50,75,915]}
+    {var $list= [50,75,915,281,962,992,998,993,1146,1147,641,454,455]}
     {if $_modx->resource.id in list $list}  
     
     {else}
