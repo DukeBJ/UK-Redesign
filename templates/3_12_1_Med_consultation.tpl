@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu.tpl'}
+    {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
     <section class="page-intro" style="background:url({$_modx->resource.intro_block_img}); no-repeat;background-size: cover;background-position: center center;">
         <div class="page-intro__content">
             <div class="container">

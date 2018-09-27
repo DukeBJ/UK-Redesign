@@ -1,6 +1,6 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu.tpl' padding=1}
+    {include 'file:chunks/sanator/sanator_menu_dop.tpl' padding=1}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
     {include 'file:chunks/dosug/block_dosug_1.tpl'}
     <div class="bg-line"></div>
