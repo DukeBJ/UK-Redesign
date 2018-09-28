@@ -8,7 +8,7 @@
 
     {var $list= [289,1331,296,1339,303,1346,310,1294]}
     {if ($_modx->resource.id in list $list) or ($_modx->resource.parent in list $list)} 
-        {include 'file:chunks/sanator/recreation_menu.tpl'}
+        {include 'file:chunks/sanator/recreation_menu_dop.tpl'}
     {/if}
     
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
