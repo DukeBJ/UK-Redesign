@@ -10,7 +10,7 @@
                 {if $idx is odd}
                     <div class="row">
                         <div class="col-sm-5 col-xs-12 first-sm">
-                            <h4 class="history__text-primary">{$ф.title}</h4>
+                            <h4 class="history__text-primary">{$time.title}</h4>
                             <p>{$time.description}</p>
                         </div>
                         <div class="col-sm-5 col-xs-12 col-sm-offset-2 center-xs first-xs">
