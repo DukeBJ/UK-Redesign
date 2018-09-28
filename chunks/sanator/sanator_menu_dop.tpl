@@ -47,7 +47,7 @@
                     </li>
                     <li>
                         {if $_modx->resource.parent in list $list}  
-                            <a href="{$_modx->resource.parent|resource:"sanator_6"}#contacts">Контакты</a>
+                            <a href="{$_modx->resource.parent|resource:"sanator_7"}#contacts">Контакты</a>
                         {else}
                             
                         {/if}
