@@ -11,10 +11,10 @@
 
         <div class="tabs__content medical-profile__content article active">
             
-            {*<div class="heading">*}
-                {*<h2 class="pagetitle">{$_modx->resource.pagetitle}</h2>*}
-                {*{$_modx->resource.introtext}*}
-            {*</div>*}
+            <div class="heading">
+                <h2 class="pagetitle">{$_modx->resource.pagetitle}</h2>
+                {$_modx->resource.introtext}
+            </div>
 
             <div class="content">
                 {$_modx->resource.content}
