@@ -4,7 +4,7 @@
             <div class="tabs__nav">
                 <ul class="medical-profile__menu__caption">
                     <li>
-                        {var $list= [51,84,127,142,289,296,303,310]}
+                        {var $list= [51,84,127,142,289,296,303,310,1014,1043,1075,1107]}
                         {if $_modx->resource.parent in list $list}  
                             <a href="{$_modx->resource.parent|resource:"sanator_1"}">Лечение</a>
                         {else}
