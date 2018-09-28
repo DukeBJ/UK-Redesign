@@ -11,8 +11,8 @@
                 'level' => 1
                 ]}
                 
-                <h4 class="menu__category-subheader"><a href="{'161'|url}">Контакты</a></h4>
-                <h4 class="menu__category-subheader"><a href="{'962'|url}">Цены</a></h4>
+                <h4 class="menu__category-subheader toclick"><a href="{'161'|url}">Контакты</a></h4>
+                <h4 class="menu__category-subheader toclick"><a href="{'962'|url}">Цены</a></h4>
                 <h4 class="menu__category-subheader"><a href="{'920'|url}">Блог</a><i class="icon icon-left-arrow"></i></h4>
                 <ul>
                     <li><a href="{'923'|url}">Акции</a></li>
