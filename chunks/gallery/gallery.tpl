@@ -1,3 +1,4 @@
+{set $template = 'template_url'|config}
 <div class="col-sm-6 col-xs-12">
     <div class="shares__block"><img src="{$blogSmall}" alt="">
         <a class="img">
