@@ -1,6 +1,13 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
-    {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
+
+    {var $list= [51,84,127,142,289,296,303,310]}
+    {if ($_modx->resource.id in list $list) or ($_modx->resource.parent in list $list)}
+        {include 'file:chunks/sanator/sanator_menu_dop.tpl'}
+    {else}
+    
+    {/if}
+
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
      <section class="medical-profile">
         <div class="container-fluid">
