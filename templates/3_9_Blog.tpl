@@ -12,7 +12,7 @@
         'limit' => 10,
         'ajaxMode' => 'button',
         'includeTVs' => 'blogs_tags',
-        'filters' => 'resource|createdon:year,tv|blogs_tags',
+        'filters' => 'tv|blogs_tags',
 
         'tplFilter.outer.resource|createdon' => '@FILE chunks/blog/filters/tplFilter.select.tpl',
         'tplFilter.row.resource|createdon' => '@FILE chunks/blog/filters/tplFilter.option.tpl',

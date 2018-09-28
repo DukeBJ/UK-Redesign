@@ -103,6 +103,7 @@
                         },
                         success: function(response){
                             $('.pagetitle').html(response.pagetitle);
+                            $('.heading span').hide();
                             $('.content').html(response.content);
                         }
                     });
