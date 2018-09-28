@@ -26,7 +26,11 @@
                         {/if}
                     </li>
                     <li>
-                        <a href="{$_modx->resource.id|url}#weather">Природа</a>
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_6"}#weather">Природа</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                     <li>
                         {if $_modx->resource.parent in list $list}  
@@ -42,7 +46,11 @@
                         {/if}
                     </li>
                     <li>
-                        <a href="{$_modx->resource.id|url}#contacts">Контакты</a>
+                        {if $_modx->resource.parent in list $list}  
+                            <a href="{$_modx->resource.parent|resource:"sanator_6"}#contacts">Контакты</a>
+                        {else}
+                            
+                        {/if}
                     </li>
                 </ul>
             </div>
