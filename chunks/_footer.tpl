@@ -66,7 +66,7 @@
             </div>
             <div class="col-sm-3 col-xs-12 end-sm start-xs">
                 <div class="footer__contacts">
-                    <h3><a>Контакты</a></h3><a href="tel:88007074105">8 (800) 707-41-05</a><span>звонок по России бесплатный</span><a href="tel:84992716847">8 (499) 271-68-47</a><a href="tel:88422410500">8 (8422) 41-05-00</a><a href="mailto:info@ulkurort.ru" class="mail">info@ulkurort.ru</a>
+                    <h3><a href="contacts/">Контакты</a></h3><a href="tel:88007074105">8 (800) 707-41-05</a><span>звонок по России бесплатный</span><a href="tel:84992716847">8 (499) 271-68-47</a><a href="tel:88422410500">8 (8422) 41-05-00</a><a href="mailto:info@ulkurort.ru" class="mail">info@ulkurort.ru</a>
                     <div>
                         {'!mSearchForm'|snippet:[
                             'pageId' => 922,
