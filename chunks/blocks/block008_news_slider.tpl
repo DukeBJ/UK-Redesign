@@ -12,7 +12,7 @@
 
     <div id="water-triger" class="swiper">
         <div class="container">
-            {'!pdoResources'|snippet:[
+            {'!ms2GalleryResources'|snippet:[
                 'parents' => 923,
                 'depth' => 1,
                 'resources' => -949,
@@ -21,6 +21,7 @@
                 'sortby' => 'publishedon',
                 'sortdir' => 'DESC',
                 'hideContainers' => 1,
+                'includeTgumbs' => 'blogSmall',
                 'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 

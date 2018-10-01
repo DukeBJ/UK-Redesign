@@ -2,7 +2,7 @@
 
 <div class="swiper-slide">
     <div class="special-offers__block">
-        <img src="{$_pls['tv.news_img']}" alt="">
+        <img src="{$blogSmall}" alt="">
         <a class="img">
             <h4>{$pagetitle}</h4>
             <img src="{$template}img/separation-line.svg" alt="">
