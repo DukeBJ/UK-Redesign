@@ -9,6 +9,7 @@
     {var $list= [289,1263,296,1236,303,1282,310,1293]}
 
     {if ($_modx->resource.id in list $list) or ($_modx->resource.parent in list $list)}
+        фывфывфывфыв
         {include 'file:chunks/sanator/recreation_menu.tpl'}
     {/if}
     {include 'file:chunks/blocks/block019_intro_mini.tpl'}
