@@ -20,7 +20,6 @@
                         'includeContent' => 1,
                         'sortby' => ["menuindex" => "ASC"],
                         'includeTVs' => 'sanator_cover,sanator_img',
-                        'includeThumbs' => 'blogSmall',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
                         'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
