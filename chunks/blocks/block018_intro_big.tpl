@@ -2,7 +2,7 @@
     <div class="big-page-intro__content">
         <div class="container">
             <div class="heading heading-secondary">
-                <h2>{$_modx->resource.pagetitle}</h2>
+                <h1>{$_modx->resource.pagetitle}</h1>
                 <p>{$_modx->resource.introtext}</p>
             </div>
         </div>
