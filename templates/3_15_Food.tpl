@@ -1,5 +1,8 @@
 {extends 'file:templates/EmptyTemplate.tpl'}
 {block 'main'}
+
+    {$_modx->resource.id}-{$_modx->resource.parent}
+
     {var $list= [51,78,84,110,127,138,142,155]}
     {if ($_modx->resource.id in list $list) or ($_modx->resource.parent in list $list)}
         {include 'file:chunks/sanator/sanator_menu_dop.tpl' padding=1}
