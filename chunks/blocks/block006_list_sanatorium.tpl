@@ -11,7 +11,7 @@
             'prepareTVs' => 1,
             'processTVs' => 1,
                 'includeThumbs' => 'blogSmall',
-            'tpl' => '@FILE chunks/main_page/sanator_item.tpl1',
+            'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
             ]}
 
         </div>
