@@ -13,16 +13,17 @@
     <div id="water-triger-two" class="swiper">
             <div class="container">
                 <div class="row">
-                    {'!pdoResources'|snippet:[
-                    'parents' => 281,
-                    'depth' => 0,
-                    'resources' => -318,
-                    'includeContent' => 1,
-                    'sortby' => ["menuindex" => "ASC"],
-                    'includeTVs' => 'sanator_cover,sanator_img',
-                    'prepareTVs' => 1,
-                    'processTVs' => 1,
-                    'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
+                    {'!ms2GalleryResources'|snippet:[
+                        'parents' => 281,
+                        'depth' => 0,
+                        'resources' => -318,
+                        'includeContent' => 1,
+                        'sortby' => ["menuindex" => "ASC"],
+                        'includeTVs' => 'sanator_cover,sanator_img',
+                        'includeThumbs' => 'blogSmall',
+                        'prepareTVs' => 1,
+                        'processTVs' => 1,
+                        'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
                     ]}
                 </div>
             </div>

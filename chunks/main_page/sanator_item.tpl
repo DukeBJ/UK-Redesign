@@ -2,7 +2,7 @@
 
 <div class="col-sm-6 col-xs-12 center-xs">
     <div class="sanatoriums__block">
-        <img src="{$_pls['tv.sanator_img']}" alt="{$pagetitle}">
+        <img src="{$blogSmall}" alt="{$pagetitle}">
         <a class="img">
             <img src="{$_pls['tv.sanator_cover']}" alt="">
             <a href="{$id|url}" class="btn btn-white">{ignore}
