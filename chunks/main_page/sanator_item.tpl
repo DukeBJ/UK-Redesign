@@ -1,5 +1,5 @@
 {set $template = 'template_url'|config}
-
+111
 <div class="col-sm-6 col-xs-12 center-xs">
     <div class="sanatoriums__block">
         <img src="{$_pls['tv.sanator_img']}" alt="{$pagetitle}">
