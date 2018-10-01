@@ -23,7 +23,7 @@
                         'includeThumbs' => 'blogSmall',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
-                        'tpl' => '@FILE chunks/main_page/sanator_item.tpl1',
+                        'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
                     ]}
                 </div>
             </div>
