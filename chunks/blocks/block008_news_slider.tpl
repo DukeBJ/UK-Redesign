@@ -21,7 +21,7 @@
                 'sortby' => 'publishedon',
                 'sortdir' => 'DESC',
                 'hideContainers' => 1,
-                'includeTgumbs' => 'blogSmall',
+                'includeThumbs' => 'blogSmall',
                 'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
