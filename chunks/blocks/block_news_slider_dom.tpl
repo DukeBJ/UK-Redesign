@@ -17,7 +17,7 @@
             <div class="swiper-container swiper-special-offers">
                 <div class="swiper-wrapper">
 
-                    {'!pdoResources'|snippet:[
+                    {'!ms2GalleryResources'|snippet:[
                         'parents' => '923',
                         'depth' => 0,
                         'includeContent' => 1,
@@ -30,6 +30,14 @@
                         'sortby' => 'publishedon',
                         'sortdir' => 'DESC',
                         'hideContainers' => 1,
+                        'includeThumbs' => 'blogSmall',
+                        'tplWrapper' => '@INLINE <div class="swiper-container swiper-special-offers">
+                        <div class="swiper-wrapper">
+
+                            {$output}
+
+                        </div>
+                    </div>',
                         'tpl' => '@FILE chunks/main_page/swiper-slide.tpl'
                     ]}
 
