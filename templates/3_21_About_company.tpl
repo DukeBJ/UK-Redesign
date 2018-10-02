@@ -3,7 +3,7 @@
     {include 'file:chunks/blocks/block018_intro_big.tpl'}
     {include 'file:chunks/about/block_gen_dir.tpl'}
     {include 'file:chunks/about/block_history.tpl'}
-    {include 'file:chunks/blocks/block027_licens.tpl'}
+    {include 'file:chunks/blocks/block028_diploms.tpl'}
     {include 'file:chunks/about/block_dop_info.tpl'}
     <div class="bg-line bg-line--clay"></div>
     {include 'file:chunks/_molochnyy_tsekh.tpl'}
