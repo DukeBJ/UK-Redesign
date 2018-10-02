@@ -18,10 +18,10 @@
                         'resources' => -318,
                         'includeContent' => 1,
                         'sortby' => ["menuindex" => "ASC"],
-                        'includeTVs' => 'blogSmall',
+                        'includeThumbs' => 'blogSmall',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
-                        'tpl' => '@FILE chunks/main_page/sanator_item.tpl1',
+                        'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
                     ]}
                 </div>
             </div>
