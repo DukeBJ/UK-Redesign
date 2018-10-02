@@ -3,9 +3,10 @@
 {block 'main'}
 
     {include 'file:chunks/blog/blog_menu.tpl'}
-{$_modx->resource.id}
+
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
+        'resources' => '-949',
         'showHidden' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
