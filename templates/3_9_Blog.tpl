@@ -5,9 +5,9 @@
     {include 'file:chunks/blog/blog_menu.tpl'}
 
     {'!mFilter2'|snippet:[
-        'parents' => $_modx->resource.id,
+        'parents' => 0,
+        'resources' => '-949',
         'showHidden' => 1,
-        'where' => ["modResource.id !=" => "949"],
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
