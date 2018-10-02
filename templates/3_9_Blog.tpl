@@ -5,7 +5,7 @@
     {include 'file:chunks/blog/blog_menu.tpl'}
 
     {'!mFilter2'|snippet:[
-        'parents' => $_modx->resource.id,
+        'parents' => 920,
         'showHidden' => 1,
         'resources' => '-949',
         'showLog' => 1,
