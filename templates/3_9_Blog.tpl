@@ -47,6 +47,7 @@
         ],
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl1',
+        'showLog' => 1
 
     ]}
 
