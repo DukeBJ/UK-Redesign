@@ -7,7 +7,8 @@
 <!-- МОДАЛЬНОЕ ОКНО ИНФОРМАЦИОННОЕ -->
 <div id="pop-info" class="modal pop-info">
     <div class="modal__close"><span></span></div>
-    <div class="row">
+    <div class="container">
+        <div class="row">
         <div class="col-xs-12">
             <div class="pop-rooms__block test_one">
                 <div class="tabs__content medical-profile__content">
@@ -18,7 +19,6 @@
                     </div>
 
                     <div class="include-content"></div>
-
 
                     <!-- Вызов модалки с заявкой -->
                     <div class="container medical-order">
@@ -100,6 +100,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </div>
