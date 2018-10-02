@@ -5,8 +5,7 @@
     {include 'file:chunks/blog/blog_menu.tpl'}
 
     {'!mFilter2'|snippet:[
-        'parents' => 0,
-        'resources' => '-949',
+        'parents' => $_modx->resource.id,
         'showHidden' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
@@ -44,9 +43,8 @@
     ]),
 
         'where' => [
-            "class_key:!=" => "CollectionContainer"
+            "class_key:!=" => "CollectionContainer","id:!=" => "949"
         ],
-        'showHidden' => 1,
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl',
 
