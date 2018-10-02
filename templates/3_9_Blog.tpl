@@ -7,7 +7,6 @@
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
         'showHidden' => 1,
-        'showLog' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
