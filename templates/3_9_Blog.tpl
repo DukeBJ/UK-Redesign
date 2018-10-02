@@ -7,7 +7,7 @@
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
         'showHidden' => 1,
-        'where' => ["id !=" => "949"],
+        'where' => ["modResource.id !=" => "949"],
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
