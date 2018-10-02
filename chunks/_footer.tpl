@@ -90,19 +90,19 @@
             <div class="col-sm-6 col-xs-12 center-xs first-xs">
                 <div class="footer__social">
                     {if 'vkontakte'|config}
-                        <a href="{'vkontakte'|config}"><i class="icon icon-vk"></i></a>
+                        <a href="{'vkontakte'|config}" target="_blank"><i class="icon icon-vk"></i></a>
                     {/if}
                     {if 'instagram'|config}
-                        <a href="{'instagram'|config}"><i class="icon icon-instagram"></i></a>
+                        <a href="{'instagram'|config}" target="_blank"><i class="icon icon-instagram"></i></a>
                     {/if}
                     {if 'facebook'|config}
-                        <a href="{'facebook'|config}"><i class="icon icon-fb"></i></a>
+                        <a href="{'facebook'|config}" target="_blank"><i class="icon icon-fb"></i></a>
                     {/if}
                     {if 'ok'|config}
-                        <a href="{'ok'|config}"><i class="icon icon-ok"></i></a>
+                        <a href="{'ok'|config}" target="_blank"><i class="icon icon-ok"></i></a>
                     {/if}
                     {if 'youtube'|config}
-                        <a href="{'youtube'|config}"><i class="icon icon-yt"></i></a>
+                        <a href="{'youtube'|config}" target="_blank"><i class="icon icon-yt"></i></a>
                     {/if}
                 </div>
             </div>
