@@ -5,7 +5,7 @@
 </div>
 
 <!-- МОДАЛЬНОЕ ОКНО ИНФОРМАЦИОННОЕ -->
-<div id="pop-info" class="modal pop-rooms">
+<div id="pop-info" class="modal pop-info">
     <div class="modal__close"><span></span></div>
     <div class="row">
         <div class="col-xs-12">
