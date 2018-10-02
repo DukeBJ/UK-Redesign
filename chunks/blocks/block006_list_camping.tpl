@@ -4,8 +4,7 @@
             <div class="col-xs-12">
                 <div class="heading">
                     <h2>Удачный летний отпуск</h2>
-                    <p>Городская суета, вечные дела, загруженность на учебе и работе, домашний быт - все это не
-                        позволяет нам расслабиться. Но отдых - это потребность любого человека.</p>
+                    <p>Городская суета, вечные дела, загруженность на учебе и работе, домашний быт - все это не позволяет нам расслабиться. Но отдых - это потребность любого человека.</p>
                 </div>
             </div>
         </div>
@@ -19,7 +18,7 @@
                         'resources' => -318,
                         'includeContent' => 1,
                         'sortby' => ["menuindex" => "ASC"],
-                        'includeTVs' => 'sanator_cover,sanator_img',
+                        'includeTVs' => 'blogSmall',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
                         'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
