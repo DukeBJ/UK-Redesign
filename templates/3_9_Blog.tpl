@@ -3,7 +3,7 @@
 {block 'main'}
 
     {include 'file:chunks/blog/blog_menu.tpl'}
-
+{$_modx->resource.id}
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
         'showHidden' => 1,
