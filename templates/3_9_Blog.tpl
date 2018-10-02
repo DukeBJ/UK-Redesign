@@ -8,6 +8,7 @@
         'parents' => $_modx->resource.id,
         'showHidden' => 1,
         'resources' => '-949',
+        'showLog' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
