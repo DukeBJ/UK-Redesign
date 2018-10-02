@@ -6,7 +6,6 @@
 
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
-        'resources' => -949,
         'showHidden' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
@@ -44,7 +43,7 @@
     ]),
 
         'where' => [
-            "class_key:!=" => "CollectionContainer"
+            "class_key:!=" => "CollectionContainer","template:!=" => "62"
         ],
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl'
