@@ -7,7 +7,6 @@
     {'!mFilter2'|snippet:[
         'parents' => $_modx->resource.id,
         'showHidden' => 1,
-        'showLog' => 1,
         'element' => 'ms2GalleryResources',
         'includeThumbs' => 'blogSmall',
         'limit' => 10,
@@ -44,11 +43,11 @@
     ]),
 
         'where' => [
-            "class_key:!=" => "CollectionContainer"
+            "class_key:!=" => "CollectionContainer","id:!=" => "949"
         ],
-        'showHidden' => 1,
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl',
+        'showLog' => 1
 
     ]}
 

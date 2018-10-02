@@ -1,3 +1,4 @@
+{if $id != 949}
 <div class="col-sm-6 col-xs-12">
     <div class="shares__block"><img src="{$blogSmall}" alt="{$pagetitle}">
         <a class="img">
@@ -30,3 +31,4 @@
 
     </div>
 </div>
+{/if}
