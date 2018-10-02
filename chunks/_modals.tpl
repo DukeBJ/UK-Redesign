@@ -7,11 +7,12 @@
 <!-- МОДАЛЬНОЕ ОКНО ИНФОРМАЦИОННОЕ -->
 <div id="pop-info" class="modal pop-info">
     <div class="modal__close"><span></span></div>
+    <div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <div class="pop-rooms__block test_one">
+            <div class="pop-rooms__block">
                 <div class="tabs__content medical-profile__content">
-                    <div class="heading test_two">
+                    <div class="heading">
                         <h2 class="include-pagetitle">Лечение эндокринологических заболеваний</h2>
                         <p class="include-description">Курорт Ундоры входит в 18 уникальных курортов России (Методические указания Минздрава РФ
                             №99/228 от 22.12.1999 г.).</p>
@@ -101,6 +102,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </div>
 
