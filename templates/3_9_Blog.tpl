@@ -46,9 +46,7 @@
             "class_key:!=" => "CollectionContainer","id:!=" => "949"
         ],
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
-        'tpls' => '@FILE chunks/blog/tpls.tpl',
-        'showLog' => 1
-
+        'tpls' => '@FILE chunks/blog/tpls.tpl'
     ]}
 
     {include 'file:chunks/blocks/block014_bottom_subscr.tpl'}
