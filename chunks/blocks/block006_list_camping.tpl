@@ -19,6 +19,7 @@
                         'includeContent' => 1,
                         'sortby' => ["menuindex" => "ASC"],
                         'includeThumbs' => 'blogSmall',
+                        'includeTVs' => 'sanator_cover',
                         'prepareTVs' => 1,
                         'processTVs' => 1,
                         'tpl' => '@FILE chunks/main_page/sanator_item.tpl',
