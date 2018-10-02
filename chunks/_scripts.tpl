@@ -6,3 +6,4 @@
 <script src="{$template}js/cssParser.js"></script>
 <script src="{$template}js/app.js"></script>
 <script src="{$template}js/custom.js"></script>
+ 
