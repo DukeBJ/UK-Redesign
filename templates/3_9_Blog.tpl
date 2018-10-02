@@ -43,7 +43,7 @@
     ]),
 
         'where' => [
-            "class_key:!=" => "CollectionContainer","id:!=" => "949"
+            "class_key:!=" => "CollectionContainer"
         ],
         'tplOuter' => '@FILE chunks/blog/tplOuter.tpl',
         'tpls' => '@FILE chunks/blog/tpls.tpl'
