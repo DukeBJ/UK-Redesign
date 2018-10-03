@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="medical-profile__menu">
             <div class="tabs__nav">
-                <ul class="scroll tabs__caption medical-profile__menu__caption">
+                <ul class="medical-profile__menu__caption">
                     <li><a href="#about">О лагере</a></li>
                     <li><a href="#price">Цены</a></li>
                     <li><a href="#service">Сервис</a></li>
