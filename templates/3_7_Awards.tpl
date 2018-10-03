@@ -12,7 +12,7 @@
                         'parents' => $_modx->resource.id,
                         'showHidden' => 1,
                         'sortdir' => 'asc',
-                        'sortby' => 'menuindex',
+                        'sortby' => 'pagetitle',
                         'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
                         'tpl' => '@FILE chunks/diplom/tpl.tpl1'
                     ]}
@@ -20,7 +20,7 @@
                 {'!pdoResources'|snippet:[
                     'parents' => $_modx->resource.id,
                     'sortdir' => 'asc',
-                    'sortby' => 'menuindex',
+                    'sortby' => 'pagetitle',
                     'limit' => 0,
                     'tpl' => '@FILE chunks/diplom/resource.tpl'
                 ]}
