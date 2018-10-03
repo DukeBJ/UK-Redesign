@@ -19,6 +19,9 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Booking | TL head script -->
     {ignore}
+
+    {include 'file:chunks/_scripts.tpl'}
+    
     <script>
         (function(w){
             var q=[

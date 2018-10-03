@@ -29,7 +29,7 @@
     {include 'file:chunks/_modals.tpl'}
     {include 'file:chunks/_footer.tpl'}
     <!-- КОНЕЦ -->
-    {include 'file:chunks/_scripts.tpl'}
+    
 
     <script>
         $(document).ready(function(){
