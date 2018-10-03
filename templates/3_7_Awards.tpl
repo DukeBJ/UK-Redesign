@@ -22,7 +22,7 @@
                     'sortdir' => 'asc',
                     'sortby' => 'menuindex',
                     'limit' => 0,
-                    'tpl' => '@FILE chunks/diplom/resource.tpl'
+                    'tpl' => '@FILE chunks/diplom/resource.tpl1'
                 ]}
             </div>
         </div>
