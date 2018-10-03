@@ -14,7 +14,7 @@
                         'sortdir' => 'asc',
                         'sortby' => 'menuindex',
                         'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
-                        'tpl' => '@FILE chunks/diplom/tpl.tpl'
+                        'tpl' => '@FILE chunks/diplom/tpl.tpl1'
                     ]}
                 </div>
                 {'!pdoResources'|snippet:[
@@ -22,7 +22,7 @@
                     'sortdir' => 'asc',
                     'sortby' => 'menuindex',
                     'limit' => 0,
-                    'tpl' => '@FILE chunks/diplom/resource.tpl1'
+                    'tpl' => '@FILE chunks/diplom/resource.tpl'
                 ]}
             </div>
         </div>
