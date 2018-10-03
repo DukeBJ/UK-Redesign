@@ -12,25 +12,25 @@
     <div class="container-two">
         <div class="row">
             <div class="col-sm-3 col-xs-6">
-                <a href="#pop-info" class="natural-factors__block" data-pop>
+                <a href="#pop-info" class="natural-factors__block med-prifile-ajax" data-pop data-id="922">
                     <div class="natural-factors__block__img"><img src="{$template}img/water.svg" alt=""></div>
                     <p>Минеральные воды</p>
                 </a>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <a href="#pop-info" class="natural-factors__block" data-pop>
+                <a href="#pop-info" class="natural-factors__block med-prifile-ajax" data-pop data-id="{$id}">
                     <div class="natural-factors__block__img"><img src="{$template}img/solt.svg" alt=""></div>
                     <p>Соляные рассолы</p>
                 </a>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <a href="#pop-info" class="natural-factors__block" data-pop>
+                <a href="#pop-info" class="natural-factors__block med-prifile-ajax" data-pop data-id="{$id}">
                     <div class="natural-factors__block__img"><img src="{$template}img/glinko.svg" alt=""></div>
                     <p>Глинолечение</p>
                 </a>
             </div>
             <div class="col-sm-3 col-xs-6">
-                <a href="#pop-info" class="natural-factors__block" data-pop>
+                <a href="#pop-info" class="natural-factors__block med-prifile-ajax" data-pop data-id="{$id}">
                     <div class="natural-factors__block__img"><img src="{$template}img/sun.svg" alt=""></div>
                     <p>Климатолечение</p>
                 </a>
