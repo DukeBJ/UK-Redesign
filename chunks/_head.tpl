@@ -17,12 +17,13 @@
     <link rel="mask-icon" href="{$template}img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <!-- Booking | TL head script -->
-    {ignore}
+  
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="{$template}js/custom.js"></script>
 
+  <!-- Booking | TL head script -->
+    {ignore}
     <script>
         (function(w){
             var q=[
