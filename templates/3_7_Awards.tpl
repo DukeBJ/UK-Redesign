@@ -14,7 +14,7 @@
                         'sortdir' => 'asc',
                         'sortby' => 'pagetitle',
                         'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
-                        'tpl' => '@FILE chunks/diplom/tpl.tpl1'
+                        'tpl' => '@FILE chunks/diplom/tpl.tpl'
                     ]}
                 </div>
                 {'!pdoResources'|snippet:[
