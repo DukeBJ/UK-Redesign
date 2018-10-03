@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="col-xs-12">
-                <form action="" class="form">
+                <form class="form">
                     <div class="row">
                         <div class="col-sm-4 col-xs-12">
                             <div class="form__range">

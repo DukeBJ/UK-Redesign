@@ -1,3 +1,4 @@
+<a name="service"></a>
 <section id="service" class="left-block bg-beige wave-up">
     <div class="container">
         <div class="row">

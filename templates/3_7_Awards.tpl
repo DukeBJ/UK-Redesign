@@ -11,14 +11,17 @@
                     {'!pdoMenu'|snippet:[
                         'parents' => $_modx->resource.id,
                         'showHidden' => 1,
-                        'sortdir' => 'asc',
+                        'sortdir' => 'desc',
+                        'sortby' => 'pagetitle',
                         'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
                         'tpl' => '@FILE chunks/diplom/tpl.tpl'
                     ]}
                 </div>
                 {'!pdoResources'|snippet:[
                     'parents' => $_modx->resource.id,
-                    'sortdir' => 'asc',
+                    'sortdir' => 'desc',
+                    'sortby' => 'pagetitle',
+                    'limit' => 0,
                     'tpl' => '@FILE chunks/diplom/resource.tpl'
                 ]}
             </div>

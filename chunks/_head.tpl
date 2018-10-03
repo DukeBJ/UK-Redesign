@@ -12,6 +12,7 @@
     <title>{'!pdoTitle'|snippet} | {'site_name'|config}</title>
     {/if}
 
+
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
     <link rel="stylesheet" media="all" href="{$template}css/add_styles.css">
 
@@ -22,7 +23,7 @@
     <link rel="mask-icon" href="{$template}img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <!-- Booking | TL head script -->
+  <!-- Booking | TL head script -->
     {ignore}
     <script>
         (function(w){

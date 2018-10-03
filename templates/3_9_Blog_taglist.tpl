@@ -13,6 +13,7 @@
                         <h2>Популярные темы</h2>
                     </div>
                 </div>
+
                 <div class="col-xs-12">
                     <!-- !!! Выбор года в Акциях должен быть отключен -->
 
@@ -23,7 +24,7 @@
                             {'!pdoPage'|snippet:[
                             'parents' => '920',
                             'element' => 'tagCloud',
-                            'limit' => 50,
+                            'limit' => 999,
                             'ajaxMode' => 'button',
                             'ajaxTplMore' => '@INLINE <button class="btn btn-sandy btn-center btn_more">
                             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs>
