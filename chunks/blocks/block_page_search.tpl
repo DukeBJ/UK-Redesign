@@ -13,7 +13,6 @@
                     'autocomplete' => 0
                 ]}
 
-
             </div>
 
             {if $.get.query}
