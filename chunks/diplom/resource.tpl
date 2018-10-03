@@ -1,8 +1,5 @@
 <div class="tabs__content {$idx == 1 ? 'active' : ''}">
 
-    {$id}
-
-
     <div class="row">
 
         {'!ms2Gallery'|snippet:[
