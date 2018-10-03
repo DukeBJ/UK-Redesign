@@ -20,8 +20,8 @@
     <!-- Booking | TL head script -->
     {ignore}
 
-    {include 'file:chunks/_scripts.tpl'}
-    
+    <script src="{$template}js/custom.js"></script>
+
     <script>
         (function(w){
             var q=[
