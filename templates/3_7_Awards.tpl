@@ -19,6 +19,7 @@
                 {'!pdoResources'|snippet:[
                     'parents' => $_modx->resource.id,
                     'sortdir' => 'asc',
+                    'sortby' => 'menuindex',
                     'limit' => 0,
                     'tpl' => '@FILE chunks/diplom/resource.tpl'
                 ]}
