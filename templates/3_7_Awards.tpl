@@ -12,6 +12,7 @@
                         'parents' => $_modx->resource.id,
                         'showHidden' => 1,
                         'sortdir' => 'asc',
+                        'sortby' => 'menuindex',
                         'tplOuter' => '@INLINE <ul class="tabs__caption">{$wrapper}</ul>',
                         'tpl' => '@FILE chunks/diplom/tpl.tpl'
                     ]}
