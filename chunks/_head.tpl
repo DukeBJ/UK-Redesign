@@ -7,6 +7,7 @@
     <meta name="format-detection" content="telephone=no">
     <title>{'!pdoTitle'|snippet} | {'site_name'|config}</title>
 
+
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
     <link rel="stylesheet" media="all" href="{$template}css/add_styles.css">
 
@@ -17,11 +18,6 @@
     <link rel="mask-icon" href="{$template}img/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-  
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="{$template}js/custom.js"></script>
-
   <!-- Booking | TL head script -->
     {ignore}
     <script>
