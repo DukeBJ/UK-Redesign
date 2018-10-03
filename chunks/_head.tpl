@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#fff">
     <meta name="format-detection" content="telephone=no">
 
-    {if $_modx->resource.id == '920'}
+    {if $_modx->resource.id == '922'}
         <title>{$_modx->resource.pagetitle} | {'site_name'|config}</title>
     {else}
     <title>{'!pdoTitle'|snippet} | {'site_name'|config}</title>
