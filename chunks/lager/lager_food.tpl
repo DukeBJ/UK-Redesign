@@ -1,4 +1,3 @@
-<a name="food"></a>
 <section id="food" class="right-block bg-beige wave-dn no-wave">
     <div class="container">
         <div class="row">
