@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fff">
     <meta name="format-detection" content="telephone=no">
+
+    {if $_modx->resource.id == '920'}
+        <title>{$_modx->resource.pagetitle} | {'site_name'|config}</title>
+    {else}
     <title>{'!pdoTitle'|snippet} | {'site_name'|config}</title>
+    {/if}
 
     <link rel="stylesheet" media="all" href="{$template}css/app.css">
     <link rel="stylesheet" media="all" href="{$template}css/add_styles.css">
