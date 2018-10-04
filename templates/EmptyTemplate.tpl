@@ -102,6 +102,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
+                            window.history.pushState("object or string", "Title", "sadasdasdasd");
                             $('.pagetitle').html(response.longtitle);
                             $('.heading span').hide();
                             $('.content').html(response.content);
