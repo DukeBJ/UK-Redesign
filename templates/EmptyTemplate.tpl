@@ -46,7 +46,7 @@
                         id: id
                     },
                     success: function(response){
-                        $('.include-pagetitle').html(response.pagetitle);
+                        $('.include-pagetitle').html(response.longtitle);
                         $('.include-description').html(response.description);
                         $('.include-content').html(response.content);
                     }
