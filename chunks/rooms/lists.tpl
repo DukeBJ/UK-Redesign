@@ -36,6 +36,7 @@
                     </div>
                 </div>
                 {$introtext}
+                <div class="include-content">{$_modx->resource.content}</div>
             </div>
         </div>
         <div class="col-xs-12 col-md-6">
