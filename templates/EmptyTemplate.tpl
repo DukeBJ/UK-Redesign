@@ -102,7 +102,7 @@
                             $('content').text('Загружаем');
                         },
                         success: function(response){
-                            $('.pagetitle').html(response.pagetitle);
+                            $('.pagetitle').html(response.longtitle);
                             $('.heading span').hide();
                             $('.content').html(response.content);
                         }
