@@ -6,7 +6,7 @@
         <a class="img">
             <h4>{$pagetitle}</h4>
             <img src="{$template}img/separation-line.svg" alt="">
-            {$description}
+            <p>{$description}</p>
         </a>
         <a href="{$id|url}" class="btn btn-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="273" height="50" viewBox="0 0 273 50"><defs>
