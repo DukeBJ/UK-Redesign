@@ -1,4 +1,4 @@
-<section class="comments">
+<section class="comments person">
     <div class="container">
         <div class="comments__review">
             <div class="row">
