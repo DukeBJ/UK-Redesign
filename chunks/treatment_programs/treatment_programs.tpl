@@ -6,23 +6,23 @@
             'parents' => 1015,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
-            'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
-            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+            'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$pagetitle}</a>{$wrapper}</li>',
+            'tpl' => '@INLINE <li><a href="{$link}">{$pagetitle}</a></li>'
         ]}
         {else}
         {'!pdoMenu'|snippet:[
             'parents' => $_modx->resource.link_programa,
             'depth' => 1,
             'tplOuter' => '@INLINE <ul class="left-menu">{$wrapper}</ul>',
-            'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$menutitle}</a>{$wrapper}</li>',
-            'tpl' => '@INLINE <li><a href="{$link}">{$menutitle}</a></li>'
+            'tplInnerHere' => '@INLINE <li class="active"><a href="{$link}" {$attributes}>{$pagetitle}</a>{$wrapper}</li>',
+            'tpl' => '@INLINE <li><a href="{$link}">{$pagetitle}</a></li>'
         ]}
         {/if}       
 
         <div class="tabs__content medical-profile__content article active">
             
             <div class="heading">
-                <h2>{$_modx->resource.pagetitle}</h2>
+                <h2>{$_modx->resource.longtitle}</h2>
                 {$_modx->resource.introtext}
             </div>
             
