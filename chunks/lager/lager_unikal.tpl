@@ -9,9 +9,10 @@
             </div>
         </div>
     </div>
-    12313123
     <div class="container-two">
         <div class="row">
+
+            {$_modx->resource.include_factor}
 
             {foreach $_modx->resource.nature_factors_lager|fromJSON as $nature}
                 <div class="col-sm-3 col-xs-6">
